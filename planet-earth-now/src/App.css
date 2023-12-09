@@ -6,10 +6,11 @@
 
 .App-header {
   display: flex;
-  background-color: blue;
   height: 50px;
   justify-content: space-around;
   align-items: center;
+  color: rgb(26, 26, 26);
+  font-family: gilroy-bold;
 }
 
 .App-sidebar {
@@ -23,8 +24,36 @@
   justify-content: center;
 }
 
+.Text-sidebar {
+  color: green;
+}
+
 .Sidebar-content {
   transform: rotate(360deg);
+  font-family: Bowlby One Sc;
+  font-size: 3.5em;
+  letter-spacing: 0.2em;
+  color: rgb(29, 29, 29);
+}
+
+.sticky-squares-container {
+  position: absolute;
+  top: -90px;
+  left: 23px;
+}
+
+.sticky-square-blue {
+  width: 20px;
+  height: 60px;
+  background-color: #2600e7;
+  margin-bottom: -50px;
+}
+
+.sticky-square-green {
+  width: 20px;
+  height: 60px;
+  background-color: #008115;
+  margin-bottom: -50px;
 }
 
 .App-main {
@@ -57,12 +86,14 @@
 }
 
 .Unity-symbol-section {
+  font-family: bowlby One;
   display: flex;
   background-color: lightgreen;
   height: 200px;
   align-items: center;
   justify-content: center;
   color: white;
+  font-size: 3em;
 }
 
 .banner-urgency {
@@ -73,6 +104,9 @@
   justify-content: center;
   align-items: center;
   color: white;
+  font-family: bowlby One;
+  font-size: 3em;
+  height: 150px;
 }
 
 html,
@@ -83,8 +117,28 @@ body {
   height: 100%;
 }
 
+.Flag-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.Earth-flag {
+  background-color: aqua;
+  width: 50%;
+}
+
+.Text-flag-section {
+  background-color: blueviolet;
+  width: 50%;
+}
+
 @media (min-width: 100px) {
   .App-main {
     margin-left: 100px;
   }
+}
+
+.nav-menu-item:hover {
+  color: green;
+  cursor: pointer;
 }
