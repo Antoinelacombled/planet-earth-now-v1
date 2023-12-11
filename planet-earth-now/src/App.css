@@ -1,9 +1,7 @@
 .App {
   display: flex;
   min-height: 100vh;
-  flex-direction: column;
 }
-
 .App-header {
   display: flex;
   height: 50px;
@@ -11,56 +9,23 @@
   align-items: center;
   color: rgb(26, 26, 26);
   font-family: gilroy-bold;
+  font-size: 18px;
 }
-
 .App-sidebar {
   background-color: white;
   writing-mode: vertical-lr;
-  position: fixed;
   width: 100px;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.Text-sidebar {
-  color: green;
-}
-
-.Sidebar-content {
-  transform: rotate(360deg);
-  font-family: Bowlby One Sc;
-  font-size: 3.5em;
-  letter-spacing: 0.2em;
-  color: rgb(29, 29, 29);
-}
-
-.sticky-squares-container {
-  position: absolute;
-  top: -90px;
-  left: 23px;
-}
-
-.sticky-square-blue {
-  width: 20px;
-  height: 60px;
-  background-color: #2600e7;
-  margin-bottom: -50px;
-}
-
-.sticky-square-green {
-  width: 20px;
-  height: 60px;
-  background-color: #008115;
-  margin-bottom: -50px;
+  padding: 2em;
 }
 
 .App-main {
   display: flex;
   flex-direction: column;
 }
-
 .Climate-urgency-section,
 .Our-house-burns-section,
 .Unity-symbol-section {
@@ -71,74 +36,193 @@
   background-color: lightblue;
   height: 100vh;
 }
-
 .Our-house-burns-section {
   display: flex;
   flex-wrap: wrap;
   height: 100vh;
   align-content: stretch;
 }
-
 .img-burning {
   flex: 1 1 50%;
   height: 50vh;
   object-fit: cover;
 }
-
 .Unity-symbol-section {
   font-family: bowlby One;
   display: flex;
-  background-color: lightgreen;
   height: 200px;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: rgba(40, 78, 163, 1);
   font-size: 3em;
+  letter-spacing: 0.1em;
 }
-
 .banner-urgency {
-  background-color: blue;
+  background-color: rgba(40, 78, 163, 1);
   width: 100%;
-  height: 70px;
+  height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   font-family: bowlby One;
   font-size: 3em;
-  height: 150px;
+  letter-spacing: 0.1em;
 }
-
 html,
 body {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100%;
+  height: auto;
 }
-
 .Flag-section {
   display: flex;
   flex-direction: row;
 }
+.manifesto-section {
+  display: flex;
+  flex-direction: row;
+}
+.img-flag {
+  height: 50vh;
+  width: 100%;
+  object-fit: cover;
+}
 
 .Earth-flag {
-  background-color: aqua;
   width: 50%;
 }
 
-.Text-flag-section {
-  background-color: blueviolet;
+.Right-flag-section {
+  background-color: rgba(40, 78, 163, 1);
   width: 50%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@media (min-width: 100px) {
-  .App-main {
-    margin-left: 100px;
-  }
+.Right-manifesto-section {
+  width: 50%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Quote-flag {
+  font-family: gilroy;
+  color: white;
+  font-size: 44px;
+  text-align: center;
+  padding: 2.5em;
+  overflow: hidden;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+.Quote-manifesto {
+  font-family: Bowlby One Sc;
+  color: rgba(40, 78, 163, 1);
+  font-size: 40px;
+  text-align: center;
+  padding: 2em;
+  overflow: hidden;
+  box-sizing: border-box;
+  line-height: 1.5;
 }
 
 .nav-menu-item:hover {
-  color: green;
+  color: rgba(48, 163, 62, 1);
   cursor: pointer;
+}
+
+.nav-menu-item {
+  text-transform: uppercase;
+}
+
+.banner-mobilize {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(40, 78, 163, 1);
+  font-family: bowlby One;
+  font-size: 3em;
+  letter-spacing: 0.1em;
+}
+
+.author-manifesto {
+  color: rgba(40, 78, 163, 1);
+  font-family: "Gilroy", sans-serif;
+  text-align: center;
+  width: 100%;
+  font-size: 1.5em;
+}
+
+.child-mini-quote-manifesto {
+  font-family: "Gilroy", sans-serif;
+  text-align: center;
+  font-size: 1em;
+  color: rgba(40, 78, 163, 1);
+}
+
+.action-quote-section {
+  background-color: rgba(40, 78, 163, 1);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.action-quote {
+  color: white;
+  text-align: center;
+  max-width: 600px;
+}
+
+.action-quote-text {
+  font-family: Bowlby One;
+  font-size: 38px;
+  text-align: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  letter-spacing: 0.1em;
+}
+
+.action-quote-author {
+  color: rgb(255, 255, 255);
+  font-family: "Gilroy", sans-serif;
+  text-align: center;
+  width: 100%;
+  font-size: 1.5em;
+}
+
+.action-quote-section {
+  background-color: rgba(
+    40,
+    78,
+    163,
+    1
+  ); /* Adjust the color to match your design */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px; /* Adjust the padding to match your design */
+}
+
+.action-quote-image {
+  max-width: 50%; /* Set the max width to size the image container */
+}
+
+.action-quote-image img {
+  max-width: 100%; /* Ensure the image is responsive and fits well in the container */
+  height: auto; /* Maintain the aspect ratio of the image */
 }

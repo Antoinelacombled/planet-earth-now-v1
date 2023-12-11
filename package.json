@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "@studio-freight/react-lenis": "^0.0.38"
+    "@studio-freight/lenis": "^1.0.29",
+    "@studio-freight/react-lenis": "^0.0.38",
+    "gsap": "^3.12.3"
   }
 }
