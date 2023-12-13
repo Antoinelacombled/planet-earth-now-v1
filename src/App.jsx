@@ -17,6 +17,7 @@ import windowTwo from "../src/assets/windowgtf-.jpg";
 import windowThree from "../src/assets/windowgtf.jpg";
 import windowFour from "../src/assets/windowgtf---.jpg";
 import windowFive from "../src/assets/windowgtf--.jpg";
+import CarouselEvent from "./components/core/Carousel/CarouselEvent";
 
 function App() {
   return (
@@ -320,6 +321,7 @@ function App() {
             </div>
           </div>
         </section>
+        <CarouselEvent />
       </main>
     </div>
   );

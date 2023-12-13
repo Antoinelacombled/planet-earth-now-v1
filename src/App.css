@@ -24,6 +24,7 @@
 .App-main {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .App-header {
@@ -638,17 +639,19 @@ body {
 
 .super-container-set-the-event {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
-  color: white;
   padding: 5em;
 }
 
 .title-set-the-event {
+  color: white;
   font-family: "Bowlby One", sans-serif;
   font-size: 3em;
   margin-bottom: 1em;
   letter-spacing: 0.1em;
+  display: flex;
+  justify-content: center;
 }
 
 .container-carousel-set-the-event {
