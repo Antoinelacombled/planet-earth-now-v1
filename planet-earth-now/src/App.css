@@ -1,7 +1,31 @@
+/* APP */
+
 .App {
   display: flex;
   min-height: 100vh;
 }
+
+/* SIDEBAR */
+
+.App-sidebar {
+  background-color: white;
+  writing-mode: vertical-lr;
+  width: 100px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* HEADER */
+
+.App-main {
+  display: flex;
+  flex-direction: column;
+}
+
 .App-header {
   display: flex;
   height: 50px;
@@ -11,52 +35,38 @@
   font-family: gilroy-bold;
   font-size: 18px;
 }
-.App-sidebar {
-  background-color: white;
-  writing-mode: vertical-lr;
-  width: 100px;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2em;
+
+.nav-menu-item {
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 5px;
 }
 
-.App-main {
-  display: flex;
-  flex-direction: column;
+.nav-menu-item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0%;
+  height: 2px;
+  background-color: rgba(48, 163, 62, 1);
+  transition: width 0.3s ease, left 0.3s ease;
 }
-.Climate-urgency-section,
-.Our-house-burns-section,
-.Unity-symbol-section {
+
+.nav-menu-item:hover::after {
   width: 100%;
+  left: 0;
+}
+.nav-menu-item:hover {
+  color: rgba(48, 163, 62, 1);
 }
 
-.Climate-urgency-section {
-  background-color: lightblue;
-  height: 100vh;
+.nav-menu-item {
+  text-transform: uppercase;
 }
-.Our-house-burns-section {
-  display: flex;
-  flex-wrap: wrap;
-  height: 100vh;
-  align-content: stretch;
-}
-.img-burning {
-  flex: 1 1 50%;
-  height: 50vh;
-  object-fit: cover;
-}
-.Unity-symbol-section {
-  font-family: bowlby One;
-  display: flex;
-  height: 200px;
-  align-items: center;
-  justify-content: center;
-  color: rgba(40, 78, 163, 1);
-  font-size: 3em;
-  letter-spacing: 0.1em;
-}
+
+/* BANNIERE URGENCY */
+
 .banner-urgency {
   background-color: rgba(40, 78, 163, 1);
   width: 100%;
@@ -66,32 +76,67 @@
   align-items: center;
   color: white;
   font-family: bowlby One;
-  font-size: 3em;
+  font-size: 4em;
   letter-spacing: 0.1em;
 }
-html,
-body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: auto;
+
+/* OUR HOUSE BURNS SECTION */
+
+.Our-house-burns-section {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  align-content: stretch;
 }
+
+.img-burning {
+  flex: 1 1 50%;
+  height: 50vh;
+  object-fit: cover;
+}
+
+.maison-brule {
+}
+
+/* UNITY CONTAINER */
+.unity-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  padding: 2em;
+}
+
+/* UNITY SYMBOL SECTION */
+.Unity-symbol-section {
+  font-family: "bowlby One", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(15, 44, 145, 1);
+  font-size: 4em;
+  letter-spacing: 0.1em;
+  width: 100%;
+  text-align: center;
+  padding: 2em;
+  line-height: 1.1em;
+}
+
+/* FLAG SECTION */
+
 .Flag-section {
   display: flex;
   flex-direction: row;
 }
-.manifesto-section {
-  display: flex;
-  flex-direction: row;
+
+.Earth-flag {
+  width: 50%;
 }
+
 .img-flag {
   height: 50vh;
   width: 100%;
   object-fit: cover;
-}
-
-.Earth-flag {
-  width: 50%;
 }
 
 .Right-flag-section {
@@ -103,6 +148,44 @@ body {
   align-items: center;
 }
 
+.Quote-flag {
+  font-family: gilroy;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding: 3.5em;
+  overflow: hidden;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+/* MANIFESTO SECTION */
+
+.Climate-urgency-section,
+.Our-house-burns-section,
+.Unity-symbol-section {
+  width: 100%;
+}
+
+.Climate-urgency-section {
+  background-color: lightblue;
+  height: 100vh;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+
+.manifesto-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
 .Right-manifesto-section {
   width: 50%;
   height: 50vh;
@@ -112,35 +195,23 @@ body {
   flex-direction: column;
 }
 
-.Quote-flag {
-  font-family: gilroy;
-  color: white;
-  font-size: 44px;
-  text-align: center;
-  padding: 2.5em;
-  overflow: hidden;
-  box-sizing: border-box;
-  line-height: 1.5;
-}
-
 .Quote-manifesto {
   font-family: Bowlby One Sc;
   color: rgba(40, 78, 163, 1);
   font-size: 40px;
   text-align: center;
-  padding: 2em;
   overflow: hidden;
   box-sizing: border-box;
   line-height: 1.5;
+  letter-spacing: 0.1em;
 }
 
-.nav-menu-item:hover {
-  color: rgba(48, 163, 62, 1);
-  cursor: pointer;
-}
-
-.nav-menu-item {
-  text-transform: uppercase;
+.author-manifesto {
+  color: rgba(40, 78, 163, 1);
+  font-family: "Gilroy", sans-serif;
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 35px;
 }
 
 .banner-mobilize {
@@ -149,18 +220,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgba(40, 78, 163, 1);
+  color: rgba(15, 44, 145, 1);
   font-family: bowlby One;
   font-size: 3em;
   letter-spacing: 0.1em;
-}
-
-.author-manifesto {
-  color: rgba(40, 78, 163, 1);
-  font-family: "Gilroy", sans-serif;
-  text-align: center;
-  width: 100%;
-  font-size: 1.5em;
 }
 
 .child-mini-quote-manifesto {
@@ -170,59 +233,497 @@ body {
   color: rgba(40, 78, 163, 1);
 }
 
+.video-flag {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+
+.manif-container {
+  width: 50%;
+  padding-left: 8%;
+}
+
+/* ACTION QUOTE SECTION */
+
 .action-quote-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   background-color: rgba(40, 78, 163, 1);
   padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .action-quote {
+  flex-basis: 50%;
   color: white;
   text-align: center;
-  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10em;
 }
 
 .action-quote-text {
   font-family: Bowlby One;
-  font-size: 38px;
-  text-align: center;
-  overflow: hidden;
-  box-sizing: border-box;
+  font-size: 40px;
   line-height: 1.5;
   margin-bottom: 10px;
   letter-spacing: 0.1em;
 }
 
 .action-quote-author {
-  color: rgb(255, 255, 255);
   font-family: "Gilroy", sans-serif;
-  text-align: center;
-  width: 100%;
   font-size: 1.5em;
 }
 
-.action-quote-section {
-  background-color: rgba(
-    40,
-    78,
-    163,
-    1
-  ); /* Adjust the color to match your design */
+.action-quote-image-container {
+  flex-basis: 50%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  flex-direction: row;
-  padding: 20px; /* Adjust the padding to match your design */
 }
 
 .action-quote-image {
-  max-width: 50%; /* Set the max width to size the image container */
+  width: 700px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .action-quote-image img {
-  max-width: 100%; /* Ensure the image is responsive and fits well in the container */
-  height: auto; /* Maintain the aspect ratio of the image */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.author {
+  font-weight: bold;
+}
+
+/* WINDOW HOW TO GET THE FLAG */
+
+.Phase-get-flag {
+  display: flex;
+  justify-content: center;
+}
+
+.Get-flag-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: auto;
+}
+
+.window-get-the-flag {
+  flex: 1;
+  min-width: 180px;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 2.5em;
+}
+
+.window-gtf-title,
+.window-gtf-img,
+.window-gtf-text {
+  padding: 10px;
+  text-align: center;
+  color: white;
+  letter-spacing: 0.1em;
+}
+
+.window-gtf-title {
+  font-family: "Bowlby One";
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.window-gtf-img {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 350px;
+}
+
+.window-gtf-text {
+  margin-top: 20px;
+  font-family: "Gilroy";
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+.img-size {
+  width: auto;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.one,
+.three,
+.five {
+  background-color: rgba(46, 80, 158, 1);
+}
+
+.two,
+.four {
+  background-color: rgba(51, 153, 51, 1);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.download-the-flag {
+  font-size: 30px;
+  font-family: "Bowlby One", sans-serif;
+  background-color: rgba(51, 153, 51, 1);
+  color: white;
+  margin: 2em;
+  border-radius: 2px;
+  padding: 0.5em 1em;
+  letter-spacing: 0.3rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.5s ease, box-shadow 1s ease;
+}
+
+.download-the-flag:hover {
+  background-image: linear-gradient(
+    to left,
+    rgba(40, 78, 163, 1) 50%,
+    rgba(79, 169, 59, 1) 50%
+  );
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: background-position 2s, box-shadow 0.5s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.download-the-flag:active {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* FLAG PRINCIPLES */
+
+.principles-section {
+  background-color: rgba(40, 78, 163, 1);
+  color: white;
+  padding: 6em 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.principles-banner {
+  font-family: "Bowlby One", sans-serif;
+  font-size: 3em;
+  margin-bottom: 1em;
+  letter-spacing: 0.1em;
+}
+
+.principles-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 80%;
+  padding: 2.5em;
+}
+
+.principle-item {
+  width: 20%;
+  min-height: 150px;
+}
+
+.principle-number {
+  font-size: 2em;
+  background-color: rgba(51, 153, 51, 1);
+  color: white;
+  border-radius: 50%;
+  width: 1.5em;
+  height: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5em;
+  font-family: "Bowlby One Sc";
+}
+
+.principle-text {
+  font-family: "Gilroy-bold";
+  font-size: 1.3rem;
+  text-align: left;
+  padding: 0 10px;
+  width: 100%;
+}
+
+/* WHY FLAG */
+
+.why-flag-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+
+  padding: 1rem 0;
+  font-family: "Bowlby One", sans-serif;
+}
+
+.why-flag-title {
+  font-family: "Bowlby One", sans-serif;
+  font-size: 3em;
+  margin-bottom: 1em;
+  letter-spacing: 0.1em;
+}
+
+.why-flag-content {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.why-flag-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 48%;
+}
+
+.why-flag-text {
+  font-size: 1.95rem;
+  align-self: flex-start;
+}
+
+.why-flag-text:last-child {
+  margin-top: auto;
+}
+
+.blue {
+  color: rgba(40, 78, 163, 1);
+}
+
+.green {
+  color: rgba(51, 153, 51, 1);
+}
+
+/* CUSTOM THE FLAG */
+
+.custom-the-flag {
+  background-color: rgb(33, 65, 132);
+  width: 100%;
+  padding: 2em 0;
+}
+
+.super-container-custom-the-flag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 5em;
+}
+
+.title-custom-the-flag {
+  font-family: "Bowlby One", sans-serif;
+  font-size: 3em;
+  margin-bottom: 1em;
+  letter-spacing: 0.1em;
+}
+
+.container-carousel-custom-the-flag {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the carousel horizontally */
+}
+
+.container-flags-custom-the-flag {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.flags-custom-the-flag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flags-custom-the-flag img {
+  width: 400px;
+  height: auto;
+}
+
+.arrows-custom-the-flag {
+  font-size: 2em;
+  cursor: pointer;
+  user-select: none;
+  color: white;
+}
+
+.left-arrow {
+  margin-right: 50px;
+}
+
+.right-arrow {
+  margin-left: 50px;
+}
+
+/* QUOTATION SECTION */
+
+.quotation-section {
+  display: flex;
+  justify-content: center;
+  padding: 5em 0;
+}
+
+.container-quotation-section {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: auto;
+}
+
+.mini-container-quotation-section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 0 30px;
+  text-align: center;
+  justify-content: flex-start;
+}
+
+.quote-quotation-section {
+  font-family: "Bowlby One";
+  font-size: 35px;
+  margin-bottom: 5px;
+  letter-spacing: 0.1rem;
+
+  min-height: 4em;
+}
+
+.author-quotation-section {
+  font-family: "Gilroy";
+  margin-top: auto;
+}
+
+/* EVENTS */
+
+.set-the-event {
+  background-color: rgb(33, 65, 132);
+  width: 100%;
+  padding: 2em 0;
+}
+
+.super-container-set-the-event {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 5em;
+}
+
+.title-set-the-event {
+  font-family: "Bowlby One", sans-serif;
+  font-size: 3em;
+  margin-bottom: 1em;
+  letter-spacing: 0.1em;
+}
+
+.container-carousel-set-the-event {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the carousel horizontally */
+}
+
+.container-flags-set-the-event {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.flags-set-the-event {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flags-set-the-event img {
+  width: 400px;
+  height: auto;
+}
+
+.arrows-set-the-event {
+  font-size: 2em;
+  cursor: pointer;
+  user-select: none;
+  color: white;
+}
+
+.left-arrow {
+  margin-right: 50px;
+}
+
+.right-arrow {
+  margin-left: 50px;
+}
+
+.event-card {
+  background: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Ajout d'un fond légèrement transparent */
+  border-radius: 10px; /* Bordures arrondies */
+  padding: 20px;
+  margin: 10px;
+  width: 300px; /* Taille fixe pour la cohérence */
+  transition: transform 0.3s ease; /* Animation pour effet de survol */
+  color: white; /* Texte en blanc pour la visibilité */
+  text-align: center; /* Texte centré */
+  font-family: "Gilroy";
+  letter-spacing: 0.1rem;
+}
+
+.event-card:hover {
+  transform: translateY(
+    -10px
+  ); /* Déplace la carte vers le haut lors du survol */
+  background: rgba(255, 255, 255, 0.2); /* Fond plus visible au survol */
+}
+
+.event-card div {
+  margin-bottom: 10px; /* Espace entre les éléments de la carte */
+}
+
+.event-card .event-card-text {
+  font-size: 1em; /* Taille de police pour le texte de l'événement */
+  padding: 0 5px; /* Padding pour que le texte ne touche pas les bords */
+}
+
+.event-card .event-more-info {
+  text-decoration: underline; /* Souligne le texte pour indiquer qu'il est cliquable */
+  cursor: pointer; /* Change le curseur en pointeur pour indiquer un lien */
 }
