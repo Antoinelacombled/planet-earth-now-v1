@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
+import "./CarouselEvent.css";
 import "swiper/css";
 import "swiper/css/navigation";
 
@@ -53,29 +54,31 @@ const events = [
 
 function CarouselEvent() {
   return (
-    <section className="set-the-event">
-      <div className="title-set-the-event">LES ÉVÉNEMENTS</div>
-      <div className="super-container-set-the-event">
-        <Swiper
-          navigation
-          modules={[Navigation]}
-          spaceBetween={50}
-          slidesPerView={3}
-        >
-          {events.map((event, index) => (
-            <SwiperSlide key={index}>
-              <div className="event-card">
-                <div>
-                  {event.date} - {event.location}
-                </div>
-                <div className="event-card-text">{event.description}</div>
-                <div>{event.audience}</div>
-                <div className="event-more-info">En savoir plus</div>
-              </div>{" "}
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </div>
+    <section className="carousel">
+      <section className="set-the-event">
+        <div className="title-set-the-event">LES ÉVÉNEMENTS</div>
+        <div className="super-container-set-the-event">
+          <Swiper
+            navigation
+            modules={[Navigation]}
+            spaceBetween={50}
+            slidesPerView={3}
+          >
+            {events.map((event, index) => (
+              <SwiperSlide key={index}>
+                <div className="event-card">
+                  <div>
+                    {event.date} - {event.location}
+                  </div>
+                  <div className="event-card-text">{event.description}</div>
+                  <div>{event.audience}</div>
+                  <div className="event-more-info">En savoir plus</div>
+                </div>{" "}
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+      </section>
     </section>
   );
 }

@@ -1,0 +1,113 @@
+.Phase-get-flag {
+  display: flex;
+  justify-content: center;
+}
+
+.Get-flag-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: auto;
+}
+
+.window-get-the-flag {
+  flex: 1;
+  min-width: 180px;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 2.5em;
+}
+
+.window-gtf-title,
+.window-gtf-img,
+.window-gtf-text {
+  padding: 10px;
+  text-align: center;
+  color: white;
+  letter-spacing: 0.1em;
+}
+
+.window-gtf-title {
+  font-family: "Bowlby One";
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.window-gtf-img {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 350px;
+}
+
+.window-gtf-text {
+  margin-top: 20px;
+  font-family: "Gilroy";
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+.img-size {
+  width: auto;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.one,
+.three,
+.five {
+  background-color: rgba(46, 80, 158, 1);
+}
+
+.two,
+.four {
+  background-color: rgba(51, 153, 51, 1);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.download-the-flag {
+  font-size: 30px;
+  font-family: "Bowlby One", sans-serif;
+  background-color: rgba(51, 153, 51, 1);
+  color: white;
+  margin: 2em;
+  border-radius: 2px;
+  padding: 0.5em 1em;
+  letter-spacing: 0.3rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.5s ease, box-shadow 1s ease;
+}
+
+.download-the-flag:hover {
+  background-image: linear-gradient(
+    to left,
+    rgba(40, 78, 163, 1) 50%,
+    rgba(79, 169, 59, 1) 50%
+  );
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: background-position 2s, box-shadow 0.5s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.download-the-flag:active {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,51 @@
+.principles-section {
+  background-color: rgba(40, 78, 163, 1);
+  color: white;
+  padding: 6em 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.principles-banner {
+  font-family: "Bowlby One", sans-serif;
+  font-size: 3em;
+  margin-bottom: 1em;
+  letter-spacing: 0.1em;
+}
+
+.principles-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 80%;
+  padding: 2.5em;
+}
+
+.principle-item {
+  width: 20%;
+  min-height: 150px;
+}
+
+.principle-number {
+  font-size: 2em;
+  background-color: rgba(51, 153, 51, 1);
+  color: white;
+  border-radius: 50%;
+  width: 1.5em;
+  height: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5em;
+  font-family: "Bowlby One Sc";
+}
+
+.principle-text {
+  font-family: "Gilroy-bold";
+  font-size: 1.3rem;
+  text-align: left;
+  padding: 0 10px;
+  width: 100%;
+}

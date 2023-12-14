@@ -1,0 +1,16 @@
+.Climate-urgency-section {
+  width: 100%;
+}
+
+.Climate-urgency-section {
+  background-color: lightblue;
+  height: 100vh;
+}
+
+.video-flag {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  box-sizing: border-box;
+}

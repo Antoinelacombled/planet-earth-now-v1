@@ -1,0 +1,48 @@
+.why-flag-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+
+  padding: 1rem 0;
+  font-family: "Bowlby One", sans-serif;
+}
+
+.why-flag-title {
+  font-family: "Bowlby One", sans-serif;
+  font-size: 3em;
+  margin-bottom: 1em;
+  letter-spacing: 0.1em;
+}
+
+.why-flag-content {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.why-flag-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 48%;
+}
+
+.why-flag-text {
+  font-size: 1.95rem;
+  align-self: flex-start;
+}
+
+.why-flag-text:last-child {
+  margin-top: auto;
+}
+
+.blue {
+  color: rgba(40, 78, 163, 1);
+}
+
+.green {
+  color: rgba(51, 153, 51, 1);
+}

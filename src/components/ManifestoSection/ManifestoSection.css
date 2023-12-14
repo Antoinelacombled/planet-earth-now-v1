@@ -1,0 +1,57 @@
+.Unity-symbol-section {
+  width: 100%;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+
+.manifesto-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.Right-manifesto-section {
+  width: 50%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Quote-manifesto {
+  font-family: Bowlby One Sc;
+  color: rgba(40, 78, 163, 1);
+  font-size: 40px;
+  text-align: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+}
+
+.author-manifesto {
+  color: rgba(40, 78, 163, 1);
+  font-family: "Gilroy", sans-serif;
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 35px;
+}
+
+.child-mini-quote-manifesto {
+  font-family: "Gilroy", sans-serif;
+  text-align: center;
+  font-size: 1em;
+  color: rgba(40, 78, 163, 1);
+}
+
+.manif-container {
+  width: 50%;
+  padding-left: 8%;
+}

@@ -1,0 +1,22 @@
+.banner-urgency {
+  background-color: rgba(40, 78, 163, 1);
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: bowlby One;
+  font-size: 4em;
+  letter-spacing: 0.1em;
+}
+
+.Our-house-burns-section {
+  width: 100%;
+}
+
+.img-burning {
+  flex: 1 1 50%;
+  height: 50vh;
+  object-fit: cover;
+}

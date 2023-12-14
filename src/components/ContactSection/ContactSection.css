@@ -1,0 +1,43 @@
+.contact-section {
+  background-color: #30a33e; /* Green background */
+  padding: 4em;
+  color: white;
+  text-align: center;
+}
+
+.contact-title {
+  margin-bottom: 2em;
+  font-family: "Bowlby One", sans-serif; /* Match your font styles */
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 1em;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.5em;
+  border: none;
+  margin-bottom: 1em;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  background-color: #28688e; /* Darker green for the button */
+  color: white;
+  border: none;
+  padding: 1em 2em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+}
+
+.submit-btn:hover {
+  background-color: #1e5a2d; /* Slightly darker green on hover */
+}

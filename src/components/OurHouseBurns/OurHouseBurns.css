@@ -1,0 +1,6 @@
+.Our-house-burns-section {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  align-content: stretch;
+}

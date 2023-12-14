@@ -1,0 +1,38 @@
+.App-header {
+  display: flex;
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(26, 26, 26);
+  font-family: gilroy-bold;
+  font-size: 18px;
+}
+
+.nav-menu-item {
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.nav-menu-item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0%;
+  height: 2px;
+  background-color: rgba(48, 163, 62, 1);
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.nav-menu-item:hover::after {
+  width: 100%;
+  left: 0;
+}
+.nav-menu-item:hover {
+  color: rgba(48, 163, 62, 1);
+}
+
+.nav-menu-item {
+  text-transform: uppercase;
+}

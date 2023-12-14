@@ -1,0 +1,11 @@
+.banner-mobilize {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(15, 44, 145, 1);
+  font-family: bowlby One;
+  font-size: 3em;
+  letter-spacing: 0.1em;
+}

@@ -1,0 +1,34 @@
+.Flag-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.Right-flag-section {
+  background-color: rgba(40, 78, 163, 1);
+  width: 50%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Earth-flag {
+  width: 50%;
+}
+
+.Quote-flag {
+  font-family: gilroy;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding: 3.5em;
+  overflow: hidden;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+.img-flag {
+  height: 50vh;
+  width: 100%;
+  object-fit: cover;
+}

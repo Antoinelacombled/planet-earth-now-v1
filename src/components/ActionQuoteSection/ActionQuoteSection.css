@@ -1,0 +1,58 @@
+.action-quote-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(40, 78, 163, 1);
+  padding: 20px;
+  flex-direction: row;
+}
+
+.action-quote {
+  flex-basis: 50%;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10em;
+}
+
+.action-quote-text {
+  font-family: Bowlby One;
+  font-size: 40px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  letter-spacing: 0.1em;
+}
+
+.action-quote-author {
+  font-family: "Gilroy", sans-serif;
+  font-size: 1.5em;
+}
+
+.action-quote-image-container {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-quote-image {
+  width: 700px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.action-quote-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.author {
+  font-weight: bold;
+}

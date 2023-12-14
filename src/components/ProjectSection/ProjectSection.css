@@ -1,0 +1,59 @@
+.projects-section {
+  background-color: white;
+  text-align: center;
+  padding: 5em;
+}
+
+.projects-title {
+  font-family: "Bowlby One";
+  color: #333;
+  margin-bottom: 1em;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+  padding-bottom: 2em;
+}
+
+.project-item {
+  background-color: #f5f5f5;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 0.5em;
+}
+
+.project-title {
+  font-family: "Bowlby One SC";
+  font-size: 1em;
+  color: #333;
+  margin-bottom: 0.5em;
+}
+
+.project-description {
+  font-family: "Gilroy";
+  font-size: 0.9em;
+  color: #666;
+}
+
+.projects-more {
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.projects-more:hover {
+  background-color: #555;
+}

@@ -1,0 +1,21 @@
+.unity-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  padding: 2em;
+}
+
+.Unity-symbol-section {
+  font-family: "bowlby One", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(15, 44, 145, 1);
+  font-size: 4em;
+  letter-spacing: 0.1em;
+  width: 100%;
+  text-align: center;
+  padding: 2em;
+  line-height: 1.1em;
+}
