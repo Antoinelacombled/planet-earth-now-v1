@@ -1,8 +1,10 @@
+import SwiperCore from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "./CarouselEvent.css";
 import "swiper/css";
 import "swiper/css/navigation";
+SwiperCore.use([Navigation]);
 
 const events = [
   {
@@ -57,26 +59,34 @@ function CarouselEvent() {
     <section className="carousel">
       <section className="set-the-event">
         <div className="title-set-the-event">LES ÉVÉNEMENTS</div>
-        <div className="super-container-set-the-event">
-          <Swiper
-            navigation
-            modules={[Navigation]}
-            spaceBetween={50}
-            slidesPerView={3}
-          >
-            {events.map((event, index) => (
-              <SwiperSlide key={index}>
-                <div className="event-card">
+        <div className="container-box">
+          <div className="small-container super-container-set-the-event">
+            <Swiper
+              className="sample-slider"
+              navigation={{
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              }}
+              modules={[Navigation]}
+              spaceBetween={50}
+              slidesPerView={3}
+            >
+              {events.map((event, index) => (
+                <SwiperSlide key={index} className="event-card">
                   <div>
                     {event.date} - {event.location}
                   </div>
                   <div className="event-card-text">{event.description}</div>
                   <div>{event.audience}</div>
                   <div className="event-more-info">En savoir plus</div>
-                </div>{" "}
-              </SwiperSlide>
-            ))}
-          </Swiper>
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
+          <div>
+            <button className="swiper-button-prev"> </button>
+            <button className="swiper-button-next"> </button>
+          </div>
         </div>
       </section>
     </section>

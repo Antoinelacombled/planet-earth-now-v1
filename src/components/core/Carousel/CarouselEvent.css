@@ -6,9 +6,6 @@
 
 .super-container-set-the-event {
   width: 100%;
-  display: flex;
-  align-items: center;
-  padding: 5em;
 }
 
 .title-set-the-event {
@@ -25,7 +22,6 @@
   background: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   padding: 20px;
-  margin: 10px;
   width: 300px;
   transition: transform 0.3s ease;
   color: white;
@@ -47,4 +43,28 @@
 .event-card .event-more-info {
   text-decoration: underline;
   cursor: pointer;
+}
+
+.small-container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.container-box {
+  position: relative;
+}
+.container-box .arrow {
+  position: absolute;
+  top: 50%;
+  margin-top: -5px;
+}
+.swiper-button-prev {
+  left: 0;
+  border: none;
+  background: none;
+}
+.swiper-button-next {
+  right: 0;
+  border: none;
+  background: none;
 }
