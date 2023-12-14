@@ -19,6 +19,7 @@ import QuotationSection from "./components/QuotationSection/QuotationSection";
 import ProjectSection from "./components/ProjectSection/ProjectSection";
 import ContactSection from "./components/ContactSection/ContactSection";
 import Footer from "./components/Footer/Footer";
+import FlagPartners from "./components/FlagPartners/FlagPartners";
 
 function App() {
   return (
@@ -39,8 +40,9 @@ function App() {
         <WhyFlag />
         <CustomTheFlag />
         <QuotationSection />
-        <CarouselEvent />
+        {/* <CarouselEvent /> */}
         <ProjectSection />
+        <FlagPartners />
         <ContactSection />
         <Footer />
       </main>
