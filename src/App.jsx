@@ -40,7 +40,7 @@ function App() {
         <WhyFlag />
         <CustomTheFlag />
         <QuotationSection />
-        {/* <CarouselEvent /> */}
+        <CarouselEvent />
         <ProjectSection />
         <FlagPartners />
         <ContactSection />
