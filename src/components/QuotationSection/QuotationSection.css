@@ -34,3 +34,13 @@
   font-family: "Gilroy";
   margin-top: auto;
 }
+
+@media (max-width: 768px) {
+  .quote-quotation-section {
+    display: none;
+  }
+
+  .author-quotation-section {
+    display: none;
+  }
+}

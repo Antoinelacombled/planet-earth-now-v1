@@ -56,3 +56,9 @@
 .right-arrow {
   margin-left: 50px;
 }
+
+@media (max-width: 768px) {
+  .custom-the-flag {
+    display: none;
+  }
+}

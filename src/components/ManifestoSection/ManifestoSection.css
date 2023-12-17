@@ -73,15 +73,15 @@ body {
     width: 100%;
     height: auto;
     margin: 0 auto;
+  }
 
-    .Quote-manifesto {
-      font-size: 1em;
-      padding: 20px;
-    }
+  .Quote-manifesto {
+    font-size: 1em;
+    padding: 20px;
+  }
 
-    .author-manifesto {
-      font-size: 0.1em;
-      padding: 20px;
-    }
+  .author-manifesto {
+    font-size: 0.1em;
+    padding: 20px;
   }
 }

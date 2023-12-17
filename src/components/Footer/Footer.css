@@ -1,4 +1,50 @@
-.footer-section {
+/* Footer CSS */
+footer {
   width: 100%;
-  background-color: var(--blue-color);
+  background-color: var(
+    --blue-color
+  ); /* Utilisez votre couleur bleue définie */
+  color: var(--white-color); /* Le texte doit être blanc */
+  padding: 1em 0; /* Ajoutez un peu de padding en haut et en bas */
+  font-family: "Bowlby One";
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-around; /* Espacer les éléments uniformément */
+  align-items: center; /* Centrer les éléments verticalement */
+  list-style: none; /* Retirer les puces si c'est une liste */
+}
+
+.footer-section div {
+  cursor: pointer; /* Change le curseur en main lors du survol */
+  padding: 0.5em 1em; /* Espacement autour du texte */
+  transition: background-color 0.3s; /* Animation de fond lors du survol */
+}
+
+.footer-section div:hover {
+  background-color: var(
+    --black-color
+  ); /* Changez la couleur de fond au survol */
+  border-radius: 5px; /* Ajoutez des coins arrondis */
+}
+
+/* Ajoutez les icones de réseaux sociaux avant vos divs si nécessaire */
+.footer-section div:before {
+  content: ""; /* Ajoutez l'icône ici avec une URL ou en utilisant des polices d'icônes */
+  padding-right: 0.5em; /* Espace entre l'icône et le texte */
+}
+
+/* Responsivité */
+@media (max-width: 768px) {
+  .footer-section {
+    flex-direction: column; /* Empile les éléments verticalement sur les petits écrans */
+    align-items: center; /* Centrer les éléments */
+  }
+
+  .footer-section div {
+    margin-bottom: 0.5em; /* Ajouter un espace entre les éléments */
+    width: 100%; /* Utiliser toute la largeur disponible */
+    text-align: center; /* Centrer le texte */
+  }
 }

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgba(40, 78, 163, 1);
+  background-color: var(--blue-color);
   padding: 20px;
   flex-direction: row;
 }
@@ -55,4 +55,10 @@
 
 .author {
   font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .action-quote-section {
+    display: none;
+  }
 }

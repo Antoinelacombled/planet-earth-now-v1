@@ -82,3 +82,9 @@
 .date-location {
   font-family: "Bowlby One";
 }
+
+@media (max-width: 768px) {
+  .set-the-event {
+    display: none;
+  }
+}

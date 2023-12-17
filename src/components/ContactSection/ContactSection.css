@@ -9,6 +9,7 @@
   font-size: 4em;
   font-family: "Bowlby One", sans-serif;
   letter-spacing: 0.1em;
+  margin-bottom: 100px;
 }
 
 .contact-form {
@@ -41,4 +42,11 @@
 
 .submit-btn:hover {
   background-color: #0c0e69; /* Slightly darker green on hover */
+}
+
+@media (max-width: 768px) {
+  .contact-title {
+    font-size: 1em;
+    margin-bottom: 50px;
+  }
 }

@@ -33,6 +33,7 @@
 .why-flag-text {
   font-size: 1.95rem;
   align-self: flex-start;
+  margin-bottom: 100px;
 }
 
 .why-flag-text:last-child {
@@ -45,4 +46,10 @@
 
 .green {
   color: rgba(51, 153, 51, 1);
+}
+
+@media (max-width: 768px) {
+  .why-flag-section {
+    display: none;
+  }
 }
