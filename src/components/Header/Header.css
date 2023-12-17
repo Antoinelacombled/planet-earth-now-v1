@@ -36,3 +36,11 @@
 .nav-menu-item {
   text-transform: uppercase;
 }
+
+@media (max-width: 768px) {
+  /* Cache la barre latérale sur les appareils mobiles */
+
+  .App-header {
+    display: none;
+  }
+}

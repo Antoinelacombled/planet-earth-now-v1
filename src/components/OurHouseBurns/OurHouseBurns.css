@@ -1,6 +1,48 @@
 .Our-house-burns-section {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   height: 100vh;
   align-content: stretch;
+}
+
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+}
+
+.img-burning {
+  flex: 1 1 50%;
+  height: 50vh;
+  object-fit: cover;
+}
+
+.burns-text {
+  color: var(--white-color);
+  font-family: "Bowlby One";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  text-align: center;
+  font-size: 6em;
+  letter-spacing: 3px;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .burns-text {
+    display: none;
+  }
+
+  .img-burning {
+    display: none;
+  }
+
+  .Our-house-burns-section {
+    display: none;
+  }
 }

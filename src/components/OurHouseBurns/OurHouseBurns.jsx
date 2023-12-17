@@ -8,8 +8,8 @@ import tr from "../../assets/tr.jpg";
 
 function OurHouseBurns() {
   return (
-    <>
-      <section className="Our-house-burns-section">
+    <section className="Our-house-burns-section">
+      <div className="images-container">
         <img
           className="img-burning"
           src={tl}
@@ -22,7 +22,6 @@ function OurHouseBurns() {
           alt="photo de voiture immergée par des crues"
           loading="lazy"
         />
-
         <img
           className="img-burning"
           src={bl}
@@ -35,8 +34,9 @@ function OurHouseBurns() {
           alt="photo de forêts en feu incendie"
           loading="lazy"
         />
-      </section>
-    </>
+      </div>
+      <div className="burns-text">NOTRE MAISON BRÛLE</div>
+    </section>
   );
 }
 

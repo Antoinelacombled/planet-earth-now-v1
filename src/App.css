@@ -8,10 +8,21 @@
   display: flex;
   min-height: 100vh;
   width: 100%;
+  --blue-color: #2e519f;
+  --green-color: #339933;
+  --black-color: #1c1d27;
+  --orange-color: #f19d38;
+  --white-color: #ffffff;
 }
 
 .App-main {
   display: flex;
   flex-direction: column;
   width: 95%;
+}
+
+@media (max-width: 500px) {
+  .App-main {
+    width: 100%;
+  }
 }

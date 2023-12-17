@@ -27,7 +27,7 @@ body {
 
 .Quote-manifesto {
   font-family: Bowlby One Sc;
-  color: rgba(40, 78, 163, 1);
+  color: var(--blue-color);
   font-size: 40px;
   text-align: center;
   overflow: hidden;
@@ -37,7 +37,7 @@ body {
 }
 
 .author-manifesto {
-  color: rgba(40, 78, 163, 1);
+  color: var(--blue-color);
   font-family: "Gilroy", sans-serif;
   text-align: center;
   font-size: 1.5em;
@@ -48,10 +48,40 @@ body {
   font-family: "Gilroy", sans-serif;
   text-align: center;
   font-size: 1em;
-  color: rgba(40, 78, 163, 1);
+  color: var(--blue-color);
 }
 
 .manif-container {
   width: 50%;
   padding-left: 8%;
+}
+
+@media (max-width: 768px) {
+  .manifesto-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .manif-container,
+  .Right-manifesto-section {
+    width: 80%;
+    padding: 0;
+    height: auto;
+  }
+
+  .img-manif {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+    .Quote-manifesto {
+      font-size: 1em;
+      padding: 20px;
+    }
+
+    .author-manifesto {
+      font-size: 0.1em;
+      padding: 20px;
+    }
+  }
 }

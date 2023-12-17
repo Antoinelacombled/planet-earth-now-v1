@@ -42,7 +42,7 @@ function App() {
         <QuotationSection />
         <CarouselEvent />
         <ProjectSection />
-        <FlagPartners />
+        {/* <FlagPartners /> */}
         <ContactSection />
         <Footer />
       </main>

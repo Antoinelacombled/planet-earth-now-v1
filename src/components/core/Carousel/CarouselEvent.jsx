@@ -73,7 +73,7 @@ function CarouselEvent() {
             >
               {events.map((event, index) => (
                 <SwiperSlide key={index} className="event-card">
-                  <div>
+                  <div className="date-location">
                     {event.date} - {event.location}
                   </div>
                   <div className="event-card-text">{event.description}</div>

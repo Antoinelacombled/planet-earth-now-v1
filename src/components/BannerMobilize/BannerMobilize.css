@@ -4,8 +4,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgba(15, 44, 145, 1);
+  color: var(--blue-color);
   font-family: bowlby One;
-  font-size: 3em;
+  font-size: 4em;
   letter-spacing: 0.1em;
 }

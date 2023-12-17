@@ -13,3 +13,9 @@
 .hero-flag {
   width: 76px;
 }
+
+@media (max-width: 500px) {
+  .App-sidebar {
+    display: none;
+  }
+}

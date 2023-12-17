@@ -4,7 +4,7 @@
 }
 
 .Right-flag-section {
-  background-color: rgba(40, 78, 163, 1);
+  background-color: var(--blue-color);
   width: 50%;
   height: 50vh;
   display: flex;
@@ -31,4 +31,19 @@
   height: 50vh;
   width: 100%;
   object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .Quote-flag {
+    display: none;
+  }
+
+  .Right-flag-section {
+    display: none;
+    width: 50%;
+  }
+
+  .img-flag {
+    width: auto;
+  }
 }

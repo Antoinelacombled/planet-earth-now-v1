@@ -1,7 +1,7 @@
 .set-the-event {
-  background-color: rgba(51, 153, 51, 1);
+  background-color: var(--green-color);
   width: 100%;
-  padding: 2em 0;
+  padding: 5em 0;
 }
 
 .super-container-set-the-event {
@@ -11,7 +11,7 @@
 .title-set-the-event {
   color: white;
   font-family: "Bowlby One", sans-serif;
-  font-size: 3em;
+  font-size: 4em;
   margin-bottom: 1em;
   letter-spacing: 0.1em;
   display: flex;
@@ -21,7 +21,7 @@
 .event-card {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
-  padding: 20px;
+  padding: 30px;
   width: 300px;
   transition: transform 0.3s ease;
   color: white;
@@ -38,6 +38,8 @@
 .event-card .event-card-text {
   font-size: 1em;
   padding: 0 5px;
+  padding: 20px;
+  height: 100px;
 }
 
 .event-card .event-more-info {
@@ -58,13 +60,25 @@
   top: 50%;
   margin-top: -5px;
 }
+
+/* LEFT */
 .swiper-button-prev {
   left: 0;
   border: none;
   background: none;
+  color: rgb(255, 255, 255) !important ;
+  padding-left: 5em;
 }
+
+/* RIGHT */
 .swiper-button-next {
   right: 0;
   border: none;
   background: none;
+  color: rgb(255, 255, 255) !important;
+  padding-right: 5em;
+}
+
+.date-location {
+  font-family: "Bowlby One";
 }

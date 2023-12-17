@@ -66,12 +66,12 @@
 .one,
 .three,
 .five {
-  background-color: rgba(46, 80, 158, 1);
+  background-color: var(--blue-color);
 }
 
 .two,
 .four {
-  background-color: rgba(51, 153, 51, 1);
+  background-color: var(--green-color);
 }
 
 .button-container {
@@ -85,7 +85,7 @@
 .download-the-flag {
   font-size: 30px;
   font-family: "Bowlby One", sans-serif;
-  background-color: rgba(51, 153, 51, 1);
+  background-color: var(--green-color);
   color: white;
   margin: 2em;
   border-radius: 2px;
@@ -110,4 +110,49 @@
 
 .download-the-flag:active {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .Phase-get-flag {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Get-flag-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .window-get-the-flag {
+    flex-basis: 100%; /* Chaque élément prendra toute la largeur de l'écran */
+    max-width: 350px; /* Limite la largeur maximale pour éviter qu'ils soient trop grands */
+    margin: 10px 0; /* Ajoute de l'espace entre chaque élément */
+  }
+
+  .window-gtf-title {
+    font-size: 18px; /* Taille de police réduite pour les petits écrans */
+  }
+
+  .window-gtf-img {
+    width: 300px; /* Réduit la taille de l'image */
+    height: 300px; /* Maintient le ratio */
+  }
+
+  .window-gtf-text {
+    font-size: 1em; /* Taille de police réduite pour les petits écrans */
+  }
+
+  .img-size {
+    width: 100%; /* S'assurer que l'image occupe toute la largeur de son conteneur */
+    height: auto; /* Maintient le ratio de l'image */
+  }
+
+  .button-container {
+    padding: 1em 0; /* Ajoute de l'espace autour du bouton */
+  }
+
+  .download-the-flag {
+    font-size: 24px; /* Taille de police réduite pour le bouton */
+    padding: 0.5em 1em; /* Ajuste le padding du bouton */
+  }
 }
