@@ -1,35 +1,42 @@
 .projects-section {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: white;
-  text-align: center;
   padding: 4em;
-  transition: background-color 0.3s ease;
 }
 
 .projects-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 6em;
+  gap: 2em; /* Espace entre les cartes */
+}
+
+.project-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+}
+
+.project-image {
+  width: 100%;
+  height: 200px; /* Définir une hauteur fixe pour toutes les images */
+  object-fit: cover;
+  border-radius: 5px;
 }
 
 .project-item {
   padding: 1em;
   border-radius: 5px;
-  width: 400px;
+  width: 320px; /* ou une autre largeur fixe ou en pourcentage selon la conception */
   position: relative;
-}
-
-.project-image {
-  width: 100%;
-  height: 300px;
-  border-radius: 5px;
-  margin-bottom: 0.5em;
+  overflow: hidden; /* Pour éviter que les images ne débordent */
 }
 
 .project-title {
   font-family: "Bowlby One SC";
-  font-size: 1em;
+  font-size: 0.7em;
   color: #333;
   margin-bottom: 0.5em;
   text-align: start;
@@ -41,7 +48,7 @@
   font-size: 0.9em;
   color: #666;
   text-align: start;
-  padding-top: 2em;
+  padding-top: 1em;
 }
 
 .projects-more {
@@ -62,7 +69,7 @@
 .title-project {
   color: var(--green-color);
   font-family: "Bowlby One", sans-serif;
-  font-size: 4em;
+  font-size: 3em;
   letter-spacing: 0.1em;
   margin-bottom: 1em;
 }

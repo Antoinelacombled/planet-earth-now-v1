@@ -10,10 +10,16 @@ body {
   height: auto;
 }
 
+.img-manif {
+  max-width: 100%; /* assure que l'image ne dépasse pas son conteneur */
+  height: auto; /* garde le ratio de l'image */
+}
+
 .manifesto-section {
   display: flex;
   flex-direction: row;
   width: 100%;
+  padding-bottom: 3em;
 }
 
 .Right-manifesto-section {
@@ -25,10 +31,18 @@ body {
   flex-direction: column;
 }
 
+.manif-container,
+.Right-manifesto-section {
+  width: 50%; /* assigne à chaque conteneur une largeur de 50% */
+  display: flex; /* permet d'utiliser flexbox pour centrer l'image et le texte */
+  align-items: center; /* centre verticalement */
+  justify-content: center; /* centre horizontalement */
+}
+
 .Quote-manifesto {
   font-family: Bowlby One Sc;
   color: var(--blue-color);
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   overflow: hidden;
   box-sizing: border-box;

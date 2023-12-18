@@ -6,7 +6,7 @@
 .Right-flag-section {
   background-color: var(--blue-color);
   width: 50%;
-  height: 50vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +19,7 @@
 .Quote-flag {
   font-family: gilroy;
   color: white;
-  font-size: 40px;
+  font-size: 25px;
   text-align: center;
   padding: 3.5em;
   overflow: hidden;
@@ -28,7 +28,7 @@
 }
 
 .img-flag {
-  height: 50vh;
+  height: 60vh;
   width: 100%;
   object-fit: cover;
 }

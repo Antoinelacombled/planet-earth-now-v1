@@ -20,7 +20,7 @@
 
 .action-quote-text {
   font-family: Bowlby One;
-  font-size: 40px;
+  font-size: 27px;
   line-height: 1.5;
   margin-bottom: 10px;
   letter-spacing: 0.1em;
@@ -28,7 +28,8 @@
 
 .action-quote-author {
   font-family: "Gilroy", sans-serif;
-  font-size: 1.5em;
+  font-size: 0.7em;
+  padding-top: 2em;
 }
 
 .action-quote-image-container {
@@ -39,8 +40,8 @@
 }
 
 .action-quote-image {
-  width: 700px;
-  height: 700px;
+  width: 500px;
+  height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;

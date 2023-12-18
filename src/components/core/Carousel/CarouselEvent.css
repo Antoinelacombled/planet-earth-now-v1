@@ -11,7 +11,7 @@
 .title-set-the-event {
   color: white;
   font-family: "Bowlby One", sans-serif;
-  font-size: 4em;
+  font-size: 3em;
   margin-bottom: 1em;
   letter-spacing: 0.1em;
   display: flex;
@@ -36,7 +36,7 @@
 }
 
 .event-card .event-card-text {
-  font-size: 1em;
+  font-size: 0.7em;
   padding: 0 5px;
   padding: 20px;
   height: 100px;
@@ -81,6 +81,11 @@
 
 .date-location {
   font-family: "Bowlby One";
+}
+
+.event-more-info {
+  font-size: 12px;
+  padding-top: 1em;
 }
 
 @media (max-width: 768px) {

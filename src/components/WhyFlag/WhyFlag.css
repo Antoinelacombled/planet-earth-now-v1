@@ -10,7 +10,7 @@
 
 .why-flag-title {
   font-family: "Bowlby One", sans-serif;
-  font-size: 4em;
+  font-size: 2em;
   margin-bottom: 1em;
   letter-spacing: 0.1em;
 }
@@ -31,9 +31,9 @@
 }
 
 .why-flag-text {
-  font-size: 1.95rem;
+  font-size: 1.3rem;
   align-self: flex-start;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
 .why-flag-text:last-child {

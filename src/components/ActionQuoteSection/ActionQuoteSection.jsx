@@ -7,9 +7,8 @@ function ActionQuoteSection() {
     <section className="action-quote-section">
       <div className="action-quote">
         <p className="action-quote-text">
-          « IL S’AGIT DE METTRE<br></br> AU PIED DU MUR LES<br></br>
-          PERSONNES QUI ONT<br></br> LE POUVOIR DE FAIRE<br></br> CHANGER LES
-          CHOSES »
+          « IL S’AGIT DE METTRE AU PIED DU MUR LES PERSONNES QUI ONT LE POUVOIR
+          DE FAIRE CHANGER LES CHOSES »
         </p>
 
         <p className="author action-quote-author">Nadia Maizi</p>

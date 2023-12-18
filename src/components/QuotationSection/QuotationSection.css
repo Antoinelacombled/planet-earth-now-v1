@@ -23,7 +23,7 @@
 
 .quote-quotation-section {
   font-family: "Bowlby One";
-  font-size: 35px;
+  font-size: 27px;
   margin-bottom: 5px;
   letter-spacing: 0.1rem;
 
@@ -33,6 +33,7 @@
 .author-quotation-section {
   font-family: "Gilroy";
   margin-top: auto;
+  font-size: 13px;
 }
 
 @media (max-width: 768px) {
