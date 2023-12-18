@@ -29,7 +29,9 @@ function GetTheFlag() {
             </div>
           </div>
           <div className="window-get-the-flag two">
-            <div className="window-gtf-title">POUR LES INSTITUTIONS</div>
+            <div className="window-gtf-title">
+              POUR LES <br></br>INSTITUTIONS
+            </div>
             <div className="window-gtf-img">
               <img className="img-size" src={windowTwo} />
             </div>
@@ -44,7 +46,7 @@ function GetTheFlag() {
               <img className="img-size" src={windowThree} />
             </div>
             <div className="window-gtf-text">
-              Dans le cadre de votre association et vos projets,événéments ou
+              Dans le cadre de votre association et vos projets, événéments ou
               conférences, etc. Des drapeaux pourront vous être envoyés
               gracieusement. N'hésitez pas à nous contacter.
             </div>
