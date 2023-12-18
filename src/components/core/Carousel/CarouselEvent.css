@@ -93,3 +93,19 @@
     display: none;
   }
 }
+
+@media (max-width: 1000px) {
+  .event-card .event-card-text {
+    font-size: 0.5em;
+    padding: 0 5px;
+    padding: 20px;
+    height: 100px;
+  }
+
+  .audience-event {
+  }
+
+  .event-more-info {
+    font-size: 0.5em;
+  }
+}

@@ -19,3 +19,9 @@
     display: none;
   }
 }
+
+@media (max-width: 1000px) {
+  .App-sidebar {
+    display: none;
+  }
+}

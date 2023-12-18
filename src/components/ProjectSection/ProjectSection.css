@@ -79,23 +79,6 @@
   opacity: 1;
 }
 
-.soon-overlay {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  font-size: 2em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: opacity 0.5s ease;
-}
-
 @media (max-width: 768px) {
   .projects-section {
     display: none;
@@ -103,5 +86,38 @@
 
   .title-project {
     display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .project-image {
+    width: 100%;
+    height: 100px; /* Définir une hauteur fixe pour toutes les images */
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .project-item {
+    padding: 1em;
+    border-radius: 5px;
+    width: 150px; /* ou une autre largeur fixe ou en pourcentage selon la conception */
+    position: relative;
+    overflow: hidden; /* Pour éviter que les images ne débordent */
+  }
+
+  .title-project {
+    color: var(--green-color);
+    font-family: "Bowlby One", sans-serif;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    margin-bottom: 1em;
+  }
+
+  .project-description {
+    font-family: "Gilroy";
+    font-size: 0.6em;
+    color: #666;
+    text-align: start;
+    padding-top: 1em;
   }
 }

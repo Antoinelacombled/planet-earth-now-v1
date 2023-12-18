@@ -15,7 +15,7 @@ function ActionQuoteSection() {
       </div>
       <div className="action-quote-image-container">
         <div className="action-quote-image">
-          <img src={imgAssemb} alt="Image description" />
+          <img className="img-action-quote" src={imgAssemb} alt="Image description" />
         </div>
       </div>
     </section>

@@ -46,3 +46,17 @@
     display: none;
   }
 }
+
+@media (max-width: 1000px) {
+  .burns-text {
+    display: none;
+  }
+
+  .img-burning {
+    display: none;
+  }
+
+  .Our-house-burns-section {
+    display: none;
+  }
+}

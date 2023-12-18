@@ -20,3 +20,9 @@
     height: auto;
   }
 }
+
+@media (max-width: 1000px) {
+  .Climate-urgency-section {
+    height: auto;
+  }
+}

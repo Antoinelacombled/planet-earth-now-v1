@@ -63,3 +63,9 @@
     display: none;
   }
 }
+
+@media (max-width: 1000px) {
+  .action-quote-section {
+    display: none;
+  }
+}
