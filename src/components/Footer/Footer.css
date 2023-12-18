@@ -23,6 +23,11 @@ footer {
   transition: background-color 0.3s; /* Animation de fond lors du survol */
 }
 
+.footer-section div a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .footer-section div:hover {
   background-color: var(
     --black-color

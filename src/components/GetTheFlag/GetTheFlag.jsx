@@ -1,4 +1,3 @@
-import React from "react";
 import "./GetTheFlag.css";
 
 import windowOne from "../../assets/windowgtf----.jpg";
@@ -15,7 +14,7 @@ function GetTheFlag() {
       <div className="banner-mobilize">COMMENT OBTENIR LE DRAPEAU ?</div>
 
       <section className="Phase-get-flag">
-        <div className="Get-flag-container">
+        <div className="get-flag-container">
           <div className="window-get-the-flag one">
             <div className="window-gtf-title">AUX MARCHES POUR LE CLIMAT</div>
             <div className="window-gtf-img">
@@ -24,7 +23,7 @@ function GetTheFlag() {
             </div>
             <div className="window-gtf-text">
               Le drapeau est distribué aux participant-es de marches citoyennes
-              pour la défense de l'environnement. Rendez-vous aux prochains
+              pour la défense de l&apos;environnement. Rendez-vous aux prochains
               événements.
             </div>
           </div>
@@ -36,8 +35,9 @@ function GetTheFlag() {
               <img className="img-size" src={windowTwo} />
             </div>
             <div className="window-gtf-text">
-              Grâce aux dons reçus par l'association, des drapeaux pourront être
-              offerts aux mairies et aux écoles. N'hésitez pas à nous contacter.
+              Grâce aux dons reçus par l&apos;association, des drapeaux pourront
+              être offerts aux mairies et aux écoles. N&apos;hésitez pas à nous
+              contacter.
             </div>
           </div>
           <div className="window-get-the-flag three">
@@ -48,7 +48,7 @@ function GetTheFlag() {
             <div className="window-gtf-text">
               Dans le cadre de votre association et vos projets, événéments ou
               conférences, etc. Des drapeaux pourront vous être envoyés
-              gracieusement. N'hésitez pas à nous contacter.
+              gracieusement. N&apos;hésitez pas à nous contacter.
             </div>
           </div>
           <div className="window-get-the-flag four">
@@ -68,9 +68,9 @@ function GetTheFlag() {
               <img className="img-size" src={windowFive} />
             </div>
             <div className="window-gtf-text">
-              Vous pouvez télécharger le fichier drapeau de l'urgence climatique
-              afin de l'imprimer pour le fabriquer vous-même ou le partager au
-              plus grand nombre.
+              Vous pouvez télécharger le fichier drapeau de l&apos;urgence
+              climatique afin de l&apos;imprimer pour le fabriquer vous-même ou
+              le partager au plus grand nombre.
             </div>
           </div>
         </div>

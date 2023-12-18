@@ -7,12 +7,12 @@
   font-size: 3rem;
 }
 
-.Get-flag-container {
+.get-flag-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
-  margin: auto;
+  margin: 0 0.4rem;
 }
 
 .window-get-the-flag {
