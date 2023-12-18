@@ -11,7 +11,7 @@ function CustomTheFlag() {
       <div className="super-container-custom-the-flag">
         <div className="title-custom-the-flag">PERSONNALISEZ LE DRAPEAU</div>
         <div className="container-carousel-custom-the-flag">
-          <div className="arrows-custom-the-flag left-arrow">{"<"}</div>
+          <div className="arrows-custom-the-flag left-arrow"></div>
           <div className="container-flags-custom-the-flag">
             <div className="flags-custom-the-flag">
               <img src={flagPlastic} alt="Custom Flag 1" />
@@ -23,7 +23,7 @@ function CustomTheFlag() {
               <img src={flagTrees} alt="Custom Flag 3" />
             </div>
           </div>
-          <div className="arrows-custom-the-flag right-arrow">{">"}</div>
+          <div className="arrows-custom-the-flag right-arrow"></div>
         </div>
       </div>
     </section>

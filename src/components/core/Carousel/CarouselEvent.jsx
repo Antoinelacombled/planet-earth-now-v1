@@ -8,7 +8,7 @@ SwiperCore.use([Navigation]);
 
 const events = [
   {
-    date: "12/18/2023",
+    date: "18/12/2023",
     location: "Paris",
     audience: "Grand public",
     description:
@@ -16,7 +16,7 @@ const events = [
     link: "https://www.academieduclimat.paris/evenements/biodiversite-et-adaptation-au-changement-climatique-en-ville-meme-combat/",
   },
   {
-    date: "12/20/2023",
+    date: "20/12/2023",
     location: "En ligne",
     audience: "Grand public",
     description:
@@ -24,14 +24,14 @@ const events = [
     link: "https://www.helloasso.com/associations/association-canopee/evenements/webinaire-reinventons-nos-modeles-d-education-au-changement-climatique",
   },
   {
-    date: "12/20/2023",
+    date: "20/12/2023",
     location: "En ligne",
     audience: "Grand public",
     description: "Que retenir (vraiment) de la COP 28 ?",
     link: "https://usineages.fr/zoom-meetings/que-retenir-vraiment-de-la-cop-28/",
   },
   {
-    date: "12/21/2023",
+    date: "21/12/2023",
     location: "En ligne",
     audience: "Grand public",
     description:
@@ -39,14 +39,14 @@ const events = [
     link: "https://www.lecampus.online/conferences/david-chapon",
   },
   {
-    date: "1/6/2024",
+    date: "6/1/2024",
     location: "Nantes",
     audience: "Grand public",
     description: "Ocean Talks (avec Hugo Clément et Paul Watson)",
     link: "https://www.eventbrite.fr/e/billets-escape-game-code-climat-au-port-dantibes-765250714487?aff=oddtdtcreator",
   },
   {
-    date: "1/10/2024",
+    date: "10/1/2024",
     location: "En ligne",
     audience: "Grand public",
     description: "Batîr un Avenir Durable",
@@ -77,8 +77,10 @@ function CarouselEvent() {
                     {event.date} - {event.location}
                   </div>
                   <div className="event-card-text">{event.description}</div>
-                  <div>{event.audience}</div>
-                  <div className="event-more-info">En savoir plus</div>
+                  <div className="audience-event">{event.audience}</div>
+                  <a href={event.link} className="event-more-info">
+                    En savoir plus
+                  </a>
                 </SwiperSlide>
               ))}
             </Swiper>
