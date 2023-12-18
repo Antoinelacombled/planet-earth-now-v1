@@ -8,8 +8,8 @@ import earthAbove from "../../assets/earthabove.jpg";
 function ProjectSection() {
   return (
     <>
-      <div className="title-project">LES PROJETS</div>
       <section className="projects-section">
+        <div className="title-project">LES PROJETS</div>
         <div className="projects-container">
           <div className="project-item">
             <img className="project-image" src={forestFire} alt="Fire Image" />

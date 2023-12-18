@@ -2,21 +2,51 @@ import React from "react";
 import "./ContactSection.css";
 
 function ContactSection() {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const form = e.target;
+    const name = form.name.value;
+    const prenom = form.prenom.value;
+    const email = form.email.value;
+    const message = form.message.value;
+
+    const mailtoLink = `mailto:contact@exemple.com?subject=Message%20du%20formulaire%20de%20contact&body=${encodeURI(
+      `Nom: ${name}\nPrénom: ${prenom}\nEmail: ${email}\nMessage: ${message}`
+    )}`;
+    window.location.href = mailtoLink;
+  };
+
   return (
     <section className="contact-section">
       <h2 className="contact-title">ÉCHANGEONS AUTOUR DU DRAPEAU ?</h2>
-      <form className="contact-form">
+      <form className="contact-form" onSubmit={handleSubmit}>
         <div className="form-group">
-          <input type="text" placeholder="Entrez votre nom" required />
+          <input
+            name="name"
+            type="text"
+            placeholder="Entrez votre nom"
+            required
+          />
         </div>
         <div className="form-group">
-          <input type="text" placeholder="Entrez votre prénom" required />
+          <input
+            name="prenom"
+            type="text"
+            placeholder="Entrez votre prénom"
+            required
+          />
         </div>
         <div className="form-group">
-          <input type="email" placeholder="Entrez votre email" required />
+          <input
+            name="email"
+            type="email"
+            placeholder="Entrez votre email"
+            required
+          />
         </div>
         <div className="form-group">
           <textarea
+            name="message"
             placeholder="Partagez vos idées, vos suggestions, vos questions, vos propositions de partenariat..."
             required
           ></textarea>

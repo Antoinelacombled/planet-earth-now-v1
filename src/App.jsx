@@ -1,4 +1,5 @@
 import "./App.css";
+import { useEffect } from "react";
 import Header from "./components/Header/Header";
 import Sidebar from "./components/Sidebar/Sidebar";
 import ClimateUrgencyBanner from "./components/ClimateUrgencyBanner/ClimateUrgencyBanner";
@@ -21,32 +22,41 @@ import ContactSection from "./components/ContactSection/ContactSection";
 import Footer from "./components/Footer/Footer";
 import FlagPartners from "./components/FlagPartners/FlagPartners";
 
+import Lenis from "@studio-freight/lenis";
+import { ReactLenis, useLenis } from "@studio-freight/react-lenis";
+
 function App() {
+  const lenis = useLenis(({ scroll }) => {
+    // called every scroll
+  });
+
   return (
-    <div className="App">
-      <Sidebar />
-      <main className="App-main">
-        <Header />
-        <ClimateUrgencyBanner />
-        <BannerUrgency />
-        <OurHouseBurns />
-        <BannerUnity />
-        <FlagSection />
-        <BannerMobilize />
-        <ManifestoSection />
-        <ActionQuoteSection />
-        <GetTheFlag />
-        <PrinciplesSection />
-        <WhyFlag />
-        <CustomTheFlag />
-        <QuotationSection />
-        <CarouselEvent />
-        <ProjectSection />
-        {/* <FlagPartners /> */}
-        <ContactSection />
-        <Footer />
-      </main>
-    </div>
+    <ReactLenis root>
+      <div className="App">
+        <Sidebar />
+        <main className="App-main">
+          <Header />
+          <ClimateUrgencyBanner />
+          <BannerUrgency />
+          <OurHouseBurns />
+          <BannerUnity />
+          <FlagSection />
+          <BannerMobilize />
+          <ManifestoSection />
+          <ActionQuoteSection />
+          <GetTheFlag />
+          <PrinciplesSection />
+          <WhyFlag />
+          <CustomTheFlag />
+          <QuotationSection />
+          <CarouselEvent />
+          <ProjectSection />
+          {/* <FlagPartners /> */}
+          <ContactSection />
+          <Footer />
+        </main>
+      </div>
+    </ReactLenis>
   );
 }
 

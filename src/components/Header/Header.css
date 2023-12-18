@@ -3,9 +3,10 @@
   height: 50px;
   justify-content: space-around;
   align-items: center;
-  color: rgb(26, 26, 26);
+  color: var(--green-color);
   font-family: gilroy-bold;
   font-size: 18px;
+  font-weight: bolder;
 }
 
 .nav-menu-item {
@@ -21,7 +22,7 @@
   left: 50%;
   width: 0%;
   height: 2px;
-  background-color: rgba(48, 163, 62, 1);
+  background-color: var(--black-color);
   transition: width 0.3s ease, left 0.3s ease;
 }
 
@@ -30,7 +31,7 @@
   left: 0;
 }
 .nav-menu-item:hover {
-  color: rgba(48, 163, 62, 1);
+  color: var(--black-color);
 }
 
 .nav-menu-item {
@@ -38,8 +39,6 @@
 }
 
 @media (max-width: 768px) {
-  /* Cache la barre latérale sur les appareils mobiles */
-
   .App-header {
     display: none;
   }

@@ -1,22 +1,23 @@
 .projects-section {
-  display: flex;
-  justify-content: center;
+  position: relative;
   background-color: white;
   text-align: center;
   padding: 4em;
+  transition: background-color 0.3s ease;
 }
 
 .projects-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 6em;
-  padding-bottom: 2em;
 }
 
 .project-item {
   padding: 1em;
   border-radius: 5px;
   width: 400px;
+  position: relative;
 }
 
 .project-image {
@@ -63,9 +64,29 @@
   font-family: "Bowlby One", sans-serif;
   font-size: 4em;
   letter-spacing: 0.1em;
+  margin-bottom: 1em;
+}
+
+.projects-section:hover .soon-overlay {
   display: flex;
+  opacity: 1;
+}
+
+.soon-overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  margin-top: 2em;
+  opacity: 0;
+  transition: opacity 0.5s ease;
 }
 
 @media (max-width: 768px) {

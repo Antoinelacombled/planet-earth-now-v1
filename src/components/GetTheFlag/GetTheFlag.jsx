@@ -8,6 +8,8 @@ import windowFour from "../../assets/windowgtf---.jpg";
 import windowFive from "../../assets/windowgtf--.jpg";
 
 function GetTheFlag() {
+  const flagDownloadUrl = "/efo-flag.png";
+
   return (
     <>
       <div className="banner-mobilize">COMMENT OBTENIR LE DRAPEAU ?</div>
@@ -72,7 +74,13 @@ function GetTheFlag() {
         </div>
       </section>
       <div className="button-container">
-        <button className="download-the-flag">TÉLÉCHARGER LE DRAPEAU</button>
+        <a
+          href={flagDownloadUrl}
+          download="efo-flag.png"
+          className="download-the-flag"
+        >
+          TÉLÉCHARGER LE DRAPEAU
+        </a>
       </div>
     </>
   );
