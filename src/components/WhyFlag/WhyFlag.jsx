@@ -16,7 +16,7 @@ function WhyFlag() {
           </p>
         </div>
         <div className="why-flag-column">
-          <p className="why-flag-text why-flag-text-top green">
+          <p className="why-flag-text why-flag-text-top blue">
             IL EST LE SYMBOLE DE L'ÉVEILS DES CONSCIENCES EN FAVEUR DE
             L'ENVIRONNEMENT.
           </p>

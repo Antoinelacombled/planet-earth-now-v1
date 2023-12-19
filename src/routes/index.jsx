@@ -4,6 +4,7 @@ import Faq from "../views/Faq";
 import Sidebar from "../components/Sidebar/Sidebar";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
+import Construction from "../views/Construction";
 
 function Router() {
   return (

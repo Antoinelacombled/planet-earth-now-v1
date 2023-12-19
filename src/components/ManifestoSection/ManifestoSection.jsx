@@ -16,7 +16,7 @@ function ManifestoSection() {
         </div>
         <div className="author-manifesto">
           <span className="author">Xavier Montserrat</span>
-          <br></br> +4° Le climat change... et vous ?
+          <br></br> +4°C <br></br>Le climat change... et vous ?
         </div>
       </div>
     </section>

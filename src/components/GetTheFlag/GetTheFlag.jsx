@@ -47,7 +47,7 @@ function GetTheFlag() {
             </div>
             <div className="window-gtf-text">
               Dans le cadre de votre association et vos projets, événéments ou
-              conférences, etc. Des drapeaux pourront vous être envoyés
+              conférences, des drapeaux pourront vous être envoyés
               gracieusement. N&apos;hésitez pas à nous contacter.
             </div>
           </div>

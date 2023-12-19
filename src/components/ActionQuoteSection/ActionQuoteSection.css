@@ -56,6 +56,7 @@
 
 .author {
   font-weight: bold;
+  font-size: larger;
 }
 
 @media (max-width: 768px) {

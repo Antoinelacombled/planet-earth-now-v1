@@ -32,7 +32,7 @@ function Home() {
       <CustomTheFlag />
       <QuotationSection />
       <CarouselEvent />
-      <ProjectSection />
+      {/* <ProjectSection /> */}
       {/* <FlagPartners /> */}
       <ContactSection />
     </>

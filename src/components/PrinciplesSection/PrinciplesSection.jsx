@@ -29,7 +29,6 @@ function PrinciplesSection() {
           <div className="principle-number">4</div>
           <div className="principle-text">
             Il peut être personnalisé à votre convenance et selon vos projets.
-            En savoir plus.
           </div>
         </div>
       </div>

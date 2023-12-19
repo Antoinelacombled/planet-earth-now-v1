@@ -18,7 +18,7 @@ function ContactSection() {
 
   return (
     <section className="contact-section">
-      <h2 className="contact-title">ÉCHANGEONS AUTOUR DU DRAPEAU ?</h2>
+      <h2 className="contact-title">CONTACT</h2>
       <form className="contact-form" onSubmit={handleSubmit}>
         <div className="form-group">
           <input

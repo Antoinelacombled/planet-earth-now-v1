@@ -1,5 +1,5 @@
 .contact-section {
-  background-color: var(--green-color); /* Votre couleur verte */
+  background-color: var(--blue-color);
   padding: 4em;
   color: white;
   text-align: center;
@@ -9,7 +9,7 @@
   font-size: 2em;
   font-family: "Bowlby One", sans-serif;
   letter-spacing: 0.1em;
-  margin-bottom: 1em; /* Ajustez selon l'espacement souhaité */
+  margin-bottom: 1em;
 }
 
 .contact-form {
@@ -26,7 +26,7 @@
   width: 100%;
   padding: 1em;
   border: 2px solid white;
-  background-color: var(--green-color);
+  background-color: var(--blue-color);
   color: white;
   font-size: 0.7em;
   border-radius: 5px;
@@ -42,9 +42,8 @@
   opacity: 1; /* Pour s'assurer que le placeholder est bien visible */
 }
 
-/* Style du bouton d'envoi */
 .submit-btn {
-  background-color: var(--blue-color);
+  background-color: blue;
   color: white;
   border: none;
   padding: 1em 2em;
