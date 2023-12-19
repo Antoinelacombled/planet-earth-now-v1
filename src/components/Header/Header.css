@@ -4,9 +4,9 @@
   justify-content: space-around;
   align-items: center;
   color: var(--green-color);
-  font-family: gilroy-bold;
+  font-family: "gilroy";
   font-size: 14px;
-  font-weight: bolder;
+  font-weight: 500;
 }
 
 .nav-menu-item {

@@ -8,8 +8,12 @@ function Footer() {
         <div>
           <Link to={"/"}>ACCUEIL</Link>
         </div>
-        <div>MENTIONS LÉGALES</div>
-        <div>POLITIQUE DE CONFIDENTIALITÉ </div>
+        <div>
+          <Link to={"/legal"}>MENTION LÉGALES</Link>
+        </div>
+        <div>
+          <Link to={"/confidential"}>POLITIQUE DE CONFIDENTIALITÉ</Link>
+        </div>
       </section>
     </footer>
   );

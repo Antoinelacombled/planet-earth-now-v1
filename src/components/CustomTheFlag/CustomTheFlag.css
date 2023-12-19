@@ -57,6 +57,14 @@
   margin-left: 50px;
 }
 
+.a-url-link img {
+  transition: transform 0.3s ease;
+}
+
+.a-url-link:hover img {
+  transform: scale(1.05);
+}
+
 @media (max-width: 768px) {
   .custom-the-flag {
     display: none;

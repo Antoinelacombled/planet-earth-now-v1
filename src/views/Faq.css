@@ -1,0 +1,20 @@
+.super-container-faq {
+  height: 100vh;
+  width: auto;
+  background-color: var(--blue-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq-title {
+  color: white;
+  font-size: 3em;
+  font-family: "Bowlby One";
+  letter-spacing: 0.1rem;
+}
+
+.faq-text {
+  color: white;
+  font-family: "Gilroy";
+}

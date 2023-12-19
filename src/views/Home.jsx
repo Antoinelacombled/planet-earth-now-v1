@@ -5,7 +5,9 @@ import BannerUrgency from "../components/BannerUrgency/BannerUrgency";
 import ClimateUrgencyBanner from "../components/ClimateUrgencyBanner/ClimateUrgencyBanner";
 import ContactSection from "../components/ContactSection/ContactSection";
 import CustomTheFlag from "../components/CustomTheFlag/CustomTheFlag";
+import FlagPartners from "../components/FlagPartners/FlagPartners";
 import FlagSection from "../components/FlagSection/FlagSection";
+import FlagSupport from "../components/FlagSupport/FlagSupport";
 import GetTheFlag from "../components/GetTheFlag/GetTheFlag";
 import ManifestoSection from "../components/ManifestoSection/ManifestoSection";
 import OurHouseBurns from "../components/OurHouseBurns/OurHouseBurns";
@@ -33,7 +35,8 @@ function Home() {
       <QuotationSection />
       <CarouselEvent />
       {/* <ProjectSection /> */}
-      {/* <FlagPartners /> */}
+      <FlagPartners />
+      <FlagSupport />
       <ContactSection />
     </>
   );

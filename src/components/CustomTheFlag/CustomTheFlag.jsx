@@ -1,9 +1,11 @@
 import React from "react";
 import "./CustomTheFlag.css";
 
-import flagTrees from "../../assets/flag-trees.png";
+import flagRecoft from "../../assets/flag-recoft.png";
 import flagRocket from "../../assets/flag-rocket.png";
-import flagPlastic from "../../assets/flag-plastic.png";
+import flagTreemium from "../../assets/flag-treemium.png";
+
+// créer lien externe vers les sites partenaires
 
 function CustomTheFlag() {
   return (
@@ -14,13 +16,34 @@ function CustomTheFlag() {
           <div className="arrows-custom-the-flag left-arrow"></div>
           <div className="container-flags-custom-the-flag">
             <div className="flags-custom-the-flag">
-              <img src={flagPlastic} alt="Custom Flag 1" />
+              <a
+                className="a-url-link"
+                href="https://www.treemium.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={flagTreemium} alt="Custom Flag Treemium" />
+              </a>
             </div>
             <div className="flags-custom-the-flag">
-              <img src={flagRocket} alt="Custom Flag 2" />
+              <a
+                className="a-url-link"
+                href="https://therocketfoundation.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={flagRocket} alt="Custom Flag Rocket" />
+              </a>
             </div>
             <div className="flags-custom-the-flag">
-              <img src={flagTrees} alt="Custom Flag 3" />
+              <a
+                className="a-url-link"
+                href="https://www.recoftc.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={flagRecoft} alt="Custom Flag Recoft" />
+              </a>
             </div>
           </div>
           <div className="arrows-custom-the-flag right-arrow"></div>

@@ -1,9 +1,13 @@
 .flag-partners-section {
   width: 100%;
-  background-color: rgb(31, 31, 202);
+  background-color: var(--blue-color);
+  display: flex;
+  justify-content: center;
 }
 
 .title-flag-parteners-section {
   color: white;
   font-family: "Bowlby One";
+  font-size: 2em;
+  letter-spacing: 0.1rem;
 }

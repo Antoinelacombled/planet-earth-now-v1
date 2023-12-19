@@ -11,8 +11,8 @@ function ManifestoSection() {
       </div>
       <div className="Right-manifesto-section">
         <div className="Quote-manifesto">
-          « L'ACTION CIVILE EST LA SEULE VÉRITABLE ALTERNATIVE POUR AGIR SUR LE
-          CLIMAT »<br></br>
+          « L'ACTION CIVILE EST <br></br>LA SEULE VÉRITABLE <br></br>ALTERNATIVE
+          POUR AGIR <br></br> SUR LE CLIMAT »<br></br>
         </div>
         <div className="author-manifesto">
           <span className="author">Xavier Montserrat</span>
