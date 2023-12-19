@@ -8,35 +8,12 @@ SwiperCore.use([Navigation]);
 
 const events = [
   {
-    date: "18/12/2023",
-    location: "Paris",
-    audience: "Grand public",
-    description:
-      "Biodiversité et adaptation au changement climatique en ville, même combat ?",
-    link: "https://www.academieduclimat.paris/evenements/biodiversite-et-adaptation-au-changement-climatique-en-ville-meme-combat/",
-  },
-  {
-    date: "20/12/2023",
-    location: "En ligne",
-    audience: "Grand public",
-    description:
-      "Webinaire gratuit 'réinventons nos modèles d'éducation au chgt climatique'",
-    link: "https://www.helloasso.com/associations/association-canopee/evenements/webinaire-reinventons-nos-modeles-d-education-au-changement-climatique",
-  },
-  {
-    date: "20/12/2023",
-    location: "En ligne",
-    audience: "Grand public",
-    description: "Que retenir (vraiment) de la COP 28 ?",
-    link: "https://usineages.fr/zoom-meetings/que-retenir-vraiment-de-la-cop-28/",
-  },
-  {
     date: "21/12/2023",
     location: "En ligne",
     audience: "Grand public",
     description:
       "Au delà du carbone : vers un pilotage global du climat & RSE en entreprise",
-    link: "https://www.lecampus.online/conferences/david-chapon",
+    link: "https://motivated-writer-6104.ck.page/128ba3ca16",
   },
   {
     date: "6/1/2024",
@@ -50,14 +27,35 @@ const events = [
     location: "En ligne",
     audience: "Grand public",
     description: "Batîr un Avenir Durable",
+    link: "https://www.lecampus.online/conferences/david-chapon",
+  },
+  {
+    date: "16/1/2024",
+    location: "Antibes",
+    audience: "Colloque professionnel",
+    description: "Escape game Code Climat aux port d'antibes",
+    link: "https://www.eventbrite.fr/e/billets-escape-game-code-climat-au-port-dantibes-765250714487?aff=oddtdtcreator",
+  },
+  {
+    date: "18/1/2024",
+    location: "Paris",
+    audience: "Grand public",
+    description: "Atelier Horizons Décarbonés",
     link: "https://www.academieduclimat.paris/evenements/atelier-horizons-decarbones-7/",
+  },
+  {
+    date: "24/1/2024",
+    location: "Nantes",
+    audience: "Salon professionnel",
+    description: "Bio360 Expo : Salon de la bioéconomie et de la bioénergie",
+    link: "https://www.bio360expo.com/",
   },
 ];
 
 function CarouselEvent() {
   return (
-    <section className="carousel">
-      <section className="set-the-event">
+    <section className="carousel" id="event">
+      <section className="set-the-event" id="event">
         <div className="title-set-the-event">LES ÉVÉNEMENTS</div>
         <div className="container-box">
           <div className="small-container super-container-set-the-event">

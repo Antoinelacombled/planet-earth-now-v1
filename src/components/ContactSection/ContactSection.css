@@ -32,7 +32,7 @@
   border-radius: 5px;
   box-shadow: none;
   width: 100%;
-  font-family: "Gilroy";
+  font-family: "Gilroy-Bold";
 }
 
 /* Change la couleur du texte à l'intérieur des inputs/textarea lors de la saisie */
@@ -57,6 +57,14 @@
 
 .submit-btn:hover {
   background-color: #0c0e69; /* Couleur plus foncée au survol */
+}
+
+.success-message {
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Gilroy-Bold";
 }
 
 @media (max-width: 768px) {

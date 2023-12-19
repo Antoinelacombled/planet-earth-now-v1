@@ -12,9 +12,17 @@
   font-size: 3em;
   font-family: "Bowlby One";
   letter-spacing: 0.1rem;
+  margin-top: 40px;
 }
 
 .legal-mention-text {
   color: white;
-  font-family: "Gilroy";
+  font-family: "Gilroy-Bold";
+  max-width: 800px;
+  line-height: 30px;
+  margin-top: 40px;
+}
+
+.a-text-legal {
+  color: white;
 }

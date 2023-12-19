@@ -13,7 +13,7 @@ function GetTheFlag() {
     <>
       <div className="banner-mobilize">COMMENT OBTENIR LE DRAPEAU ?</div>
 
-      <section className="Phase-get-flag">
+      <section className="Phase-get-flag" id="getflag">
         <div className="get-flag-container">
           <div className="window-get-the-flag one">
             <div className="window-gtf-title">AUX MARCHES POUR LE CLIMAT</div>
@@ -47,8 +47,8 @@ function GetTheFlag() {
             </div>
             <div className="window-gtf-text">
               Dans le cadre de votre association et vos projets, événéments ou
-              conférences, des drapeaux pourront vous être envoyés
-              gracieusement. N&apos;hésitez pas à nous contacter.
+              conférences, des drapeaux pourront vous être offerts.
+              N&apos;hésitez pas à nous contacter.
             </div>
           </div>
           <div className="window-get-the-flag four">
@@ -57,7 +57,7 @@ function GetTheFlag() {
               <img className="img-size" src={windowFour} />
             </div>
             <div className="window-gtf-text">
-              Contacter le fournisseur de votre choix pour la fabrication du
+              Contactez le fournisseur de votre choix pour la fabrication du
               drapeau en téléchargeant le fichier. Vous pouvez également
               contacter nos fabricants.
             </div>
@@ -70,7 +70,7 @@ function GetTheFlag() {
             <div className="window-gtf-text">
               Vous pouvez télécharger le fichier drapeau de l&apos;urgence
               climatique afin de l&apos;imprimer pour le fabriquer vous-même ou
-              le partager au plus grand nombre.
+              le partager autour de vous.
             </div>
           </div>
         </div>

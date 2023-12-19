@@ -3,7 +3,7 @@ import "./PrinciplesSection.css";
 
 function PrinciplesSection() {
   return (
-    <div className="principles-section">
+    <div className="principles-section" id="principles">
       <div className="principles-banner">LES PRINCIPES DU DRAPEAU</div>
       <div className="principles-container">
         <div className="principle-item">

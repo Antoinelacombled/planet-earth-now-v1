@@ -1,23 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
+import emailjs from "@emailjs/browser";
 import "./ContactSection.css";
 
 function ContactSection() {
+  const [successMessage, setSuccessMessage] = React.useState("");
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    const form = e.target;
-    const name = form.name.value;
-    const prenom = form.prenom.value;
-    const email = form.email.value;
-    const message = form.message.value;
-
-    const mailtoLink = `mailto:contact@exemple.com?subject=Message%20du%20formulaire%20de%20contact&body=${encodeURI(
-      `Nom: ${name}\nPrénom: ${prenom}\nEmail: ${email}\nMessage: ${message}`
-    )}`;
-    window.location.href = mailtoLink;
+    // Remplacez 'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', et 'YOUR_USER_ID' par vos identifiants réels
+    emailjs
+      .sendForm(
+        "service_sjosw2b",
+        "template_nlgu5fx",
+        e.target,
+        "Adnpa7DzIFyCr5BMp"
+      )
+      .then(
+        (result) => {
+          console.log("Email successfully sent!", result.text);
+          e.target.reset(); // Réinitialiser le formulaire
+          setSuccessMessage("Email envoyé avec succès!"); // Définir le message de succès
+        },
+        (error) => {
+          console.log("Failed to send email:", error.text);
+        }
+      );
   };
 
   return (
-    <section className="contact-section">
+    <section className="contact-section" id="contact">
       <h2 className="contact-title">CONTACT</h2>
       <form className="contact-form" onSubmit={handleSubmit}>
         <div className="form-group">
@@ -55,6 +66,9 @@ function ContactSection() {
           ENVOYER
         </button>
       </form>
+      {successMessage && (
+        <div className="success-message">{successMessage}</div>
+      )}
     </section>
   );
 }

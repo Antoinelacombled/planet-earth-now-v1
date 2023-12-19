@@ -4,9 +4,9 @@
   justify-content: space-around;
   align-items: center;
   color: var(--green-color);
-  font-family: "gilroy";
+  font-family: "Gilroy-Bold";
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .nav-menu-item {
@@ -25,7 +25,7 @@
   left: 50%;
   width: 0%;
   height: 2px;
-  background-color: var(--black-color);
+  background-color: var(--blue-color);
   transition: width 0.3s ease, left 0.3s ease;
 }
 
@@ -34,7 +34,7 @@
   left: 0;
 }
 .nav-menu-item:hover {
-  color: var(--black-color);
+  color: var(--blue-color);
 }
 
 .nav-menu-item {

@@ -44,7 +44,7 @@
 }
 
 .project-description {
-  font-family: "Gilroy";
+  font-family: "Gilroy-Bold";
   font-size: 0.9em;
   color: #666;
   text-align: start;
@@ -114,7 +114,7 @@
   }
 
   .project-description {
-    font-family: "Gilroy";
+    font-family: "Gilroy-Bold";
     font-size: 0.6em;
     color: #666;
     text-align: start;
