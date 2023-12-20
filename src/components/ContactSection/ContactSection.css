@@ -8,17 +8,6 @@
   color: white;
 }
 
-.contact-title {
-  width: 100%;
-  text-align: center;
-  color: white;
-  font-family: "Bowlby One", sans-serif;
-  font-size: 2em;
-  letter-spacing: 0.1em;
-  margin: 0; /* Ajustez la marge au besoin */
-  padding-top: 1em; /* Ajustez le padding au besoin */
-}
-
 .contact-content {
   display: flex;
   flex-direction: row;
@@ -28,6 +17,7 @@
 }
 
 .left-content {
+  margin-top: 18em;
   position: absolute;
   left: 7em;
   font-family: "Gilroy-Bold";
