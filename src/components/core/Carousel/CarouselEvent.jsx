@@ -20,7 +20,7 @@ const events = [
     location: "Nantes",
     audience: "Grand public",
     description: "Ocean Talks (avec Hugo Clément et Paul Watson)",
-    link: "https://www.eventbrite.fr/e/billets-escape-game-code-climat-au-port-dantibes-765250714487?aff=oddtdtcreator",
+    link: "https://oceanfest.fr/nantes/programmation",
   },
   {
     date: "10/1/2024",
