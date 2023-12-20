@@ -29,7 +29,6 @@ function ContactSection() {
 
   return (
     <section className="contact-section" id="contact">
-      {/* <h2 className="contact-title">CONTACT</h2> */}
       <div className="contact-content">
         <div className="left-content">
           <p>- Nationalité ?</p>

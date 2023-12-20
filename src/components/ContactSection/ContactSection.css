@@ -65,6 +65,9 @@
 }
 
 .submit-btn {
+  display: block; /* Rend le bouton comme un block pour permettre le centrage */
+  width: fit-content; /* Fait en sorte que la largeur du bouton s'adapte au contenu */
+  margin: 1em auto; /* Centrage horizontal */
   background-color: rgb(0, 144, 2);
   color: white;
   border: none;
