@@ -7,6 +7,7 @@ import Eco from "../../assets/logoEco.png";
 import Jiboiana from "../../assets/logoJiboiana.png";
 
 function FlagPartners() {
+  console.log("test");
   return (
     <section className="flag-partners-section">
       <h2 className="title-flag-partners-section">
