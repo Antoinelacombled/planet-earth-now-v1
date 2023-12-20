@@ -1,13 +1,17 @@
 import "./Footer.css";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 function Footer() {
+  const location = useLocation();
+
   return (
     <footer>
       <section className="footer-section">
-        <div>
-          <Link to={"/"}>ACCUEIL</Link>
-        </div>
+        {location.pathname !== "/" && (
+          <div>
+            <Link to={"/"}>ACCUEIL</Link>
+          </div>
+        )}
         <div>
           <Link to={"/legal"}>MENTION LÉGALES</Link>
         </div>

@@ -1,13 +1,17 @@
 import "./Header.css";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 
 function Header() {
+  const location = useLocation();
+
   return (
     <header className="App-header">
-      <Link to={"/"} className="nav-menu-item">
-        Accueil
-      </Link>
+      {location.pathname !== "/" && (
+        <Link to={"/"} className="nav-menu-item">
+          Accueil
+        </Link>
+      )}
       <a className="nav-menu-item">
         <ScrollLink
           to="getflag"
