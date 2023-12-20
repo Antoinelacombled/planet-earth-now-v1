@@ -5,6 +5,7 @@ import Recoft from "../../assets/logoRecoft.png";
 import Treemium from "../../assets/logoTreemium.png";
 import Eco from "../../assets/logoEco.png";
 import Jiboiana from "../../assets/logoJiboiana.png";
+import Rockett from "../../assets/logoRockett.png";
 
 function FlagPartners() {
   console.log("test");
@@ -18,6 +19,7 @@ function FlagPartners() {
         <img className="logo-partner" src={Jiboiana} alt="Logo Jiboiana" />
         <img className="logo-partner" src={Recoft} alt="Logo Recoft" />
         <img className="logo-partner" src={Eco} alt="Logo Eco" />
+        <img className="logo-partner" src={Rockett} alt="Logo Rockett" />
       </div>
     </section>
   );

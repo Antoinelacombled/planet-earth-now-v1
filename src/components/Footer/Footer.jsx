@@ -13,7 +13,7 @@ function Footer() {
           </div>
         )}
         <div>
-          <Link to={"/legal"}>MENTION LÉGALES</Link>
+          <Link to={"/legal"}>MENTIONS LÉGALES</Link>
         </div>
         <div>
           <Link to={"/confidential"}>POLITIQUE DE CONFIDENTIALITÉ</Link>
