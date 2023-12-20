@@ -16,8 +16,8 @@ function FlagPartners() {
       </h2>
       <div className="partners-container">
         <img className="logo-partner" src={Treemium} alt="Logo Treemium" />
-        <img className="logo-partner" src={Jiboiana} alt="Logo Jiboiana" />
         <img className="logo-partner" src={Recoft} alt="Logo Recoft" />
+        <img className="logo-partner" src={Jiboiana} alt="Logo Jiboiana" />
         <img className="logo-partner" src={Eco} alt="Logo Eco" />
         <img className="logo-partner" src={Rockett} alt="Logo Rockett" />
       </div>

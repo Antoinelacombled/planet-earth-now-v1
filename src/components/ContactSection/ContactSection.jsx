@@ -30,46 +30,53 @@ function ContactSection() {
   return (
     <section className="contact-section" id="contact">
       <h2 className="contact-title">CONTACT</h2>
-      <form className="contact-form" onSubmit={handleSubmit}>
-        <div className="form-group">
-          <input
-            name="name"
-            type="text"
-            placeholder="Entrez votre nom"
-            required
-          />
+      <div className="contact-content">
+        <div className="left-content">
+          <p>- Nationalité ?</p>
+          <p>- Terrien !</p>
+          <p>- Et vous ?</p>
+          <p className="emojis">- 🤨😔😏🤔🫤🥴</p>
         </div>
-        <div className="form-group">
-          <input
-            name="prenom"
-            type="text"
-            placeholder="Entrez votre prénom"
-            required
-          />
-        </div>
-        <div className="form-group">
-          <input
-            name="email"
-            type="email"
-            placeholder="Entrez votre email"
-            required
-          />
-        </div>
-        <div className="form-group">
-          <textarea
-            name="message"
-            placeholder="Partagez vos idées, vos suggestions, vos questions, vos propositions de partenariat..."
-            required
-          ></textarea>
-        </div>
-        <button type="submit" className="submit-btn">
-          ENVOYER
-        </button>
-      </form>
+        <form className="contact-form" onSubmit={handleSubmit}>
+          <div className="form-group">
+            <input
+              name="name"
+              type="text"
+              placeholder="Entrez votre nom"
+              required
+            />
+          </div>
+          <div className="form-group">
+            <input
+              name="prenom"
+              type="text"
+              placeholder="Entrez votre prénom"
+              required
+            />
+          </div>
+          <div className="form-group">
+            <input
+              name="email"
+              type="email"
+              placeholder="Entrez votre email"
+              required
+            />
+          </div>
+          <div className="form-group">
+            <textarea
+              name="message"
+              placeholder="Partagez vos idées, vos suggestions, vos questions, vos propositions de partenariat..."
+              required
+            ></textarea>
+          </div>
+          <button type="submit" className="submit-btn">
+            ENVOYER
+          </button>
+        </form>
+      </div>
       {successMessage && (
         <div className="success-message">{successMessage}</div>
       )}
-      <div className="nationality">-Nationalité ? -Terrien -Et vous ? </div>
     </section>
   );
 }

@@ -18,7 +18,7 @@ function Faq() {
         startings blocks ; la liste des points de vente sera prochainement en
         ligne. <h2>OÙ FABRIQUER LE DRAPEAU ?</h2> Nous avons identifié en France
         ces sept fournisseurs qui utilisent le polyester recyclé (liste non
-        exhaustive) :{" "}
+        exhaustive de fabricants français utilisant le polyester recyclé) :{" "}
         <a className="link-faq" href="https://www.imprimer-vert.fr/">
           IMPRIMER VERT
         </a>
@@ -46,7 +46,7 @@ function Faq() {
         </a>
         ,{" "}
         <a className="link-faq" href="https://www.varinard.com/fr">
-          SOCIÉTÉ VARINARD
+          SOCIÉTÉ VARINARD.
         </a>
         <h2>
           LE DRAPEAU EST-IL PROTÈGE PAR DES DROITS DE PROPRIÉTÉ INTELLECTUELLE ?

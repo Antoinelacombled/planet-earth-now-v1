@@ -1,8 +1,35 @@
 .contact-section {
   background-color: var(--green-color);
-  padding: 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.left-content,
+.contact-form {
+  width: 50%;
+}
+
+.emojis {
+  font-size: 2em;
+  padding-top: 0.5em;
+}
+
+.left-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gilroy-Bold";
   color: white;
-  text-align: center;
+  line-height: 2rem;
 }
 
 .contact-title {
@@ -10,6 +37,7 @@
   font-family: "Bowlby One", sans-serif;
   letter-spacing: 0.1em;
   margin-bottom: 1em;
+  color: white;
 }
 
 .contact-form {
