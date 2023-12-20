@@ -32,8 +32,39 @@
 .faq-text h2 {
   padding-top: 30px;
   font-family: "Bowlby one";
+  letter-spacing: 0.1rem;
 }
 
 .link-faq {
   color: white;
+}
+
+/* Styles for screens smaller than 1000px */
+@media (max-width: 1000px) {
+  .faq-title {
+    font-size: 2.5em;
+  }
+
+  .faq-text {
+    max-width: 600px;
+    line-height: 30px;
+  }
+}
+
+/* Styles for mobile screens (less than 700px) */
+@media (max-width: 700px) {
+  .faq-title {
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+
+  .faq-text {
+    max-width: 90%; /* Increase max-width to use more of the available screen */
+    line-height: 25px;
+    padding: 0 10px; /* Add some padding on the sides */
+  }
+
+  .faq-text h2 {
+    font-size: 1.5em;
+  }
 }
