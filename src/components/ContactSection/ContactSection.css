@@ -1,11 +1,11 @@
 .contact-section {
   background-color: var(--green-color);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 4em;
+  padding-top: 2em; /* Ajustez en fonction de l'espace souhaité pour le titre */
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-bottom: 4em;
   color: white;
+  text-align: center;
 }
 
 .contact-content {
@@ -29,10 +29,10 @@
 }
 
 .contact-title {
-  font-size: 2em;
+  font-size: 3em; /* Ajustez la taille selon le design souhaité */
   font-family: "Bowlby One", sans-serif;
   letter-spacing: 0.1em;
-  margin-bottom: 1em;
+  margin-bottom: 1em; /* Espace entre le titre et le contenu */
 }
 
 .contact-form {
