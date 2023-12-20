@@ -32,7 +32,7 @@ function ContactSection() {
       <div className="contact-content">
         <div className="left-content">
           <p>- Nationalité ?</p>
-          <p>- Terrien !</p>
+          <p className="terrien">- Terrien !</p>
           <p>- Et vous ?</p>
           <p className="emojis">- 🤨😔😏🤔🫤🥴</p>
         </div>

@@ -97,6 +97,10 @@
   margin-top: 50px;
 }
 
+.terrien {
+  margin-bottom: 10px;
+}
+
 @media (max-width: 768px) {
   .contact-title {
     font-size: 1em;
