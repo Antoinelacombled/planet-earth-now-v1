@@ -10,7 +10,7 @@ function ContactSection() {
     // Remplacez 'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', et 'YOUR_USER_ID' par vos identifiants réels
     emailjs
       .sendForm(
-        "service_sjosw2b",
+        "service_1g629yb",
         "template_nlgu5fx",
         e.target,
         "Adnpa7DzIFyCr5BMp"
