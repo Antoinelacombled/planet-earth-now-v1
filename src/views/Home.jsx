@@ -36,7 +36,7 @@ function Home() {
       <CarouselEvent />
       {/* <ProjectSection /> */}
       <FlagPartners />
-      <FlagSupport />
+      {/* <FlagSupport /> */}
       <ContactSection />
     </>
   );

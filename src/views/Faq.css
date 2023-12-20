@@ -1,5 +1,5 @@
 .super-container-faq {
-  height: 100vh;
+  height: auto;
   width: auto;
   background-color: var(--blue-color);
   display: flex;
@@ -12,9 +12,28 @@
   font-size: 3em;
   font-family: "Bowlby One";
   letter-spacing: 0.1rem;
+  padding-top: 1em;
+}
+
+.faq-button {
+  margin-top: 1em;
+  font-family: "Gilroy-Bold";
+  color: var(--blue-color);
 }
 
 .faq-text {
   color: white;
   font-family: "Gilroy-Bold";
+  max-width: 800px;
+  margin-bottom: 3em;
+  line-height: 36px;
+}
+
+.faq-text h2 {
+  padding-top: 30px;
+  font-family: "Bowlby one";
+}
+
+.link-faq {
+  color: white;
 }

@@ -14,7 +14,7 @@ function Header() {
           spy={true}
           smooth={true}
           offset={-70}
-          duration={1000}
+          duration={1500}
         >
           Obtenir le drapeau
         </ScrollLink>
@@ -25,7 +25,7 @@ function Header() {
           spy={true}
           smooth={true}
           offset={-70}
-          duration={1000}
+          duration={1500}
         >
           Les principes
         </ScrollLink>
@@ -37,7 +37,7 @@ function Header() {
           spy={true}
           smooth={true}
           offset={-70}
-          duration={1000}
+          duration={1500}
         >
           Les événements & projets
         </ScrollLink>
@@ -49,7 +49,7 @@ function Header() {
           spy={true}
           smooth={true}
           offset={-70}
-          duration={1000}
+          duration={1500}
         >
           Contact
         </ScrollLink>

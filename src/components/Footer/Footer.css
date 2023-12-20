@@ -1,7 +1,7 @@
 /* Footer CSS */
 footer {
   width: 100%;
-  background-color: var(--green-color);
+  background-color: var(--blue-color);
   color: var(--white-color);
   padding: 1em 0;
   font-family: "Bowlby One";
@@ -13,7 +13,7 @@ footer {
   align-items: center;
   list-style: none;
   font-size: 0.7rem;
-  background-color: var(--green-color);
+  background-color: var(--blue-color);
 }
 
 .footer-section div {

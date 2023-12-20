@@ -69,6 +69,7 @@ function ContactSection() {
       {successMessage && (
         <div className="success-message">{successMessage}</div>
       )}
+      <div className="nationality">-Nationalité ? -Terrien -Et vous ? </div>
     </section>
   );
 }
