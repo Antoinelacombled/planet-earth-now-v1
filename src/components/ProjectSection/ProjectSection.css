@@ -79,6 +79,12 @@
   opacity: 1;
 }
 
+@media (max-width: 640px) {
+  .projects-section {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
   .projects-section {
     display: none;

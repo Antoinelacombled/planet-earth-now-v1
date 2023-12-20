@@ -43,6 +43,19 @@
 
 @media (max-width: 768px) {
   .App-header {
-    display: none;
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .App-header {
+    width: 100%;
+  }
+}
+
+@media (max-width: 519px) {
+  .App-header {
+    width: 100%;
+    font-size: 8px;
   }
 }

@@ -60,11 +60,12 @@
 
   .faq-text {
     max-width: 90%; /* Increase max-width to use more of the available screen */
-    line-height: 25px;
+    line-height: 30px;
     padding: 0 10px; /* Add some padding on the sides */
   }
 
   .faq-text h2 {
     font-size: 1.5em;
+    line-height: 40px;
   }
 }

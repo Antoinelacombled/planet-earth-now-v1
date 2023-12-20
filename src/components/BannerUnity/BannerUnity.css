@@ -20,8 +20,42 @@
   padding: 2em;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .Unity-symbol-section {
-    font-size: 1em;
+    font-size: 2.4em;
+  }
+  .unity-container {
+    height: 100px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .Unity-symbol-section {
+    font-size: 1.4em;
+  }
+  .unity-container {
+    height: 100px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .Unity-symbol-section {
+    font-size: 1.4em;
+  }
+  .unity-container {
+    height: 100px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 430px) {
+  .Unity-symbol-section {
+    font-size: 1.4em;
+  }
+  .unity-container {
+    height: 100px;
+    width: 100%;
   }
 }

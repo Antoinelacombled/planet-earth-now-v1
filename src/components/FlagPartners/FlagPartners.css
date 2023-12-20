@@ -25,32 +25,82 @@
   height: auto;
 }
 
-/* Styles pour les écrans de moins de 1000px */
-@media (max-width: 1000px) {
-  .title-flag-partners-section {
-    font-size: 1.8em;
+@media (max-width: 1024px) {
+  .flag-partners-section {
+    width: 100%;
   }
-
-  .partners-container {
-    gap: 50px; /* Réduisez l'espace entre les logos */
-  }
-
-  .logo-partner {
-    width: 100px; /* Réduisez la taille des logos */
-  }
-}
-
-/* Styles pour les écrans mobiles (moins de 700px) */
-@media (max-width: 700px) {
   .title-flag-partners-section {
     font-size: 1.5em;
   }
-
-  .partners-container {
-    gap: 20px; /* Réduisez davantage l'espace entre les logos */
-  }
-
   .logo-partner {
-    width: 80px; /* Réduisez encore plus la taille des logos */
+    width: 100%;
+    width: 100px;
+    height: auto;
+    padding-top: 10px;
+  }
+  .partners-container {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .flag-partners-section {
+    width: 100%;
+  }
+  .title-flag-partners-section {
+    font-size: 1.5em;
+  }
+  .logo-partner {
+    width: 100%;
+    width: 50px;
+    height: auto;
+    padding-top: 10px;
+  }
+  .partners-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 640px) {
+  .flag-partners-section {
+    width: 100%;
+  }
+  .title-flag-partners-section {
+    font-size: 1.5em;
+  }
+  .logo-partner {
+    width: 100%;
+    width: 50px;
+    height: auto;
+    padding-top: 10px;
+  }
+  .partners-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 519px) {
+  .flag-partners-section {
+    width: 100%;
+  }
+  .title-flag-partners-section {
+    font-size: 1.5em;
+  }
+  .logo-partner {
+    width: 100%;
+    width: 20%;
+    height: auto;
+    padding-top: 10px;
+  }
+  .partners-container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
   }
 }

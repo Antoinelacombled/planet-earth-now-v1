@@ -3,7 +3,6 @@ footer {
   width: 100%;
   background-color: var(--blue-color);
   color: var(--white-color);
-  padding: 1em 0;
   font-family: "Bowlby One";
 }
 
@@ -37,7 +36,6 @@ footer {
   padding-right: 0.5em;
 }
 
-/* Responsivité */
 @media (max-width: 768px) {
   .footer-section {
     flex-direction: column;
@@ -48,5 +46,25 @@ footer {
     margin-bottom: 0.5em;
     width: 100%;
     text-align: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer-section {
+    width: 100%;
+    padding: 1em;
+  }
+  .footer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 430px) {
+  .footer-section {
+    width: 100%;
+    padding: 1em;
+  }
+  .footer {
+    width: 100%;
   }
 }

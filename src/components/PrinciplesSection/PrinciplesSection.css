@@ -52,6 +52,56 @@
 
 @media (max-width: 768px) {
   .principles-section {
-    display: none;
+    width: 100%;
+    padding: 1em;
+  }
+  .principles-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    padding: 2.5em;
+  }
+  .principle-text {
+    font-size: 0.7rem;
+  }
+  .principle-number {
+    font-size: 1em;
+    width: 1.5em;
+    height: 1.5em;
+  }
+  .principles-banner {
+    font-size: 1.5em;
   }
 }
+
+@media (max-width: 640px) {
+  .principles-section {
+    width: 100%;
+    padding: 1em;
+  }
+  .principles-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    padding: 2.5em;
+  }
+  .principle-text {
+    font-size: 0.7rem;
+  }
+  .principle-number {
+    font-size: 1em;
+    width: 1.5em;
+    height: 1.5em;
+  }
+  .principles-banner {
+    font-size: 1.5em;
+  }
+}
+
+/* @media (max-width: 768px) {
+  .principles-section {
+    display: none;
+  }
+} */
