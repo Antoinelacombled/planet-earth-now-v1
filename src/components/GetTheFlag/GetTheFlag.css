@@ -116,6 +116,10 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
+.contact-link {
+  color: white;
+}
+
 @media (max-width: 768px) {
   .Phase-get-flag {
     display: none;

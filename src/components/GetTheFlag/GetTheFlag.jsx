@@ -40,7 +40,7 @@ function GetTheFlag() {
             </div>
             <div className="window-gtf-text">
               Grâce aux dons reçus par l&apos;association, des drapeaux pourront
-              être offerts aux mairies et aux écoles.{" "}
+              être offerts aux mairies et aux écoles.<br></br>
               <a href="#contact" className="contact-link">
                 N'hésitez pas à nous contacter.
               </a>
@@ -67,7 +67,7 @@ function GetTheFlag() {
             <div className="window-gtf-text">
               Contactez le fournisseur de votre choix pour la fabrication du
               drapeau en téléchargeant le fichier. <br></br>
-              <Link to={"/faq"} className="nav-get-flag">
+              <Link to={"/faq"} className="contact-link">
                 Vous pouvez également contacter nos fabricants.
               </Link>
             </div>
