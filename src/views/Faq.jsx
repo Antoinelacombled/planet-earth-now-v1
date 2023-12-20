@@ -18,12 +18,36 @@ function Faq() {
         startings blocks ; la liste des points de vente sera prochainement en
         ligne. <h2>OÙ FABRIQUER LE DRAPEAU ?</h2> Nous avons identifié en France
         ces sept fournisseurs qui utilisent le polyester recyclé (liste non
-        exhaustive) :
+        exhaustive) :{" "}
         <a className="link-faq" href="https://www.imprimer-vert.fr/">
           IMPRIMER VERT
         </a>
-        , DOUBLET, DRAPEAUX UNIC, LE MÉE, MACAP, MATS DESCHAMPS, SOCIÉTÉ
-        VARINARD
+        ,{" "}
+        <a className="link-faq" href="https://www.doublet.fr/?gad_source=1">
+          DOUBLET
+        </a>
+        ,{" "}
+        <a className="link-faq" href="https://www.drapeauxunic.fr/">
+          DRAPEAUX UNIC
+        </a>
+        ,{" "}
+        <a className="link-faq" href="https://atelier-lemee.com/entreprise/">
+          LE MÉE,{" "}
+          <a className="link-faq" href="https://www.macapflag.com/">
+            MACAP
+          </a>
+        </a>
+        ,{" "}
+        <a
+          className="link-faq"
+          href="https://www.aviso-drapeaux.com/1688-mats-et-supports?gad_source=1"
+        >
+          MATS DESCHAMPS
+        </a>
+        ,{" "}
+        <a className="link-faq" href="https://www.varinard.com/fr">
+          SOCIÉTÉ VARINARD
+        </a>
         <h2>
           LE DRAPEAU EST-IL PROTÈGE PAR DES DROITS DE PROPRIÉTÉ INTELLECTUELLE ?
         </h2>

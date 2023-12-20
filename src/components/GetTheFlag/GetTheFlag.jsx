@@ -6,6 +6,8 @@ import windowThree from "../../assets/windowgtf.jpg";
 import windowFour from "../../assets/windowgtf---.jpg";
 import windowFive from "../../assets/windowgtf--.jpg";
 
+import { Link } from "react-router-dom";
+
 function GetTheFlag() {
   const flagDownloadUrl = "/efo-flag.png";
 
@@ -23,8 +25,10 @@ function GetTheFlag() {
             </div>
             <div className="window-gtf-text">
               Le drapeau est distribué aux participant-es de marches citoyennes
-              pour la défense de l&apos;environnement. Rendez-vous aux prochains
-              événements.
+              pour la défense de l&apos;environnement. <br></br>
+              <a href="#event" className="contact-link">
+                Rendez-vous aux prochains événements.
+              </a>
             </div>
           </div>
           <div className="window-get-the-flag two">
@@ -36,8 +40,10 @@ function GetTheFlag() {
             </div>
             <div className="window-gtf-text">
               Grâce aux dons reçus par l&apos;association, des drapeaux pourront
-              être offerts aux mairies et aux écoles. N&apos;hésitez pas à nous
-              contacter.
+              être offerts aux mairies et aux écoles.{" "}
+              <a href="#contact" className="contact-link">
+                N'hésitez pas à nous contacter.
+              </a>
             </div>
           </div>
           <div className="window-get-the-flag three">
@@ -47,8 +53,10 @@ function GetTheFlag() {
             </div>
             <div className="window-gtf-text">
               Dans le cadre de votre association et vos projets, événéments ou
-              conférences, des drapeaux pourront vous être offerts.
-              N&apos;hésitez pas à nous contacter.
+              conférences, des drapeaux pourront vous être offerts. <br></br>
+              <a href="#contact" className="contact-link">
+                N'hésitez pas à nous contacter.
+              </a>
             </div>
           </div>
           <div className="window-get-the-flag four">
@@ -58,8 +66,10 @@ function GetTheFlag() {
             </div>
             <div className="window-gtf-text">
               Contactez le fournisseur de votre choix pour la fabrication du
-              drapeau en téléchargeant le fichier. Vous pouvez également
-              contacter nos fabricants.
+              drapeau en téléchargeant le fichier. <br></br>
+              <Link to={"/faq"} className="nav-get-flag">
+                Vous pouvez également contacter nos fabricants.
+              </Link>
             </div>
           </div>
           <div className="window-get-the-flag five">

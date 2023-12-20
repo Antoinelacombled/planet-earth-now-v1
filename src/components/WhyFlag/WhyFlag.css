@@ -18,7 +18,7 @@
 .why-flag-content {
   display: flex;
   justify-content: center;
-  gap: 5%;
+  gap: 10%;
   width: 70%;
   margin: 0 auto;
 }
@@ -33,7 +33,7 @@
 .why-flag-text {
   font-size: 1.3rem;
   align-self: flex-start;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .why-flag-text:last-child {
