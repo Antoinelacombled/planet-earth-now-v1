@@ -1,4 +1,5 @@
 import "./Faq.css";
+import { Link } from "react-router-dom";
 
 function Faq() {
   return (
@@ -49,7 +50,7 @@ function Faq() {
           SOCIÉTÉ VARINARD.
         </a>
         <h2>
-          LE DRAPEAU EST-IL PROTÈGE PAR DES DROITS DE PROPRIÉTÉ INTELLECTUELLE ?
+          LE DRAPEAU EST-IL PROTÈGÉ PAR DES DROITS DE PROPRIÉTÉ INTELLECTUELLE ?
         </h2>
         Le drapeau a été pensé pour « appartenir à tous », c’est-à-dire à être
         largement diffusé et brandi par l’ensemble des citoyen-nes du monde,
@@ -59,8 +60,11 @@ function Faq() {
         <h2> PUIS-JE MODIFIER LE DRAPEAU ? </h2>Vous pouvez personnaliser le
         drapeau en utilisant l’intérieur du cercle central.
         <h2>A VOTRE TOUR, AVEZ-VOUS DES QUESTIONS ?</h2>
-        Envoyez-nous vos questions via le formulaire de contact et nous vous
-        répondrons dans les meilleurs délais.
+        Envoyez-nous vos questions {""}
+        <Link to={"/"} className="link-faq">
+          via le formulaire de contact et nous vous répondrons dans les
+          meilleurs délais.
+        </Link>
       </div>
     </div>
   );
