@@ -1,35 +1,41 @@
 .contact-section {
   background-color: var(--green-color);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  padding: 2em;
+  justify-content: center;
+  padding: 4em;
+  color: white;
+}
+
+.contact-title {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: "Bowlby One", sans-serif;
+  font-size: 2em;
+  letter-spacing: 0.1em;
+  margin: 0; /* Ajustez la marge au besoin */
+  padding-top: 1em; /* Ajustez le padding au besoin */
 }
 
 .contact-content {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   width: 100%;
 }
 
-.left-content,
-.contact-form {
-  width: 50%;
-}
-
-.emojis {
-  font-size: 2em;
-  padding-top: 0.5em;
-}
-
 .left-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  left: 7em;
   font-family: "Gilroy-Bold";
-  color: white;
-  line-height: 2rem;
+}
+
+.contact-form {
+  flex: 1; /* Permettre au formulaire de prendre de l'espace mais de rester contenu */
+  max-width: 500px; /* Largeur maximale du formulaire */
 }
 
 .contact-title {
@@ -37,7 +43,79 @@
   font-family: "Bowlby One", sans-serif;
   letter-spacing: 0.1em;
   margin-bottom: 1em;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 1em;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 1em;
+  border: 2px solid white;
+  background-color: var(--green-color);
   color: white;
+  font-size: 0.7em;
+  border-radius: 5px;
+  box-shadow: none;
+  width: 100%;
+  font-family: "Gilroy-Bold";
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.submit-btn {
+  background-color: rgb(0, 144, 2);
+  color: white;
+  border: none;
+  padding: 1em 2em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+  font-size: 0.7em;
+  font-family: "Bowlby One", sans-serif;
+  letter-spacing: 0.1em;
+}
+
+.submit-btn:hover {
+  background-color: #0c691b; /* Couleur plus foncée au survol */
+}
+
+.success-message {
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Gilroy-Bold";
+}
+
+.nationality {
+  font-family: "Gilroy-Bold";
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .contact-title {
+    font-size: 1em;
+    margin-bottom: 50px;
+  }
+}
+
+.contact-title {
+  font-size: 2em;
+  font-family: "Bowlby One", sans-serif;
+  letter-spacing: 0.1em;
+  margin-bottom: 1em;
 }
 
 .contact-form {
