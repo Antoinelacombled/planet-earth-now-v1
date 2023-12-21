@@ -20,3 +20,9 @@
   flex-direction: column;
   width: 95%;
 }
+
+@media (max-width: 519px) {
+  .App-main {
+    width: 100%;
+  }
+}

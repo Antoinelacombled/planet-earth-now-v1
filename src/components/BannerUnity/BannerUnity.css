@@ -30,7 +30,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 778px) {
   .Unity-symbol-section {
     font-size: 1.4em;
   }
@@ -50,9 +50,10 @@
   }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 469px) {
   .Unity-symbol-section {
-    font-size: 1.4em;
+    font-size: 1em;
+    line-height: 30px;
   }
   .unity-container {
     height: 100px;

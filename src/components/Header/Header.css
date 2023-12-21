@@ -41,7 +41,7 @@
   text-transform: uppercase;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 778px) {
   .App-header {
     width: 100%;
   }

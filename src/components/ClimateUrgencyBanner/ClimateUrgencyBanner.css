@@ -14,6 +14,12 @@
   box-sizing: border-box;
 }
 
+@media (max-width: 778px) {
+  .Climate-urgency-section {
+    width: 100%;
+  }
+}
+
 @media (max-width: 640px) {
   .Climate-urgency-section {
     width: 100%;

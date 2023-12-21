@@ -131,7 +131,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 778px) {
   .Phase-get-flag {
     flex-direction: column;
     width: 100%;
@@ -171,7 +171,7 @@
   }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 469px) {
   .Phase-get-flag {
     flex-direction: column;
     width: 100%;
@@ -188,6 +188,10 @@
 
   .window-gtf-text {
     font-size: 1em;
+  }
+
+  .download-the-flag {
+    font-size: 15px;
   }
 }
 

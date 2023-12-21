@@ -80,7 +80,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 778px) {
   .action-quote-section {
     flex-direction: column;
     width: 100%;

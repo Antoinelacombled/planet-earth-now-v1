@@ -21,7 +21,7 @@
   object-fit: cover;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 778px) {
   .banner-urgency {
     font-size: 1.5em;
     height: 50px;

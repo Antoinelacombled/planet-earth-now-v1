@@ -45,7 +45,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 778px) {
   .flag-partners-section {
     width: 100%;
   }
@@ -102,5 +102,25 @@
     display: flex;
     justify-content: center;
     gap: 5px;
+  }
+}
+
+@media (max-width: 469px) {
+  .flag-partners-section {
+    width: 100%;
+  }
+  .title-flag-partners-section {
+    font-size: 1.5em;
+  }
+  .logo-partner {
+    width: 100%;
+    width: 15%;
+    height: auto;
+    padding-top: 10px;
+  }
+  .partners-container {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
   }
 }
