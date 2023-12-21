@@ -68,7 +68,7 @@ function GetTheFlag() {
               Contactez le fournisseur de votre choix pour la fabrication du
               drapeau en téléchargeant le fichier ci-dessous. <br></br>
               <Link to={"/faq"} className="contact-link">
-                Nous vous en avons sélecƟonné quelques-uns.
+                Nous vous en avons sélectionné quelques-uns.
               </Link>
             </div>
           </div>
