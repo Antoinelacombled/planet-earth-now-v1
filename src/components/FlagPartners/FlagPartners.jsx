@@ -22,7 +22,7 @@ function FlagPartners() {
           <img className="logo-partner" src={Treemium} alt="Logo Treemium" />
         </a>
         <a
-          href="https://www.recoft.org"
+          href="https://www.recoftc.org/"
           target="_blank"
           rel="noopener noreferrer"
         >
