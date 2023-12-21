@@ -20,7 +20,7 @@ function Header() {
             Les principes
           </a>
           <a className="nav-menu-item" href="#event">
-            Les événements & projets
+            Les événements
           </a>
           <a className="nav-menu-item" href="#contact">
             Contact
