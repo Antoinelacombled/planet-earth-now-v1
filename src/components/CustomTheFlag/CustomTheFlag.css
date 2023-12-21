@@ -149,7 +149,7 @@
   }
 }
 
-@media (max-width: 519px) {
+@media (max-width: 275px) {
   .custom-the-flag {
     width: 100%;
     padding: 0;
@@ -159,7 +159,7 @@
   }
 
   .flags-custom-the-flag img {
-    width: 80px;
+    width: 50px;
     height: auto;
   }
   .title-custom-the-flag {

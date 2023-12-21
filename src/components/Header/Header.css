@@ -59,3 +59,10 @@
     font-size: 8px;
   }
 }
+
+@media (max-width: 275px) {
+  .App-header {
+    width: 100%;
+    font-size: 4px;
+  }
+}

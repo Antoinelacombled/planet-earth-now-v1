@@ -142,3 +142,24 @@
     font-size: 0.7em;
   }
 }
+
+@media (max-width: 275px) {
+  .action-quote-section {
+    flex-direction: column;
+    width: 100%;
+  }
+  .action-quote-image {
+    width: 150px;
+    height: 150px;
+  }
+  .action-quote-text {
+    font-size: 1em;
+  }
+  .action-quote {
+    padding: 2em;
+  }
+  .action-quote-author {
+    padding-top: 0.5em;
+    font-size: 0.7em;
+  }
+}

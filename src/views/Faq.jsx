@@ -8,8 +8,8 @@ function Faq() {
       <div className="faq-text">
         <h2>A QUELLES OCCASIONS UTILISER LE DRAPEAU ?</h2> Le drapeau a vocation
         à être brandi lors des manifestations, des interventions publiques et
-        sur les réseaux sociaux. Nous souhaitons le voir accroché aux fenêtres,
-        fixé à des balcons, hissé aux mâts …
+        relayé sur les réseaux sociaux. Nous souhaitons le voir accroché aux
+        fenêtres, fixé à des balcons, hissé aux mâts …
         <h2>COMMENT OBTENIR LE DRAPEAU POUR MON ÉVÉNEMENT ?</h2> Nous pouvons
         vous donner un ou plusieurs drapeaux en fonction de votre événement.
         Contactez-nous pour en savoir plus sur la manière dont nous pouvons vous
@@ -19,7 +19,7 @@ function Faq() {
         startings blocks ; la liste des points de vente sera prochainement en
         ligne. <h2>OÙ FABRIQUER LE DRAPEAU ?</h2> Nous avons identifié en France
         ces sept fournisseurs qui utilisent le polyester recyclé (liste non
-        exhaustive de fabricants français utilisant le polyester recyclé) :{" "}
+        exhaustive) :{" "}
         <a className="link-faq" href="https://www.imprimer-vert.fr/">
           IMPRIMER VERT
         </a>
@@ -48,7 +48,8 @@ function Faq() {
         ,{" "}
         <a className="link-faq" href="https://www.varinard.com/fr">
           SOCIÉTÉ VARINARD.
-        </a>
+        </a>{" "}
+        LE MEE et MACAP sont ceux que nous utilisons actuellement.
         <h2>
           LE DRAPEAU EST-IL PROTÈGÉ PAR DES DROITS DE PROPRIÉTÉ INTELLECTUELLE ?
         </h2>

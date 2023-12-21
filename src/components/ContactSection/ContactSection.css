@@ -191,3 +191,17 @@
     margin-top: 25em;
   }
 }
+
+@media (max-width: 275px) {
+  .contact-section {
+    width: 100%;
+  }
+  .left-content {
+    font-size: 7px;
+    left: 3em;
+    margin-top: 50em;
+  }
+  .contact-title {
+    margin-bottom: 20px;
+  }
+}

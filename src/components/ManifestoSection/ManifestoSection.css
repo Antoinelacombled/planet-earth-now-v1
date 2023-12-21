@@ -55,7 +55,7 @@ body {
   font-family: "Gilroy-Bold", sans-serif;
   text-align: center;
   font-size: 1em;
-  padding-top: 35px;
+  padding-top: 15px;
 }
 
 .child-mini-quote-manifesto {
@@ -68,6 +68,10 @@ body {
 .manif-container {
   width: 50%;
   padding-left: 8%;
+}
+
+.author-title-ee {
+  margin-bottom: 200px;
 }
 
 @media (max-width: 778px) {
@@ -127,5 +131,35 @@ body {
 
   .author-manifesto {
     font-size: 0.8em;
+  }
+}
+
+@media (max-width: 275px) {
+  .manifesto-section {
+    padding-top: 1em;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .manif-container,
+  .Right-manifesto-section {
+    width: 80%;
+    padding: 0;
+    height: auto;
+  }
+
+  .img-manif {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .Quote-manifesto {
+    font-size: 1em;
+    padding: 20px;
+  }
+
+  .author-manifesto {
+    font-size: 0.5em;
   }
 }

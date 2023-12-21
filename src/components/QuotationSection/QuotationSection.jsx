@@ -7,8 +7,8 @@ function QuotationSection() {
       <div className="container-quotation-section">
         <div className="mini-container-quotation-section">
           <div className="quote-quotation-section blue">
-            « LE MONDE NE SERA PAS DÉTRUIT PAR LES GENS QUI FONT LE MAL MAIS PAR
-            CEUX QUI LES <br></br>LAISSE FAIRE »
+            « LE MONDE NE SERA PAS DÉTRUIT PAR LES GENS QUI FONT LE MAL, MAIS
+            PAR CEUX QUI LES REGARDENT SANS RIEN FAIRE»
           </div>
           <div className="author-quotation-section blue">Albert Einstein</div>
         </div>

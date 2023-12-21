@@ -116,3 +116,18 @@
     object-fit: cover;
   }
 }
+
+@media (max-width: 275px) {
+  .Our-house-burns-section {
+    width: 100%;
+  }
+  .burns-text {
+    font-size: 10px;
+    color: white;
+  }
+  .img-burning {
+    flex: 1 1 50%;
+    height: 10vh;
+    object-fit: cover;
+  }
+}

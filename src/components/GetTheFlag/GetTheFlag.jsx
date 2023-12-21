@@ -66,9 +66,9 @@ function GetTheFlag() {
             </div>
             <div className="window-gtf-text">
               Contactez le fournisseur de votre choix pour la fabrication du
-              drapeau en téléchargeant le fichier. <br></br>
+              drapeau en téléchargeant le fichier ci-dessous. <br></br>
               <Link to={"/faq"} className="contact-link">
-                Vous pouvez également contacter nos fabricants.
+                Nous vous en avons sélecƟonné quelques-uns.
               </Link>
             </div>
           </div>
@@ -78,9 +78,9 @@ function GetTheFlag() {
               <img className="img-size" src={windowFive} />
             </div>
             <div className="window-gtf-text">
-              Vous pouvez télécharger le fichier drapeau de l&apos;urgence
-              climatique afin de l&apos;imprimer pour le fabriquer vous-même ou
-              le partager autour de vous.
+              Vous pouvez télécharger ci-dessous le fichier du drapeau de
+              l&apos;urgence climatique afin de l&apos;imprimer pour le
+              fabriquer vous-même ou le partager autour de vous.
             </div>
           </div>
         </div>

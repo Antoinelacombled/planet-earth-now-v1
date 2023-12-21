@@ -90,3 +90,22 @@
     height: 30vh;
   }
 }
+
+@media (max-width: 275px) {
+  .Flag-section {
+    width: 100%;
+  }
+  .Quote-flag {
+    font-size: 8px;
+  }
+  .img-flag {
+    height: 20vh;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .Right-flag-section {
+    width: 50%;
+    height: 20vh;
+  }
+}

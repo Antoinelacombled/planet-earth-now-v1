@@ -125,6 +125,12 @@
   }
 }
 
+@media (max-width: 275px) {
+  .principles-section {
+    display: none;
+  }
+}
+
 /* @media (max-width: 768px) {
   .principles-section {
     display: none;

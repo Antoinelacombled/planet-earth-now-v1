@@ -16,7 +16,7 @@
   text-align: center;
   font-size: 3em;
   letter-spacing: 3px;
-  line-height: 1.1em;
+  line-height: 1.25em;
   padding: 2em;
 }
 
@@ -54,6 +54,18 @@
   .Unity-symbol-section {
     font-size: 1em;
     line-height: 30px;
+  }
+  .unity-container {
+    height: 100px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 275px) {
+  .Unity-symbol-section {
+    font-size: 0.8em;
+    line-height: 30px;
+    letter-spacing: 0em;
   }
   .unity-container {
     height: 100px;

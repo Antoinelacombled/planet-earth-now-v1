@@ -125,6 +125,30 @@
   }
 }
 
+@media (max-width: 275px) {
+  .set-the-event {
+    width: 100%;
+    padding: 2em 0;
+  }
+
+  .title-set-the-event {
+    font-size: 1em;
+  }
+  .swiper-button-next {
+    padding-right: 1em;
+  }
+  .swiper-button-prev {
+    padding-left: 1em;
+  }
+  .event-card .event-card-text {
+    font-size: 0.7em;
+    padding: 6px;
+  }
+  .date-location {
+    font-size: 10px;
+  }
+}
+
 /* @media (max-width: 1000px) {
   .event-card .event-card-text {
     font-size: 0.5em;

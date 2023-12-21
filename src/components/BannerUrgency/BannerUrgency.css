@@ -44,3 +44,11 @@
     width: 100%;
   }
 }
+
+@media (max-width: 275px) {
+  .banner-urgency {
+    font-size: 1em;
+    height: 50px;
+    width: 100%;
+  }
+}

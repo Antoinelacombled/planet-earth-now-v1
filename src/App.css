@@ -26,3 +26,9 @@
     width: 100%;
   }
 }
+
+@media (max-width: 275px) {
+  .App-main {
+    width: 100%;
+  }
+}

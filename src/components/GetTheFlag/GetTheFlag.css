@@ -195,6 +195,33 @@
   }
 }
 
+@media (max-width: 275px) {
+  .Phase-get-flag {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .banner-mobilize {
+    font-size: 1em;
+    padding-bottom: 0.8em;
+  }
+  .get-flag-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .window-gtf-text {
+    font-size: 1em;
+  }
+
+  .download-the-flag {
+    font-size: 15px;
+  }
+  .window-gtf-img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
 /* @media (max-width: 768px) {
   .Phase-get-flag {
     display: none;
