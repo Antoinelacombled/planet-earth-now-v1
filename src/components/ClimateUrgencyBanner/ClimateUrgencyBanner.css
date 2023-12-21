@@ -14,14 +14,20 @@
   box-sizing: border-box;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 778px) {
   .Climate-urgency-section {
-    height: auto;
+    width: 100%;
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 640px) {
   .Climate-urgency-section {
-    height: auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 430px) {
+  .Climate-urgency-section {
+    width: 100%;
   }
 }

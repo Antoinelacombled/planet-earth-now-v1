@@ -70,8 +70,9 @@ body {
   padding-left: 8%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 778px) {
   .manifesto-section {
+    padding-top: 3em;
     flex-direction: column;
     align-items: center;
   }
@@ -95,18 +96,36 @@ body {
   }
 
   .author-manifesto {
-    font-size: 0.1em;
-    padding: 20px;
+    font-size: 0.8em;
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 430px) {
+  .manifesto-section {
+    padding-top: 3em;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .manif-container,
+  .Right-manifesto-section {
+    width: 80%;
+    padding: 0;
+    height: auto;
+  }
+
+  .img-manif {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
   .Quote-manifesto {
     font-size: 1em;
+    padding: 20px;
   }
 
   .author-manifesto {
-    font-size: 0.9em;
-    padding: 20px;
+    font-size: 0.8em;
   }
 }

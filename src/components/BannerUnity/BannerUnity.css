@@ -20,8 +20,43 @@
   padding: 2em;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
+  .Unity-symbol-section {
+    font-size: 2.4em;
+  }
+  .unity-container {
+    height: 100px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 778px) {
+  .Unity-symbol-section {
+    font-size: 1.4em;
+  }
+  .unity-container {
+    height: 100px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .Unity-symbol-section {
+    font-size: 1.4em;
+  }
+  .unity-container {
+    height: 100px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 469px) {
   .Unity-symbol-section {
     font-size: 1em;
+    line-height: 30px;
+  }
+  .unity-container {
+    height: 100px;
+    width: 100%;
   }
 }

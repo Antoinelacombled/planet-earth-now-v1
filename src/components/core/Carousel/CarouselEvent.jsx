@@ -20,7 +20,7 @@ const events = [
     location: "Nantes",
     audience: "Grand public",
     description: "Ocean Talks (avec Hugo Clément et Paul Watson)",
-    link: "https://oceanfest.fr/nantes/programmation",
+    link: "https://oceanfest.fr",
   },
   {
     date: "10/1/2024",
@@ -66,8 +66,16 @@ function CarouselEvent() {
                 prevEl: ".swiper-button-prev",
               }}
               modules={[Navigation]}
-              spaceBetween={50}
-              slidesPerView={3}
+              spaceBetween={10}
+              slidesPerView={1}
+              breakpoints={{
+                469: {
+                  slidesPerView: 1,
+                },
+                600: {
+                  slidesPerView: 2,
+                },
+              }}
             >
               {events.map((event, index) => (
                 <SwiperSlide key={index} className="event-card">

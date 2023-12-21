@@ -65,15 +65,107 @@
   transform: scale(1.05);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1280px) {
   .custom-the-flag {
-    display: none;
+    width: 100%;
+    padding: 0;
+  }
+  .container-flags-custom-the-flag {
+    gap: 150px;
+  }
+
+  .flags-custom-the-flag img {
+    width: 200px;
+    height: auto;
+  }
+  .title-custom-the-flag {
+    font-size: 1.5em;
+  }
+  .super-container-custom-the-flag {
+    padding: 2em;
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
+  .custom-the-flag {
+    width: 100%;
+    padding: 0;
+  }
+  .container-flags-custom-the-flag {
+    gap: 50px;
+  }
+
   .flags-custom-the-flag img {
-    width: 150px;
+    width: 120px;
     height: auto;
+  }
+  .title-custom-the-flag {
+    font-size: 1.5em;
+  }
+  .super-container-custom-the-flag {
+    padding: 2em;
+  }
+}
+
+@media (max-width: 778px) {
+  .custom-the-flag {
+    width: 100%;
+    padding: 0;
+  }
+  .container-flags-custom-the-flag {
+    gap: 50px;
+  }
+
+  .flags-custom-the-flag img {
+    width: 120px;
+    height: auto;
+  }
+  .title-custom-the-flag {
+    font-size: 1.5em;
+  }
+  .super-container-custom-the-flag {
+    padding: 2em;
+  }
+}
+
+@media (max-width: 640px) {
+  .custom-the-flag {
+    width: 100%;
+    padding: 0;
+  }
+  .container-flags-custom-the-flag {
+    gap: 50px;
+  }
+
+  .flags-custom-the-flag img {
+    width: 120px;
+    height: auto;
+  }
+  .title-custom-the-flag {
+    font-size: 1.5em;
+  }
+  .super-container-custom-the-flag {
+    padding: 2em;
+  }
+}
+
+@media (max-width: 519px) {
+  .custom-the-flag {
+    width: 100%;
+    padding: 0;
+  }
+  .container-flags-custom-the-flag {
+    gap: 50px;
+  }
+
+  .flags-custom-the-flag img {
+    width: 80px;
+    height: auto;
+  }
+  .title-custom-the-flag {
+    font-size: 1em;
+  }
+  .super-container-custom-the-flag {
+    padding: 2em;
   }
 }

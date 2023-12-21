@@ -32,30 +32,87 @@
   white-space: nowrap;
 }
 
-@media (max-width: 768px) {
-  .burns-text {
-    display: none;
-  }
-
-  .img-burning {
-    display: none;
-  }
-
+@media (max-width: 1536px) {
   .Our-house-burns-section {
-    display: none;
+    width: 100%;
+  }
+  .burns-text {
+    font-size: 4em;
+  }
+  .img-burning {
+    flex: 1 1 50%;
+    height: 40vh;
+    object-fit: cover;
   }
 }
 
-@media (max-width: 1000px) {
-  .burns-text {
-    display: none;
-  }
-
-  .img-burning {
-    display: none;
-  }
-
+@media (max-width: 1280px) {
   .Our-house-burns-section {
-    display: none;
+    width: 100%;
+  }
+  .burns-text {
+    font-size: 3em;
+  }
+  .img-burning {
+    flex: 1 1 50%;
+    height: 40vh;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Our-house-burns-section {
+    width: 100%;
+  }
+  .burns-text {
+    font-size: 2em;
+  }
+  .img-burning {
+    flex: 1 1 50%;
+    height: 30vh;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 778px) {
+  .Our-house-burns-section {
+    width: 100%;
+  }
+  .burns-text {
+    font-size: 1em;
+  }
+  .img-burning {
+    flex: 1 1 50%;
+    height: 20vh;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 640px) {
+  .Our-house-burns-section {
+    width: 100%;
+  }
+  .burns-text {
+    font-size: 1em;
+  }
+  .img-burning {
+    flex: 1 1 50%;
+    height: 20vh;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 519px) {
+  .Our-house-burns-section {
+    width: 100%;
+  }
+  .burns-text {
+    font-size: 20px;
+    color: white;
+  }
+  .img-burning {
+    flex: 1 1 50%;
+    height: 15vh;
+    object-fit: cover;
   }
 }

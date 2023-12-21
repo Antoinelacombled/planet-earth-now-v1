@@ -120,7 +120,82 @@
   color: white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+  .banner-mobilize {
+    font-size: 2em;
+    padding-bottom: 0.8em;
+  }
+
+  .window-gtf-text {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 778px) {
+  .Phase-get-flag {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .banner-mobilize {
+    font-size: 1.5em;
+    padding-bottom: 0.8em;
+  }
+  .get-flag-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .window-gtf-text {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 640px) {
+  .Phase-get-flag {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .banner-mobilize {
+    font-size: 1em;
+    padding-bottom: 0.8em;
+  }
+  .get-flag-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .window-gtf-text {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 469px) {
+  .Phase-get-flag {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .banner-mobilize {
+    font-size: 1em;
+    padding-bottom: 0.8em;
+  }
+  .get-flag-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .window-gtf-text {
+    font-size: 1em;
+  }
+
+  .download-the-flag {
+    font-size: 15px;
+  }
+}
+
+/* @media (max-width: 768px) {
   .Phase-get-flag {
     display: none;
   }
@@ -134,4 +209,4 @@
   .banner-mobilize {
     font-size: 2em;
   }
-}
+} */

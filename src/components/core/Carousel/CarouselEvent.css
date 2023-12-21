@@ -26,7 +26,7 @@
   transition: transform 0.3s ease;
   color: white;
   text-align: center;
-  font-family: "Gilroy";
+  font-family: "Gilroy-bold";
   letter-spacing: 0.1rem;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .event-card .event-card-text {
-  font-size: 0.7em;
+  font-size: 1em;
   padding: 0 5px;
   padding: 20px;
   height: 100px;
@@ -91,13 +91,41 @@
   color: white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 778px) {
   .set-the-event {
-    display: none;
+    width: 100%;
+    padding: 3em 0;
+  }
+
+  .title-set-the-event {
+    font-size: 1.5em;
+  }
+  .swiper-button-next {
+    padding-right: 1em;
+  }
+  .swiper-button-prev {
+    padding-left: 1em;
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 469px) {
+  .set-the-event {
+    width: 100%;
+    padding: 3em 0;
+  }
+
+  .title-set-the-event {
+    font-size: 1.5em;
+  }
+  .swiper-button-next {
+    padding-right: 1em;
+  }
+  .swiper-button-prev {
+    padding-left: 1em;
+  }
+}
+
+/* @media (max-width: 1000px) {
   .event-card .event-card-text {
     font-size: 0.5em;
     padding: 0 5px;
@@ -111,4 +139,4 @@
   .event-more-info {
     font-size: 0.5em;
   }
-}
+} */

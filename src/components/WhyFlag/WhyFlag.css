@@ -48,8 +48,67 @@
   color: rgba(51, 153, 51, 1);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 778px) {
+  .why-flag-section {
+    width: 100%;
+  }
+  .why-flag-text {
+    font-size: 1rem;
+    align-self: flex-start;
+    margin-bottom: 50px;
+  }
+
+  .why-flag-title {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 640px) {
+  .why-flag-section {
+    width: 100%;
+  }
+  .why-flag-text {
+    font-size: 1rem;
+    align-self: flex-start;
+    margin-bottom: 50px;
+  }
+
+  .why-flag-title {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 519px) {
+  .why-flag-section {
+    width: 100%;
+  }
+  .why-flag-text {
+    font-size: 0.9rem;
+    align-self: flex-start;
+    margin-bottom: 50px;
+  }
+
+  .why-flag-title {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 469px) {
+  .why-flag-section {
+    width: 100%;
+  }
+  .why-flag-text {
+    font-size: 0.7rem;
+    margin-bottom: 20px;
+  }
+
+  .why-flag-title {
+    font-size: 1em;
+  }
+}
+
+/* @media (max-width: 768px) {
   .why-flag-section {
     display: none;
   }
-}
+} */

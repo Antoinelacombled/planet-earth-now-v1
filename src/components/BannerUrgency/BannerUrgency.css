@@ -21,16 +21,26 @@
   object-fit: cover;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 778px) {
   .banner-urgency {
-    font-size: 1em;
+    font-size: 1.5em;
     height: 50px;
+    width: 100%;
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 640px) {
   .banner-urgency {
-    font-size: 1em;
+    font-size: 1.5em;
     height: 50px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 430px) {
+  .banner-urgency {
+    font-size: 1.5em;
+    height: 50px;
+    width: 100%;
   }
 }

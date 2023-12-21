@@ -102,13 +102,6 @@
   margin-bottom: 10px;
 }
 
-@media (max-width: 768px) {
-  .contact-title {
-    font-size: 1em;
-    margin-bottom: 50px;
-  }
-}
-
 .contact-title {
   font-size: 2em;
   font-family: "Bowlby One", sans-serif;
@@ -175,9 +168,26 @@
   margin-top: 50px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 778px) {
   .contact-title {
     font-size: 1em;
     margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 640px) {
+  .contact-section {
+    width: 100%;
+  }
+}
+
+@media (max-width: 519px) {
+  .contact-section {
+    width: 100%;
+  }
+  .left-content {
+    font-size: 12px;
+    left: 3em;
+    margin-top: 25em;
   }
 }
