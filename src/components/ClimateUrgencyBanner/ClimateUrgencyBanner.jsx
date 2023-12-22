@@ -9,10 +9,10 @@ function ClimateUrgencyBanner() {
       <video
         className="video-flag"
         loop
-        autoPlay
         muted
         playsInline
         preload="auto"
+        autoplay="autoplay"
       >
         <source src={videoflag} type="video/mp4" />
       </video>
