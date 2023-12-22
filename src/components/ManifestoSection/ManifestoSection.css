@@ -106,7 +106,7 @@ body {
 
 @media (max-width: 430px) {
   .manifesto-section {
-    padding-top: 3em;
+    padding-top: 1%;
     flex-direction: column;
     align-items: center;
   }
@@ -130,7 +130,8 @@ body {
   }
 
   .author-manifesto {
-    font-size: 0.8em;
+    padding-top: 0;
+    font-size: 1em;
   }
 }
 

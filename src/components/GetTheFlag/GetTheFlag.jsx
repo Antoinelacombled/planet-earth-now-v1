@@ -52,8 +52,8 @@ function GetTheFlag() {
               <img className="img-size" src={windowThree} />
             </div>
             <div className="window-gtf-text">
-              Dans le cadre de votre association et vos projets, événéments ou
-              conférences, des drapeaux pourront vous être offerts. <br></br>
+              Dans le cadre de votre association et de vos projets, événéments
+              ou conférences, des drapeaux pourront vous être offerts. <br></br>
               <a href="#contact" className="contact-link">
                 N'hésitez pas à nous contacter.
               </a>

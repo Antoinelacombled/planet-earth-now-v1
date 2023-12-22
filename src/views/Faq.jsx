@@ -32,13 +32,6 @@ function Faq() {
           DRAPEAUX UNIC
         </a>
         ,{" "}
-        <a className="link-faq" href="https://atelier-lemee.com/entreprise/">
-          LE MÉE,{" "}
-          <a className="link-faq" href="https://www.macapflag.com/">
-            MACAP
-          </a>
-        </a>
-        ,{" "}
         <a
           className="link-faq"
           href="https://www.aviso-drapeaux.com/1688-mats-et-supports?gad_source=1"
@@ -49,7 +42,14 @@ function Faq() {
         <a className="link-faq" href="https://www.varinard.com/fr">
           SOCIÉTÉ VARINARD.
         </a>{" "}
-        LE MEE et MACAP sont ceux que nous utilisons actuellement.
+        <a className="link-faq" href="https://atelier-lemee.com/entreprise/">
+          LE MÉE{" "}
+        </a>{" "}
+        et{" "}
+        <a className="link-faq" href="https://www.macapflag.com/">
+          MACAP
+        </a>{" "}
+        sont ceux que nous utilisons actuellement.
         <h2>
           LE DRAPEAU EST-IL PROTÈGÉ PAR DES DROITS DE PROPRIÉTÉ INTELLECTUELLE ?
         </h2>
