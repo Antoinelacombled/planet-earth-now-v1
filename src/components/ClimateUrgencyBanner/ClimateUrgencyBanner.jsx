@@ -13,7 +13,6 @@ function ClimateUrgencyBanner() {
         muted
         playsInline
         preload="auto"
-        controlsList="nodownload"
       >
         <source src={videoflag} type="video/mp4" />
       </video>
