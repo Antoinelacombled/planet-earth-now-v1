@@ -14,6 +14,11 @@
   box-sizing: border-box;
 }
 
+.gif-flag {
+  width: 100%;
+  display: none; /* Masque le GIF par défaut */
+}
+
 @media (max-width: 778px) {
   .Climate-urgency-section {
     width: 100%;
@@ -23,6 +28,12 @@
 @media (max-width: 640px) {
   .Climate-urgency-section {
     width: 100%;
+  }
+  .desktop-only {
+    display: none; /* Masque la vidéo sur les petits écrans */
+  }
+  .mobile-only {
+    display: block; /* Affiche le GIF sur les petits écrans */
   }
 }
 
