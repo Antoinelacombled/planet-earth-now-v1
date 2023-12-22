@@ -8,14 +8,6 @@ SwiperCore.use([Navigation]);
 
 const events = [
   {
-    date: "21/12/2023",
-    location: "En ligne",
-    audience: "Grand public",
-    description:
-      "Au delà du carbone : vers un pilotage global du climat & RSE en entreprise",
-    link: "https://motivated-writer-6104.ck.page/128ba3ca16",
-  },
-  {
     date: "6/1/2024",
     location: "Nantes",
     audience: "Grand public",
