@@ -7,10 +7,21 @@ import videoflag from "../../assets/1219.mov";
 function ClimateUrgencyBanner() {
   return (
     <section className="Climate-urgency-section">
-      <video className="video-flag desktop-only" loop autoPlay muted>
+      <video
+        className="video-flag desktop-only"
+        loop
+        autoPlay
+        muted
+        playsInline
+      >
         <source src={videoflag} type="video/mp4" />
       </video>
-      <img className="gif-flag mobile-only" src={gifFlag} alt="Drapeau" />
+      <img
+        className="gif-flag mobile-only"
+        loading="lazy"
+        src={gifFlag}
+        alt="Drapeau"
+      />
     </section>
   );
 }
