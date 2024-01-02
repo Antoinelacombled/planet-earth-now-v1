@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import SwiperCore from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
@@ -45,10 +46,11 @@ const events = [
 ];
 
 function CarouselEvent() {
+  const { t } = useTranslation();
   return (
     <section className="carousel" id="event">
       <section className="set-the-event" id="event">
-        <div className="title-set-the-event">LES ÉVÉNEMENTS</div>
+        <div className="title-set-the-event"> {t("EventTitle")}</div>
         <div className="container-box">
           <div className="small-container super-container-set-the-event">
             <Swiper

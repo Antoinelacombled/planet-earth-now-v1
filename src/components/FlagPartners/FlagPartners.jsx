@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import "./FlagPartners.css";
 
 import Recoft from "../../assets/logoRecoft.png";
@@ -8,11 +9,10 @@ import Jiboiana from "../../assets/logoJiboiana.png";
 import Rockett from "../../assets/logoRockett.png";
 
 function FlagPartners() {
+  const { t } = useTranslation();
   return (
     <section className="flag-partners-section">
-      <h2 className="title-flag-partners-section">
-        LES PARTENAIRES DU DRAPEAU
-      </h2>
+      <h2 className="title-flag-partners-section">{t("FlagPartnerTitle")}</h2>
       <div className="partners-container">
         <a
           href="https://www.treemium.com"

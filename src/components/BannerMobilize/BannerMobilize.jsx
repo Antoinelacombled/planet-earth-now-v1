@@ -1,8 +1,10 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import "./BannerMobilize.css";
 
 function BannerMobilize() {
-  return <div className="banner-mobilized">MOBILISONS-NOUS !</div>;
+  const { t } = useTranslation();
+  return <div className="banner-mobilized">{t("BannerMobilizeTitle")}</div>;
 }
 
 export default BannerMobilize;

@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import "./OurHouseBurns.css";
 
 import bl from "../../assets/bl.jpg";
@@ -7,6 +8,8 @@ import tl from "../../assets/tl.jpg";
 import tr from "../../assets/tr.jpg";
 
 function OurHouseBurns() {
+  const { t } = useTranslation();
+
   return (
     <section className="Our-house-burns-section">
       <div className="images-container">
@@ -35,7 +38,7 @@ function OurHouseBurns() {
           loading="lazy"
         />
       </div>
-      <div className="burns-text">NOTRE MAISON BRÛLE</div>
+      <div className="burns-text">{t("OurHouseBurnsTitle")}</div>
     </section>
   );
 }

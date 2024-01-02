@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 import emailjs from "@emailjs/browser";
 import "./ContactSection.css";
 
 function ContactSection() {
+  const { t } = useTranslation();
   const [successMessage, setSuccessMessage] = React.useState("");
 
   const handleSubmit = (e) => {
@@ -32,9 +34,9 @@ function ContactSection() {
       <h1 className="contact-title">CONTACT</h1>
       <div className="contact-content">
         <div className="left-content">
-          <p>- Nationalité ?</p>
-          <p className="terrien">- Terrien !</p>
-          <p>- Et vous ?</p>
+          <p>{t("Nationality")}</p>
+          <p className="terrien">{t("Terrien")}</p>
+          <p>{t("You")}</p>
           <p className="emojis">- 🤨😔😏🤔🫤🥴...</p>
         </div>
         <form className="contact-form" onSubmit={handleSubmit}>

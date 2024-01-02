@@ -1,30 +1,30 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import "./QuotationSection.css";
 
 function QuotationSection() {
+  const { t } = useTranslation();
   return (
     <section className="quotation-section">
       <div className="container-quotation-section">
         <div className="mini-container-quotation-section">
           <div className="quote-quotation-section blue">
-            « LE MONDE NE SERA PAS DÉTRUIT PAR LES GENS QUI FONT LE MAL, MAIS
-            PAR CEUX QUI LES REGARDENT SANS RIEN FAIRE»
+            {t("QuotationSectionOne")}
           </div>
           <div className="author-quotation-section blue">Albert Einstein</div>
         </div>
         <div className="mini-container-quotation-section">
           <div className="quote-quotation-section green">
-            « MAINTENANT DESCENDEZ DANS LA RUE ET OBLIGEZ-MOI À LE FAIRE »
+            {t("QuotationSectionTwo")}
           </div>
           <div className="author-quotation-section green">
-            Cyril Dion <br></br> concernant l'affaire du siècle, <br></br> en
-            référence à F.D Roosevelt
+            Cyril Dion <br></br> {t("QuotationSectionAuthor")} <br></br>{" "}
+            {t("QuotationSectionAuthorBis")}
           </div>
         </div>
         <div className="mini-container-quotation-section">
           <div className="quote-quotation-section blue">
-            « AUJOURD'HUI PLUS QUE JAMAIS, L'AVENIR DE LA TERRE, NOTRE AVENIR,
-            EST ENTRE NOS MAINS »
+            {t("QuotationSectionThree")}
           </div>
           <div className="author-quotation-section blue">Thomas Pesquet</div>
         </div>

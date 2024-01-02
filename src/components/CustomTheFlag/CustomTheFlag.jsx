@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import "./CustomTheFlag.css";
 
 import flagRecoft from "../../assets/flag-recoft.png";
@@ -8,10 +9,11 @@ import flagTreemium from "../../assets/flag-treemium.png";
 // créer lien externe vers les sites partenaires
 
 function CustomTheFlag() {
+  const { t } = useTranslation();
   return (
     <section className="custom-the-flag">
       <div className="super-container-custom-the-flag">
-        <div className="title-custom-the-flag">PERSONNALISEZ LE DRAPEAU</div>
+        <div className="title-custom-the-flag">{t("CustomTheFlagTitle")}</div>
         <div className="container-carousel-custom-the-flag">
           <div className="arrows-custom-the-flag left-arrow"></div>
           <div className="container-flags-custom-the-flag">

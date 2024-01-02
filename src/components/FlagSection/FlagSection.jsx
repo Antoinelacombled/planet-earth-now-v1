@@ -1,9 +1,11 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import "./FlagSection.css";
 
 import flag from "../../assets/efo-flag.png";
 
 function FlagSection() {
+  const { t } = useTranslation();
   return (
     <section className="Flag-section">
       <div className="Earth-flag">
@@ -15,11 +17,7 @@ function FlagSection() {
         ></img>
       </div>
       <div className="Right-flag-section">
-        <div className="Quote-flag">
-          Cet étendard a pour but de rappeler les dangers des changements
-          climatiques et de porter les projets et les actions des défenseurs de
-          l'environnement, plus haut et plus fort.
-        </div>
+        <div className="Quote-flag">{t("FlagSectionTitle")}</div>
       </div>
     </section>
   );

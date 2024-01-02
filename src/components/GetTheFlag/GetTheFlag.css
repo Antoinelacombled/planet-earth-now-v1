@@ -31,16 +31,17 @@
 .window-gtf-title,
 .window-gtf-img,
 .window-gtf-text {
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
   color: white;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.09em;
 }
 
 .window-gtf-title {
   font-family: "Bowlby One";
   font-weight: bold;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .window-gtf-img {
@@ -56,7 +57,7 @@
   margin-top: 20px;
   font-family: "Gilroy-Bold";
   font-size: 0.8em;
-  line-height: 1.5;
+  line-height: 1.8;
   min-height: 100px;
 }
 
@@ -75,6 +76,11 @@
 .two,
 .four {
   background-color: var(--green-color);
+}
+
+.window-gtf-title,
+.fourText {
+  letter-spacing: 1px;
 }
 
 .button-container {
