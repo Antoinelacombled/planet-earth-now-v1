@@ -44,7 +44,7 @@ function ContactSection() {
             <input
               name="name"
               type="text"
-              placeholder="Entrez votre nom"
+              placeholder={t("PlaceHolderOne")}
               required
             />
           </div>
@@ -52,7 +52,7 @@ function ContactSection() {
             <input
               name="prenom"
               type="text"
-              placeholder="Entrez votre prénom"
+              placeholder={t("PlaceHolderTwo")}
               required
             />
           </div>
@@ -60,14 +60,14 @@ function ContactSection() {
             <input
               name="email"
               type="email"
-              placeholder="Entrez votre email"
+              placeholder={t("PlaceHolderThree")}
               required
             />
           </div>
           <div className="form-group">
             <textarea
               name="message"
-              placeholder="Partagez vos idées, vos suggestions, vos questions, vos propositions de partenariat..."
+              placeholder={t("PlaceHolderFour")}
               required
             ></textarea>
           </div>
