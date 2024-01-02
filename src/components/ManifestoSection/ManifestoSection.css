@@ -76,7 +76,7 @@ body {
 
 @media (max-width: 778px) {
   .manifesto-section {
-    padding-top: 3em;
+    padding-top: 0em;
     flex-direction: column;
     align-items: center;
   }
@@ -101,6 +101,15 @@ body {
 
   .author-manifesto {
     font-size: 0.8em;
+    padding-top: 2px;
+  }
+
+  .author-title-ee {
+    font-size: 1.2em;
+  }
+
+  .title-manifesto  {
+    color: red;
   }
 }
 

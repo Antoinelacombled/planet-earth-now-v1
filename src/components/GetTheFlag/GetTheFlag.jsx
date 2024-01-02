@@ -13,7 +13,7 @@ function GetTheFlag() {
 
   return (
     <>
-      <div className="banner-mobilize">COMMENT OBTENIR LE DRAPEAU ?</div>
+      <div className="banner-mobilized">COMMENT OBTENIR LE DRAPEAU ?</div>
 
       <section className="Phase-get-flag" id="getflag">
         <div className="get-flag-container">

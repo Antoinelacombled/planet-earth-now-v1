@@ -117,7 +117,7 @@
     font-size: 9px;
     margin-bottom: 5px;
     letter-spacing: 0rem;
-
+    line-height: 1.7em;
     min-height: 4em;
   }
   .mini-container-quotation-section {
@@ -138,17 +138,16 @@
   }
   .quote-quotation-section {
     font-family: "Bowlby One";
-    font-size: 7px;
+    font-size: 6px;
     margin-bottom: 5px;
-    letter-spacing: 0rem;
 
     min-height: 4em;
   }
   .mini-container-quotation-section {
-    padding: 0 20px;
+    padding: 0 10px;
   }
   .author-quotation-section {
-    font-size: 9px;
+    font-size: 6px;
   }
   .quotation-section {
     width: 100%;
