@@ -67,7 +67,7 @@ function GetTheFlag() {
             </div>
           </div>
           <div className="window-get-the-flag four">
-            <div className="window-gtf-title four">
+            <div className="window-gtf-title fourText">
               {t("GetTheFlagTitleCardFour")}
             </div>
             <div className="window-gtf-img">

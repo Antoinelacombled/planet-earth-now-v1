@@ -113,6 +113,43 @@ i18n.use(initReactI18next).init({
         Nationality: "- Nationality ?",
         Terrien: "- Inhabitant of Earth !",
         You: "- And you ?",
+
+        // Footer
+        Legal: "LEGAL INFORMATIONS",
+        Confident: "OUR PRIVACY POLICY",
+        Home: "HOME",
+
+        // FAQ
+        FaqTitleOne: "WHEN CAN THE FLAG BE USED?",
+        FaqTitleTwo: "HOW CAN I GET THE FLAG FOR MY EVENT?",
+        FaqTitleThree: "WHERE CAN I BUY THE FLAG?",
+        FaqTitleFour: "WHERE TO PRINT THE FLAG?",
+        FaqTitleFive: "IS THE FLAG PROTECTED BY INTELLECTUAL PROPERTY RIGHTS?",
+        FaqTitleSix: "CAN I MODIFY THE FLAG?",
+        FaqTitleSeven: "NOW IT’S YOUR TURN; DO YOU HAVE ANY QUESTIONS?",
+
+        FaqTextOne:
+          "The flag is intended to be waved at demonstrations, public speeches and relayed on social networks. We would like to see it hung from windows, fixed to balconies, hoisted on flagpoles, etc.",
+
+        FaqTextTwo:
+          "We can provide you with one or several flags depending on your event. Contact us to find out more about how we can help you: contact@earthflag1.org",
+        FaqTextThree:
+          "Good question ! But actually, an embarrassing one! We're in the starting blocks; the list of sales outlets will soon be online.",
+        FaqTextFour:
+          "We have identified the following seven suppliers in France who use recycled polyester (non-exhaustive list):",
+        FaqTextFourBis: "are the ones we currently use.",
+        FaqTextFive:
+          "The flag was designed to belong to everyone, i.e. to be widely distributed and brandished by all citizens of the world, without any conditions or requests for prior authorisation. However, everyone undertakes to respect the flag in its integrity and in the spirit of defending the environment.",
+        FaqTextSix:
+          "You can customise the flag using the inside of the central circle.",
+        FaqTextSeven: "Please, send us your questions using ",
+        FaqTextSevenBis:
+          "the contact form and we'll get back to you as soon as possible.",
+
+        //LEGAL MENTION
+        LegalTitle: "LEGAL INFORMATION",
+        Publisher:
+          "PUBLISHER PLANET EARTH NOW, an Association declared in the French national register of associations since 07 August 2020 under number W751257593, domiciled at 15 rue Saint-Dominique 75007 in Paris and with the SIREN number is 889954152 Contact: contact@earthflag1.org Director of publication: Mr Daniel Malingue VAT: FR33889954152 HOST Company name: GoDaddy.com, LLC Address: 2155 E Warner Rd, Tempe, Arizona 85284 United States Contact: ",
       },
     },
     fr: {
@@ -228,6 +265,44 @@ i18n.use(initReactI18next).init({
         Nationality: "- Nationalité ?",
         Terrien: "- Terrien !",
         You: "- Et vous ?",
+
+        // Footer
+        Legal: "MENTIONS LÉGALES",
+        Confident: "POLITIQUE DE CONFIDENTIALITÉ",
+        Home: "ACCUEIL",
+
+        // FAQ
+        FaqTitleOne: "À QUELLES OCCASIONS UTILISER LE DRAPEAU ?",
+        FaqTitleTwo: "COMMENT OBTENIR LE DRAPEAU POUR MON ÉVÉNEMENT ?",
+        FaqTitleThree: "OÙ PUIS-JE ACHETER LE DRAPEAU ?",
+        FaqTitleFour: "OÙ FABRIQUER LE DRAPEAU ?",
+        FaqTitleFive:
+          "LE DRAPEAU EST-IL PROTÈGE PAR DES DROITS DE PROPRIÉTÉ INTELLECTUELLE ?",
+        FaqTitleSix: "PUIS-JE MODIFIER LE DRAPEAU ?",
+        FaqTitleSeven: "A VOTRE TOUR, AVEZ-VOUS DES QUESTIONS ?",
+
+        FaqTextOne:
+          "Le drapeau a vocation à être brandi lors des manifestations, des interventions publiques et relayé sur les réseaux sociaux. Nous souhaitons le voir accroché aux fenêtres, fixé à des balcons, hissé aux mâts …",
+
+        FaqTextTwo:
+          "Nous pouvons vous donner un ou plusieurs drapeaux en fonction de votre événement. Contactez-nous pour en savoir plus sur la manière dont nous pouvons vous accompagner : contact@earthflag1.org",
+        FaqTextThree:
+          "Bonne question ! Mais en fait, embarrassante !!! Nous sommes dans les startings blocks ; la liste des points de vente sera prochainement en ligne.",
+        FaqTextFour:
+          "Nous avons identifié en France ces sept fournisseurs qui utilisent le polyester recyclé (liste non exhaustive) :",
+        FaqTextFourBis: " sont ceux que nous utilisons actuellement.",
+        FaqTextFive:
+          "Le drapeau a été pensé pour « appartenir à tous », c’est-à-dire à être largement diffusé et brandi par l’ensemble des citoyen-nes du monde, sans conditions ou demandes d’autorisations préalables. Toutefois, chaque personne s’engage à respecter le drapeau dans son intégrité et dans l’esprit de la défense de l’environnement.",
+        FaqTextSix:
+          "Vous pouvez personnaliser le drapeau en utilisant l’intérieur du cercle central.",
+        FaqTextSeven: "Envoyez-nous vos questions ",
+        FaqTextSevenBis:
+          "via le formulaire de contact et nous vous répondrons dans les meilleurs délais.",
+
+        //LEGAL MENTION
+        LegalTitle: "MENTIONS LÉGALES",
+        Publisher:
+          "ÉDITEUR PLANET EARTH NOW, Association déclarée au répertoire nationale des associations depuis le 07 août 2020 sous le numéro W751257593, domiciliée 15 rue Saint-Dominique 75007 à Paris et dont le numéro SIREN est 889954152 Contact : contact@earthflag1.org Directeur de la publication : Monsieur Daniel Malingue TVA : FR33889954152 HÉBERGEUR Raison sociale : GoDaddy.com, LLC Adresse : 2155 E Warner Rd, Tempe, Arizona 85284 États-Unis Contact : ",
       },
     },
   },

@@ -1,7 +1,9 @@
+import { useTranslation } from "react-i18next";
 import "./Footer.css";
 import { Link, useLocation } from "react-router-dom";
 
 function Footer() {
+  const { t } = useTranslation();
   const location = useLocation();
 
   return (
@@ -9,14 +11,14 @@ function Footer() {
       <section className="footer-section">
         {location.pathname !== "/" && (
           <div>
-            <Link to={"/"}>ACCUEIL</Link>
+            <Link to={"/"}>{t("Home")}</Link>
           </div>
         )}
         <div>
-          <Link to={"/legal"}>MENTIONS LÉGALES</Link>
+          <Link to={"/legal"}>{t("Legal")}</Link>
         </div>
         <div>
-          <Link to={"/confidential"}>POLITIQUE DE CONFIDENTIALITÉ</Link>
+          <Link to={"/confidential"}>{t("Confident")}</Link>
         </div>
       </section>
     </footer>

@@ -18,7 +18,7 @@ function Header() {
     <header className="App-header">
       {location.pathname !== "/" && (
         <Link to={"/"} className="nav-menu-item">
-          Accueil
+          {t("Home")}
         </Link>
       )}
       {location.pathname === "/" && (
