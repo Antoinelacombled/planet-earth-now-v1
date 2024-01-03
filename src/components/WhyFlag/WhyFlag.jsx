@@ -32,7 +32,7 @@ function WhyFlag() {
           nextEl: ".swiper-button-next-why-flag",
           prevEl: ".swiper-button-prev-why-flag",
         }}
-        spaceBetween={105}
+        spaceBetween={20}
         slidesPerView={2.5}
         slidesPerGroup={2}
         className="why-flag-swiper"
