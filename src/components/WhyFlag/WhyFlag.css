@@ -6,6 +6,10 @@
   text-align: center;
 }
 
+.why-flag-container-box {
+  position: relative;
+}
+
 .why-flag-title {
   color: var(--green-color);
   font-size: 2.5em;
@@ -16,10 +20,16 @@
 
 .why-flag-text {
   font-size: 1.3rem;
+  width: 100%;
 }
 
-.why-flag-text:last-child {
-  margin-top: auto;
+.container-box {
+  position: relative;
+}
+.container-box .arrow {
+  position: absolute;
+  top: 50%;
+  margin-top: -5px;
 }
 
 .blue {
@@ -30,40 +40,15 @@
   color: rgba(51, 153, 51, 1);
 }
 
-.why-flag-swiper {
-  width: 100%;
-  height: auto;
+.why-flag-container-box {
+  position: relative;
 }
 
-.why-flag-navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 2em;
-}
-
-.swiper-button-prev-why-flag,
-.swiper-button-next-why-flag {
-  color: var(--blue-color);
-  background: none;
-  border: none;
+.why-flag-container-box .arrow {
   position: absolute;
-}
-
-.swiper-button-prev-why-flag {
-  left: 0;
-  padding-left: 15em;
-  padding-top: 2em;
-  font-size: 20px;
-}
-
-.swiper-button-next-why-flag {
-  right: 0;
-  padding-right: 0em;
-  border: none;
-  text-decoration: none;
-  padding-top: 2em;
-  font-size: 20px;
+  top: 50%;
+  margin-top: -5px;
+  color: #111;
 }
 
 .even-class {

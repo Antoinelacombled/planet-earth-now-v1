@@ -67,7 +67,6 @@
   left: 0;
   border: none;
   background: none;
-  color: rgb(255, 255, 255) !important ;
   padding-left: 5em;
 }
 
@@ -76,7 +75,6 @@
   right: 0;
   border: none;
   background: none;
-  color: rgb(255, 255, 255) !important;
   padding-right: 5em;
 }
 
