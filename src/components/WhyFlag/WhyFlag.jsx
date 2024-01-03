@@ -34,17 +34,23 @@ function WhyFlag() {
         }}
         spaceBetween={105}
         slidesPerView={2.5}
+        slidesPerGroup={2}
         className="why-flag-swiper"
       >
         {phrases.map((phrase, index) => (
-          <SwiperSlide key={index} className="why-flag-text blue">
+          <SwiperSlide
+            key={index}
+            className={`why-flag-text blue ${
+              index % 2 === 0 ? "even-class" : "odd-class"
+            }`}
+          >
             {phrase}
           </SwiperSlide>
         ))}
       </Swiper>
       <div className="why-flag-navigation">
-        <button className="swiper-button-prev-why-flag"> </button>
-        <button className="swiper-button-next-why-flag"> </button>
+        <button className="swiper-button-prev-why-flag"> {"<"}</button>
+        <button className="swiper-button-next-why-flag"> {">"}</button>
       </div>
     </section>
   );
