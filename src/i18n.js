@@ -107,7 +107,7 @@ i18n.use(initReactI18next).init({
         EventTitle: "EVENTS",
 
         // FlagPartners Section
-        FlagPartnerTitle: "OUR FLAG PARTNERS",
+        FlagPartnerTitle: "OUR FLAG SUPPORTERS",
 
         // Nationalité
         Nationality: "- Nationality ?",
@@ -266,14 +266,22 @@ i18n.use(initReactI18next).init({
 
         // WhyFlag Section
         WhyFlagTitle: "POURQUOI CE DRAPEAU ?",
-        WhyFlagText:
-          "LE DRAPEAU DE L'URGENCE CLIMATIQUE EST L'EMBLÈME DE LA SAUVEGARDE DE NOTRE TERRE, SA BIODIVERSITÉ, SES OCÉANS.",
+        WhyFlagTextOne:
+          "Ce drapeau est l’emblème de notre planète, du bleu des océans et du vert de la nature.",
         WhyFlagTextTwo:
-          "IL EST LE SYMBOLE DE L'ÉVEIL DES CONSCIENCES EN FAVEUR DE L'ENVIRONNEMENT.",
+          "Il est le symbole de la lutte contre le dérèglement climatique, pour la sauvegarde de la biodiversité. Il soutient les actions individuelles et collectives des défenseurs de l’environnement pour porter leurs messages plus haut et plus fort.",
         WhyFlagTextThree:
-          "LES PAYS ONT LEUR DRAPEAU, LES TERRIENS ONT DÉSORMAIS LE LEUR.",
+          "Ce drapeau a vocation à être associé à tout événement en lien avec la santé de notre planète : manifestations, discours, conférences, réunions internationales.",
         WhyFlagTextFour:
-          "IL EST LE PORTE-VOIX DE CE QUE NOUS VOULONS PROCLAMER.",
+          "Il mobilise la société civile. Il est son ralliement.",
+        WhyFlagTextFive:
+          "Brandir le drapeau de l’urgence climatique c’est montrer son appartenance à la sauvegarde de notre planète.",
+        WhyFlagTextSix: "Il crée une dynamique ; il réveille les consciences.",
+        WhyFlagTextSeven:
+          "Il rappelle ces gestes indispensables à faire quotidiennement.",
+        WhyFlagTextEight: "Il est une garantie du bien-fondé de notre action.",
+        WhyFlagTextNine:
+          "Il culpabilise les responsables du changement climatique.",
 
         // CustomTheFlag Section
         CustomTheFlagTitle: "PERSONNALISEZ LE DRAPEAU",
