@@ -74,6 +74,45 @@ body {
   margin-bottom: 200px;
 }
 
+@media (max-width: 1030px) {
+  .manifesto-section {
+    padding-top: 0em;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .manif-container,
+  .Right-manifesto-section {
+    width: 80%;
+    padding: 0;
+    height: auto;
+  }
+
+  .img-manif {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .Quote-manifesto {
+    font-size: 2em;
+    padding: 20px;
+  }
+
+  .author-manifesto {
+    font-size: 0.8em;
+    padding-top: 2px;
+  }
+
+  .author-title-ee {
+    font-size: 1.2em;
+  }
+
+  .title-manifesto  {
+    color: red;
+  }
+}
+
 @media (max-width: 780px) {
   .manifesto-section {
     padding-top: 0em;

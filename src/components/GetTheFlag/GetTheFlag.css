@@ -133,7 +133,10 @@
   }
 
   .window-gtf-text {
-    font-size: 0.9em;
+    font-size: 0.7em;
+  }
+  .window-gtf-title {
+    font-size: 8px;
   }
 }
 

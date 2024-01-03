@@ -33,6 +33,25 @@
   object-fit: cover;
 }
 
+@media (max-width: 1030px) {
+  .Flag-section {
+    width: 100%;
+  }
+  .Quote-flag {
+    font-size: 15px;
+  }
+  .img-flag {
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+  }
+  .Right-flag-section {
+    background-color: var(--blue-color);
+    width: 50%;
+    height: 50vh;
+  }
+}
+
 @media (max-width: 780px) {
   .Flag-section {
     width: 100%;
@@ -45,7 +64,6 @@
     width: 100%;
     object-fit: cover;
   }
-
   .Right-flag-section {
     background-color: var(--blue-color);
     width: 50%;

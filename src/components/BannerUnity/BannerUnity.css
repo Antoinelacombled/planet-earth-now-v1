@@ -30,6 +30,16 @@
   }
 }
 
+@media (max-width: 950px) {
+  .Unity-symbol-section {
+    font-size: 1.4em;
+  }
+  .unity-container {
+    height: 100px;
+    width: 100%;
+  }
+}
+
 @media (max-width: 780px) {
   .Unity-symbol-section {
     font-size: 1.4em;

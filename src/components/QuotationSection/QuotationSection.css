@@ -36,6 +36,29 @@
   font-size: 13px;
 }
 
+@media (max-width: 1030px) {
+  .quote-quotation-section {
+    width: 100%;
+  }
+  .quote-quotation-section {
+    font-family: "Bowlby One";
+    font-size: 19px;
+    margin-bottom: 5px;
+    letter-spacing: 0.1rem;
+    min-height: 4em;
+  }
+  .mini-container-quotation-section {
+    padding: 0 10px;
+  }
+  .author-quotation-section {
+    font-size: 9px;
+  }
+  .quotation-section {
+    width: 100%;
+    padding: 2em 0;
+  }
+}
+
 @media (max-width: 780px) {
   .quote-quotation-section {
     width: 100%;
@@ -45,7 +68,6 @@
     font-size: 12px;
     margin-bottom: 5px;
     letter-spacing: 0.1rem;
-
     min-height: 4em;
   }
   .mini-container-quotation-section {
@@ -69,7 +91,6 @@
     font-size: 12px;
     margin-bottom: 5px;
     letter-spacing: 0.1rem;
-
     min-height: 4em;
   }
   .mini-container-quotation-section {
@@ -140,7 +161,6 @@
     font-family: "Bowlby One";
     font-size: 6px;
     margin-bottom: 5px;
-
     min-height: 4em;
   }
   .mini-container-quotation-section {
@@ -154,22 +174,3 @@
     padding: 2em 0;
   }
 }
-/* @media (max-width: 768px) {
-  .quote-quotation-section {
-    display: none;
-  }
-
-  .author-quotation-section {
-    display: none;
-  }
-}
-
-@media (max-width: 1000px) {
-  .quote-quotation-section {
-    font-size: 1em;
-  }
-
-  .author-quotation-section {
-    font-size: 0.7em;
-  }
-} */
