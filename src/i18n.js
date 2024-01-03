@@ -41,7 +41,7 @@ i18n.use(initReactI18next).init({
           "« IT'S ALL ABOUT PUTTING THE PEOPLE WHO HAVE THE POWER TO CHANGE THINGS AGAINST THE WALL »",
 
         // GetTheFlag Section
-        GetTheFlagTitle: "HOW TO GET THE FLAG?",
+        GetTheFlagTitle: "HOW TO GET THE FLAG:",
 
         GetTheFlagTitleCardOne: "AT CLIMATE MARCHES",
         GetTheFlagTextCardOne:
@@ -223,7 +223,7 @@ i18n.use(initReactI18next).init({
           " « IL S’AGIT DE METTRE AU PIED DU MUR LES PERSONNES QUI ONT LE POUVOIR DE FAIRE CHANGER LES CHOSES »",
 
         // GetTheFlag Section
-        GetTheFlagTitle: "COMMENT OBTENIR LE DRAPEAU ?",
+        GetTheFlagTitle: "COMMENT OBTENIR LE DRAPEAU :",
 
         GetTheFlagTitleCardOne: "AUX MARCHES POUR LE CLIMAT",
         GetTheFlagTextCardOne:
@@ -292,7 +292,7 @@ i18n.use(initReactI18next).init({
         EventTitle: "LES ÉVÉNEMENTS",
 
         // FlagPartners Section
-        FlagPartnerTitle: "LES PARTENAIRES DU DRAPEAU",
+        FlagPartnerTitle: "LES SOUTIENS AU DRAPEAU",
 
         // Nationalité
         Nationality: "- Nationalité ?",

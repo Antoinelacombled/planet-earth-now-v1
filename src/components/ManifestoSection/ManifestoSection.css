@@ -11,8 +11,8 @@ body {
 }
 
 .img-manif {
-  max-width: 100%; /* assure que l'image ne dépasse pas son conteneur */
-  height: auto; /* garde le ratio de l'image */
+  max-width: 100%;
+  height: auto;
 }
 
 .manifesto-section {
@@ -33,10 +33,10 @@ body {
 
 .manif-container,
 .Right-manifesto-section {
-  width: 50%; /* assigne à chaque conteneur une largeur de 50% */
-  display: flex; /* permet d'utiliser flexbox pour centrer l'image et le texte */
-  align-items: center; /* centre verticalement */
-  justify-content: center; /* centre horizontalement */
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .Quote-manifesto {
@@ -74,7 +74,7 @@ body {
   margin-bottom: 200px;
 }
 
-@media (max-width: 778px) {
+@media (max-width: 780px) {
   .manifesto-section {
     padding-top: 0em;
     flex-direction: column;

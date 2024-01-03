@@ -32,16 +32,16 @@
   white-space: nowrap;
 }
 
-@media (max-width: 1536px) {
+@media (max-width: 1625px) {
   .Our-house-burns-section {
     width: 100%;
   }
   .burns-text {
-    font-size: 4em;
+    font-size: 3em;
   }
   .img-burning {
     flex: 1 1 50%;
-    height: 40vh;
+    height: 30vh;
     object-fit: cover;
   }
 }
@@ -74,12 +74,12 @@
   }
 }
 
-@media (max-width: 778px) {
+@media (max-width: 780px) {
   .Our-house-burns-section {
     width: 100%;
   }
   .burns-text {
-    font-size: 1em;
+    font-size: 2em;
   }
   .img-burning {
     flex: 1 1 50%;

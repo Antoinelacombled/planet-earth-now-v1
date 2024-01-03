@@ -9,7 +9,8 @@ function ContactSection() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Remplacez 'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', et 'YOUR_USER_ID' par vos identifiants réels
+    console.log("Form submitted");
+
     emailjs
       .sendForm(
         "service_1g629yb",
@@ -20,8 +21,8 @@ function ContactSection() {
       .then(
         (result) => {
           console.log("Email successfully sent!", result.text);
-          e.target.reset(); // Réinitialiser le formulaire
-          setSuccessMessage("Email envoyé avec succès!"); // Définir le message de succès
+          e.target.reset();
+          setSuccessMessage("Email envoyé avec succès!");
         },
         (error) => {
           console.log("Failed to send email:", error.text);

@@ -33,12 +33,12 @@
   object-fit: cover;
 }
 
-@media (max-width: 778px) {
+@media (max-width: 780px) {
   .Flag-section {
     width: 100%;
   }
   .Quote-flag {
-    font-size: 12px;
+    font-size: 15px;
   }
   .img-flag {
     height: 30vh;

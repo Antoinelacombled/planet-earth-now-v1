@@ -11,14 +11,14 @@
 }
 
 .hero-flag {
-  width: 50px;
+  width: 45px;
   margin-top: 70px;
 }
 
-@media (max-width: 778px) {
+@media (max-width: 780px) {
   .hero-flag {
-    width: 20px;
-    margin-bottom: 490px;
+    width: 30px;
+    margin-bottom: 514px;
   }
 }
 

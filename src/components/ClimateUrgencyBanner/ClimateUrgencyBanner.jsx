@@ -2,7 +2,7 @@ import React from "react";
 import "./ClimateUrgencyBanner.css";
 
 import gifFlag from "../../assets/GIFFLAG.gif";
-import videoflag from "../../assets/1219.mov";
+import videoflag from "../../assets/1219wSound.mp4";
 
 function ClimateUrgencyBanner() {
   return (
@@ -11,8 +11,8 @@ function ClimateUrgencyBanner() {
         className="video-flag desktop-only"
         loop
         autoPlay
-        muted
         playsInline
+        muted
       >
         <source src={videoflag} type="video/mp4" />
       </video>

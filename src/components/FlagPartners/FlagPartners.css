@@ -17,7 +17,7 @@
 .partners-container {
   display: flex;
   justify-content: center;
-  gap: 100px; /* Ajustez cet espace selon vos besoins */
+  gap: 100px;
 }
 
 .logo-partner {
@@ -45,7 +45,7 @@
   }
 }
 
-@media (max-width: 778px) {
+@media (max-width: 780px) {
   .flag-partners-section {
     width: 100%;
   }
