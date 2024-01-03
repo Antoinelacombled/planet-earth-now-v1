@@ -13,7 +13,7 @@ function ContactSection() {
 
     emailjs
       .sendForm(
-        "service_1g629yb",
+        "service_dbxm148",
         "template_nlgu5fx",
         e.target,
         "Adnpa7DzIFyCr5BMp"
