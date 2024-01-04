@@ -15,6 +15,13 @@
   margin-top: 70px;
 }
 
+@media (max-width: 1072px) {
+  .hero-flag {
+    width: 41px;
+    margin-bottom: 50px;
+  }
+}
+
 @media (max-width: 950px) {
   .hero-flag {
     width: 30px;
