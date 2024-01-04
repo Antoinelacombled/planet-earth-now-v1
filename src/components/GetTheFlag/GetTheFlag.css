@@ -211,6 +211,33 @@
   }
 }
 
+@media (max-width: 360px) {
+  .Phase-get-flag {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .banner-mobilized {
+    font-size: 1em;
+    padding-bottom: 0.8em;
+  }
+  .get-flag-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .window-gtf-text {
+    font-size: 12.5px;
+  }
+
+  .download-the-flag {
+    font-size: 15px;
+  }
+  .window-gtf-img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
 @media (max-width: 275px) {
   .Phase-get-flag {
     flex-direction: column;
