@@ -250,8 +250,8 @@ img {
   .why-flag-navigation {
     display: flex;
     justify-content: space-around;
-    margin: 2em;
-    gap: 10em;
+    gap: 15em;
+    margin: 5px;
   }
   .why-flag-swiper {
     width: 100%;
@@ -296,6 +296,10 @@ img {
     font-weight: "800";
     letter-spacing: 0.1em;
     filter: drop-shadow(0 0 0.5rem rgb(44, 44, 44));
+  }
+  .swiper-button-prev-why-flag,
+  .swiper-button-next-why-flag {
+    font-size: 2em;
   }
 }
 
