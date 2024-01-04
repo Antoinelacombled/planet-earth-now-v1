@@ -251,7 +251,8 @@ img {
     display: flex;
     justify-content: space-around;
     gap: 15em;
-    margin: 5px;
+    margin: -5px;
+    margin-bottom: 20px;
   }
   .why-flag-swiper {
     width: 100%;
