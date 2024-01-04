@@ -299,7 +299,10 @@ img {
   }
   .swiper-button-prev-why-flag,
   .swiper-button-next-why-flag {
-    font-size: 2em;
+    font-size: 3em;
+  }
+  .swiper-button-next-why-flag {
+    color: var(--green-color);
   }
 }
 
