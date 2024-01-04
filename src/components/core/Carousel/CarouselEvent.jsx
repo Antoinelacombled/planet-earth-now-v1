@@ -48,7 +48,7 @@ const events = [
     location: "Rueil-Malmaison",
     audience: "Colloque professionnel",
     description:
-      "Symposium international SoilCET 2024 : le carbone dans les sols sous la loupe de la communauté scientifique",
+      "Le carbone dans les sols sous la loupe de la communauté scientifique",
     link: "https://www.soilcet.com/",
   },
   {
