@@ -231,8 +231,7 @@ img {
     font-size: 9px;
     text-align: center;
   }
-  .why-flag-img,
-  img {
+  .why-flag-img {
     width: 100%;
     height: 250px;
     object-fit: cover;
