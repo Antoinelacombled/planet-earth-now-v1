@@ -104,8 +104,9 @@ img {
 .why-flag-navigation {
   display: flex;
   justify-content: space-around;
-  margin: 2em;
-  gap: 60em;
+  margin: -10px;
+  gap: 30em;
+  padding-bottom: 10px;
 }
 
 .swiper-button-prev-why-flag {
@@ -113,7 +114,7 @@ img {
   color: var(--blue-color);
   border: none;
   background: none;
-  font-size: 3em;
+  font-size: 5em;
 }
 
 .swiper-button-next-why-flag {
@@ -121,7 +122,8 @@ img {
   color: var(--blue-color);
   border: none;
   background: none;
-  font-size: 3em;
+  font-size: 5em;
+  color: var(--green-color);
 }
 
 @media (max-width: 1072px) {

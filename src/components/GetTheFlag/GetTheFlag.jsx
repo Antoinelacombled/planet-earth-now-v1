@@ -18,6 +18,10 @@ function GetTheFlag() {
     <>
       <div className="banner-mobilized">{t("GetTheFlagTitle")}</div>
 
+      {/* <div className="kiosque-container">
+        <div className="banner-mobilized-title">Bientôt en kiosques</div>
+      </div> */}
+
       <section className="Phase-get-flag" id="getflag">
         <div className="get-flag-container">
           <div className="window-get-the-flag one">
