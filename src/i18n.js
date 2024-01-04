@@ -108,10 +108,11 @@ i18n.use(initReactI18next).init({
 
         // Quotation Section
         QuotationSectionOne:
-          "« THE WORLD WILL NOT BE DESTROYED BY THOSE WHO DO EVIL, BUT BY THOSE WHO WATCH THEM WITHOUT DOING ANYTHING »",
-        QuotationSectionTwo: "« I WANT TO DO IT, NOW MAKE ME DO IT! »",
+          "«\u00A0THE WORLD WILL NOT BE DESTROYED BY THOSE WHO DO EVIL, BUT BY THOSE WHO WATCH THEM WITHOUT DOING ANYTHING\u00A0»",
+        QuotationSectionTwo:
+          "«\u00A0I WANT TO DO IT, NOW MAKE ME DO IT!\u00A0»",
         QuotationSectionThree:
-          "« TODAY MORE THAN EVER, THE FUTURE OF THE EARTH, OUR FUTURE, IS IN OUR HANDS »",
+          "«\u00A0TODAY MORE THAN EVER, THE FUTURE OF THE EARTH, OUR FUTURE, IS IN OUR HANDS\u00A0»",
         QuotationSectionAuthor: "on the affair of the century,",
         QuotationSectionAuthorBis: "in reference to F.D. Roosevelt",
 
@@ -306,11 +307,11 @@ i18n.use(initReactI18next).init({
 
         // Quotation Section
         QuotationSectionOne:
-          "« LE MONDE NE SERA PAS DÉTRUIT PAR LES GENS QUI FONT LE MAL, MAIS PAR CEUX QUI LES REGARDENT SANS RIEN FAIRE »",
+          "«\u00A0LE MONDE NE SERA PAS DÉTRUIT PAR LES GENS QUI FONT LE MAL, MAIS PAR CEUX QUI LES REGARDENT SANS RIEN FAIRE\u00A0»",
         QuotationSectionTwo:
-          "« MAINTENANT DESCENDEZ DANS LA RUE ET OBLIGEZ-MOI À LE FAIRE »",
+          "«\u00A0MAINTENANT DESCENDEZ DANS LA RUE ET OBLIGEZ-MOI À LE FAIRE\u00A0»",
         QuotationSectionThree:
-          "« AUJOURD'HUI PLUS QUE JAMAIS, L'AVENIR DE LA TERRE, NOTRE AVENIR, EST ENTRE NOS MAINS »",
+          "«\u00A0AUJOURD'HUI PLUS QUE JAMAIS, L'AVENIR DE LA TERRE, NOTRE AVENIR, EST ENTRE NOS MAINS\u00A0»",
         QuotationSectionAuthor: "concernant l'affaire du siècle,",
         QuotationSectionAuthorBis: "en référence à F.D Roosevelt",
 
