@@ -20,7 +20,7 @@
   min-width: 180px;
   background-color: white;
   overflow: hidden;
-  border-radius: 10px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -97,7 +97,7 @@
   background-color: var(--green-color);
   color: white;
   margin: 2em;
-  border-radius: 2px;
+
   padding: 0.5em 1em;
   letter-spacing: 0.2rem;
   border: none;

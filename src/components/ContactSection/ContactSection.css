@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+
 .contact-section {
   background-color: var(--green-color);
-  padding-top: 2em; /* Ajustez en fonction de l'espace souhaité pour le titre */
+  padding-top: 2em;
   padding-left: 4em;
   padding-right: 4em;
   padding-bottom: 4em;
@@ -21,19 +23,19 @@
   position: absolute;
   left: 6em;
   font-family: "Gilroy-Bold";
-  text-align: left; /* Alignement du texte à gauche */
+  text-align: left;
 }
 
 .contact-form {
-  flex: 1; /* Permettre au formulaire de prendre de l'espace mais de rester contenu */
-  max-width: 500px; /* Largeur maximale du formulaire */
+  flex: 1;
+  max-width: 500px;
 }
 
 .contact-title {
-  font-size: 3em; /* Ajustez la taille selon le design souhaité */
+  font-size: 3em;
   font-family: "Bowlby One", sans-serif;
   letter-spacing: 0.1em;
-  margin-bottom: 1em; /* Espace entre le titre et le contenu */
+  margin-bottom: 1em;
 }
 
 .contact-form {
@@ -66,9 +68,9 @@
 }
 
 .submit-btn {
-  display: block; /* Rend le bouton comme un block pour permettre le centrage */
-  width: fit-content; /* Fait en sorte que la largeur du bouton s'adapte au contenu */
-  margin: 1em auto; /* Centrage horizontal */
+  display: block;
+  width: fit-content;
+  margin: 1em auto;
   background-color: rgb(0, 144, 2);
   color: white;
   border: none;
@@ -82,7 +84,7 @@
 }
 
 .submit-btn:hover {
-  background-color: #0c691b; /* Couleur plus foncée au survol */
+  background-color: #0c691b;
 }
 
 .success-message {
@@ -100,6 +102,8 @@
 
 .terrien {
   margin-bottom: 10px;
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 15px;
 }
 
 .contact-title {

@@ -36,6 +36,14 @@
   font-size: 13px;
 }
 
+.green {
+  color: var(--green-color);
+}
+
+.blue {
+  color: var(--blue-color);
+}
+
 @media (max-width: 1030px) {
   .quote-quotation-section {
     width: 100%;

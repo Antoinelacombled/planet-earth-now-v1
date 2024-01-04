@@ -35,6 +35,7 @@ function Faq() {
         <a className="link-faq" href="https://www.varinard.com/fr">
           SOCIÉTÉ VARINARD.
         </a>{" "}
+        <br></br>
         <a className="link-faq" href="https://atelier-lemee.com/entreprise/">
           LE MÉE{" "}
         </a>{" "}

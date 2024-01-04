@@ -3,7 +3,7 @@
   background-color: var(--blue-color);
   padding: 1em;
   text-align: center;
-  padding: 2em;
+  padding: 3em;
 }
 
 .title-flag-partners-section {
@@ -11,7 +11,7 @@
   font-family: "Bowlby One";
   font-size: 2em;
   letter-spacing: 0.2rem;
-  margin-bottom: 1em;
+  margin-bottom: 1.2em;
 }
 
 .partners-container {

@@ -34,7 +34,7 @@ i18n.use(initReactI18next).init({
         ManifestoSectionTitleTwo: "THE ONLY REAL ",
         ManifestoSectionTitleThree: "ALTERNATIVE TO",
         ManifestoSectionTitleFour: "RESOLVE THE CLIMATE »",
-        ManifestoBook: "Climate Change... and you?",
+        ManifestoBook: "Climate is changing... What about you?",
 
         // Action Quote Section
         ActionQuoteSectionTitle:
@@ -82,22 +82,34 @@ i18n.use(initReactI18next).init({
           "It can be customised to suit your needs and projects.",
 
         // WhyFlag Section
-        WhyFlagTitle: "WHY THIS FLAG?",
-        WhyFlagText:
-          "THE FLAG OF THE CLIMATE EMERGENCY IS THE EMBLEM OF THE CONSERVATION OF OUR EARTH, ITS BIODIVERSITY AND ITS OCEANS.",
+        WhyFlagTitle: "WHY THIS FLAG ?",
+        WhyFlagTextOne:
+          "This flag is the emblem of our planet, the blue of the oceans and the green of nature.",
         WhyFlagTextTwo:
-          "IT IS THE SYMBOL OF THE RISING AWARENESS IN FAVOUR OF THE ENVIRONMENT.",
+          "It is the symbol of the fight against climate change, for the protection of biodiversity.",
         WhyFlagTextThree:
-          "COUNTRIES HAVE THEIR FLAG, NOW THE INHABITANTS OF THE EARTH HAVE THEIRS.",
-        WhyFlagTextFour: "IT IS THE AMPLIFIER OF WHAT WE WANT TO PROCLAIM.",
+          "It supports the individual and collective actions of environmental campaigners to amplify and strengthen their messages.",
+        WhyFlagTextFour:
+          "This flag is intended to be used at any event relating to the well-being of our planet, including events, speeches, conferences and international meetings.",
+        WhyFlagTextFive: "It mobilises civil society. It is its rallying call.",
+        WhyFlagTextSix:
+          "Waving the flag of climate emergency is a way of showing that we are committed to saving our planet.",
+        WhyFlagTextSeven: "It creates momentum; it raises awareness.",
+        WhyFlagTextEight:
+          "It reminds us of the essential steps we need to take every day.",
+        WhyFlagTextNine: "It is a guarantee of the relevance of our actions.",
+        WhyFlagTextTen: "It blames those responsible for climate change.",
+
+        WhyFlagTextEleven:
+          "COUNTRIES HAVE THEIR FLAGS, NOW THE INHABITANTS OF THE EARTH HAVE THEIRS.",
 
         // CustomTheFlag Section
-        CustomTheFlagTitle: "CUSTOM THE FLAG",
+        CustomTheFlagTitle: "CUSTOMISE THE FLAG",
 
         // Quotation Section
         QuotationSectionOne:
           "« THE WORLD WILL NOT BE DESTROYED BY THOSE WHO DO EVIL, BUT BY THOSE WHO WATCH THEM WITHOUT DOING ANYTHING »",
-        QuotationSectionTwo: "« NOW TAKE TO THE STREETS AND MAKE ME DO IT! »",
+        QuotationSectionTwo: "« I WANT TO DO IT, NOW MAKE ME DO IT! »",
         QuotationSectionThree:
           "« TODAY MORE THAN EVER, THE FUTURE OF THE EARTH, OUR FUTURE, IS IN OUR HANDS »",
         QuotationSectionAuthor: "on the affair of the century,",
@@ -269,19 +281,25 @@ i18n.use(initReactI18next).init({
         WhyFlagTextOne:
           "Ce drapeau est l’emblème de notre planète, du bleu des océans et du vert de la nature.",
         WhyFlagTextTwo:
-          "Il est le symbole de la lutte contre le dérèglement climatique, pour la sauvegarde de la biodiversité. Il soutient les actions individuelles et collectives des défenseurs de l’environnement pour porter leurs messages plus haut et plus fort.",
+          "Il est le symbole de la lutte contre le dérèglement climatique, pour la sauvegarde de la biodiversité.",
         WhyFlagTextThree:
-          "Ce drapeau a vocation à être associé à tout événement en lien avec la santé de notre planète : manifestations, discours, conférences, réunions internationales.",
+          "Il soutient les actions individuelles et collectives des défenseurs de l’environnement pour porter leurs messages plus haut et plus fort.",
         WhyFlagTextFour:
-          "Il mobilise la société civile. Il est son ralliement.",
+          "Ce drapeau a vocation à être associé à tout événement en lien avec la santé de notre planète : manifestations, discours, conférences, réunions internationales.",
         WhyFlagTextFive:
+          "Il mobilise la société civile. Il est son ralliement.",
+        WhyFlagTextSix:
           "Brandir le drapeau de l’urgence climatique c’est montrer son appartenance à la sauvegarde de notre planète.",
-        WhyFlagTextSix: "Il crée une dynamique ; il réveille les consciences.",
         WhyFlagTextSeven:
+          "Il crée une dynamique ; il réveille les consciences.",
+        WhyFlagTextEight:
           "Il rappelle ces gestes indispensables à faire quotidiennement.",
-        WhyFlagTextEight: "Il est une garantie du bien-fondé de notre action.",
-        WhyFlagTextNine:
+        WhyFlagTextNine: "Il est une garantie du bien-fondé de notre action.",
+        WhyFlagTextTen:
           "Il culpabilise les responsables du changement climatique.",
+
+        WhyFlagTextEleven:
+          "LES PAYS ONT LEUR DRAPEAU, LES TERRIENS ONT DESORMAIS LE LEUR.",
 
         // CustomTheFlag Section
         CustomTheFlagTitle: "PERSONNALISEZ LE DRAPEAU",
@@ -386,5 +404,8 @@ i18n.use(initReactI18next).init({
     escapeValue: false,
   },
 });
+
+// KALAM
+// SINGLE DAY
 
 export default i18n;
