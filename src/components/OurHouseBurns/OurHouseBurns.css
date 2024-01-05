@@ -60,7 +60,7 @@
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1194px) {
   .Our-house-burns-section {
     width: 100%;
   }
@@ -69,7 +69,7 @@
   }
   .img-burning {
     flex: 1 1 50%;
-    height: 30vh;
+    height: 50vh;
     object-fit: cover;
   }
 }
