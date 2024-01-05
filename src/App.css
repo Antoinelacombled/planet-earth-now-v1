@@ -28,7 +28,7 @@ body {
   overflow-x: hidden;
 }
 
-@media (max-width: 519px) {
+@media (max-width: 640px) {
   .App-main {
     width: 100%;
   }
