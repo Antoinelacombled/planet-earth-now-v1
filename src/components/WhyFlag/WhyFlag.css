@@ -3,7 +3,6 @@
 .why-flag-section {
   background-color: #ffffff;
   width: 100%;
-  padding: 1em 0;
   font-family: "Bowlby One", sans-serif;
   text-align: center;
 }
@@ -107,7 +106,6 @@ img {
   justify-content: space-around;
   margin: -10px;
   gap: 30em;
-  padding-bottom: 10px;
 }
 
 .swiper-button-prev-why-flag {
@@ -299,7 +297,7 @@ img {
   .why-flag-navigation {
     display: flex;
     justify-content: space-around;
-    gap: 15em;
+    gap: 14em;
     margin: -5px;
     margin-bottom: 20px;
   }
