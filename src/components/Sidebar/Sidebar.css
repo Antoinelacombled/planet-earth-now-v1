@@ -3,6 +3,7 @@
   writing-mode: vertical-lr;
   width: 5%;
   top: 0;
+  position: sticky;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -45,5 +46,12 @@
 @media (max-width: 519px) {
   .App-sidebar {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 740px) and (orientation: landscape) {
+  .hero-flag {
+    width: 18px;
+    margin-bottom: 20px;
   }
 }

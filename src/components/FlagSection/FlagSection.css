@@ -127,3 +127,22 @@
     height: 20vh;
   }
 }
+
+@media only screen and (max-width: 740px) and (orientation: landscape) {
+  .Flag-section {
+    width: 100%;
+  }
+  .Quote-flag {
+    font-size: 10px;
+  }
+  .img-flag {
+    height: 60vh;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .Right-flag-section {
+    width: 50%;
+    height: 60vh;
+  }
+}
