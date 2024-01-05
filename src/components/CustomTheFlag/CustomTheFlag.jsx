@@ -12,15 +12,14 @@ import "swiper/css/navigation";
 import flagRecoft from "../../assets/flag-recoft.png";
 import flagRocket from "../../assets/flag-rocket.png";
 import flagTreemium from "../../assets/flag-treemium.png";
+import flagCad from "../../assets/cad.png";
 
 // Initialisation de Navigation pour Swiper
 SwiperCore.use([Navigation]);
 
 const logos = [
   { id: "recoft", image: flagRecoft },
-  { id: "rocket", image: flagRocket },
-  { id: "treemium", image: flagTreemium },
-  { id: "recoft", image: flagRecoft },
+  { id: "cad", image: flagCad },
   { id: "rocket", image: flagRocket },
   { id: "treemium", image: flagTreemium },
 ];

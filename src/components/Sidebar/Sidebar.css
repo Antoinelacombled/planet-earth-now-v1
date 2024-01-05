@@ -44,8 +44,9 @@
 }
 
 @media (max-width: 519px) {
-  .App-sidebar {
-    display: none;
+  .hero-flag {
+    width: 17px;
+    margin-bottom: 40px;
   }
 }
 
