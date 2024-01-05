@@ -4,10 +4,15 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow: hidden;
+}
+
 .App {
   display: flex;
-  min-height: 100vh;
   width: 100%;
+  height: 100vh;
+
   --blue-color: #2e519f;
   --green-color: #339933;
   --black-color: #1c1d27;
@@ -19,6 +24,8 @@
   display: flex;
   flex-direction: column;
   width: 95%;
+  overflow: auto;
+  overflow-x: hidden;
 }
 
 @media (max-width: 519px) {

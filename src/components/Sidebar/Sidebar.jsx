@@ -1,4 +1,3 @@
-import React from "react";
 import "./Sidebar.css";
 import flaghero from "../../assets/Component7.png";
 

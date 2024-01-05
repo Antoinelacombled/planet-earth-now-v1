@@ -1,6 +1,6 @@
 .App-header {
   display: flex;
-  height: 50px;
+  padding: 1rem 0;
   justify-content: space-around;
   align-items: center;
   color: var(--green-color);
@@ -12,7 +12,6 @@
 .nav-menu-item {
   text-transform: uppercase;
   position: relative;
-  padding-bottom: 5px;
   cursor: pointer;
   text-decoration: none;
   color: var(--green-color);
