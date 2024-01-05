@@ -350,13 +350,13 @@ img {
   .swiper-button-next-why-flag {
     color: white;
     top: -190px;
-    right: -31px;
+    right: -23px;
     font-size: 1.5em;
   }
   .swiper-button-prev-why-flag {
     color: white;
     top: -190px;
-    right: 31px;
+    right: 23px;
     font-size: 1.5em;
   }
 }
