@@ -431,6 +431,21 @@ img {
   }
 }
 
+@media only screen and (max-width: 850px) and (orientation: landscape) {
+  .swiper-button-next-why-flag {
+    color: white;
+    top: -310px;
+    right: -123px;
+    font-size: 1.5em;
+  }
+  .swiper-button-prev-why-flag {
+    color: white;
+    top: -310px;
+    right: 123px;
+    font-size: 1.5em;
+  }
+}
+
 /* @media (max-width: 768px) {
   .why-flag-section {
     display: none;

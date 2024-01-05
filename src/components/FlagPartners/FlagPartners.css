@@ -124,3 +124,9 @@
     gap: 1px;
   }
 }
+
+@media only screen and (max-width: 844px) and (orientation: landscape) {
+  .partners-container {
+    gap: 30px;
+  }
+}
