@@ -1,57 +1,26 @@
 .App-sidebar {
   background-color: white;
-  writing-mode: vertical-lr;
   width: 5%;
-  top: 0;
-  position: sticky;
-  height: 100vh;
+  overflow: hidden;
+  height: 100%;
+}
+
+.Sidebar-content {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 1rem 0;
 }
 
 .hero-flag {
-  max-width: 38px;
-  margin-top: 70px;
-}
-
-@media (max-width: 1072px) {
-  .hero-flag {
-    width: 41px;
-    margin-bottom: 50px;
-  }
-}
-
-@media (max-width: 950px) {
-  .hero-flag {
-    width: 40px;
-    margin-bottom: -280px;
-  }
-}
-
-@media (max-width: 780px) {
-  .hero-flag {
-    width: 30px;
-    margin-bottom: 0px;
-  }
-}
-
-@media (max-width: 640px) {
-  .hero-flag {
-    width: 17px;
-    margin-bottom: 40px;
-  }
+  width: auto;
+  height: 100%;
 }
 
 @media (max-width: 519px) {
   .App-sidebar {
     display: none;
-  }
-}
-
-@media only screen and (max-width: 850px) and (orientation: landscape) {
-  .hero-flag {
-    max-width: 41px;
-    margin-bottom: 0px;
   }
 }
