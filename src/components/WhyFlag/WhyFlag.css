@@ -334,7 +334,7 @@ img {
     margin-top: 5em;
   }
   .why-flag-text {
-    width: 100%;
+    width: 90%;
     margin-top: 2em;
     font-family: "Single Day";
     position: absolute;
@@ -349,13 +349,13 @@ img {
   }
   .swiper-button-next-why-flag {
     color: white;
-    top: -190px;
+    top: -210px;
     right: -23px;
     font-size: 1.5em;
   }
   .swiper-button-prev-why-flag {
     color: white;
-    top: -190px;
+    top: -210px;
     right: 23px;
     font-size: 1.5em;
   }
@@ -403,7 +403,7 @@ img {
     margin-top: 5em;
   }
   .why-flag-text {
-    width: 100%;
+    width: 90%;
     margin-top: 2em;
     font-family: "Single Day";
     position: absolute;
