@@ -25,7 +25,7 @@ const events = [
   {
     date: "16/1/2024",
     location: "Antibes",
-    audience: "Colloque professionnel",
+    audience: "Professionnel",
     description: "Escape game Code Climat aux port d'antibes",
     link: "https://www.eventbrite.fr/e/billets-escape-game-code-climat-au-port-dantibes-765250714487?aff=oddtdtcreator",
   },
@@ -46,7 +46,7 @@ const events = [
   {
     date: "24/1/2024",
     location: "Rueil-Malmaison",
-    audience: "Colloque professionnel",
+    audience: "professionnel",
     description:
       "Le carbone dans les sols sous la loupe de la communauté scientifique",
     link: "https://www.soilcet.com/",
@@ -156,7 +156,10 @@ function CarouselEvent() {
               spaceBetween={10}
               slidesPerView={2}
               breakpoints={{
-                469: {
+                300: {
+                  slidesPerView: 1,
+                },
+                448: {
                   slidesPerView: 1,
                 },
                 600: {

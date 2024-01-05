@@ -85,7 +85,7 @@
 }
 
 .event-more-info {
-  font-size: 12px;
+  font-size: 10px;
   padding-top: 1em;
   text-decoration: none;
   color: white;
@@ -122,6 +122,17 @@
   }
   .swiper-button-prev {
     padding-left: 1em;
+  }
+  .event-card .event-card-text {
+    font-size: 0.7em;
+    height: 150px;
+    line-height: 17px;
+  }
+  .date-location {
+    font-size: 0.8em;
+  }
+  .audience-event {
+    font-size: 0.5em;
   }
 }
 
