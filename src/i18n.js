@@ -262,7 +262,7 @@ i18n.use(initReactI18next).init({
 
         GetTheFlagTitleCardFive: "EN LE FABRIQUANT VOUS-MÊME",
         GetTheFlagTextCardFive:
-          "Vous pouvez télécharger ci-dessous le fichier du drapeau de l'urgence climatique afin de l'imprimer pour le fabriquer vous-même ou le partager autour de vous.",
+          "Vous pouvez télécharger ci-dessous le fichier du drapeau de l'urgence climatique afin de l'imprimer pour le fabriquer\u00A0vous-même ou le partager autour de vous.",
 
         GetTheFlagDownload: "TÉLÉCHARGER LE DRAPEAU",
 
@@ -278,7 +278,7 @@ i18n.use(initReactI18next).init({
           "Il peut être personnalisé à votre convenance et selon vos projets.",
 
         // WhyFlag Section
-        WhyFlagTitle: "POURQUOI CE DRAPEAU ?",
+        WhyFlagTitle: "POURQUOI CE DRAPEAU\u00A0?",
         WhyFlagTextOne:
           "Ce drapeau est l’emblème de notre planète, du bleu des océans et du vert de la nature.",
         WhyFlagTextTwo:

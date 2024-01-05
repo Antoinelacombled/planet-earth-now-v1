@@ -154,7 +154,7 @@ function CarouselEvent() {
               }}
               modules={[Navigation]}
               spaceBetween={10}
-              slidesPerView={1}
+              slidesPerView={2}
               breakpoints={{
                 469: {
                   slidesPerView: 1,

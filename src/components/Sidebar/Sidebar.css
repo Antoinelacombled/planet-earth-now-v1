@@ -32,7 +32,7 @@
 @media (max-width: 780px) {
   .hero-flag {
     width: 30px;
-    margin-bottom: 514px;
+    margin-bottom: 0px;
   }
 }
 
