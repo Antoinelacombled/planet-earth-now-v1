@@ -41,6 +41,20 @@ function FlagPartners() {
         }}
         spaceBetween={1}
         slidesPerView={4}
+        breakpoints={{
+          100: {
+            slidesPerView: 2,
+          },
+          300: {
+            slidesPerView: 3,
+          },
+          650: {
+            slidesPerView: 4,
+          },
+          1000: {
+            slidesPerView: 4,
+          },
+        }}
       >
         {supporters.map((supporter, index) => (
           <SwiperSlide key={index}>

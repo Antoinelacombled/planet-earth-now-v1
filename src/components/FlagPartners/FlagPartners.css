@@ -140,9 +140,8 @@
   }
   .logo-partner {
     width: 80%;
-    width: 40%;
+    width: 50%;
     height: auto;
-    padding-top: 10px;
   }
   .partners-container {
     display: flex;
