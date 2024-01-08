@@ -9,13 +9,6 @@ SwiperCore.use([Navigation]);
 
 const events = [
   {
-    date: "6/1/2024",
-    location: "Nantes",
-    audience: "Grand public",
-    description: "Ocean Talks (avec Hugo Clément et Paul Watson)",
-    link: "https://oceanfest.fr",
-  },
-  {
     date: "10/1/2024",
     location: "En ligne",
     audience: "Grand public",
