@@ -1,15 +1,16 @@
+//import CSS
 import React from "react";
 import { useTranslation } from "react-i18next";
 import "./FlagPartners.css";
 
+// import Swiper
 import SwiperCore from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 
-import "./FlagPartners.css";
-
+// import Logos
 import Recoft from "../../assets/logoRecoft.png";
 import Treemium from "../../assets/logoTreemium.png";
 import Eco from "../../assets/logoEco.png";
@@ -18,9 +19,16 @@ import Rockett from "../../assets/logoRockett.png";
 
 SwiperCore.use([Navigation]);
 
+const supporters = [
+  { id: "recoft", image: Recoft, url: "https://www.recoftc.org/" },
+  { id: "eco", image: Eco, url: "https://www.eco-prisme.com/" },
+  { id: "Jiboiana", image: Jiboiana, url: "https://association-jiboiana.com/" },
+  { id: "rocket", image: Rockett, url: "https://therocketfoundation.org/" },
+  { id: "treemium", image: Treemium, url: "https://treemium.com/" },
+];
+
 function FlagPartners() {
   const { t } = useTranslation();
-  const partners = [Treemium, Recoft, Jiboiana, Eco, Rockett];
 
   return (
     <section className="flag-partners-section">
@@ -31,19 +39,15 @@ function FlagPartners() {
           nextEl: ".swiper-button-next-flag-partners",
           prevEl: ".swiper-button-prev-flag-partners",
         }}
-        spaceBetween={5}
+        spaceBetween={1}
         slidesPerView={4}
       >
-        {partners.map((partnerLogo, index) => (
+        {supporters.map((supporter, index) => (
           <SwiperSlide key={index}>
-            <a
-              href="partner-link" // Replace with actual partner link
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href={supporter.url} target="_blank" rel="noopener noreferrer">
               <img
                 className="logo-partner"
-                src={partnerLogo}
+                src={supporter.image}
                 alt="Partner Logo"
               />
             </a>

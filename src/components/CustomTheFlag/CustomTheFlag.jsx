@@ -9,6 +9,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 // Importation des images
+import Arrow from "../../assets/arrow.png";
 import flagRecoft from "../../assets/flag-recoft.png";
 import flagRocket from "../../assets/flag-rocket.png";
 import flagTreemium from "../../assets/flag-treemium.png";
@@ -68,6 +69,9 @@ function CustomTheFlag() {
               <button className="swiper-button-next custom-the-flag-next"></button>
             </div>
           </div>
+        </div>
+        <div>
+          <div className="click-on-it">{t("CustomTheFlagClick")}</div>
         </div>
       </div>
     </section>

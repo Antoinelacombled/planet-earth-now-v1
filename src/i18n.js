@@ -82,7 +82,7 @@ i18n.use(initReactI18next).init({
           "It can be customised to suit your needs and projects.",
 
         // WhyFlag Section
-        WhyFlagTitle: "WHY THIS FLAG ?",
+        WhyFlagTitle: "WHY THIS FLAG",
         WhyFlagTextOne:
           "This flag is the emblem of our planet, the blue of the oceans and the green of nature.",
         WhyFlagTextTwo:
@@ -104,6 +104,9 @@ i18n.use(initReactI18next).init({
           "COUNTRIES HAVE THEIR FLAGS, NOW THE INHABITANTS OF THE EARTH HAVE THEIRS.",
 
         // CustomTheFlag Section
+
+        CustomTheFlagClick: "↑\u00A0Click on it!\u00A0↑",
+
         CustomTheFlagTitle: "CUSTOMISE THE FLAG",
 
         // Quotation Section
@@ -278,7 +281,7 @@ i18n.use(initReactI18next).init({
           "Il peut être personnalisé à votre convenance et selon vos projets.",
 
         // WhyFlag Section
-        WhyFlagTitle: "POURQUOI CE DRAPEAU\u00A0?",
+        WhyFlagTitle: "POURQUOI CE DRAPEAU",
         WhyFlagTextOne:
           "Ce drapeau est l’emblème de notre planète, du bleu des océans et du vert de la nature.",
         WhyFlagTextTwo:
@@ -303,6 +306,9 @@ i18n.use(initReactI18next).init({
           "LES PAYS ONT LEUR DRAPEAU, LES TERRIENS ONT DESORMAIS LE LEUR.",
 
         // CustomTheFlag Section
+
+        CustomTheFlagClick: "↑\u00A0Cliquez-les !\u00A0↑",
+
         CustomTheFlagTitle: "PERSONNALISEZ LE DRAPEAU",
 
         // Quotation Section
