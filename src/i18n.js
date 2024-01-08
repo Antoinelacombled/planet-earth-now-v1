@@ -313,7 +313,7 @@ i18n.use(initReactI18next).init({
         QuotationSectionThree:
           "«\u00A0AUJOURD'HUI PLUS QUE JAMAIS, L'AVENIR DE LA TERRE, NOTRE AVENIR, EST ENTRE NOS MAINS\u00A0»",
         QuotationSectionAuthor: "concernant l'affaire du siècle,",
-        QuotationSectionAuthorBis: "en référence à F.D Roosevelt",
+        QuotationSectionAuthorBis: "en référence à F.D\u00A0Roosevelt",
 
         //EVENTS
         EventTitle: "LES ÉVÉNEMENTS",
