@@ -67,7 +67,7 @@ i18n.use(initReactI18next).init({
 
         GetTheFlagTitleCardFive: "BY MAKING IT YOURSELF",
         GetTheFlagTextCardFive:
-          "You can download the file with the climate emergency flag here below to print out and create it yourself or share with others.",
+          "You can download the file with the climate emergency flag here below to print out and create it yourself and share with others.",
 
         GetTheFlagDownload: "DOWNLOAD THE FLAG",
 
@@ -262,7 +262,7 @@ i18n.use(initReactI18next).init({
 
         GetTheFlagTitleCardFive: "EN LE FABRIQUANT VOUS-MÊME",
         GetTheFlagTextCardFive:
-          "Vous pouvez télécharger ci-dessous le fichier du drapeau de l'urgence climatique afin de l'imprimer pour le fabriquer\u00A0vous-même ou le partager autour de vous.",
+          "Vous pouvez télécharger ci-dessous le fichier du drapeau de l'urgence climatique afin de l'imprimer pour le fabriquer\u00A0vous-même et le partager autour de vous.",
 
         GetTheFlagDownload: "TÉLÉCHARGER LE DRAPEAU",
 

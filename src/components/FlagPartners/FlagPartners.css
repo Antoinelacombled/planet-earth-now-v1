@@ -1,9 +1,8 @@
 .flag-partners-section {
   width: 100%;
   background-color: var(--blue-color);
-  padding: 1em;
   text-align: center;
-  padding: 3em;
+  padding: 4em;
 }
 
 .title-flag-partners-section {
@@ -14,15 +13,37 @@
   margin-bottom: 1.2em;
 }
 
-.partners-container {
-  display: flex;
-  justify-content: center;
-  gap: 100px;
+.logo-partner {
+  width: 110px;
+  height: auto;
 }
 
-.logo-partner {
-  width: 120px;
-  height: auto;
+.swiper-button-prev-flag-partners {
+  font-family: "Nanum Gothic", sans-serif;
+  text-decoration: none;
+  color: white;
+  border: none;
+  background: none;
+  font-size: 3em;
+  cursor: pointer;
+  position: relative;
+  top: -100px;
+  right: 600px;
+  z-index: 99999;
+}
+
+.swiper-button-next-flag-partners {
+  font-family: "Nanum Gothic", sans-serif;
+  text-decoration: none;
+  color: white;
+  border: none;
+  background: none;
+  font-size: 3em;
+  cursor: pointer;
+  position: relative;
+  top: -100px;
+  right: -600px;
+  z-index: 99999;
 }
 
 @media (max-width: 1024px) {

@@ -16,6 +16,7 @@
   letter-spacing: 0.1em;
   display: flex;
   justify-content: center;
+  text-decoration: none;
 }
 
 .event-card {
@@ -28,10 +29,15 @@
   text-align: center;
   font-family: "Gilroy-bold";
   letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+
+.event-card a {
+  color: white;
+  text-decoration: none;
 }
 
 .event-card:hover {
-  transform: translateY(-10px);
   background: rgba(255, 255, 255, 0.2);
 }
 
@@ -51,6 +57,12 @@
 .small-container {
   width: 75%;
   margin: 0 auto;
+}
+
+.audience-event {
+  font-family: Gilroy;
+  font-weight: lighter;
+  font-size: smaller;
 }
 
 .container-box {
@@ -85,7 +97,7 @@
 }
 
 .event-more-info {
-  font-size: 10px;
+  font-size: 13px;
   padding-top: 1em;
   text-decoration: none;
   color: white;
@@ -132,7 +144,7 @@
     font-size: 0.8em;
   }
   .audience-event {
-    font-size: 0.5em;
+    font-size: 0.6em;
   }
 }
 

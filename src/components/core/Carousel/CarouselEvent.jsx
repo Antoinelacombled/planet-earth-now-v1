@@ -136,7 +136,7 @@ function CarouselEvent() {
   return (
     <section className="carousel" id="event">
       <section className="set-the-event" id="event">
-        <div className="title-set-the-event"> {t("EventTitle")}</div>
+        <div className="title-set-the-event">{t("EventTitle")}</div>
         <div className="container-box">
           <div className="small-container super-container-set-the-event">
             <Swiper
@@ -149,34 +149,33 @@ function CarouselEvent() {
               spaceBetween={10}
               slidesPerView={2}
               breakpoints={{
-                300: {
-                  slidesPerView: 1,
-                },
-                448: {
-                  slidesPerView: 1,
-                },
-                600: {
-                  slidesPerView: 2,
-                },
+                300: { slidesPerView: 1 },
+                448: { slidesPerView: 1 },
+                600: { slidesPerView: 2 },
               }}
             >
               {events.map((event, index) => (
                 <SwiperSlide key={index} className="event-card">
-                  <div className="date-location">
-                    {event.date} - {event.location}
-                  </div>
-                  <div className="event-card-text">{event.description}</div>
-                  <div className="audience-event">{event.audience}</div>
-                  <a href={event.link} className="event-more-info">
-                    En savoir plus
+                  <a
+                    href={event.link}
+                    className="event-card-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="date-location">
+                      {event.date} - {event.location}
+                    </div>
+                    <div className="audience-event">{event.audience}</div>
+                    <div className="event-card-text">{event.description}</div>
+                    <div className="event-more-info">En savoir plus</div>
                   </a>
                 </SwiperSlide>
               ))}
             </Swiper>
           </div>
           <div>
-            <button className="swiper-button-prev"> </button>
-            <button className="swiper-button-next"> </button>
+            <button className="swiper-button-prev"></button>
+            <button className="swiper-button-next"></button>
           </div>
         </div>
       </section>
