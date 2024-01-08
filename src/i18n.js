@@ -307,7 +307,7 @@ i18n.use(initReactI18next).init({
 
         // CustomTheFlag Section
 
-        CustomTheFlagClick: "↑\u00A0Cliquez-les !\u00A0↑",
+        CustomTheFlagClick: "Cliquez-les",
 
         CustomTheFlagTitle: "PERSONNALISEZ LE DRAPEAU",
 
