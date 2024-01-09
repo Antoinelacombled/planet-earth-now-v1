@@ -274,7 +274,7 @@ i18n.use(initReactI18next).init({
         FlagPrinciplesTextOne:
           "Il appartient à toutes les citoyennes et tous les citoyens du monde.",
         FlagPrinciplesTextTwo:
-          "Il est neutre vis-à-vis de toute formation politique et confessionnelle ainsi que de tout groupe d'intérêt d'influence",
+          "Il est neutre vis-à-vis de toute formation politique et confessionnelle ainsi que de tout groupe d’intérêt ou d’influence.",
         FlagPrinciplesTextThree:
           "Il est écoconçu et autant que possible produit localement.",
         FlagPrinciplesTextFour:

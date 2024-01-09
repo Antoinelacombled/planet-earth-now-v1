@@ -12,7 +12,7 @@ function FlagSection() {
         <img
           className="img-flag"
           src={flag}
-          alt="planet earth now flag"
+          alt="earth flag one flag"
           loading="lazy"
         ></img>
       </div>

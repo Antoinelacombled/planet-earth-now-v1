@@ -25,7 +25,8 @@ function ProjectSection() {
             <img
               className="project-image"
               src={snowMountains}
-              alt="Fire Image"
+              s
+              alt="image montagne"
             />
             <h3 className="project-title">
               Contentmendos se arbitrantur qui hac opinionone non modo

@@ -17,7 +17,7 @@ function ActionQuoteSection() {
           <img
             className="img-action-quote"
             src={imgAssemb}
-            alt="Image description"
+            alt="Image assemblée nationale et drapeau earth flag one flottant"
           />
         </div>
       </div>

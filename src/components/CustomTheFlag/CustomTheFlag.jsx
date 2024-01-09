@@ -9,7 +9,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 // Importation des images
-import Arrow from "../../assets/arrow.png";
 import flagRecoft from "../../assets/flag-recoft.png";
 import flagRocket from "../../assets/flag-rocket.png";
 import flagTreemium from "../../assets/flag-treemium.png";

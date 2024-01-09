@@ -13,6 +13,7 @@ function ClimateUrgencyBanner() {
         autoPlay
         playsInline
         muted
+        alt="video du drapeau earth flag one flottant"
       >
         <source src={videoflag} type="video/mp4" />
       </video>
@@ -20,7 +21,7 @@ function ClimateUrgencyBanner() {
         className="gif-flag mobile-only"
         loading="lazy"
         src={gifFlag}
-        alt="Drapeau"
+        alt="Drapeau earth flag one"
       />
     </section>
   );

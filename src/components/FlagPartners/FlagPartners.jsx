@@ -20,11 +20,36 @@ import Rockett from "../../assets/logoRockett.png";
 SwiperCore.use([Navigation]);
 
 const supporters = [
-  { id: "recoft", image: Recoft, url: "https://www.recoftc.org/" },
-  { id: "eco", image: Eco, url: "https://www.eco-prisme.com/" },
-  { id: "Jiboiana", image: Jiboiana, url: "https://association-jiboiana.com/" },
-  { id: "rocket", image: Rockett, url: "https://therocketfoundation.org/" },
-  { id: "treemium", image: Treemium, url: "https://treemium.com/" },
+  {
+    id: "recoft",
+    image: Recoft,
+    url: "https://www.recoftc.org/",
+    alt: "logo recoft",
+  },
+  {
+    id: "eco",
+    image: Eco,
+    url: "https://www.eco-prisme.com/",
+    alt: "logo ecoprism",
+  },
+  {
+    id: "Jiboiana",
+    image: Jiboiana,
+    url: "https://association-jiboiana.com/",
+    alt: "logo Jiboiana",
+  },
+  {
+    id: "rocket",
+    image: Rockett,
+    url: "https://therocketfoundation.org/",
+    alt: "logo Rocket Fondation",
+  },
+  {
+    id: "treemium",
+    image: Treemium,
+    url: "https://treemium.com/",
+    alt: "logo treemium",
+  },
 ];
 
 function FlagPartners() {
@@ -62,7 +87,7 @@ function FlagPartners() {
               <img
                 className="logo-partner"
                 src={supporter.image}
-                alt="Partner Logo"
+                alt={supporter.alt}
               />
             </a>
           </SwiperSlide>

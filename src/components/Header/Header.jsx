@@ -51,7 +51,7 @@ function Header() {
         />
         <img
           src={frenchflag}
-          alt="English flag"
+          alt="French flag"
           className="english-flag"
           onClick={() => changeLanguage("fr")}
         />
