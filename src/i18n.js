@@ -236,7 +236,7 @@ i18n.use(initReactI18next).init({
 
         // ActionQuote Section
         ActionQuoteSectionTitle:
-          " « IL S’AGIT DE METTRE AU PIED DU MUR LES PERSONNES QUI ONT LE POUVOIR DE FAIRE CHANGER LES CHOSES »",
+          " «\u00A0IL S’AGIT DE METTRE AU PIED DU MUR LES PERSONNES QUI ONT LE POUVOIR DE FAIRE CHANGER LES CHOSES\u00A0»",
 
         // GetTheFlag Section
         GetTheFlagTitle: "COMMENT OBTENIR LE DRAPEAU :",
