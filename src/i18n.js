@@ -5,42 +5,42 @@ i18n.use(initReactI18next).init({
   resources: {
     en: {
       translation: {
-        // OurHouseBurns Section
+        // OUR HOUSE BURNS SECTION //
         OurHouseBurnsTitle: "OUR HOUSE IS ON FIRE",
 
-        // BannerUrgency Section
+        // BANNER URGENCY SECTION //
         BannerUrgencyTitle: "CLIMATE EMERGENCY",
 
-        // Header Section
+        // HEADER SECTION //
         GetTheFlagHeader: "GETTING THE FLAG",
         PrinciplesHeader: "THE PRINCIPLES",
         EventsHeader: "EVENTS",
         ContactHeader: "CONTACT",
         FaqHeader: "FAQ",
 
-        // BannerUnity Section
+        // BANNER UNITY SECTION //
         BannerUnityTitleOne: "WE NEED A STRONG",
         BannerUnityTitleTwo: "SYMBOL OF UNITY",
 
-        // Flag Section
+        // FLAG SECTION //
         FlagSectionTitle:
           "The aim of this banner is to remind people of the dangers of climate change and to boost the projects and actions of environmental campaigners.",
 
-        // Banner Mobilize
+        // BANNER MOBILIZE //
         BannerMobilizeTitle: "LET'S GET INVOLVED",
 
-        // Manifesto Section
+        // MANIFESTO SECTION //
         ManifestoSectionTitleOne: "« CIVIL ACTION IS",
         ManifestoSectionTitleTwo: "THE ONLY REAL ",
         ManifestoSectionTitleThree: "ALTERNATIVE TO",
         ManifestoSectionTitleFour: "RESOLVE THE CLIMATE »",
         ManifestoBook: "Climate is changing... What about you?",
 
-        // Action Quote Section
+        // ACTION QUOTE SECTION //
         ActionQuoteSectionTitle:
           "« IT'S ALL ABOUT PUTTING THE PEOPLE WHO HAVE THE POWER TO CHANGE THINGS AGAINST THE WALL »",
 
-        // GetTheFlag Section
+        // GET THE FLAG SECTION //
         GetTheFlagTitle: "HOW TO GET THE FLAG:",
 
         GetTheFlagTitleCardOne: "AT CLIMATE MARCHES",
@@ -71,7 +71,7 @@ i18n.use(initReactI18next).init({
 
         GetTheFlagDownload: "DOWNLOAD THE FLAG",
 
-        //FlagPrinciples Section
+        // FLAG PRINCIPLES SECTION //
         FlagPrinciplesTitle: "THE PRINCIPLES OF THE FLAG",
         FlagPrinciplesTextOne: "It belongs to all citizens of the world.",
         FlagPrinciplesTextTwo:
@@ -81,7 +81,7 @@ i18n.use(initReactI18next).init({
         FlagPrinciplesTextFour:
           "It can be customised to suit your needs and projects.",
 
-        // WhyFlag Section
+        // WHY FLAG SECTION //
         WhyFlagTitle: "WHY THIS FLAG",
         WhyFlagTextOne:
           "This flag is the emblem of our planet, the blue of the oceans and the green of nature.",
@@ -103,13 +103,12 @@ i18n.use(initReactI18next).init({
         WhyFlagTextEleven:
           "COUNTRIES HAVE THEIR FLAGS, NOW THE INHABITANTS OF THE EARTH HAVE THEIRS.",
 
-        // CustomTheFlag Section
-
+        // CUSTOM THE FLAG SECTION //
         CustomTheFlagClick: "↑\u00A0Click on it!\u00A0↑",
 
         CustomTheFlagTitle: "CUSTOMISE THE FLAG",
 
-        // Quotation Section
+        // QUOTATION SECTION //
         QuotationSectionOne:
           "«\u00A0THE WORLD WILL NOT BE DESTROYED BY THOSE WHO DO EVIL, BUT BY THOSE WHO WATCH THEM WITHOUT DOING ANYTHING\u00A0»",
         QuotationSectionTwo:
@@ -119,23 +118,23 @@ i18n.use(initReactI18next).init({
         QuotationSectionAuthor: "on the affair of the century,",
         QuotationSectionAuthorBis: "in reference to F.D. Roosevelt",
 
-        //EVENTS
+        //EVENTS //
         EventTitle: "EVENTS",
 
-        // FlagPartners Section
+        // FLAG PARTNERS SECTION //
         FlagPartnerTitle: "OUR FLAG SUPPORTERS",
 
-        // Nationalité
+        // NATIONALITÉ //
         Nationality: "- Nationality ?",
         Terrien: "- Inhabitant of Earth !",
         You: "- And you ?",
 
-        // Footer
+        // FOOTER //
         Legal: "LEGAL INFORMATIONS",
         Confident: "OUR PRIVACY POLICY",
         Home: "HOME",
 
-        // FAQ
+        // FAQ //
         FaqTitleOne: "WHEN CAN THE FLAG BE USED?",
         FaqTitleTwo: "HOW CAN I GET THE FLAG FOR MY EVENT?",
         FaqTitleThree: "WHERE CAN I BUY THE FLAG?",
@@ -162,20 +161,19 @@ i18n.use(initReactI18next).init({
         FaqTextSevenBis:
           "the contact form and we'll get back to you as soon as possible.",
 
-        //LEGAL MENTION
+        // LEGAL MENTION //
         LegalTitle: "LEGAL INFORMATION",
         Publisher:
           "PUBLISHER PLANET EARTH NOW, an Association declared in the French national register of associations since 07 August 2020 under number W751257593, domiciled at 15 rue Saint-Dominique 75007 in Paris and with the SIREN number is 889954152 Contact: contact@earthflag1.org Director of publication: Mr Daniel Malingue VAT: FR33889954152 HOST Company name: GoDaddy.com, LLC Address: 2155 E Warner Rd, Tempe, Arizona 85284 United States Contact: ",
 
-        // CONTACT
+        // CONTACT //
         PlaceHolderOne: "Enter your first name",
         PlaceHolderTwo: "Enter your last name",
         PlaceHolderThree: "Enter your email",
         PlaceHolderFour:
           "Share your ideas, suggestions, questions, proposals for partnership...",
 
-        // Politique de confidentialité
-
+        // POLITIQUE DE CONFIDENTIALITÉ //
         FirstTextPolicy:
           "PREAMBLE PLANET EARTH NOW, an Association declared in the French national register of associations since 07 August 2020 under number W751257593, domiciled at 15 rue Saint-Dominique 75007 in Paris and with the SIREN number is 889954152 undertakes to comply with the legislation in force in France (Law nᵒ 78-17 of 6 January 1978 Informatique et Libertés) and in Europe (Regulation 2016/679 of 27 April 2016 GDPR), to ensure the protection, confidentiality and security of personal data, as well as to ensure respect for privacy. In accordance with its values, PLANET EARTH NOW attaches great importance to respecting the personal data and privacy of Internet users and visitors to its website. This privacy policy (the Policy) describes how PLANET EARTH NOW collects and processes the personal data of individuals who visit the PLANET EARTH NOW website or contact PLANET EARTH NOW using the forms on the website. The Policy also specifies the legal bases on which PLANET EARTH NOW relies on to process personal data and set retention periods. In any event, PLANET EARTH NOW undertakes to comply with the following principles: Your data will only be used for explicit, legitimate and specific purposes in connection with the various functions offered on the website, in particular the contact form; PLANET EARTH NOW collects and processes only personal data that is useful for these purposes; You will be informed in a clear and transparent manner of the purpose for which your personal data will be used and of your data protection rights.",
         ArticleOne:
@@ -203,42 +201,42 @@ i18n.use(initReactI18next).init({
     },
     fr: {
       translation: {
-        // OurHouseBurns Section
+        // OUR HOUSE BURNS SECTION //
         OurHouseBurnsTitle: "NOTRE MAISON BRÛLE",
 
-        // BannerUrgency Section
+        // BANNER URGENCY SECTION //
         BannerUrgencyTitle: "URGENCE CLIMATIQUE",
 
-        // Header Section
+        // HEADER SECTION //
         GetTheFlagHeader: "OBTENIR LE DRAPEAU",
         PrinciplesHeader: "LES PRINCIPES",
         EventsHeader: "LES ÉVÉNEMENTS",
         ContactHeader: "CONTACT",
         FaqHeader: "FAQ",
 
-        // BannerUnity Section
+        // BANNER UNITY SECTION //
         BannerUnityTitleOne: "NOUS AVONS BESOIN",
         BannerUnityTitleTwo: "D'UN SYMBOLE D'UNITÉ FORT",
 
-        // Flag Section
+        // FLAG SECTION //
         FlagSectionTitle:
           "Cet étendard a pour but de rappeler les dangers des changements climatiques et de porter les projets et les actions des défenseurs de l'environnement, plus haut et plus fort.",
 
-        // Banner Mobilize
+        // BANNER MOBILIZE //
         BannerMobilizeTitle: "MOBILISONS-NOUS",
 
-        // Manifesto Section
+        // MANIFESTO SECTION //
         ManifestoSectionTitleOne: "« L'ACTION CIVILE EST",
         ManifestoSectionTitleTwo: "LA SEULE VÉRITABLE",
         ManifestoSectionTitleThree: "ALTERNATIVE POUR AGIR",
         ManifestoSectionTitleFour: "SUR LE CLIMAT »",
         ManifestoBook: "Le climat change... et vous ?",
 
-        // ActionQuote Section
+        // ACTION QUOTE SECTION //
         ActionQuoteSectionTitle:
           " «\u00A0IL S’AGIT DE METTRE AU PIED DU MUR LES PERSONNES QUI ONT LE POUVOIR DE FAIRE CHANGER LES CHOSES\u00A0»",
 
-        // GetTheFlag Section
+        // GET THE FLAG SECTION //
         GetTheFlagTitle: "COMMENT OBTENIR LE DRAPEAU :",
 
         GetTheFlagTitleCardOne: "AUX MARCHES POUR LE CLIMAT",
@@ -269,7 +267,7 @@ i18n.use(initReactI18next).init({
 
         GetTheFlagDownload: "TÉLÉCHARGER LE DRAPEAU",
 
-        // FlagPrinciples Section
+        // FLAG PRINCIPLES SECTION //
         FlagPrinciplesTitle: "LES PRINCIPES DU DRAPEAU",
         FlagPrinciplesTextOne:
           "Il appartient à toutes les citoyennes et tous les citoyens du monde.",
@@ -280,7 +278,7 @@ i18n.use(initReactI18next).init({
         FlagPrinciplesTextFour:
           "Il peut être personnalisé à votre convenance et selon vos projets.",
 
-        // WhyFlag Section
+        // WHY FLAG SECTION //
         WhyFlagTitle: "POURQUOI CE DRAPEAU",
         WhyFlagTextOne:
           "Ce drapeau est l’emblème de notre planète, du bleu des océans et du vert de la nature.",
@@ -305,13 +303,13 @@ i18n.use(initReactI18next).init({
         WhyFlagTextEleven:
           "LES PAYS ONT LEUR DRAPEAU, LES TERRIENS ONT DESORMAIS LE LEUR.",
 
-        // CustomTheFlag Section
+        // CUSTOM THE FLAG SECTION //
 
         CustomTheFlagClick: "Cliquez-les",
 
         CustomTheFlagTitle: "PERSONNALISEZ LE DRAPEAU",
 
-        // Quotation Section
+        // QUOTATION SECTION //
         QuotationSectionOne:
           "«\u00A0LE MONDE NE SERA PAS DÉTRUIT PAR LES GENS QUI FONT LE MAL, MAIS PAR CEUX QUI LES REGARDENT SANS RIEN FAIRE\u00A0»",
         QuotationSectionTwo:
@@ -324,15 +322,15 @@ i18n.use(initReactI18next).init({
         //EVENTS
         EventTitle: "LES ÉVÉNEMENTS",
 
-        // FlagPartners Section
+        // FLAG PARTNERS SECTION //
         FlagPartnerTitle: "LES SOUTIENS AU DRAPEAU",
 
-        // Nationalité
+        // NATIONALITÉ //
         Nationality: "- Nationalité ?",
         Terrien: "- Terrien !",
         You: "- Et vous ?",
 
-        // Footer
+        // FOOTER //
         Legal: "MENTIONS LÉGALES",
         Confident: "POLITIQUE DE CONFIDENTIALITÉ",
         Home: "ACCUEIL",
@@ -365,20 +363,19 @@ i18n.use(initReactI18next).init({
         FaqTextSevenBis:
           "via le formulaire de contact et nous vous répondrons dans les meilleurs délais.",
 
-        // LEGAL MENTION
+        // LEGAL MENTION //
         LegalTitle: "MENTIONS LÉGALES",
         Publisher:
           "ÉDITEUR PLANET EARTH NOW, Association déclarée au répertoire nationale des associations depuis le 07 août 2020 sous le numéro W751257593, domiciliée 15 rue Saint-Dominique 75007 à Paris et dont le numéro SIREN est 889954152 Contact : contact@earthflag1.org Directeur de la publication : Monsieur Daniel Malingue TVA : FR33889954152 HÉBERGEUR Raison sociale : GoDaddy.com, LLC Adresse : 2155 E Warner Rd, Tempe, Arizona 85284 États-Unis Contact : ",
 
-        // CONTACT
+        // CONTACT //
         PlaceHolderOne: "Entrez votre prénom",
         PlaceHolderTwo: "Entrez votre nom",
         PlaceHolderThree: "Entrez votre email",
         PlaceHolderFour:
           "Partagez vos idées, vos suggestions, vos questions, vos propositions de partenariat...",
 
-        // Politique de confidentialité
-
+        // POLITIQUE DE CONFIDENTIALITÉ //
         FirstTextPolicy:
           "PRÉAMBULE: PLANET EARTH NOW, Association déclarée au répertoire nationale des associations depuis le 07 août 2020 sous le numéro W751257593, domiciliée 15 rue Saint-Dominique et dont le numéro SIREN est 889954152 s’engage à se conformer à la législation en vigueur en France (Loi nᵒ 78-17 du 6 janvier 1978 « Informatique et Libertés ») et en Europe (Règlement 2016/679 du 27 avril 2016 « RGPD »), à assurer la protection, la confidentialité et la sécurité des données à caractère personnel, ainsi qu’à assurer le respect de la vie privée.Conformément à ses valeurs, PLANET EARTH NOW accorde une grande importance au respect des données à caractère personnel ainsi qu’à la vie privée des internautes et visiteurs de son site web. La présente politique de confidentialité (ci-après « la Politique ») décrit la manière dont PLANET EARTH NOW collecte et traite les données à caractère personnel des personnes naviguant sur son site ou prenant attache avec elle par le biais du formulaire présent sur le site. La Politique précise également les bases légales sur lesquelles PLANET EARTH NOW s’appuie pour traiter les données à caractère personnel et fixer leurs durées de conservation. En tout état de cause, PLANET EARTH NOW s’engage à respecter les principes suivants : Vos données sont utilisées uniquement pour des finalités explicites, légitimes et déterminées en lien avec les différentes fonctionnalités proposées sur le site et notamment le formulaire de contact ; Seules les données à caractère personnel qui sont utiles à ces fins sont collectées et traitées par PLANET EARTH NOW ; Vous êtes informé de manière claire et transparente, sur la finalité d’utilisation des données à caractère personnel collectées vous concernant et sur vos droits en matière de protection des données.",
         ArticleOne:
@@ -411,8 +408,5 @@ i18n.use(initReactI18next).init({
     escapeValue: false,
   },
 });
-
-// KALAM
-// SINGLE DAY
 
 export default i18n;
