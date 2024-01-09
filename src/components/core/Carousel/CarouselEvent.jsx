@@ -177,7 +177,7 @@ function CarouselEvent() {
                     rel="noopener noreferrer"
                   >
                     <div className="date-location">
-                      {event.date} - {event.location}
+                      {event.date} <br></br> {event.location}
                     </div>
                     <div className="audience-event">{event.audience}</div>
                     <div className="event-card-text">{event.description}</div>
