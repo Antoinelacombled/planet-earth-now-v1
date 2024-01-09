@@ -147,6 +147,21 @@
   }
 }
 
+@media only screen and (max-width: 996px) and (orientation: landscape) {
+  .Our-house-burns-section {
+    width: 100%;
+  }
+  .burns-text {
+    font-size: 30px;
+    color: white;
+  }
+  .img-burning {
+    flex: 1 1 50%;
+    height: 60vh;
+    object-fit: cover;
+  }
+}
+
 @media only screen and (max-width: 740px) and (orientation: landscape) {
   .Our-house-burns-section {
     width: 100%;
