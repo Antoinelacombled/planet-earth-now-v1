@@ -129,6 +129,20 @@ const events = [
     description: "MIX.E salon mix énergétique neutre en carbone",
     link: "https://mix-energy.com/",
   },
+  {
+    date: "11/4/2024",
+    location: "Lille",
+    audience: "Salon professionnel",
+    description: "Journée Vision à 360° pour une industrie décarbonée",
+    link: "https://www.team2.fr/journee-vision-a-360-pour-une-industrie-decarbonee",
+  },
+  {
+    date: "28/5/2024",
+    location: "Paris",
+    audience: "Salon professionnel",
+    description: "Drive to zero",
+    link: "https://www.drivetozero.fr/",
+  },
 ];
 
 function CarouselEvent() {

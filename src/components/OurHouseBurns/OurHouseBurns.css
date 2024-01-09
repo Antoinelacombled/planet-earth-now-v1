@@ -69,7 +69,7 @@
   }
   .img-burning {
     flex: 1 1 50%;
-    height: 50vh;
+    height: 35vh;
     object-fit: cover;
   }
 }
