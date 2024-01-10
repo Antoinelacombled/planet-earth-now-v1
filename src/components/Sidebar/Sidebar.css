@@ -31,3 +31,10 @@
     display: none;
   }
 }
+
+@media only screen and (max-width: 932px) and (orientation: landscape) {
+  .hero-flag {
+    width: auto;
+    height: 88%;
+  }
+}
