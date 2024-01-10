@@ -151,14 +151,46 @@
   .swiper-button-prev-flag-partners {
     font-size: 2em;
     top: -45px;
-    right: 280px;
+    right: 253px;
     z-index: 99999;
   }
 
   .swiper-button-next-flag-partners {
     font-size: 2em;
     top: -45px;
-    right: -280px;
+    right: -253px;
+    z-index: 99999;
+  }
+}
+
+@media (max-width: 551px) {
+  .flag-partners-section {
+    width: 100%;
+  }
+  .title-flag-partners-section {
+    font-size: 1.5em;
+  }
+  .logo-partner {
+    width: 80%;
+    width: 50%;
+    height: auto;
+  }
+  .partners-container {
+    display: flex;
+    justify-content: center;
+    gap: 0.1px;
+  }
+  .swiper-button-prev-flag-partners {
+    font-size: 2em;
+    top: -145px;
+    right: 380px;
+    z-index: 99999;
+  }
+
+  .swiper-button-next-flag-partners {
+    font-size: 2em;
+    top: -45px;
+    right: -380px;
     z-index: 99999;
   }
 }
@@ -228,7 +260,7 @@
   }
 }
 
-@media only screen and (max-width: 844px) and (orientation: landscape) {
+@media only screen and (max-width: 945px) and (orientation: landscape) {
   .partners-container {
     gap: 30px;
   }
@@ -242,12 +274,12 @@
   .swiper-button-next-flag-partners {
     font-size: 2em;
     top: -75px;
-    right: -280px;
+    right: -380px;
     z-index: 99999;
   }
 }
 
-@media only screen and (max-width: 932px) and (orientation: landscape) {
+@media only screen and (max-width: 844px) and (orientation: landscape) {
   .partners-container {
     gap: 30px;
   }

@@ -124,7 +124,7 @@
   }
   .img-burning {
     flex: 1 1 50%;
-    height: 20vh;
+    height: 19vh;
     object-fit: cover;
   }
 }
@@ -184,7 +184,7 @@
   }
   .img-burning {
     flex: 1 1 50%;
-    height: 60vh;
+    height: 42vh;
     object-fit: cover;
   }
 }
