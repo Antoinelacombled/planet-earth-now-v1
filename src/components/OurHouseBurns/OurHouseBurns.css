@@ -144,6 +144,21 @@
   }
 }
 
+@media (max-width: 390px) {
+  .Our-house-burns-section {
+    width: 100%;
+  }
+  .burns-text {
+    font-size: 10px;
+    color: white;
+  }
+  .img-burning {
+    flex: 1 1 50%;
+    height: 14vh;
+    object-fit: cover;
+  }
+}
+
 @media (max-width: 369px) {
   .Our-house-burns-section {
     width: 100%;

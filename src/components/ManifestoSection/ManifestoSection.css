@@ -33,6 +33,7 @@ body {
 
 .manif-container,
 .Right-manifesto-section {
+  height: 100%;
   width: 50%;
   display: flex;
   align-items: center;

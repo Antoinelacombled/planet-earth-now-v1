@@ -46,6 +46,59 @@
   z-index: 99999;
 }
 
+@media (max-width: 3008px) {
+  .flag-partners-section {
+    width: 100%;
+  }
+  .title-flag-partners-section {
+    font-size: 1.5em;
+  }
+  .logo-partner {
+    width: 100%;
+    width: 150px;
+    height: auto;
+    padding-top: 10px;
+  }
+  .partners-container {
+    display: flex;
+    justify-content: center;
+  }
+  .swiper-button-prev-flag-partners {
+    font-size: 2em;
+    top: -75px;
+    right: 1280px;
+    z-index: 99999;
+  }
+
+  .swiper-button-next-flag-partners {
+    font-size: 2em;
+    top: -75px;
+    right: -1280px;
+    z-index: 99999;
+  }
+}
+
+@media (max-width: 1432px) {
+  .logo-partner {
+    width: 100%;
+    width: 100px;
+    height: auto;
+    padding-top: 10px;
+  }
+  .swiper-button-prev-flag-partners {
+    font-size: 2em;
+    top: -75px;
+    right: 580px;
+    z-index: 99999;
+  }
+  .swiper-button-next-flag-partners {
+    font-size: 2em;
+    top: -75px;
+    right: -580px;
+    z-index: 99999;
+  }
+}
+
 @media (max-width: 1024px) {
   .flag-partners-section {
     width: 100%;
