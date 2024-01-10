@@ -316,3 +316,22 @@
     z-index: 99999;
   }
 }
+
+@media only screen and (max-width: 655px) and (orientation: landscape) {
+  .partners-container {
+    gap: 30px;
+  }
+  .swiper-button-prev-flag-partners {
+    font-size: 2em;
+    top: -50px;
+    right: 250px;
+    z-index: 99999;
+  }
+
+  .swiper-button-next-flag-partners {
+    font-size: 2em;
+    top: -50px;
+    right: -250px;
+    z-index: 99999;
+  }
+}
