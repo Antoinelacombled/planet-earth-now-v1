@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
 
 .contact-section {
+  position: relative;
   background-color: var(--green-color);
   padding-top: 2em;
   padding-left: 4em;
@@ -24,6 +25,7 @@
   left: 6em;
   font-family: "Gilroy-Bold";
   text-align: left;
+  z-index: 99999999;
 }
 
 .contact-form {
