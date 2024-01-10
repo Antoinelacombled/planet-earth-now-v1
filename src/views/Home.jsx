@@ -7,12 +7,10 @@ import ContactSection from "../components/ContactSection/ContactSection";
 import CustomTheFlag from "../components/CustomTheFlag/CustomTheFlag";
 import FlagPartners from "../components/FlagPartners/FlagPartners";
 import FlagSection from "../components/FlagSection/FlagSection";
-import FlagSupport from "../components/FlagSupport/FlagSupport";
 import GetTheFlag from "../components/GetTheFlag/GetTheFlag";
 import ManifestoSection from "../components/ManifestoSection/ManifestoSection";
 import OurHouseBurns from "../components/OurHouseBurns/OurHouseBurns";
 import PrinciplesSection from "../components/PrinciplesSection/PrinciplesSection";
-import ProjectSection from "../components/ProjectSection/ProjectSection";
 import QuotationSection from "../components/QuotationSection/QuotationSection";
 import WhyFlag from "../components/WhyFlag/WhyFlag";
 import CarouselEvent from "../components/core/Carousel/CarouselEvent";
@@ -34,9 +32,7 @@ function Home() {
       <CustomTheFlag />
       <QuotationSection />
       <CarouselEvent />
-      {/* <ProjectSection /> */}
       <FlagPartners />
-      {/* <FlagSupport /> */}
       <ContactSection />
     </>
   );

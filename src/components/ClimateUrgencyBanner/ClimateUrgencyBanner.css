@@ -3,7 +3,8 @@
 }
 
 .Climate-urgency-section {
-  background-color: lightblue;
+  background-image: url("../../assets/screenflag.png");
+  background-size: cover;
 }
 
 .video-flag {

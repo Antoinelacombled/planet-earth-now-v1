@@ -66,6 +66,38 @@
   }
 }
 
+@media (max-width: 824px) {
+  .flag-partners-section {
+    width: 100%;
+  }
+  .title-flag-partners-section {
+    font-size: 1.5em;
+  }
+  .logo-partner {
+    width: 100%;
+    width: 70px;
+    height: auto;
+    padding-top: 10px;
+  }
+  .partners-container {
+    display: flex;
+    justify-content: center;
+  }
+  .swiper-button-prev-flag-partners {
+    font-size: 2em;
+    top: -50px;
+    right: 350px;
+    z-index: 99999;
+  }
+
+  .swiper-button-next-flag-partners {
+    font-size: 2em;
+    top: -50px;
+    right: -350px;
+    z-index: 99999;
+  }
+}
+
 @media (max-width: 780px) {
   .flag-partners-section {
     width: 100%;

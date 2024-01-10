@@ -5,7 +5,7 @@ function Sidebar() {
   return (
     <aside className="App-sidebar">
       <div className="Sidebar-content">
-        <img className="hero-flag" src={flaghero} />
+        <img className="hero-flag" src={flaghero} type="image/png" />
       </div>
     </aside>
   );

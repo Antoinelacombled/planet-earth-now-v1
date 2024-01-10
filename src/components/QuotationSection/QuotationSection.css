@@ -44,7 +44,7 @@
   color: var(--blue-color);
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1024px) {
   .quote-quotation-section {
     width: 100%;
   }

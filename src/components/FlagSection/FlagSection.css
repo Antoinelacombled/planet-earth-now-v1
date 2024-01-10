@@ -52,6 +52,25 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .Flag-section {
+    width: 100%;
+  }
+  .Quote-flag {
+    font-size: 15px;
+  }
+  .img-flag {
+    height: 30vh;
+    width: 100%;
+    object-fit: cover;
+  }
+  .Right-flag-section {
+    background-color: var(--blue-color);
+    width: 50%;
+    height: 30vh;
+  }
+}
+
 @media (max-width: 780px) {
   .Flag-section {
     width: 100%;

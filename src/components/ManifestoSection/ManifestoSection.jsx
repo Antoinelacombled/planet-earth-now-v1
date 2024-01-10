@@ -9,7 +9,7 @@ function ManifestoSection() {
   return (
     <section className="manifesto-section">
       <div className="manif-container">
-        <img className="img-manif" src={imgManif}></img>
+        <img className="img-manif" src={imgManif} type="image/jpeg"></img>
       </div>
       <div className="Right-manifesto-section">
         <div className="Quote-manifesto">

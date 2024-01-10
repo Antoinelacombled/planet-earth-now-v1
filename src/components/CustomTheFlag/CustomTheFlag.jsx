@@ -10,7 +10,7 @@ import "swiper/css/navigation";
 
 // Importation des images
 import flagRecoft from "../../assets/flag-recoft.png";
-import flagRocket from "../../assets/flag-rocket.png";
+import flagRocket from "../../assets/flag-rocket.jpg";
 import flagTreemium from "../../assets/flag-treemium.png";
 import flagCad from "../../assets/cad.png";
 

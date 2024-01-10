@@ -18,7 +18,7 @@ function QuotationSection() {
             {t("QuotationSectionTwo")}
           </div>
           <div className="author-quotation-section green">
-            Cyril Dion <br></br> {t("QuotationSectionAuthor")} <br></br>{" "}
+            Cyril Dion<br></br> {t("QuotationSectionAuthor")} <br></br>{" "}
             {t("QuotationSectionAuthorBis")}
           </div>
         </div>

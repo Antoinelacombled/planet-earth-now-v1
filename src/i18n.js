@@ -283,7 +283,7 @@ i18n.use(initReactI18next).init({
         WhyFlagTextOne:
           "Ce drapeau est l’emblème de notre planète, du bleu des océans et du vert de la nature.",
         WhyFlagTextTwo:
-          "Il est le symbole de la lutte contre le dérèglement climatique, pour la sauvegarde de la biodiversité.",
+          "Il est le symbole de la lutte contre le dérèglement climatique et pour la sauvegarde de la biodiversité.",
         WhyFlagTextThree:
           "Il soutient les actions individuelles et collectives des défenseurs de l’environnement pour porter leurs messages plus haut et plus fort.",
         WhyFlagTextFour:

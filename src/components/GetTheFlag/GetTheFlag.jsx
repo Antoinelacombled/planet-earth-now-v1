@@ -30,7 +30,7 @@ function GetTheFlag() {
             </div>
             <div className="window-gtf-img">
               {" "}
-              <img className="img-size" src={windowOne} />
+              <img className="img-size" src={windowOne} type="image/jpeg" />
             </div>
             <div className="window-gtf-text">
               {t("GetTheFlagTextCardOne")}
@@ -46,7 +46,7 @@ function GetTheFlag() {
               <br></br> {t("GetTheFlagTitleCardTwoBis")}
             </div>
             <div className="window-gtf-img">
-              <img className="img-size" src={windowTwo} />
+              <img className="img-size" src={windowTwo} type="image/jpeg" />
             </div>
             <div className="window-gtf-text">
               {t("GetTheFlagTextCardTwo")}
@@ -61,7 +61,7 @@ function GetTheFlag() {
               {t("GetTheFlagTitleCardThree")}
             </div>
             <div className="window-gtf-img">
-              <img className="img-size" src={windowThree} />
+              <img className="img-size" src={windowThree} type="image/jpeg" />
             </div>
             <div className="window-gtf-text">
               {t("GetTheFlagTextCardThree")} <br></br>
@@ -75,7 +75,7 @@ function GetTheFlag() {
               {t("GetTheFlagTitleCardFour")}
             </div>
             <div className="window-gtf-img">
-              <img className="img-size" src={windowFour} />
+              <img className="img-size" src={windowFour} type="image/jpeg" />
             </div>
             <div className="window-gtf-text">
               {t("GetTheFlagTextCardFour")} <br></br>
@@ -89,7 +89,7 @@ function GetTheFlag() {
               {t("GetTheFlagTitleCardFive")}
             </div>
             <div className="window-gtf-img">
-              <img className="img-size" src={windowFive} />
+              <img className="img-size" src={windowFive} type="image/jpeg" />
             </div>
             <div className="window-gtf-text">{t("GetTheFlagTextCardFive")}</div>
           </div>

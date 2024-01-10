@@ -5,6 +5,7 @@ import { Navigation } from "swiper/modules";
 import "./CarouselEvent.css";
 import "swiper/css";
 import "swiper/css/navigation";
+
 SwiperCore.use([Navigation]);
 
 const events = [

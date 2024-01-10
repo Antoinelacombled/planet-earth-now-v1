@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import "./FlagSection.css";
 
-import flag from "../../assets/efo-flag.png";
+import flag from "../../assets/efo-flagcolor.jpg";
 
 function FlagSection() {
   const { t } = useTranslation();
@@ -14,6 +14,7 @@ function FlagSection() {
           src={flag}
           alt="earth flag one flag"
           loading="lazy"
+          type="image/jpeg"
         ></img>
       </div>
       <div className="Right-flag-section">
