@@ -317,7 +317,7 @@
   }
 }
 
-@media only screen and (max-width: 655px) and (orientation: landscape) {
+@media only screen and (max-width: 702px) and (orientation: landscape) {
   .partners-container {
     gap: 30px;
   }
