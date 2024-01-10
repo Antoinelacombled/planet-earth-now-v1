@@ -86,7 +86,7 @@ i18n.use(initReactI18next).init({
         WhyFlagTextOne:
           "This flag is the emblem of our planet, the blue of the oceans and the green of nature.",
         WhyFlagTextTwo:
-          "It is the symbol of the fight against climate change, for the protection of biodiversity.",
+          "It is the symbol of the fight against climate change and for the protection of biodiversity.",
         WhyFlagTextThree:
           "It supports the individual and collective actions of environmental campaigners to amplify and strengthen their messages.",
         WhyFlagTextFour:
