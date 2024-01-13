@@ -10,13 +10,6 @@ SwiperCore.use([Navigation]);
 
 const events = [
   {
-    date: "10/1/2024",
-    location: "En ligne",
-    audience: "Grand public",
-    description: "Batîr un Avenir Durable",
-    link: "https://www.lecampus.online/conferences/david-chapon",
-  },
-  {
     date: "16/1/2024",
     location: "Antibes",
     audience: "Professionnel",
