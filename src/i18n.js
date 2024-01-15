@@ -24,24 +24,26 @@ i18n.use(initReactI18next).init({
 
         // FLAG SECTION //
         FlagSectionTitle:
-          "The aim of this banner is to remind people of the dangers of climate change and to boost the projects and actions of environmental campaigners.",
+          "The aim of this flag is to remind people of the dangers of climate change and to support the projects and actions of environmental campaigners.",
+
+        // The aim of this banner is to remind people of the dangers of climate change and to boost the projects and actions of environmental campaigners.
 
         // BANNER MOBILIZE //
         BannerMobilizeTitle: "LET'S GET INVOLVED",
 
         // MANIFESTO SECTION //
-        ManifestoSectionTitleOne: "« CIVIL ACTION IS",
+        ManifestoSectionTitleOne: "«\u00A0CIVIL ACTION IS",
         ManifestoSectionTitleTwo: "THE ONLY REAL ",
-        ManifestoSectionTitleThree: "ALTERNATIVE TO",
-        ManifestoSectionTitleFour: "RESOLVE THE CLIMATE »",
-        ManifestoBook: "Climate is changing... What about you?",
+        ManifestoSectionTitleThree: "OPTION FOR",
+        ManifestoSectionTitleFour: "ACTING ON CLIMATE CHANGE\u00A0»",
+        ManifestoBook: "The Climate Is Changing... Are you?",
 
         // ACTION QUOTE SECTION //
         ActionQuoteSectionTitle:
-          "« IT'S ALL ABOUT PUTTING THE PEOPLE WHO HAVE THE POWER TO CHANGE THINGS AGAINST THE WALL »",
+          "«\u00A0IT'S ALL ABOUT PUTTING THE PEOPLE WHO HAVE THE POWER TO CHANGE THINGS ON THE SPOT.\u00A0»",
 
         // GET THE FLAG SECTION //
-        GetTheFlagTitle: "HOW TO GET THE FLAG:",
+        GetTheFlagTitle: "HOW TO OBTAIN THE FLAG:",
 
         GetTheFlagTitleCardOne: "AT CLIMATE MARCHES",
         GetTheFlagTextCardOne:
@@ -51,38 +53,38 @@ i18n.use(initReactI18next).init({
         GetTheFlagTitleCardTwo: "FOR",
         GetTheFlagTitleCardTwoBis: "INSTITUTIONS",
         GetTheFlagTextCardTwo:
-          "Thanks to donations received by the association PLANET EARTH NOW, flags can be offered to town halls and schools.",
+          "Thanks to donations received by the association PLANET EARTH NOW, flags can be gifted to town halls and schools.",
         GetTheFlagContactCardTwo: "Please do not hesitate to contact us.",
 
         GetTheFlagTitleCardThree: "AS PART OF YOUR PROJECTS",
         GetTheFlagTextCardThree:
-          "Flags can be offered to you as part of your association's projects, events or conferences. ",
+          "Flags can be gifted to you as part of your association's projects, events or conferences. Please do not hesitate to contact us.",
         GetTheFlagContactCardThree: "Please do not hesitate to contact us.",
 
         GetTheFlagTitleCardFour: "BY CONTACTING A MANUFACTURER",
         GetTheFlagTextCardFour:
-          "Contact the supplier of your choice to manufacture the flag after downloading the file here below.",
+          "Contact the supplier of your choice to manufacture the flag after downloading the file below.",
         GetTheFlagContactCardFour:
           "We have selected a few suppliers in France.",
 
         GetTheFlagTitleCardFive: "BY MAKING IT YOURSELF",
         GetTheFlagTextCardFive:
-          "You can download the file with the climate emergency flag here below to print out and create it yourself and share with others.",
+          "Download the climate emergency flag file below and print it out to make your own flag or share it with others.",
 
         GetTheFlagDownload: "DOWNLOAD THE FLAG",
 
         // FLAG PRINCIPLES SECTION //
-        FlagPrinciplesTitle: "THE PRINCIPLES OF THE FLAG",
+        FlagPrinciplesTitle: "THE PRINCIPLES BEHIND THE FLAG",
         FlagPrinciplesTextOne: "It belongs to all citizens of the world.",
         FlagPrinciplesTextTwo:
-          "It is neutral with respect to all political and denominational formations as well as all interest or influence groups.",
+          "It is neutral and not affiliated with any political party, religious organization, or interest or influence group.",
         FlagPrinciplesTextThree:
-          "It is eco-designed and if possible produced  locally.",
+          "It is eco-designed and whenever possible produced locally.",
         FlagPrinciplesTextFour:
           "It can be customised to suit your needs and projects.",
 
         // WHY FLAG SECTION //
-        WhyFlagTitle: "WHY THIS FLAG",
+        WhyFlagTitle: "WHY THIS FLAG?",
         WhyFlagTextOne:
           "This flag is the emblem of our planet, the blue of the oceans and the green of nature.",
         WhyFlagTextTwo:
@@ -104,17 +106,17 @@ i18n.use(initReactI18next).init({
           "COUNTRIES HAVE THEIR FLAGS, NOW THE INHABITANTS OF THE EARTH HAVE THEIRS.",
 
         // CUSTOM THE FLAG SECTION //
-        CustomTheFlagClick: "↑\u00A0Click on it!\u00A0↑",
+        CustomTheFlagClick: "Click on it!",
 
         CustomTheFlagTitle: "CUSTOMISE THE FLAG",
 
         // QUOTATION SECTION //
         QuotationSectionOne:
-          "«\u00A0THE WORLD WILL NOT BE DESTROYED BY THOSE WHO DO EVIL, BUT BY THOSE WHO WATCH THEM WITHOUT DOING ANYTHING\u00A0»",
+          "«\u00A0THE WORLD WILL NOT BE DESTROYED BY THOSE WHO DO EVIL, BUT BY THOSE WHO WATCH THEM WITHOUT DOING ANYTHING \u00A0»",
         QuotationSectionTwo:
-          "«\u00A0I WANT TO DO IT, NOW MAKE ME DO IT!\u00A0»",
+          "«\u00A0YOU’VE CONVINCED ME. NOW GO OUT AND MAKE ME DO IT!\u00A0»",
         QuotationSectionThree:
-          "«\u00A0TODAY MORE THAN EVER, THE FUTURE OF THE EARTH, OUR FUTURE, IS IN OUR HANDS\u00A0»",
+          "«\u00A0TODAY MORE THAN EVER, THE FUTURE OF THE EARTH, OUR FUTURE, IS IN OUR OWN HANDS\u00A0»",
         QuotationSectionAuthor: "on the affair of the century,",
         QuotationSectionAuthorBis: "in reference to F.D. Roosevelt",
 
@@ -125,9 +127,9 @@ i18n.use(initReactI18next).init({
         FlagPartnerTitle: "OUR FLAG SUPPORTERS",
 
         // NATIONALITÉ //
-        Nationality: "- Nationality ?",
-        Terrien: "- Inhabitant of Earth !",
-        You: "- And you ?",
+        Nationality: "- Your nationality?",
+        Terrien: "- Earthling!",
+        You: "- What about you?",
 
         // FOOTER //
         Legal: "LEGAL INFORMATIONS",
