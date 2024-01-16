@@ -13,15 +13,41 @@ import flagRecoft from "../../assets/flag-recoft.png";
 import flagRocket from "../../assets/flag-rocket.jpg";
 import flagTreemium from "../../assets/flag-treemium.png";
 import flagCad from "../../assets/cad.png";
+import flagPata from "../../assets/custom-1.png";
+import flagRe from "../../assets/custom-re.png";
+import flagPlastic from "../../assets/custom-plastic.png";
+import flagTrees from "../../assets/custom-trees.png";
+import flagPaprec from "../../assets/custom-paprec.png";
+import flagAvenir from "../../assets/custom-avenir.png";
+import flagFnab from "../../assets/custom-fnab.png";
 
 // Initialisation de Navigation pour Swiper
 SwiperCore.use([Navigation]);
 
 const logos = [
-  { id: "recoft", image: flagRecoft },
+  { id: "rewild", image: flagRe, website: "https://www.rewild.org/" },
+  { id: "recoft", image: flagRecoft, website: "https://www.recoftc.org/" },
   { id: "cad", image: flagCad },
-  { id: "rocket", image: flagRocket },
-  { id: "treemium", image: flagTreemium },
+  {
+    id: "rocket",
+    image: flagRocket,
+    website: "https://therocketfoundation.org/",
+  },
+  { id: "treemium", image: flagTreemium, website: "https://treemium.com/" },
+  {
+    id: "pata",
+    image: flagPata,
+    website: "https://www.onepercentfortheplanet.org/join",
+  },
+  {
+    id: "plastic",
+    image: flagPlastic,
+    website: "https://www.preciousplastic.com/",
+  },
+  { id: "trees", image: flagTrees, website: "https://trees.org/" },
+  { id: "paprec", image: flagPaprec, website: "https://www.paprec.com/fr/" },
+  { id: "avenir", image: flagAvenir, website: "https://avenirclimatique.org/" },
+  { id: "fnab", image: flagFnab, website: "https://www.fnab.org/" },
 ];
 
 function CustomTheFlag() {
@@ -59,7 +85,9 @@ function CustomTheFlag() {
             >
               {logos.map((logo, index) => (
                 <SwiperSlide key={index} className="a-url-link">
-                  <img src={logo.image} alt={`Flag ${index}`} />
+                  <a href={logo.website}>
+                    <img src={logo.image} alt={`Flag ${index}`} />
+                  </a>
                 </SwiperSlide>
               ))}
             </Swiper>

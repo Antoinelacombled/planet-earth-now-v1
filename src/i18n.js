@@ -166,7 +166,7 @@ i18n.use(initReactI18next).init({
         // LEGAL MENTION //
         LegalTitle: "LEGAL INFORMATION",
         Publisher:
-          "PUBLISHER PLANET EARTH NOW, an Association declared in the French national register of associations since 07 August 2020 under number W751257593, domiciled at 15 rue Saint-Dominique 75007 in Paris and with the SIREN number is 889954152 Contact: contact@earthflag1.org Director of publication: Mr Daniel Malingue VAT: FR33889954152 HOST Company name: GoDaddy.com, LLC Address: 2155 E Warner Rd, Tempe, Arizona 85284 United States Contact: ",
+          "PUBLISHER PLANET EARTH NOW, an Association declared in the French national register of associations since 07 August 2020 under number W751257593, domiciled at 15 rue Saint-Dominique 75007 in Paris and with the SIREN number is 889954152. contact@earthflag1.org Director of publication: Mr Daniel Malingue VAT: FR33889954152 HOST Company name: GoDaddy.com, LLC Address: 2155 E Warner Rd, Tempe, Arizona 85284 United States Contact: ",
 
         // CONTACT //
         PlaceHolderOne: "Enter your first name",
@@ -239,7 +239,7 @@ i18n.use(initReactI18next).init({
           " «\u00A0IL S’AGIT DE METTRE AU PIED DU MUR LES PERSONNES QUI ONT LE POUVOIR DE FAIRE CHANGER LES CHOSES\u00A0»",
 
         // GET THE FLAG SECTION //
-        GetTheFlagTitle: "COMMENT OBTENIR LE DRAPEAU :",
+        GetTheFlagTitle: "COMMENT OBTENIR LE DRAPEAU\u00A0:",
 
         GetTheFlagTitleCardOne: "AUX MARCHES POUR LE CLIMAT",
         GetTheFlagTextCardOne:
@@ -368,7 +368,7 @@ i18n.use(initReactI18next).init({
         // LEGAL MENTION //
         LegalTitle: "MENTIONS LÉGALES",
         Publisher:
-          "ÉDITEUR PLANET EARTH NOW, Association déclarée au répertoire nationale des associations depuis le 07 août 2020 sous le numéro W751257593, domiciliée 15 rue Saint-Dominique 75007 à Paris et dont le numéro SIREN est 889954152 Contact : contact@earthflag1.org Directeur de la publication : Monsieur Daniel Malingue TVA : FR33889954152 HÉBERGEUR Raison sociale : GoDaddy.com, LLC Adresse : 2155 E Warner Rd, Tempe, Arizona 85284 États-Unis Contact : ",
+          "ÉDITEUR PLANET EARTH NOW, Association déclarée au répertoire nationale des associations depuis le 07 août 2020 sous le numéro W751257593, domiciliée 15 rue Saint-Dominique 75007 à Paris et dont le numéro SIREN est 889954152. Contact: contact@earthflag1.org Directeur de la publication : Monsieur Daniel Malingue TVA : FR33889954152 HÉBERGEUR Raison sociale : GoDaddy.com, LLC Adresse : 2155 E Warner Rd, Tempe, Arizona 85284 États-Unis Contact : ",
 
         // CONTACT //
         PlaceHolderOne: "Entrez votre prénom",

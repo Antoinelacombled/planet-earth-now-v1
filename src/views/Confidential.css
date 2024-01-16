@@ -31,11 +31,6 @@
   margin-bottom: 20px;
 }
 
-.policy-section h2 {
-  color: #fff;
-  padding: 5px;
-}
-
 .policy-section p {
   padding: 10px;
   margin: 0;
@@ -43,4 +38,34 @@
   color: white;
   font-family: "Gilroy-Bold";
   line-height: 50px;
+}
+
+@media (max-width: 950px) {
+  .confidential-title {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 646px) {
+  .confidential-title {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 475px) {
+  .confidential-title {
+    font-size: 1em;
+  }
+  .policy-section p {
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 318px) {
+  .confidential-title {
+    font-size: 0.8em;
+  }
+  .policy-section p {
+    line-height: 35px;
+  }
 }

@@ -37,6 +37,11 @@ footer {
   padding-right: 0.5em;
 }
 
+.nav-footer {
+  color: white;
+  text-decoration: none;
+}
+
 @media (max-width: 778px) {
   .footer-section {
     flex-direction: column;

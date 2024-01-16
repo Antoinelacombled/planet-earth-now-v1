@@ -5,7 +5,9 @@ function Confidential() {
   const { t } = useTranslation();
   return (
     <div className="super-container-confidential">
-      <div className="confidential-title">{t("TitlePolicy")}</div>
+      <div className="confidential-title" id="confidential">
+        {t("TitlePolicy")}
+      </div>
       <div className="policy-container">
         <div className="policy-section">
           <p>{t("FirstTextPolicy")}</p>

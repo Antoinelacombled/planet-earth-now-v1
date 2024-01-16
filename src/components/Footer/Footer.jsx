@@ -20,6 +20,11 @@ function Footer() {
         <div>
           <Link to={"/confidential"}>{t("Confident")}</Link>
         </div>
+        {location.pathname === "/" && (
+          <a className="nav-footer" href="#home">
+            {t("Home")}
+          </a>
+        )}
       </section>
     </footer>
   );

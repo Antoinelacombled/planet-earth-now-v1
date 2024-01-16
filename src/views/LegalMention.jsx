@@ -16,7 +16,7 @@ function LegalMention() {
         >
           {" "}
           {""}
-          https://www.godaddy.com/whois/results.aspx?domain=wixsite.
+          Click here.
         </a>
       </div>
     </div>

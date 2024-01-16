@@ -15,7 +15,7 @@ function Header() {
   const location = useLocation();
 
   return (
-    <header className="App-header">
+    <header className="App-header" id="home">
       {location.pathname !== "/" && (
         <Link to={"/"} className="nav-menu-item">
           {t("Home")}
