@@ -39,6 +39,13 @@ const events = [
     link: "https://www.soilcet.com/",
   },
   {
+    date: "25/1/2024 - 28/1/2024",
+    location: "Die (Drôme)",
+    audience: "Grand public",
+    description: "Ecologie au quotidien, agir pour le vivant",
+    link: "https://www.ecologieauquotidien.org/les-xxiies-rencontres-de-die/programme-des-rencontres-2024/",
+  },
+  {
     date: "25/1/2024",
     location: "Saint-Malo",
     audience: "Colloque professionnel",
