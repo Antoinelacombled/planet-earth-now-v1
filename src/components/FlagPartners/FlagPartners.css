@@ -324,7 +324,7 @@
   }
 }
 
-@media (max-width: 551px) {
+@media (max-width: 560px) {
   .flag-partners-section {
     width: 100%;
   }
@@ -332,8 +332,7 @@
     font-size: 1.5em;
   }
   .logo-partner {
-    width: 80%;
-    width: 50%;
+    width: 55%;
     height: auto;
   }
   .partners-container {
@@ -343,15 +342,15 @@
   }
   .swiper-button-prev-flag-partners {
     font-size: 2em;
-    top: -145px;
-    right: 380px;
+    top: -55px;
+    right: 240px;
     z-index: 99999;
   }
 
   .swiper-button-next-flag-partners {
     font-size: 2em;
-    top: -45px;
-    right: -380px;
+    top: -55px;
+    right: -240px;
     z-index: 99999;
   }
 }
