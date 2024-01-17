@@ -9,20 +9,9 @@ import Footer from "../components/Footer/Footer";
 import LegalMention from "../views/LegalMention";
 import Confidential from "../views/Confidential";
 
-function ScrollToTop() {
-  const location = useLocation();
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [location]);
-
-  return null;
-}
-
 function Router() {
   return (
     <BrowserRouter>
-      <ScrollToTop />
       <div className="App">
         <Sidebar />
         <main className="App-main">

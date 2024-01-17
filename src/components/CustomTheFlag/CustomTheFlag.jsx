@@ -20,6 +20,7 @@ import flagTrees from "../../assets/custom-trees.png";
 import flagPaprec from "../../assets/custom-paprec.png";
 import flagAvenir from "../../assets/custom-avenir.png";
 import flagFnab from "../../assets/custom-fnab.png";
+import flagFriend from "../../assets/flagfriends.png";
 
 // Initialisation de Navigation pour Swiper
 SwiperCore.use([Navigation]);
@@ -48,6 +49,11 @@ const logos = [
   { id: "paprec", image: flagPaprec, website: "https://www.paprec.com/fr/" },
   { id: "avenir", image: flagAvenir, website: "https://avenirclimatique.org/" },
   { id: "fnab", image: flagFnab, website: "https://www.fnab.org/" },
+  {
+    id: "friends",
+    image: flagFriend,
+    website: "https://www.amisdelaterre.org/",
+  },
 ];
 
 function CustomTheFlag() {
@@ -65,6 +71,7 @@ function CustomTheFlag() {
                 nextEl: ".custom-the-flag-next",
                 prevEl: ".custom-the-flag-prev",
               }}
+              autoplay={{ delay: 3000, disableOnInteraction: false }}
               modules={[Navigation]}
               spaceBetween={1}
               slidesPerView={3}
@@ -85,7 +92,7 @@ function CustomTheFlag() {
             >
               {logos.map((logo, index) => (
                 <SwiperSlide key={index} className="a-url-link">
-                  <a className="website" href={logo.website}>
+                  <a className="website" href={logo.website} target="_blank">
                     <img src={logo.image} alt={`Flag ${index}`} />
                   </a>
                 </SwiperSlide>

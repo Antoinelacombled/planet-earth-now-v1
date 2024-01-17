@@ -3,11 +3,11 @@ import "./Header.css";
 import { Link, useLocation } from "react-router-dom";
 import angflag from "../../assets/angflag.png";
 import frenchflag from "../../assets/frenchflag.png";
+import spanishflag from "../../assets/spain-flag.png";
 import { useTranslation } from "react-i18next";
 
 function Header() {
   const { t, i18n } = useTranslation();
-
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
   };
@@ -55,6 +55,7 @@ function Header() {
           className="english-flag"
           onClick={() => changeLanguage("fr")}
         />
+        {/* <img src={spanishflag} alt="spanish flag" className="english-flag" /> */}
       </div>
     </header>
   );
