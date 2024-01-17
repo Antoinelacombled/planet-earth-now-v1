@@ -6,7 +6,7 @@ import videoflag from "../../assets/1219wSound.mp4";
 
 function ClimateUrgencyBanner() {
   return (
-    <section className="Climate-urgency-section" id="home">
+    <section className="Climate-urgency-section">
       <video
         className="video-flag desktop-only"
         loop

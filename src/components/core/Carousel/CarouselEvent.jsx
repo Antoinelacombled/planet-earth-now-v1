@@ -10,13 +10,6 @@ SwiperCore.use([Navigation]);
 
 const events = [
   {
-    date: "16/1/2024",
-    location: "Antibes",
-    audience: "Professionnel",
-    description: "Escape game Code Climat aux port d'antibes",
-    link: "https://www.eventbrite.fr/e/billets-escape-game-code-climat-au-port-dantibes-765250714487?aff=oddtdtcreator",
-  },
-  {
     date: "18/1/2024",
     location: "Paris",
     audience: "Grand public",

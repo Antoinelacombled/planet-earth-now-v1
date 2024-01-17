@@ -85,7 +85,7 @@ function CustomTheFlag() {
             >
               {logos.map((logo, index) => (
                 <SwiperSlide key={index} className="a-url-link">
-                  <a href={logo.website}>
+                  <a className="website" href={logo.website}>
                     <img src={logo.image} alt={`Flag ${index}`} />
                   </a>
                 </SwiperSlide>
