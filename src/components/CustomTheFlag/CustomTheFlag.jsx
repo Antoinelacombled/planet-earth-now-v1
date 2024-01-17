@@ -4,7 +4,7 @@ import "./CustomTheFlag.css";
 //SWIPER
 import SwiperCore from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
+import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 
@@ -23,7 +23,7 @@ import flagFnab from "../../assets/custom-fnab.png";
 import flagFriend from "../../assets/flagfriends.png";
 
 // Initialisation de Navigation pour Swiper
-SwiperCore.use([Navigation]);
+SwiperCore.use([Navigation, Autoplay]);
 
 const logos = [
   { id: "rewild", image: flagRe, website: "https://www.rewild.org/" },
@@ -71,7 +71,7 @@ function CustomTheFlag() {
                 nextEl: ".custom-the-flag-next",
                 prevEl: ".custom-the-flag-prev",
               }}
-              autoplay={{ delay: 3000, disableOnInteraction: false }}
+              autoplay={{ delay: 1000, disableOnInteraction: true }}
               modules={[Navigation]}
               spaceBetween={1}
               slidesPerView={3}
