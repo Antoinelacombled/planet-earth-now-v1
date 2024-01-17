@@ -16,7 +16,7 @@ import flagCad from "../../assets/cad.png";
 import flagPata from "../../assets/custom-1.png";
 import flagRe from "../../assets/custom-re.png";
 import flagPlastic from "../../assets/custom-plastic.png";
-import flagTrees from "../../assets/custom-trees.png";
+import flagTrees from "../../assets/flag-trees.png";
 import flagPaprec from "../../assets/custom-paprec.png";
 import flagAvenir from "../../assets/custom-avenir.png";
 import flagFnab from "../../assets/custom-fnab.png";
@@ -71,7 +71,10 @@ function CustomTheFlag() {
                 nextEl: ".custom-the-flag-next",
                 prevEl: ".custom-the-flag-prev",
               }}
-              autoplay={{ delay: 1000, disableOnInteraction: true }}
+              // onTransitionEnd={}
+              autoplay={{ delay: 500, disableOnInteraction: true }}
+              speed={2000}
+              loop={true}
               modules={[Navigation]}
               spaceBetween={1}
               slidesPerView={3}
