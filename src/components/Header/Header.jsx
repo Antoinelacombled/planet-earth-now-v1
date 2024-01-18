@@ -8,6 +8,7 @@ import { useTranslation } from "react-i18next";
 
 function Header() {
   const { t, i18n } = useTranslation();
+
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
   };
@@ -42,20 +43,22 @@ function Header() {
           {t("FaqHeader")}
         </Link>
       )}
+
       <div className="flags">
         <img
           src={angflag}
           alt="English flag"
-          className="english-flag"
+          className="flag"
           onClick={() => changeLanguage("en")}
         />
         <img
           src={frenchflag}
           alt="French flag"
-          className="english-flag"
+          className="flag"
           onClick={() => changeLanguage("fr")}
         />
-        {/* <img src={spanishflag} alt="spanish flag" className="english-flag" /> */}
+        <img src={spanishflag} alt="Spanish flag" className="spanish-flag" />
+        <div className="language-notification">operativo en febrero</div>
       </div>
     </header>
   );

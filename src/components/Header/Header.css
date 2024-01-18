@@ -46,19 +46,42 @@
   cursor: pointer;
 }
 
+.spanish-flag {
+  width: 20px;
+  height: auto;
+  cursor: pointer;
+  position: relative;
+}
+
 .language-notification {
+  font-size: 10px;
+  display: none;
   position: absolute;
-  top: 60px;
-  right: 10px;
-  background-color: white;
-  color: black;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  font-size: 14px;
+  white-space: nowrap;
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0, 0.7);
+  border-radius: 19px;
+  padding: 0.8em;
+  font-weight: 100;
+  left: 89%;
+  top: 6%;
+  z-index: 10;
+}
+
+.spanish-flag:hover + .language-notification {
+  display: block;
+}
+
+.flags {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .flags img {
+  width: 20px;
+  height: auto;
+  cursor: pointer;
   margin-right: 10px;
 }
 
