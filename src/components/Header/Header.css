@@ -6,7 +6,6 @@
   color: var(--green-color);
   font-family: "Gilroy-Bold";
   font-size: 14px;
-  font-weight: 600;
 }
 
 .nav-menu-item {
@@ -34,10 +33,6 @@
 }
 .nav-menu-item:hover {
   color: var(--blue-color);
-}
-
-.nav-menu-item {
-  text-transform: uppercase;
 }
 
 .english-flag {
@@ -85,7 +80,7 @@
   margin-right: 10px;
 }
 
-.flags img:last-child {
+.flags:last-child {
   margin-right: 0;
 }
 

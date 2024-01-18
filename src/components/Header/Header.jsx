@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "./Header.css";
 import { Link, useLocation } from "react-router-dom";
-import angflag from "../../assets/angflag.png";
-import frenchflag from "../../assets/frenchflag.png";
-import spanishflag from "../../assets/spain-flag.png";
+import angflag from "../../assets/ang-flag.jpg";
+import frenchflag from "../../assets/french-flag.jpg";
+import spanishflag from "../../assets/spain-flag.jpg";
 import { useTranslation } from "react-i18next";
 
 function Header() {
@@ -58,7 +58,7 @@ function Header() {
           onClick={() => changeLanguage("fr")}
         />
         <img src={spanishflag} alt="Spanish flag" className="spanish-flag" />
-        <div className="language-notification">operativo en febrero</div>
+        <div className="language-notification">Operativo en febrero</div>
       </div>
     </header>
   );
