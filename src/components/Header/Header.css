@@ -101,13 +101,18 @@
   }
 }
 
-@media (max-width: 614px) {
+@media (max-width: 621px) {
   .App-header {
     width: 100%;
     font-size: 7px;
   }
   .flags img {
     width: 15px;
+  }
+  .language-notification {
+    font-size: 8px;
+    left: 83%;
+    top: 5%;
   }
 }
 
