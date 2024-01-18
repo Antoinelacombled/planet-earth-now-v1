@@ -11,9 +11,11 @@ function Footer() {
   return (
     <footer>
       <section className="footer-section">
-        <a href="https://www.linkedin.com/in/earthflagone/" target="_blank">
-          <img className="linkedin" src={linkedin} />
-        </a>
+        <div>
+          <a href="https://www.linkedin.com/in/earthflagone/" target="_blank">
+            <img className="linkedin" src={linkedin} />
+          </a>
+        </div>
         {location.pathname !== "/" && (
           <div>
             <Link to={"/"}>{t("Home")}</Link>
@@ -25,11 +27,13 @@ function Footer() {
         <div>
           <Link to={"/confidential"}>{t("Confident")}</Link>
         </div>
-        {location.pathname === "/" && (
-          <a className="nav-footer" href="#home">
-            {t("Home")}
-          </a>
-        )}
+        <div>
+          {location.pathname === "/" && (
+            <a className="nav-footer" href="#home">
+              {t("Home")}
+            </a>
+          )}
+        </div>
       </section>
     </footer>
   );
