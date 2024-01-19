@@ -10,13 +10,6 @@ SwiperCore.use([Navigation]);
 
 const events = [
   {
-    date: "18/1/2024",
-    location: "Paris",
-    audience: "Grand public",
-    description: "Atelier Horizons Décarbonés",
-    link: "https://www.academieduclimat.paris/evenements/atelier-horizons-decarbones-7/",
-  },
-  {
     date: "24/1/2024",
     location: "Nantes",
     audience: "Salon professionnel",
