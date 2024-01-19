@@ -73,7 +73,7 @@ function ContactSection() {
             ></textarea>
           </div>
           <button type="submit" className="submit-btn">
-            ENVOYER
+            {t("ButtonContact")}
           </button>
         </form>
       </div>

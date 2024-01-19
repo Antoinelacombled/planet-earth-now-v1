@@ -122,6 +122,7 @@ i18n.use(initReactI18next).init({
 
         //EVENTS //
         EventTitle: "EVENTS",
+        EventKnowMore: "Find out more",
 
         // FLAG PARTNERS SECTION //
         FlagPartnerTitle: "OUR FLAG SUPPORTERS",
@@ -174,6 +175,7 @@ i18n.use(initReactI18next).init({
         PlaceHolderThree: "Enter your email",
         PlaceHolderFour:
           "Share your ideas, suggestions, questions, proposals for partnership...",
+        ButtonContact: "SEND",
 
         // POLITIQUE DE CONFIDENTIALITÉ //
         FirstTextPolicy:
@@ -323,6 +325,7 @@ i18n.use(initReactI18next).init({
 
         //EVENTS
         EventTitle: "LES ÉVÉNEMENTS",
+        EventKnowMore: "En savoir plus",
 
         // FLAG PARTNERS SECTION //
         FlagPartnerTitle: "LES SOUTIENS AU DRAPEAU",
@@ -376,6 +379,7 @@ i18n.use(initReactI18next).init({
         PlaceHolderThree: "Entrez votre email",
         PlaceHolderFour:
           "Partagez vos idées, vos suggestions, vos questions, vos propositions de partenariat...",
+        ButtonContact: "ENVOYER",
 
         // POLITIQUE DE CONFIDENTIALITÉ //
         FirstTextPolicy:

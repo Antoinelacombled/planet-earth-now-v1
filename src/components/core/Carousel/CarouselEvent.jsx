@@ -175,7 +175,7 @@ function CarouselEvent() {
                     </div>
                     <div className="audience-event">{event.audience}</div>
                     <div className="event-card-text">{event.description}</div>
-                    <div className="event-more-info">En savoir plus</div>
+                    <div className="event-more-info">{t("EventKnowMore")}</div>
                   </a>
                 </SwiperSlide>
               ))}
