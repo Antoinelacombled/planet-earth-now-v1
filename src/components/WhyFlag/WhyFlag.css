@@ -366,6 +366,58 @@ img {
   }
 }
 
+@media (max-width: 888px) {
+  .why-flag-section {
+    width: 100%;
+  }
+  .why-flag-navigation {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em;
+    gap: 10em;
+  }
+  .why-flag-swiper {
+    width: 100%;
+  }
+  .box {
+    display: flex;
+    width: 670px;
+    height: 550px;
+    border-radius: 1px;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 2rem;
+    letter-spacing: 3px;
+  }
+  .box-text {
+    width: 100%;
+    height: auto;
+    color: white;
+    padding: 1.7em 2em;
+    font-size: 12px;
+    text-align: center;
+  }
+  .why-flag-img,
+  img {
+    width: 500px;
+    height: 250px;
+    object-fit: cover;
+  }
+  .swiper-button-next-why-flag {
+    color: var(--green-color);
+    top: -320px;
+    right: -150px;
+    font-size: 3em;
+  }
+  .swiper-button-prev-why-flag {
+    color: var(--blue-color);
+    top: -320px;
+    right: 150px;
+    font-size: 3em;
+  }
+}
+
 @media (max-width: 768px) {
   .why-flag-section {
     width: 100%;
