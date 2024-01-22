@@ -52,6 +52,44 @@
   }
 }
 
+@media (max-width: 1152px) {
+  .Flag-section {
+    width: 100%;
+  }
+  .Quote-flag {
+    font-size: 20px;
+  }
+  .img-flag {
+    height: 40vh;
+    width: 100%;
+    object-fit: cover;
+  }
+  .Right-flag-section {
+    background-color: var(--blue-color);
+    width: 50%;
+    height: 40vh;
+  }
+}
+
+@media (max-width: 1104px) {
+  .Flag-section {
+    width: 100%;
+  }
+  .Quote-flag {
+    font-size: 20px;
+  }
+  .img-flag {
+    height: 40vh;
+    width: 100%;
+    object-fit: cover;
+  }
+  .Right-flag-section {
+    background-color: var(--blue-color);
+    width: 50%;
+    height: 40vh;
+  }
+}
+
 @media (max-width: 1024px) {
   .Flag-section {
     width: 100%;

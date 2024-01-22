@@ -73,6 +73,35 @@
     object-fit: cover;
   }
 }
+
+@media (max-width: 1154px) {
+  .Our-house-burns-section {
+    width: 100%;
+  }
+  .burns-text {
+    font-size: 3em;
+  }
+  .img-burning {
+    flex: 1 1 50%;
+    height: 35vh;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 1104px) {
+  .Our-house-burns-section {
+    width: 100%;
+  }
+  .burns-text {
+    font-size: 3em;
+  }
+  .img-burning {
+    flex: 1 1 50%;
+    height: 35vh;
+    object-fit: cover;
+  }
+}
+
 @media (max-width: 1024px) {
   .Our-house-burns-section {
     width: 100%;

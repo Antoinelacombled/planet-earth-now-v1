@@ -84,7 +84,7 @@ i18n.use(initReactI18next).init({
           "It can be customised to suit your needs and projects.",
 
         // WHY FLAG SECTION //
-        WhyFlagTitle: "WHY THIS FLAG?",
+        WhyFlagTitle: "WHY THIS FLAG",
         WhyFlagTextOne:
           "This flag is the emblem of our planet, the blue of the oceans and the green of nature.",
         WhyFlagTextTwo:
@@ -346,7 +346,7 @@ i18n.use(initReactI18next).init({
         FaqTitleThree: "OÙ PUIS-JE ACHETER LE DRAPEAU ?",
         FaqTitleFour: "OÙ FABRIQUER LE DRAPEAU ?",
         FaqTitleFive:
-          "LE DRAPEAU EST-IL PROTÈGE PAR DES DROITS DE PROPRIÉTÉ INTELLECTUELLE ?",
+          "LE DRAPEAU EST-IL PROTÉGÉ PAR DES DROITS DE PROPRIÉTÉ INTELLECTUELLE ?",
         FaqTitleSix: "PUIS-JE MODIFIER LE DRAPEAU ?",
         FaqTitleSeven: "A VOTRE TOUR, AVEZ-VOUS DES QUESTIONS ?",
 

@@ -22,7 +22,7 @@ function Faq() {
         </a>
         ,{" "}
         <a className="link-faq" href="https://www.drapeauxunic.fr/">
-          DRAPEAUX UNIC
+          MANUFACTURE DES DRAPEAUX UNIC S.A
         </a>
         ,{" "}
         <a
@@ -36,7 +36,6 @@ function Faq() {
           SOCIÉTÉ VARINARD.
           <br></br>
         </a>{" "}
-        <br></br>
         <a className="link-faq" href="https://atelier-lemee.com/entreprise/">
           LE MÉE{" "}
         </a>{" "}
