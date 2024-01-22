@@ -21,6 +21,8 @@ import flagPaprec from "../../assets/custom-paprec.png";
 import flagAvenir from "../../assets/custom-avenir.png";
 import flagFnab from "../../assets/custom-fnab.png";
 import flagFriend from "../../assets/flagfriends.png";
+import customYou from "../../assets/custom-you.png";
+import flagStripes from "../../assets/custom-stripes.png";
 
 // Initialisation de Navigation pour Swiper
 SwiperCore.use([Navigation, Autoplay]);
@@ -46,6 +48,7 @@ const logos = [
     website: "https://www.preciousplastic.com/",
   },
   { id: "trees", image: flagTrees, website: "https://trees.org/" },
+  { id: "stripes", image: flagStripes },
   { id: "paprec", image: flagPaprec, website: "https://www.paprec.com/fr/" },
   { id: "avenir", image: flagAvenir, website: "https://avenirclimatique.org/" },
   { id: "fnab", image: flagFnab, website: "https://www.fnab.org/" },
@@ -54,6 +57,7 @@ const logos = [
     image: flagFriend,
     website: "https://www.amisdelaterre.org/",
   },
+  { id: "you", image: customYou },
 ];
 
 function CustomTheFlag() {
