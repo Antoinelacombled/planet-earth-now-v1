@@ -34,6 +34,11 @@ function Footer() {
             </a>
           )}
         </div>
+        {location.pathname !== "/faq" && (
+          <Link to={"/faq"} className="nav-footer">
+            {t("FaqHeader")}
+          </Link>
+        )}
       </section>
     </footer>
   );

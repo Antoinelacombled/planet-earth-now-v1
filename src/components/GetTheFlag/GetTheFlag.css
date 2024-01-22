@@ -160,6 +160,20 @@
   }
 }
 
+@media (max-width: 1109px) {
+  .banner-mobilized {
+    font-size: 2em;
+    padding-bottom: 0.8em;
+  }
+
+  .window-gtf-text {
+    font-size: 0.7em;
+  }
+  .window-gtf-title {
+    font-size: 8px;
+  }
+}
+
 @media (max-width: 1024px) {
   .banner-mobilized {
     font-size: 2em;
