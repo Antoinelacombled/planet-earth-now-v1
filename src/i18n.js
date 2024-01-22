@@ -117,8 +117,6 @@ i18n.use(initReactI18next).init({
           "«\u00A0YOU’VE CONVINCED ME. NOW GO OUT AND MAKE ME DO IT!\u00A0»",
         QuotationSectionThree:
           "«\u00A0TODAY MORE THAN EVER, THE FUTURE OF THE EARTH, OUR FUTURE, IS IN OUR OWN HANDS\u00A0»",
-        QuotationSectionAuthor: "on the affair of the century,",
-        QuotationSectionAuthorBis: "in reference to F.D. Roosevelt",
 
         //EVENTS //
         EventTitle: "EVENTS",
@@ -320,7 +318,7 @@ i18n.use(initReactI18next).init({
           "«\u00A0MAINTENANT DESCENDEZ DANS LA RUE ET OBLIGEZ-MOI À LE FAIRE\u00A0»",
         QuotationSectionThree:
           "«\u00A0AUJOURD'HUI PLUS QUE JAMAIS, L'AVENIR DE LA TERRE, NOTRE AVENIR, EST ENTRE NOS MAINS\u00A0»",
-        QuotationSectionAuthor: "concernant l'affaire du siècle,",
+        QuotationSectionAuthor: "concernant l'Affaire du siècle,",
         QuotationSectionAuthorBis: "en référence à F.D\u00A0Roosevelt",
 
         //EVENTS
