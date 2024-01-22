@@ -60,14 +60,14 @@
     font-size: 20px;
   }
   .img-flag {
-    height: 40vh;
+    height: 50vh;
     width: 100%;
     object-fit: cover;
   }
   .Right-flag-section {
     background-color: var(--blue-color);
     width: 50%;
-    height: 40vh;
+    height: 50vh;
   }
 }
 
@@ -79,14 +79,14 @@
     font-size: 20px;
   }
   .img-flag {
-    height: 40vh;
+    height: 50vh;
     width: 100%;
     object-fit: cover;
   }
   .Right-flag-section {
     background-color: var(--blue-color);
     width: 50%;
-    height: 40vh;
+    height: 50vh;
   }
 }
 
