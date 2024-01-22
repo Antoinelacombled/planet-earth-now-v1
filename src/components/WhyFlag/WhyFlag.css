@@ -252,7 +252,7 @@ img {
   }
 }
 
-@media (max-width: 1109px) {
+@media (max-width: 1118px) {
   .why-flag-section {
     width: 100%;
     padding: 0;
@@ -297,13 +297,13 @@ img {
   }
   .swiper-button-next-why-flag {
     color: white;
-    top: -320px;
+    top: -330px;
     right: -200px;
     font-size: 3em;
   }
   .swiper-button-prev-why-flag {
     color: white;
-    top: -320px;
+    top: -330px;
     right: 200px;
     font-size: 3em;
   }

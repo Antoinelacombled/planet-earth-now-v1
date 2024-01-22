@@ -117,6 +117,8 @@ i18n.use(initReactI18next).init({
           "«\u00A0YOU’VE CONVINCED ME. NOW GO OUT AND MAKE ME DO IT!\u00A0»",
         QuotationSectionThree:
           "«\u00A0TODAY MORE THAN EVER, THE FUTURE OF THE EARTH, OUR FUTURE, IS IN OUR OWN HANDS\u00A0»",
+        QuotationSectionAuthor: "concernant l'Affaire du siècle,",
+        QuotationSectionAuthorBis: "en référence à F.D\u00A0Roosevelt",
 
         //EVENTS //
         EventTitle: "EVENTS",
