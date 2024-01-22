@@ -202,6 +202,20 @@
   }
 }
 
+@media (max-width: 1007px) {
+  .banner-mobilized {
+    font-size: 2em;
+    padding-bottom: 0.8em;
+  }
+
+  .window-gtf-text {
+    font-size: 0.7em;
+  }
+  .window-gtf-title {
+    font-size: 7px;
+  }
+}
+
 @media (max-width: 778px) {
   .Phase-get-flag {
     flex-direction: column;
