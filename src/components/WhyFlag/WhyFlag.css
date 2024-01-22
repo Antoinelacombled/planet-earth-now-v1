@@ -138,6 +138,63 @@ img {
   z-index: 99999;
 }
 
+@media (max-width: 1220px) {
+  .why-flag-section {
+    width: 100%;
+    padding: 0;
+  }
+
+  .why-flag-title {
+    padding-top: 1em;
+  }
+
+  .why-flag-navigation {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em;
+    gap: 10em;
+  }
+  .why-flag-swiper {
+    width: 100%;
+  }
+  .box {
+    display: flex;
+    width: 100%;
+    height: 550px;
+    border-radius: 1px;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 2rem;
+    letter-spacing: 3px;
+  }
+  .box-text {
+    width: 80%;
+    height: auto;
+    color: white;
+    padding: 1.7em 2em;
+    font-size: 15px;
+    text-align: center;
+  }
+  .why-flag-img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+  }
+  .swiper-button-next-why-flag {
+    color: white;
+    top: -320px;
+    right: -200px;
+    font-size: 3em;
+  }
+  .swiper-button-prev-why-flag {
+    color: white;
+    top: -320px;
+    right: 200px;
+    font-size: 3em;
+  }
+}
+
 @media (max-width: 1155px) {
   .why-flag-section {
     width: 100%;
