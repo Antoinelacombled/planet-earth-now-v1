@@ -48,7 +48,11 @@ const logos = [
     website: "https://www.preciousplastic.com/",
   },
   { id: "trees", image: flagTrees, website: "https://trees.org/" },
-  { id: "stripes", image: flagStripes },
+  {
+    id: "stripes",
+    image: flagStripes,
+    website: "https://showyourstripes.info/",
+  },
   { id: "paprec", image: flagPaprec, website: "https://www.paprec.com/fr/" },
   { id: "avenir", image: flagAvenir, website: "https://avenirclimatique.org/" },
   { id: "fnab", image: flagFnab, website: "https://www.fnab.org/" },
