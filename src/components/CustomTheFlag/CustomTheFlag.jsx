@@ -21,7 +21,7 @@ import flagPaprec from "../../assets/custom-paprec.png";
 import flagAvenir from "../../assets/custom-avenir.png";
 import flagFnab from "../../assets/custom-fnab.png";
 import flagFriend from "../../assets/flagfriends.png";
-import customYou from "../../assets/custom-you.png";
+import customYou from "../../assets/custom-your.png";
 import flagStripes from "../../assets/custom-stripes.png";
 
 // Initialisation de Navigation pour Swiper
