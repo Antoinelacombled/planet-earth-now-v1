@@ -9,21 +9,7 @@ import "swiper/css/navigation";
 SwiperCore.use([Navigation]);
 
 const events = [
-  {
-    date: "24/1/2024",
-    location: "Nantes",
-    audience: "Salon professionnel",
-    description: "Bio360 Expo : Salon de la bioéconomie et de la bioénergie",
-    link: "https://www.bio360expo.com/",
-  },
-  {
-    date: "24/1/2024",
-    location: "Rueil-Malmaison",
-    audience: "professionnel",
-    description:
-      "Le carbone dans les sols sous la loupe de la communauté scientifique",
-    link: "https://www.soilcet.com/",
-  },
+
   {
     date: "25/1/2024 - 28/1/2024",
     location: "Die (Drôme)",
@@ -130,6 +116,13 @@ const events = [
     description: "Drive to zero",
     link: "https://www.drivetozero.fr/",
   },
+  {
+    date: "9/10/2024",
+    location: "Paris",
+    audience: "Salon professionnel",
+    description: "Produrable 2024",
+    link: "https://www.produrable.com/"
+  }
 ];
 
 function CarouselEvent() {
