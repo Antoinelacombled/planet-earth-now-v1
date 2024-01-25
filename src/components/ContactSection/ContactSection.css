@@ -103,7 +103,7 @@
 }
 
 .terrien {
-  margin-bottom: 10px;
+  margin-bottom: 6px;
   font-family: "Gloria Hallelujah", cursive;
   font-size: 15px;
 }
@@ -219,6 +219,10 @@
   .contact-content {
     margin-bottom: 2em;
   }
+  .terrien{
+    font-size: 9px;
+
+  }
 }
 
 @media (max-width: 430px) {
@@ -233,6 +237,10 @@
   }
   .contact-content {
     margin-bottom: 2em;
+  }
+  .terrien{
+    font-size: 9px;
+
   }
 }
 
