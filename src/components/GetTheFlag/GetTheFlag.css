@@ -147,6 +147,11 @@
   font-size: 17.5px;
 }
 
+.button-mega-container{
+  display: flex;
+
+}
+
 @media (max-width: 1397px) {
   .banner-mobilized {
     font-size: 2em;

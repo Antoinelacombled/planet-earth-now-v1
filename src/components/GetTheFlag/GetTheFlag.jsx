@@ -95,14 +95,25 @@ function GetTheFlag() {
           </div>
         </div>
       </section>
-      <div className="button-container">
-        <a
-          href={flagDownloadUrl}
-          download="efo-flag.png"
-          className="download-the-flag"
-        >
-          {t("GetTheFlagDownload")}
-        </a>
+      <div className="button-mega-container">
+        <div className="button-container">
+          <a
+            href={flagDownloadUrl}
+            download="efo-flag.png"
+            className="download-the-flag"
+          >
+            {t("GetTheFlagDownload")}
+          </a>
+        </div>
+        {/* <div className="button-container">
+          <a
+            href={flagDownloadUrl}
+            download="efo-flag.png"
+            className="download-the-flag"
+          >
+            {t("GetTheFlagDownload")}
+          </a>
+        </div> */}
       </div>
     </>
   );
