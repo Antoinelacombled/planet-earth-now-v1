@@ -84,7 +84,7 @@ i18n.use(initReactI18next).init({
           "It can be customised to suit your needs and projects.",
 
         // WHY FLAG SECTION //
-        WhyFlagTitle: "WHY THIS FLAG",
+        WhyFlagTitle: "WHY THIS FLAG :",
         WhyFlagTextOne:
           "This flag is the emblem of our planet, the blue of the oceans and the green of nature.",
         WhyFlagTextTwo:
@@ -201,7 +201,30 @@ i18n.use(initReactI18next).init({
         ArticleTen:
           "ARTICLE 10: CAN THIS POLICY BE MODIFIED? PLANET EARTH NOW reserves the right to modify this Privacy Policy at any time. If the changes are editorial, the new policy will apply immediately. If the changes or updates are substantial (for example, insertion of a new purpose), the changes will be brought to your attention. If it were necessary to collect consent again, PLANET EARTH NOW would naturally collect consent again. In any event, you are invited to consult this Privacy Policy regularly in order to be fully informed of the way in which the Association processes your Personal Data.",
         TitlePolicy: "OUR PRIVACY POLICY",
+
+        //Cookies 
+
+        CookiesTitle: "Cookie Policy for ef1.org",
+        CookiesSubTitleOne : "1. Introduction",
+        CookiesTextOne : "ef1.org uses cookies to optimize user experience and analyze traffic on our site. This policy outlines our use of these technologies and their purpose.",
+
+        CookiesSubTitleTwo : "2. Definition of Cookies",
+        CookiesTextTwo : "Cookies are small text files stored on your device when you visit our site. They are used to remember your preferences and actions over a set period, thereby facilitating your navigation by saving certain information for subsequent visits.",
+
+        CookiesSubTitleThree : "3. Use of Cookies",
+        CookiesTextThree : "ef1.org utilizes Google Analytics to collect anonymous data about user interactions with our site. This information is vital for improving our platform by better understanding visitor needs and behaviors.",
+
+        CookiesSubTitleFour : "4. Consent",
+        CookiesTextFour: "By using ef1.org, you consent to the use of cookies as outlined in this policy. If you disagree, you may refuse our cookies, which will not affect your browsing experience on our site.",
+        
+        CookiesSubTitleFive : "5. Policy Revisions",
+        CookiesTextFive: "This cookie policy may be periodically revised. Any changes will be communicated on this page.",
+
+        CookiesSubTitleSix : "6. Contact Us",
+        CookiesTextSix: "For any questions regarding our use of cookies, please contact us at the following address: contact@planetearthnow.com.",
+
       },
+
     },
     fr: {
       translation: {
@@ -283,7 +306,7 @@ i18n.use(initReactI18next).init({
           "Il peut être personnalisé à votre convenance et selon vos projets.",
 
         // WHY FLAG SECTION //
-        WhyFlagTitle: "POURQUOI CE DRAPEAU",
+        WhyFlagTitle: "POURQUOI CE DRAPEAU :",
         WhyFlagTextOne:
           "Ce drapeau est l’emblème de notre planète, du bleu des océans et du vert de la nature.",
         WhyFlagTextTwo:
@@ -405,6 +428,28 @@ i18n.use(initReactI18next).init({
         ArticleTen:
           "ARTICLE 10 : CETTE POLITIQUE PEUT-ELLE ÊTRE MODIFIÉE ? PLANET EARTH NOW se réserve la possibilité de modifier la présente Politique de confidentialité. Si les modifications sont des modifications de forme, la nouvelle politique s’appliquera  immédiatement. Si les modifications ou mises à jour sont substantielles (par exemple, insertion d’une nouvelle finalité), les modifications seront portées à votre connaissance. Si le recueil du consentement était à nouveau nécessaire, PLANET EARTH NOW procéderait naturellement à un nouveau recueil du consentement. En tout état de cause, vous êtes invité à consulter régulièrement la Présente Politique de confidentialité afin d’être pleinement informé de la manière dont l’Association traite vos Données à caractère personnel.",
         TitlePolicy: "POLITIQUE DE CONFIDENTIALITÉ",
+
+                //Cookies 
+
+                CookiesTitle: "Politique de Cookies pour ef1.org",
+                CookiesSubTitleOne : "1. Introduction",
+                CookiesTextOne : "Le site ef1.org utilise des cookies afin d'optimiser l'expérience utilisateur et d'analyser le trafic de notre site. Cette politique vise à expliquer comment et pourquoi nous utilisons ces technologies.",
+        
+                CookiesSubTitleTwo : "2. Définition des Cookies",
+                CookiesTextTwo : "Les cookies sont de petits fichiers texte stockés sur votre appareil lors de la visite de notre site. Ils permettent de mémoriser vos préférences et actions pour une période déterminée, facilitant ainsi votre navigation en évitant de ressaisir certaines informations lors de visites ultérieures.",
+        
+                CookiesSubTitleThree : "3. Utilisation des Cookies",
+                CookiesTextThree : " ef1.org utilise Google Analytics pour collecter des informations anonymes sur l'interaction des utilisateurs avec notre site. Ces données nous aident à améliorer notre plateforme en comprenant mieux les besoins et comportements des visiteurs.",
+        
+                CookiesSubTitleFour : "4. Consentement",
+                CookiesTextFour: "En utilisant ef1.org, vous consentez à l'utilisation de cookies conformément à cette politique. En cas de désaccord, il vous est possible refuser nos cookies, cela n'affectera pas votre navigation sur le site web.",
+                
+                CookiesSubTitleFive : "5. Révisions de la Politique",
+                CookiesTextFive: "Cette politique de cookies peut être révisée périodiquement. Tout changement sera communiqué sur cette page.",
+        
+                CookiesSubTitleSix : "6. Nous Contacter",
+                CookiesTextSix: "Pour toute question relative à notre utilisation des cookies, n'hésitez pas à nous contacter à l'adresse suivante : contact@planetearthnow.com.",
+        
       },
     },
   },
