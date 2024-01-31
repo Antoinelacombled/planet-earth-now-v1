@@ -1,0 +1,66 @@
+.flag-support-section {
+  width: 100%;
+  background-color: var(--green-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5em;
+}
+
+.title-flag-support-section {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Bowlby One";
+  font-size: 2em;
+  letter-spacing: 0.1rem;
+  padding: 0.5em;
+}
+
+.supporters-container {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  align-items: flex-start;
+}
+
+.supporter-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  justify-content: flex-start;
+  color: inherit;
+  width: 200px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.supporter-image {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+.supporter-name {
+  font-size: 20px;
+  font-family: "Gilroy-Bold";
+  color: white;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  height: 60px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.supporter-role {
+  font-family: "Gilroy-Bold";
+  font-style: italic;
+  color: white;
+  height: 20px;
+  margin-bottom: 10px;
+}

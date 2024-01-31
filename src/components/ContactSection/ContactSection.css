@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+
+.contact-section {
+  position: relative;
+  background-color: var(--green-color);
+  padding-top: 2em;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-bottom: 4em;
+  color: white;
+  text-align: center;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.left-content {
+  margin-top: 18em;
+  position: absolute;
+  left: 3em;
+  font-family: "Gilroy-Bold";
+  text-align: left;
+  z-index: 99999999;
+}
+
+.contact-form {
+  flex: 1;
+  max-width: 500px;
+}
+
+.contact-title {
+  font-size: 3em;
+  font-family: "Bowlby One", sans-serif;
+  letter-spacing: 0.1em;
+  margin-bottom: 1em;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 1em;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 1em;
+  border: 2px solid white;
+  background-color: var(--green-color);
+  color: white;
+  font-size: 0.7em;
+  border-radius: 5px;
+  box-shadow: none;
+  width: 100%;
+  font-family: "Gilroy-Bold";
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.submit-btn {
+  display: block;
+  width: fit-content;
+  margin: 1em auto;
+  background-color: rgb(0, 144, 2);
+  color: white;
+  border: none;
+  padding: 1em 2em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+  font-size: 0.7em;
+  font-family: "Bowlby One", sans-serif;
+  letter-spacing: 0.1em;
+}
+
+.submit-btn:hover {
+  background-color: #0c691b;
+}
+
+.success-message {
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Gilroy-Bold";
+}
+
+.nationality {
+  font-family: "Gilroy-Bold";
+  margin-top: 50px;
+}
+
+.terrien {
+  margin-bottom: 6px;
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 15px;
+}
+
+.contact-title {
+  font-size: 2em;
+  font-family: "Bowlby One", sans-serif;
+  letter-spacing: 0.1em;
+  margin-bottom: 1em;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 1em;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 1em;
+  border: 2px solid white;
+  background-color: var(--green-color);
+  color: white;
+  font-size: 0.7em;
+  border-radius: 5px;
+  box-shadow: none;
+  width: 100%;
+  font-family: "Gilroy-Bold";
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.submit-btn {
+  background-color: rgb(0, 144, 2);
+  color: white;
+  border: none;
+  padding: 1em 2em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+  font-size: 0.7em;
+  font-family: "Bowlby One", sans-serif;
+  letter-spacing: 0.1em;
+}
+
+.submit-btn:hover {
+  background-color: #0c691b; /* Couleur plus foncée au survol */
+}
+
+.success-message {
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Gilroy-Bold";
+}
+
+.nationality {
+  font-family: "Gilroy-Bold";
+  margin-top: 50px;
+}
+
+@media (max-width: 778px) {
+  .contact-title {
+    font-size: 1em;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 640px) {
+  .contact-section {
+    width: 100%;
+  }
+  .left-content {
+    font-size: 12px;
+    left: 3em;
+    margin-top: 30em;
+  }
+  .contact-content {
+    margin-bottom: 2em;
+  }
+}
+
+@media (max-width: 614px) {
+  .left-content {
+    font-size: 12px;
+    left: 3em;
+    margin-top: 30em;
+  }
+  .contact-content {
+    margin-bottom: 2em;
+  }
+}
+
+@media (max-width: 519px) {
+  .contact-section {
+    width: 100%;
+    padding-bottom: 0;
+  }
+  .left-content {
+    font-size: 12px;
+    left: 3em;
+    margin-top: 22em;
+  }
+  .contact-content {
+    margin-bottom: 2em;
+  }
+  .terrien{
+    font-size: 9px;
+
+  }
+}
+
+@media (max-width: 430px) {
+  .contact-section {
+    width: 100%;
+    padding-bottom: 0;
+  }
+  .left-content {
+    font-size: 8px;
+    left: 2em;
+    margin-top: 33em;
+  }
+  .contact-content {
+    margin-bottom: 2em;
+  }
+  .terrien{
+    font-size: 9px;
+
+  }
+}
+
+@media (max-width: 290px) {
+  .left-content {
+    display: none;
+  }
+}

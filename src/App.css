@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+.App {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+
+  --blue-color: #2e519f;
+  --green-color: #339933;
+  --black-color: #1c1d27;
+  --orange-color: #f19d38;
+  --white-color: #ffffff;
+}
+
+.App-main {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+@media (max-width: 640px) {
+  .App-main {
+    width: 100%;
+  }
+}
+
+@media (max-width: 358px) {
+  .App-main {
+    width: 100%;
+  }
+}

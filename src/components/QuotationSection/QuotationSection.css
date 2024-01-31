@@ -1,0 +1,184 @@
+.quotation-section {
+  display: flex;
+  justify-content: center;
+  padding: 5em 0;
+}
+
+.container-quotation-section {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: auto;
+}
+
+.mini-container-quotation-section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 0 30px;
+  text-align: center;
+  justify-content: flex-start;
+}
+
+.quote-quotation-section {
+  font-family: "Bowlby One";
+  font-size: 27px;
+  margin-bottom: 5px;
+  letter-spacing: 0.1rem;
+
+  min-height: 4em;
+}
+
+.author-quotation-section {
+  font-family: "Gilroy-Bold";
+  margin-top: auto;
+  font-size: 13px;
+}
+
+.green {
+  color: var(--green-color);
+}
+
+.blue {
+  color: var(--blue-color);
+}
+
+@media (max-width: 1024px) {
+  .quote-quotation-section {
+    width: 100%;
+  }
+  .quote-quotation-section {
+    font-family: "Bowlby One";
+    font-size: 19px;
+    margin-bottom: 5px;
+    letter-spacing: 0.1rem;
+    min-height: 4em;
+  }
+  .mini-container-quotation-section {
+    padding: 0 10px;
+  }
+  .author-quotation-section {
+    font-size: 9px;
+  }
+  .quotation-section {
+    width: 100%;
+    padding: 2em 0;
+  }
+}
+
+@media (max-width: 780px) {
+  .quote-quotation-section {
+    width: 100%;
+  }
+  .quote-quotation-section {
+    font-family: "Bowlby One";
+    font-size: 12px;
+    margin-bottom: 5px;
+    letter-spacing: 0.1rem;
+    min-height: 4em;
+  }
+  .mini-container-quotation-section {
+    padding: 0 20px;
+  }
+  .author-quotation-section {
+    font-size: 9px;
+  }
+  .quotation-section {
+    width: 100%;
+    padding: 2em 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .quote-quotation-section {
+    width: 100%;
+  }
+  .quote-quotation-section {
+    font-family: "Bowlby One";
+    font-size: 12px;
+    margin-bottom: 5px;
+    letter-spacing: 0.1rem;
+    min-height: 4em;
+  }
+  .mini-container-quotation-section {
+    padding: 0 20px;
+  }
+  .author-quotation-section {
+    font-size: 9px;
+  }
+  .quotation-section {
+    width: 100%;
+    padding: 2em 0;
+  }
+}
+
+@media (max-width: 519px) {
+  .quote-quotation-section {
+    width: 100%;
+  }
+  .quote-quotation-section {
+    font-family: "Bowlby One";
+    font-size: 9px;
+    margin-bottom: 5px;
+    letter-spacing: 0.1rem;
+    min-height: 4em;
+    padding-bottom: 10px;
+  }
+  .mini-container-quotation-section {
+    padding: 0 20px;
+  }
+  .author-quotation-section {
+    font-size: 9px;
+  }
+  .quotation-section {
+    width: 100%;
+    padding: 2em 0;
+  }
+}
+
+@media (max-width: 469px) {
+  .quote-quotation-section {
+    width: 100%;
+  }
+  .quote-quotation-section {
+    font-family: "Bowlby One";
+    font-size: 8.5px;
+    margin-bottom: 5px;
+    letter-spacing: 0rem;
+    line-height: 1.7em;
+    min-height: 4em;
+  }
+  .mini-container-quotation-section {
+    padding: 0 20px;
+  }
+  .author-quotation-section {
+    font-size: 9px;
+  }
+  .quotation-section {
+    width: 100%;
+    padding: 2em 0;
+  }
+}
+
+@media (max-width: 275px) {
+  .quote-quotation-section {
+    width: 100%;
+  }
+  .quote-quotation-section {
+    font-family: "Bowlby One";
+    font-size: 6px;
+    margin-bottom: 5px;
+    min-height: 4em;
+  }
+  .mini-container-quotation-section {
+    padding: 0 10px;
+  }
+  .author-quotation-section {
+    font-size: 6px;
+  }
+  .quotation-section {
+    width: 100%;
+    padding: 2em 0;
+  }
+}

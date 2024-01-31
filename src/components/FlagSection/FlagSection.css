@@ -1,0 +1,225 @@
+.Flag-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.Right-flag-section {
+  background-color: var(--blue-color);
+  width: 50%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Earth-flag {
+  width: 50%;
+}
+
+.Quote-flag {
+  font-family: "Gilroy-Bold";
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  padding: 3.5em;
+  overflow: hidden;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+.img-flag {
+  height: 60vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1194px) {
+  .Flag-section {
+    width: 100%;
+  }
+  .Quote-flag {
+    font-size: 15px;
+  }
+  .img-flag {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+  }
+  .Right-flag-section {
+    background-color: var(--blue-color);
+    width: 50%;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 1152px) {
+  .Flag-section {
+    width: 100%;
+  }
+  .Quote-flag {
+    font-size: 20px;
+  }
+  .img-flag {
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+  }
+  .Right-flag-section {
+    background-color: var(--blue-color);
+    width: 50%;
+    height: 50vh;
+  }
+}
+
+@media (max-width: 1109px) {
+  .Flag-section {
+    width: 100%;
+  }
+  .Quote-flag {
+    font-size: 20px;
+  }
+  .img-flag {
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+  }
+  .Right-flag-section {
+    background-color: var(--blue-color);
+    width: 50%;
+    height: 50vh;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Flag-section {
+    width: 100%;
+  }
+  .Quote-flag {
+    font-size: 15px;
+  }
+  .img-flag {
+    height: 40vh;
+    width: 100%;
+    object-fit: cover;
+  }
+  .Right-flag-section {
+    background-color: var(--blue-color);
+    width: 50%;
+    height: 40vh;
+  }
+}
+
+@media (max-width: 780px) {
+  .Flag-section {
+    width: 100%;
+  }
+  .Quote-flag {
+    font-size: 15px;
+  }
+  .img-flag {
+    height: 30vh;
+    width: 100%;
+    object-fit: cover;
+  }
+  .Right-flag-section {
+    background-color: var(--blue-color);
+    width: 50%;
+    height: 30vh;
+  }
+}
+
+@media (max-width: 640px) {
+  .Flag-section {
+    width: 100%;
+  }
+  .Quote-flag {
+    font-size: 10px;
+  }
+  .img-flag {
+    height: 30vh;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .Right-flag-section {
+    width: 50%;
+    height: 30vh;
+  }
+}
+
+@media (max-width: 430px) {
+  .Flag-section {
+    width: 100%;
+  }
+  .Quote-flag {
+    font-size: 10px;
+  }
+  .img-flag {
+    height: 30vh;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .Right-flag-section {
+    width: 50%;
+    height: 30vh;
+  }
+}
+
+@media (max-width: 390px) {
+  .Flag-section {
+    width: 100%;
+  }
+  .Quote-flag {
+    font-size: 7px;
+  }
+  .img-flag {
+    height: 20vh;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .Right-flag-section {
+    width: 50%;
+    height: 20vh;
+  }
+}
+
+@media (max-width: 275px) {
+  .Flag-section {
+    width: 100%;
+  }
+  .Quote-flag {
+    font-size: 7px;
+  }
+  .img-flag {
+    height: 20vh;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .Right-flag-section {
+    width: 50%;
+    height: 20vh;
+  }
+}
+
+@media only screen and (max-width: 740px) and (orientation: landscape) {
+  .Flag-section {
+    width: 100%;
+  }
+  .Quote-flag {
+    font-size: 10px;
+  }
+  .img-flag {
+    height: 60vh;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .Right-flag-section {
+    width: 50%;
+    height: 60vh;
+  }
+}
+

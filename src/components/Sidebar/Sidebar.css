@@ -1,0 +1,40 @@
+.App-sidebar {
+  background-color: white;
+  width: 5%;
+  overflow: hidden;
+  height: 100%;
+}
+
+.Sidebar-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 1rem 0;
+}
+
+.hero-flag {
+  width: auto;
+  height: 90%;
+}
+
+@media (max-width: 1024px) {
+  .hero-flag {
+    width: auto;
+    height: 47%;
+  }
+}
+
+@media (max-width: 640px) {
+  .App-sidebar {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 932px) and (orientation: landscape) {
+  .hero-flag {
+    width: auto;
+    height: 88%;
+  }
+}

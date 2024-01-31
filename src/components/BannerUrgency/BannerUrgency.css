@@ -1,0 +1,70 @@
+.banner-urgency {
+  background-color: var(--blue-color);
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Bowlby One";
+  font-size: 4em;
+  letter-spacing: 0.1em;
+}
+
+.Our-house-burns-section {
+  width: 100%;
+}
+
+.img-burning {
+  flex: 1 1 50%;
+  height: 50vh;
+  object-fit: cover;
+}
+
+@media (max-width: 1030px) {
+  .banner-urgency {
+    font-size: 2.7em;
+    height: 90px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 780px) {
+  .banner-urgency {
+    font-size: 1.5em;
+    height: 50px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .banner-urgency {
+    font-size: 1.5em;
+    height: 50px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 430px) {
+  .banner-urgency {
+    font-size: 1.5em;
+    height: 50px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 331px) {
+  .banner-urgency {
+    font-size: 1em;
+    height: 50px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 275px) {
+  .banner-urgency {
+    font-size: 1em;
+    height: 50px;
+    width: 100%;
+  }
+}

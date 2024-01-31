@@ -1,0 +1,40 @@
+.banner-mobilized {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--blue-color);
+  font-family: bowlby One;
+  font-size: 3em;
+  letter-spacing: 0.1em;
+  padding-bottom: 1.5rem;
+}
+
+@media (max-width: 778px) {
+  .banner-mobilized {
+    font-size: 1em;
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .banner-mobilized {
+    font-size: 1em;
+    width: 100%;
+  }
+}
+
+@media (max-width: 430px) {
+  .banner-mobilized {
+    font-size: 1em;
+    width: 100%;
+  }
+}
+
+@media (max-width: 275px) {
+  .banner-mobilized {
+    font-size: 1em;
+    width: 100%;
+  }
+}

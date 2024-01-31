@@ -1,0 +1,56 @@
+.super-container-legal-mention {
+  height: 100vh;
+  width: auto;
+  background-color: var(--blue-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.legal-mention-title {
+  color: white;
+  font-size: 2em;
+  font-family: "Bowlby One";
+  letter-spacing: 0.1rem;
+  margin-top: 40px;
+}
+
+.legal-mention-text {
+  color: white;
+  font-family: "Gilroy-Bold";
+  max-width: 800px;
+  line-height: 40px;
+  margin-top: 40px;
+}
+
+.a-text-legal {
+  color: white;
+}
+
+@media (max-width: 860px) {
+  .legal-mention-text {
+    width: 70%;
+  }
+}
+
+@media (max-width: 565px) {
+  .legal-mention-title {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 390px) {
+  .legal-mention-title {
+    font-size: 1em;
+    text-decoration: underline white;
+  }
+  .legal-mention-text {
+    padding-bottom: 2em;
+  }
+}
+
+@media (max-width: 297px) {
+  .legal-mention-text {
+    line-height: 1.8em;
+  }
+}

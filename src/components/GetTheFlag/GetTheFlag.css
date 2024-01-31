@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Nothing+You+Could+Do&family=Single+Day&display=swap");
+
+.Phase-get-flag {
+  display: flex;
+  justify-content: center;
+}
+
+.banner-mobilized {
+  font-size: 3rem;
+}
+
+.banner-mobilized-title {
+  font-family: "Nothing You Could Do", cursive;
+  font-size: 2rem;
+  padding-bottom: 1em;
+  color: var(--green-color);
+}
+
+.kiosque-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.get-flag-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 0.4rem;
+}
+
+.window-get-the-flag {
+  flex: 1;
+  min-width: 180px;
+  background-color: white;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 1.5em;
+}
+
+.window-gtf-title,
+.window-gtf-img,
+.window-gtf-text {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: white;
+  letter-spacing: 0.09em;
+}
+
+.window-gtf-title {
+  font-family: "Bowlby One";
+  font-weight: bold;
+  font-size: 15px;
+  width: 100%;
+}
+
+.window-gtf-img {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 300px;
+}
+
+.window-gtf-text {
+  margin-top: 20px;
+  font-family: "Gilroy-Bold";
+  font-size: 0.8em;
+  line-height: 1.8;
+  min-height: 100px;
+}
+
+.img-size {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.one,
+.three,
+.five {
+  background-color: var(--blue-color);
+}
+
+.two,
+.four {
+  background-color: var(--green-color);
+}
+
+.window-gtf-title,
+.fourText {
+  letter-spacing: 1px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.download-the-flag {
+  font-size: 20px;
+  font-family: "Bowlby One", sans-serif;
+  background-color: var(--green-color);
+  color: white;
+  margin: 2em;
+
+  padding: 0.5em 1em;
+  letter-spacing: 0.2rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.5s ease, box-shadow 1s ease;
+  text-decoration: none;
+}
+
+.download-the-flag:hover {
+  background-image: linear-gradient(
+    to left,
+    rgba(40, 78, 163, 1) 50%,
+    rgba(79, 169, 59, 1) 50%
+  );
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: background-position 2s, box-shadow 0.5s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.download-the-flag:active {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.contact-link {
+  color: white;
+}
+
+.title-kiosque {
+  font-family: "Gilroy";
+  font-size: 17.5px;
+}
+
+.button-mega-container{
+  display: flex;
+
+}
+
+@media (max-width: 1397px) {
+  .banner-mobilized {
+    font-size: 2em;
+    padding-bottom: 0.8em;
+  }
+
+  .window-gtf-text {
+    font-size: 0.7em;
+  }
+  .window-gtf-title {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 1207px) {
+  .banner-mobilized {
+    font-size: 2em;
+    padding-bottom: 0.8em;
+  }
+
+  .window-gtf-text {
+    font-size: 0.7em;
+  }
+  .window-gtf-title {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 1118px) {
+  .banner-mobilized {
+    font-size: 2em;
+    padding-bottom: 0.8em;
+  }
+
+  .window-gtf-text {
+    font-size: 0.7em;
+  }
+  .window-gtf-title {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .banner-mobilized {
+    font-size: 2em;
+    padding-bottom: 0.8em;
+  }
+
+  .window-gtf-text {
+    font-size: 0.7em;
+  }
+  .window-gtf-title {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 1007px) {
+  .banner-mobilized {
+    font-size: 2em;
+    padding-bottom: 0.8em;
+  }
+
+  .window-gtf-text {
+    font-size: 0.7em;
+  }
+  .window-gtf-title {
+    font-size: 7px;
+  }
+}
+
+@media (max-width: 778px) {
+  .Phase-get-flag {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .banner-mobilized {
+    font-size: 1.5em;
+    padding-bottom: 0.8em;
+  }
+  .get-flag-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .window-gtf-text {
+    font-size: 1em;
+  }
+  .window-gtf-title {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 640px) {
+  .Phase-get-flag {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .banner-mobilized {
+    font-size: 1em;
+    padding-bottom: 0.8em;
+  }
+  .get-flag-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .window-gtf-text {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 469px) {
+  .Phase-get-flag {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .banner-mobilized {
+    font-size: 1em;
+    padding-bottom: 1.8em;
+  }
+  .get-flag-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .window-gtf-text {
+    font-size: 1em;
+  }
+
+  .download-the-flag {
+    font-size: 15px;
+  }
+
+  .window-gtf-title {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 360px) {
+  .Phase-get-flag {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .banner-mobilized {
+    font-size: 1em;
+    padding-bottom: 0.8em;
+  }
+  .get-flag-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .window-gtf-text {
+    font-size: 12.5px;
+  }
+
+  .download-the-flag {
+    font-size: 15px;
+  }
+  .window-gtf-img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 275px) {
+  .Phase-get-flag {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .banner-mobilized {
+    font-size: 1em;
+    padding-bottom: 0.8em;
+  }
+  .get-flag-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .window-gtf-text {
+    font-size: 12.5px;
+  }
+
+  .download-the-flag {
+    font-size: 15px;
+  }
+  .window-gtf-img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/* @media (max-width: 768px) {
+  .Phase-get-flag {
+    display: none;
+  }
+
+  .banner-mobilize {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .banner-mobilize {
+    font-size: 2em;
+  }
+} */
