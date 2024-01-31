@@ -23,21 +23,38 @@ import flagFnab from "../../assets/custom-fnab.png";
 import flagFriend from "../../assets/flagfriends.png";
 import customYou from "../../assets/custom-your.png";
 import flagStripes from "../../assets/custom-stripes.png";
+import flagCoquelicot from "../../assets/custom-coquelicot.png";
+
 import { Link } from "react-router-dom";
 
 // Initialisation de Navigation pour Swiper
 SwiperCore.use([Navigation, Autoplay]);
 
 const logos = [
-  { id: "rewild", image: flagRe, website: "https://www.rewild.org/" },
-  { id: "recoft", image: flagRecoft, website: "https://www.recoftc.org/" },
-  { id: "cad", image: flagCad },
+  { 
+    id: "rewild",
+    image: flagRe,
+    website: "https://www.rewild.org/"
+  },
+  { 
+    id: "recoft",
+    image: flagRecoft,
+    website: "https://www.recoftc.org/"
+  },
+  { 
+    id: "cad",
+    image: flagCad 
+  },
   {
     id: "rocket",
     image: flagRocket,
     website: "https://therocketfoundation.org/",
   },
-  { id: "treemium", image: flagTreemium, website: "https://treemium.com/" },
+  { 
+    id: "treemium",
+    image: flagTreemium,
+    website: "https://treemium.com/"
+  },
   {
     id: "pata",
     image: flagPata,
@@ -48,21 +65,45 @@ const logos = [
     image: flagPlastic,
     website: "https://www.preciousplastic.com/",
   },
-  { id: "trees", image: flagTrees, website: "https://trees.org/" },
+  {
+    id: "trees", image: flagTrees,
+    website: "https://trees.org/" 
+  },
   {
     id: "stripes",
     image: flagStripes,
     website: "https://showyourstripes.info/",
   },
-  { id: "paprec", image: flagPaprec, website: "https://www.paprec.com/fr/" },
-  { id: "avenir", image: flagAvenir, website: "https://avenirclimatique.org/" },
-  { id: "fnab", image: flagFnab, website: "https://www.fnab.org/" },
+  { 
+    id: "paprec", 
+    image: flagPaprec, 
+    website: "https://www.paprec.com/fr/"
+  },
+  {
+    id: "avenir",
+    image: flagAvenir,
+    website: "https://avenirclimatique.org/"
+  },
+  {
+    id: "fnab",
+    image: flagFnab,
+    website: "https://www.fnab.org/"
+  },
   {
     id: "friends",
     image: flagFriend,
     website: "https://www.amisdelaterre.org/",
+  }
+  ,
+  { 
+    id: "you",
+    image: customYou
   },
-  { id: "you", image: customYou },
+  {
+    id: "coquelicot",
+    image: flagCoquelicot,
+    website: "https://nousvoulonsdescoquelicots.org/",
+  },
 ];
 
 function CustomTheFlag() {
