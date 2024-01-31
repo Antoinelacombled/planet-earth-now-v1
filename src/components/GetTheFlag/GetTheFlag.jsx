@@ -16,13 +16,13 @@ function GetTheFlag() {
 
   return (
     <>
-      <div className="banner-mobilized">{t("GetTheFlagTitle")}</div>
+      <div className="banner-mobilized"  id="getflag">{t("GetTheFlagTitle")}</div>
 
       {/* <div className="kiosque-container">
         <div className="banner-mobilized-title">Bientôt en kiosques</div>
       </div> */}
 
-      <section className="Phase-get-flag" id="getflag">
+      <section className="Phase-get-flag">
         <div className="get-flag-container">
           <div className="window-get-the-flag one">
             <div className="window-gtf-title">

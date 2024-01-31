@@ -1,9 +1,18 @@
-import React, { useState } from "react";
+import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import emailjs from "@emailjs/browser";
 import "./ContactSection.css";
 
 function ContactSection() {
+
+  useEffect(() => {
+    const queryParams = new URLSearchParams(window.location.search);
+    if (queryParams.get('scrollTo') === 'bottom') {
+        const element = document.getElementById('bottomElement');
+        element?.scrollIntoView({ behavior: 'smooth' });
+    }
+}, []);
+
   const { t } = useTranslation();
   const [successMessage, setSuccessMessage] = React.useState("");
 
@@ -32,7 +41,7 @@ function ContactSection() {
 
   return (
     <section className="contact-section" id="contact">
-      <h1 className="contact-title">CONTACT</h1>
+      <h1 id="bottomElement" className="contact-title">CONTACT</h1>
       <div className="contact-content">
         <div className="left-content">
           <p>{t("Nationality")}</p>
