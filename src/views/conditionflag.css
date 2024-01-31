@@ -1,5 +1,4 @@
 .super-container-condition {
-
     height: 100vh;
     width: auto;
     background-color:var(--blue-color);
@@ -40,12 +39,33 @@
       width: 70%;
     }
   }
-  
+
+@media (max-width: 816px) {
+  .condition-title {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 597px) {
+  .condition-title {
+    font-size: 1.3em;
+  }
+}
+
+
   @media (max-width: 565px) {
     .condition-title {
       font-size: 1em;
     }
   }
+
+  @media (max-width: 415px) {
+    .condition-title {
+      font-size: 0.9em;
+    }
+  }
+
+ 
   
   @media (max-width: 390px) {
     .condition-title {
