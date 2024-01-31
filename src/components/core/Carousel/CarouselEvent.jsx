@@ -9,28 +9,6 @@ import "swiper/css/navigation";
 SwiperCore.use([Navigation]);
 
 const events = [
-
-  {
-    date: "25/1/2024 - 28/1/2024",
-    location: "Die (Drôme)",
-    audience: "Grand public",
-    description: "Ecologie au quotidien, agir pour le vivant",
-    link: "https://www.ecologieauquotidien.org/les-xxiies-rencontres-de-die/programme-des-rencontres-2024/",
-  },
-  {
-    date: "25/1/2024",
-    location: "Saint-Malo",
-    audience: "Colloque professionnel",
-    description: "Journées Scientifiques de l'éolien",
-    link: "https://live.eventtia.com/en/journees-scientifiques-2024",
-  },
-  {
-    date: "30/1/2024",
-    location: "En ligne",
-    audience: "Webinaire",
-    description: "Sobriété, biodiversité et transition écologique",
-    link: "https://forms.office.com/pages/responsepage.aspx?id=ItGybUl0oEio-evCo_oOUoMJGLgfRGBPtsFPK1WmYHBUNExOOVBRSUIxODdVSkFaTllJWkdQWVJZTy4u",
-  },
   {
     date: "1/2/2024",
     location: "Paris",
