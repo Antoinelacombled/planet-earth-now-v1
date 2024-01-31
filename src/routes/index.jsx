@@ -10,10 +10,12 @@ import Confidential from "../views/Confidential";
 import CookieConsent from "react-cookie-consent";
 import Cookies from "../views/Cookies";
 import ConditionFlag from "../views/ConditionFlag";
+import ScrollToTop from "./ScrollToTop";
 
 function Router() {
   return (
     <BrowserRouter>
+    <ScrollToTop/>
       <div className="App">
         <Sidebar />
         <main className="App-main">
