@@ -1,0 +1,65 @@
+.super-container-condition {
+
+    height: 100vh;
+    width: auto;
+    background-color:var(--blue-color);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.condition-title {
+    color: white;
+    font-size: 2em;
+    font-family: "Bowlby One";
+    letter-spacing: 0.1rem;
+    margin-top: 40px;
+}
+
+.condition-text {
+    color: white;
+    font-family: "Gilroy-Bold";
+    max-width: 800px;
+    line-height: 40px;
+    margin-top: 40px;
+}
+
+.condition-subtitle {
+    font-family: "Gilroy-bold";
+    margin-top: 40px;
+    text-decoration: underline;
+}
+
+.condition-flag-hypertext{
+    color: white;
+}
+
+@media (max-width: 860px) {
+    .condition-text {
+      width: 70%;
+    }
+  }
+  
+  @media (max-width: 565px) {
+    .condition-title {
+      font-size: 1em;
+    }
+  }
+  
+  @media (max-width: 390px) {
+    .condition-title {
+      font-size: 1em;
+      text-decoration: underline white;
+    }
+    .condition-text {
+      padding-bottom: 2em;
+    }
+  }
+  
+  @media (max-width: 297px) {
+    .condition-text {
+      line-height: 1.8em;
+    }
+  }
+  

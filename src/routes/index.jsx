@@ -9,6 +9,7 @@ import LegalMention from "../views/LegalMention";
 import Confidential from "../views/Confidential";
 import CookieConsent from "react-cookie-consent";
 import Cookies from "../views/Cookies";
+import ConditionFlag from "../views/ConditionFlag";
 
 function Router() {
   return (
@@ -23,6 +24,7 @@ function Router() {
             <Route path="/legal" element={<LegalMention />} />
             <Route path="/confidential" element={<Confidential />} />
             <Route path="/cookies" element={<Cookies />} />
+            <Route path="/conditions" element={<ConditionFlag />} />
           </Routes>
           <Footer />
         </main>

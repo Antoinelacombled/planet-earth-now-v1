@@ -23,6 +23,7 @@ import flagFnab from "../../assets/custom-fnab.png";
 import flagFriend from "../../assets/flagfriends.png";
 import customYou from "../../assets/custom-your.png";
 import flagStripes from "../../assets/custom-stripes.png";
+import { Link } from "react-router-dom";
 
 // Initialisation de Navigation pour Swiper
 SwiperCore.use([Navigation, Autoplay]);
@@ -115,8 +116,9 @@ function CustomTheFlag() {
             </div>
           </div>
         </div>
-        <div>
+        <div className="text-container">
           <div className="click-on-it">{t("CustomTheFlagClick")}</div>
+          <div className="conditions-flag"><Link to={"/conditions"} className="link-flag">Cliquez ici pour consulter les conditions de personnalisation du drapeau</Link></div>
         </div>
       </div>
     </section>

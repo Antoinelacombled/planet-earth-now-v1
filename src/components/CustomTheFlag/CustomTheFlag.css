@@ -90,6 +90,22 @@
 }
 
 
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.conditions-flag {
+  font-family: "Gilroy-Bold";
+  margin-top: 1em;
+  font-size: 12px;
+}
+
+.link-flag{
+  color: white;
+}
+
 
 @media (max-width: 1280px) {
   .custom-the-flag {
