@@ -49,6 +49,10 @@
   line-height: 2em;
 }
 
+.hypertext-flag {
+  color: white;
+}
+
 @media (max-width: 778px) {
   .principles-section {
     width: 100%;

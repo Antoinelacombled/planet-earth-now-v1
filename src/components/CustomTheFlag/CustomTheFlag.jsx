@@ -81,7 +81,7 @@ function CustomTheFlag() {
                 prevEl: ".custom-the-flag-prev",
               }}
               // onTransitionEnd={}
-              autoplay={{ delay: 500, disableOnInteraction: true }}
+              autoplay={{ delay: 500, disableOnInteraction: false }}
               speed={2000}
               loop={true}
               modules={[Navigation]}

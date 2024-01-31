@@ -6,6 +6,8 @@ import frenchflag from "../../assets/french-flag.jpg";
 import spanishflag from "../../assets/spain-flag.jpg";
 import { useTranslation } from "react-i18next";
 
+
+
 function Header() {
   const { t, i18n } = useTranslation();
 

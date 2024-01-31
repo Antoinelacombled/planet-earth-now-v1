@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import "./PrinciplesSection.css";
+import { Link } from "react-router-dom";
 
 function PrinciplesSection() {
   const { t } = useTranslation();
@@ -22,7 +23,7 @@ function PrinciplesSection() {
         </div>
         <div className="principle-item">
           <div className="principle-number">4</div>
-          <div className="principle-text">{t("FlagPrinciplesTextFour")}</div>
+          <div className="principle-text">{t("FlagPrinciplesTextFour")} <Link className="hypertext-flag" to="/conditions" >{t("FlagPrinciplesTextFive")}</Link></div>
         </div>
       </div>
     </div>
