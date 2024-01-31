@@ -1,10 +1,13 @@
 import { useTranslation } from "react-i18next";
 import "./Cookies.css";
+import ScrollToTopOnMount from "../routes/ScrollToTopOnMount";
 
 function Cookies() {
   const { t } = useTranslation();
 
   return (
+    <>
+    <ScrollToTopOnMount />
     <div className="super-container-cookies">
       <div className="cookies-title">{t("CookiesTitle")}</div>
       <h3 className="cookies-subtitle">{t("CookiesSubTitleOne")}</h3>
@@ -26,7 +29,7 @@ function Cookies() {
         <div className="cookies-text">{t("CookiesTextSix")}</div>
         <div className="space"></div>
     </div>
-  
+    </>
   );
 }
 

@@ -1,10 +1,13 @@
 import { useTranslation } from "react-i18next";
 import "./Faq.css";
 import { Link } from "react-router-dom";
+import ScrollToTopOnMount from "../routes/ScrollToTopOnMount";
 
 function Faq() {
   const { t } = useTranslation();
   return (
+    <>
+    <ScrollToTopOnMount />
     <div className="super-container-faq">
       <div className="faq-title">FAQ</div>
       <div className="faq-text">
@@ -55,6 +58,7 @@ function Faq() {
         </Link>
       </div>
     </div>
+    </>
   );
 }
 

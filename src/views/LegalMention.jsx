@@ -1,10 +1,13 @@
 import { useTranslation } from "react-i18next";
 import "./LegalMention.css";
+import ScrollToTopOnMount from "../routes/ScrollToTopOnMount";
 
 function LegalMention() {
   const { t } = useTranslation();
 
   return (
+    <>
+    <ScrollToTopOnMount />
     <div className="super-container-legal-mention">
       <div className="legal-mention-title">{t("LegalTitle")}</div>
       <div className="legal-mention-text">
@@ -20,6 +23,7 @@ function LegalMention() {
         </a>
       </div>
     </div>
+    </>
   );
 }
 

@@ -3,8 +3,11 @@ import "./App.css";
 
 import Routes from "./routes";
 
+
 function App() {
-  return <Routes />;
+  return (
+  <Routes />
+  );
 }
 
 export default App;

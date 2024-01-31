@@ -1,11 +1,13 @@
 import { useTranslation } from "react-i18next";
 import "./Confidential.css";
 import ScrollToTop from "../routes/ScrollToTop";
+import ScrollToTopOnMount from "../routes/ScrollToTopOnMount";
 
 function Confidential() {
   const { t } = useTranslation();
   return (
     <>
+    <ScrollToTopOnMount />
       <div className="super-container-confidential">
         <div className="confidential-title" id="confidential">
           {t("TitlePolicy")}
