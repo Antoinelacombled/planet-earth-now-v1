@@ -25,7 +25,7 @@ const events = [
     link: "https://www.talentsfortheplanet.fr/fr",
   },
   {
-    date: "14/3/2024",
+    date: "13/3/2024 - 15/3/2024",
     location: "La Défense",
     audience: "Grand public",
     description: "POwR.Earth Summit",

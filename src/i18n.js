@@ -71,7 +71,10 @@ i18n.use(initReactI18next).init({
         GetTheFlagTextCardFive:
           "Download the climate emergency flag file below and print it out to make your own flag or share it with others.",
 
+        GetTheFlagTextCardFiveDownload : "Download the low tech version of the flag",    
+
         GetTheFlagDownload: "DOWNLOAD THE FLAG",
+        GetTheFlagDownloadEco: "DOWNLOAD THE FLAG (low-tech)",
 
         // FLAG PRINCIPLES SECTION //
         FlagPrinciplesTitle: "THE PRINCIPLES BEHIND THE FLAG",
@@ -83,7 +86,7 @@ i18n.use(initReactI18next).init({
         FlagPrinciplesTextFour:
           "It can be customized to suit your projects",
         FlagPrinciplesTextFive: "(see conditions).",
-
+ 
         // WHY FLAG SECTION //
         WhyFlagTitle: "WHY THIS FLAG :",
         WhyFlagTextOne:
@@ -293,7 +296,11 @@ i18n.use(initReactI18next).init({
         GetTheFlagTextCardFive:
           "Vous pouvez télécharger ci-dessous le fichier du drapeau de l'urgence climatique afin de l'imprimer pour le fabriquer\u00A0vous-même et le partager autour de vous.",
 
+        GetTheFlagTextCardFiveDownload : "Téléchargez la version low tech du drapeau",  
+        
+
         GetTheFlagDownload: "TÉLÉCHARGER LE DRAPEAU",
+        GetTheFlagDownloadEco: "TÉLÉCHARGER LE DRAPEAU (low-tech)",
 
         // FLAG PRINCIPLES SECTION //
         FlagPrinciplesTitle: "LES PRINCIPES DU DRAPEAU",

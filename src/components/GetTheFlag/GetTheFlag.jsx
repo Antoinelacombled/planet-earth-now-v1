@@ -92,6 +92,7 @@ function GetTheFlag() {
               <img className="img-size" src={windowFive} type="image/jpeg" />
             </div>
             <div className="window-gtf-text">{t("GetTheFlagTextCardFive")}</div>
+            {/* {t("GetTheFlagTextCardFiveDownload")} */}
           </div>
         </div>
       </section>
