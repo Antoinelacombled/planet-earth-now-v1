@@ -10,33 +10,12 @@ SwiperCore.use([Navigation]);
 
 const events = [
   {
-    date: "1/2/2024",
-    location: "Paris",
-    audience: "Grand public",
-    description: "Atelier Horizons Décarbonés",
-    link: "https://www.academieduclimat.paris/evenements/atelier-horizons-decarbones-8/",
-  },
-  {
     date: "6/2/2024",
     location: "Paris",
     audience: "Salon professionnel",
     description:
       "EnerJ-Meeting - journée de l'efficacité énergétique et environnementale du bâtiment",
     link: "https://www.enerj-meeting.com/",
-  },
-  {
-    date: "15/2/2024",
-    location: "Paris",
-    audience: "Grand public",
-    description: "Atelier Horizons Décarbonés",
-    link: "https://www.academieduclimat.paris/evenements/atelier-horizons-decarbones-9/",
-  },
-  {
-    date: "29/2/2024",
-    location: "Paris",
-    audience: "Grand public",
-    description: "Atelier Horizons Décarbonés",
-    link: "https://www.academieduclimat.paris/evenements/atelier-horizons-decarbones-10/",
   },
   {
     date: "6/3/2024",
