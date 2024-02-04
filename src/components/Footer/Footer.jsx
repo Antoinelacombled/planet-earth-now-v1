@@ -35,7 +35,7 @@ function Footer() {
           )}
         </div>
         {location.pathname !== "/faq" && (
-          <Link to={"/faq"} className="nav-footer">
+          <Link to={"/faq?scrollTo=top"} className="nav-footer">
             {t("FaqHeader")}
           </Link>
         )}

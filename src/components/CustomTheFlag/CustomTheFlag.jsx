@@ -112,7 +112,7 @@ function CustomTheFlag() {
   return (
     <section className="custom-the-flag">
       <div className="super-container-custom-the-flag">
-        <div className="title-custom-the-flag">{t("CustomTheFlagTitle")}</div>
+        <div className="title-custom-the-flag"><Link to={"/conditions"} className="link-flag">{t("CustomTheFlagTitle")}</Link></div>
         <div className="container-carousel-custom-the-flag">
           <div className="container-flags-custom-the-flag">
             <Swiper
@@ -159,7 +159,7 @@ function CustomTheFlag() {
         </div>
         <div className="text-container">
           <div className="click-on-it">{t("CustomTheFlagClick")}</div>
-          <div className="conditions-flag"><Link to={"/conditions"} className="link-flag">Cliquez ici pour consulter les conditions de personnalisation du drapeau</Link></div>
+          {/* <div className="conditions-flag"><Link to={"/conditions"} className="link-flag">Cliquez ici pour consulter les conditions de personnalisation du drapeau</Link></div> */}
         </div>
       </div>
     </section>

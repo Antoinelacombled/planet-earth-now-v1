@@ -390,7 +390,7 @@ i18n.use(initReactI18next).init({
         FaqTextThree:
           "Bonne question ! Mais en fait, embarrassante !!! Nous sommes dans les startings blocks ; la liste des points de vente sera prochainement en ligne.",
         FaqTextFour:
-          "Nous avons identifié en France ces sept fournisseurs qui utilisent le polyester recyclé (liste non exhaustive) :",
+          "Ceux que nous utilisons actuellement sont ",
         FaqTextFourBis: " sont ceux que nous utilisons actuellement.",
         FaqTextFive:
           "Le drapeau a été pensé pour « appartenir à tous », c’est-à-dire à être largement diffusé et brandi par l’ensemble des citoyen-nes du monde, sans conditions ou demandes d’autorisations préalables. Toutefois, chaque personne s’engage à respecter le drapeau dans son intégrité et dans l’esprit de la défense de l’environnement.",

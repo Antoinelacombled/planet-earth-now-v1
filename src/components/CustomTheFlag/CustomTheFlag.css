@@ -15,6 +15,7 @@
   font-family: "Bowlby One", sans-serif;
   font-size: 2em;
   letter-spacing: 0.1em;
+
 }
 
 .container-carousel-custom-the-flag {
@@ -104,6 +105,14 @@
 
 .link-flag{
   color: white;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: rgb(95, 139, 221);
+}
+
+.link-flag:hover{
+  color:rgb(95, 139, 221);;
 }
 
 
