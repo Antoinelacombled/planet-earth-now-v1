@@ -18,11 +18,39 @@ const events = [
     link: "https://www.enerj-meeting.com/",
   },
   {
+    date: "9/2/2024 - 9/2/2024",
+    location: "Liège",
+    audience: "UE",
+    description: "Climate Chance Europe 2024 Wallonia Summit",
+    link: "https://scce24wallonie.eu/en/",
+  },
+  {
+    date: "11/2/2024 - 13/2/2024",
+    location: "Long Beach",
+    audience: "International",
+    description: "2024 Higher Education Climate Leadership Summit",
+    link: "https://secondnature.org/2024-summit/"
+  },
+  {
+    date: "8/2/2024 - 9/2/2024",
+    location: "Colombo",
+    audience: "International",
+    description: "8th International Conference on Climate Change 2024",
+    link: "https://climatechangeconferences.com/"
+  },
+  {
     date: "6/3/2024",
     location: "Paris",
     audience: "Grand public",
     description: "Talents for the planet",
     link: "https://www.talentsfortheplanet.fr/fr",
+  },
+  {
+    date: "13/3/2024 - 14/3/2024",
+    location: "Londres",
+    audience: "International",
+    description: "Financial Times’ Climate Capital Live 2024",
+    link: "https://climatecapital.live.ft.com/",
   },
   {
     date: "13/3/2024 - 15/3/2024",
@@ -67,6 +95,20 @@ const events = [
     link: "https://www.team2.fr/journee-vision-a-360-pour-une-industrie-decarbonee",
   },
   {
+    date: "16/4/2024 - 18/4/2024",
+    location: "Florence",
+    audience: "International",
+    description: "European Climate Summit 2024 (IETA)",
+    link: "https://www.ieta.org/events/european-climate-summit-ecs-2024/"
+  },
+  {
+    date: "22/4/2024 - 28/4/2024",
+    location: "Washington DC",
+    audience: "International",
+    description: "US Climate Action Summit 2024",
+    link: "https://www.theclimategroup.org/us-climate-action-summit-2024"
+  },
+  {
     date: "28/5/2024",
     location: "Paris",
     audience: "Salon professionnel",
@@ -79,6 +121,13 @@ const events = [
     audience: "Salon professionnel",
     description: "Produrable 2024",
     link: "https://www.produrable.com/"
+  },
+  {
+    date: "11/11/2024 - 22/11/2024",
+    location: "Baku",
+    audience: "COP",
+    description: "UNFCCC COP 29",
+    link: "https://sdg.iisd.org/events/2024-un-climate-change-conference-unfccc-cop-29/",
   }
 ];
 
