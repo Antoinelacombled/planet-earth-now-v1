@@ -25,10 +25,10 @@ import customYou from "../../assets/custom-your.png";
 import flagStripes from "../../assets/custom-stripes.png";
 import flagCoquelicot from "../../assets/custom-coquelicot.png";
 import flagPikPik from "../../assets/custom-pikpik.png";
+import flagODNF from "../../assets/custom-odnf.png"
 
 import { Link } from "react-router-dom";
 
-// Initialisation de Navigation pour Swiper
 SwiperCore.use([Navigation, Autoplay]);
 
 const logos = [
@@ -124,6 +124,12 @@ const logos = [
     image: flagPikPik,
     website: "https://pikpik.org/",
     alt : "logo PikPik événement sur le drapeau EF1",
+  },
+  {
+    id: "ODNF",
+    image: flagODNF,
+    website: "https://odnf.fr",
+    alt : "logo ODNF sur le drapeau EF1"
   }
 ];
 

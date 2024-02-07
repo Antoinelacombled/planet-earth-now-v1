@@ -24,13 +24,13 @@ const supporters = [
     id: "recoft",
     image: Recoft,
     url: "https://www.recoftc.org/",
-    alt: "logo recoft",
+    alt: "logo Recoft",
   },
   {
     id: "eco",
     image: Eco,
     url: "https://www.eco-prisme.com/",
-    alt: "logo ecoprism",
+    alt: "logo Ecoprism",
   },
   {
     id: "Jiboiana",
@@ -48,7 +48,7 @@ const supporters = [
     id: "treemium",
     image: Treemium,
     url: "https://treemium.com/",
-    alt: "logo treemium",
+    alt: "logo Treemium",
   },
 ];
 
