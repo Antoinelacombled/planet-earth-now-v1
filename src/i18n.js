@@ -129,7 +129,7 @@ i18n.use(initReactI18next).init({
         EventKnowMore: "Find out more",
 
         // FLAG PARTNERS SECTION //
-        FlagPartnerTitle: "OUR FLAG SUPPORTERS",
+        FlagPartnerTitle: "PARTNERSHIPS",
 
         // NATIONALITÉ //
         Nationality: "- Your nationality?",
@@ -360,7 +360,7 @@ i18n.use(initReactI18next).init({
         EventKnowMore: "En savoir plus",
 
         // FLAG PARTNERS SECTION //
-        FlagPartnerTitle: "LES SOUTIENS AU DRAPEAU",
+        FlagPartnerTitle: "PARTENARIATS",
 
         // NATIONALITÉ //
         Nationality: "- Nationalité ?",
