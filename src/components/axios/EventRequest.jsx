@@ -19,12 +19,7 @@ function EventRequest() {
 
   if (!eventDetails.date) return "Chargement...";
 
-  return (
-    <div>
-      <p>Date de l'événement: {eventDetails.date}</p>
-      <p>Lieu de l'événement: {eventDetails.location}</p>
-    </div>
-  );
+
 }
 
 export default EventRequest;
