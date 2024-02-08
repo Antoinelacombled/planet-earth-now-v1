@@ -5,18 +5,11 @@ import { Navigation } from "swiper/modules";
 import "./CarouselEvent.css";
 import "swiper/css";
 import "swiper/css/navigation";
-
 SwiperCore.use([Navigation]);
 
+
+
 const events = [
-  {
-    date: "6/2/2024",
-    location: "Paris",
-    audience: "Salon professionnel",
-    description:
-      "EnerJ-Meeting - journée de l'efficacité énergétique et environnementale du bâtiment",
-    link: "https://www.enerj-meeting.com/",
-  },
   {
     date: "9/2/2024 - 9/2/2024",
     location: "Liège",

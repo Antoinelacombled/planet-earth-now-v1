@@ -13,6 +13,7 @@ import OurHouseBurns from "../components/OurHouseBurns/OurHouseBurns";
 import PrinciplesSection from "../components/PrinciplesSection/PrinciplesSection";
 import QuotationSection from "../components/QuotationSection/QuotationSection";
 import WhyFlag from "../components/WhyFlag/WhyFlag";
+import EventRequest from "../components/axios/EventRequest";
 import CarouselEvent from "../components/core/Carousel/CarouselEvent";
 
 function Home() {
@@ -34,6 +35,7 @@ function Home() {
       <CarouselEvent />
       <FlagPartners />
       <ContactSection />
+      <EventRequest />
     </>
   );
 }
