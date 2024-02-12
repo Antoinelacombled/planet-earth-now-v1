@@ -11,25 +11,11 @@ SwiperCore.use([Navigation]);
 
 const events = [
   {
-    date: "9/2/2024 - 9/2/2024",
-    location: "Liège",
-    audience: "UE",
-    description: "Climate Chance Europe 2024 Wallonia Summit",
-    link: "https://scce24wallonie.eu/en/",
-  },
-  {
     date: "11/2/2024 - 13/2/2024",
     location: "Long Beach",
     audience: "International",
     description: "2024 Higher Education Climate Leadership Summit",
     link: "https://secondnature.org/2024-summit/"
-  },
-  {
-    date: "8/2/2024 - 9/2/2024",
-    location: "Colombo",
-    audience: "International",
-    description: "8th International Conference on Climate Change 2024",
-    link: "https://climatechangeconferences.com/"
   },
   {
     date: "6/3/2024",
