@@ -18,6 +18,13 @@ const events = [
     link: "https://www.talentsfortheplanet.fr/fr",
   },
   {
+    date: "7/3/2024 - 8/3/2024",
+    location: "Bordeaux",
+    audience: "Grand public",
+    description: "World Impact Summit, Sommet international des solutions à impact positif",
+    link: "https://www.worldimpactsummit-event.com/2024/fr",
+  },
+  {
     date: "13/3/2024 - 14/3/2024",
     location: "Londres",
     audience: "International",
