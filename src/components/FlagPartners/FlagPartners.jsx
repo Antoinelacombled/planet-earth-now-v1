@@ -15,7 +15,7 @@ import Recoft from "../../assets/logoRecoft.png";
 import Treemium from "../../assets/logoTreemium.png";
 import Eco from "../../assets/logoEco.png";
 import Jiboiana from "../../assets/logoJiboiana.png";
-import Rockett from "../../assets/logoRockett.png";
+import Rocket from "../../assets/logoRockett.png";
 
 SwiperCore.use([Navigation]);
 
@@ -40,7 +40,7 @@ const supporters = [
   },
   {
     id: "rocket",
-    image: Rockett,
+    image: Rocket,
     url: "https://therocketfoundation.org/",
     alt: "logo Rocket Fondation",
   },
@@ -88,7 +88,7 @@ function FlagPartners() {
                 className="logo-partner"
                 src={supporter.image}
                 alt={supporter.alt}
-              />
+              /> 
             </a>
           </SwiperSlide>
         ))}

@@ -11,13 +11,6 @@ SwiperCore.use([Navigation]);
 
 const events = [
   {
-    date: "11/2/2024 - 13/2/2024",
-    location: "Long Beach",
-    audience: "International",
-    description: "2024 Higher Education Climate Leadership Summit",
-    link: "https://secondnature.org/2024-summit/"
-  },
-  {
     date: "6/3/2024",
     location: "Paris",
     audience: "Grand public",
@@ -39,28 +32,28 @@ const events = [
     link: "https://www.powrsummit.earth/",
   },
   {
-    date: "25/3/2024",
+    date: "25/3/2024 - 27/3/2024",
     location: "Paris",
     audience: "Grand public",
     description: "Change Now",
     link: "https://www.changenow.world/fr/join_changenow_2024/",
   },
   {
-    date: "26/3/2024",
+    date: "26/3/2024 - 27/3/2024",
     location: "Deauville",
     audience: "Salon professionnel",
     description: "Time to change 2024, forum climat énergie et finance durable",
     link: "https://evenements.optionfinance.fr/time-to-change-2024",
   },
   {
-    date: "3/4/2024",
+    date: "3/4/2024 - 4/4/2024",
     location: "Paris",
     audience: "Salon professionnel",
     description: "Solutions Bas Carbone",
     link: "https://bas-carbone.com/",
   },
   {
-    date: "10/4/2024",
+    date: "10/4/2024 - 11/4/2024",
     location: "Lyon",
     audience: "Salon professionnel",
     description: "MIX.E salon mix énergétique neutre en carbone",
