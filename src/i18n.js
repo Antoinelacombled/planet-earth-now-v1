@@ -278,12 +278,12 @@ i18n.use(initReactI18next).init({
         GetTheFlagTitleCardTwo: "POUR LES",
         GetTheFlagTitleCardTwoBis: "INSTITUTIONS",
         GetTheFlagTextCardTwo:
-          "Grâce aux dons reçus par l'association PLANET EARTH NOW, des drapeaux pourront être offerts aux mairies et aux écoles.",
+          "Grâce aux dons reçus par l'association PLANET EARTH NOW, des drapeaux peuvent être offerts aux mairies et aux écoles.",
         GetTheFlagContactCardTwo: "N'hésitez pas à nous contacter.",
 
         GetTheFlagTitleCardThree: "DANS LE CADRE DE VOS PROJETS",
         GetTheFlagTextCardThree:
-          "Dans le cadre de votre association et de vos projets, événements ou conférences, des drapeaux pourront vous être offerts.",
+          "Dans le cadre de votre association et de vos projets, événements ou conférences, des drapeaux peuvent vous être offerts.",
         GetTheFlagContactCardThree: "N'hésitez pas à nous contacter.",
 
         GetTheFlagTitleCardFour: "EN CONTACTANT UN FABRICANT",

@@ -5,9 +5,8 @@ import { Navigation } from "swiper/modules";
 import "./CarouselEvent.css";
 import "swiper/css";
 import "swiper/css/navigation";
+
 SwiperCore.use([Navigation]);
-
-
 
 const events = [
   {
@@ -23,6 +22,13 @@ const events = [
     audience: "Grand public",
     description: "World Impact Summit, Sommet international des solutions à impact positif",
     link: "https://www.worldimpactsummit-event.com/2024/fr",
+  },
+  {
+    date: "9/3/2024 - 10/3/2024",
+    location: "Sainte-Suzanne",
+    audience: "Grand public",
+    description: "Marche Réunionnaise pour le Climat et la Biodiversité",
+    link: "https://ville-saintesuzanne.re/marche-reunionnaise-pour-le-climat-2024/",
   },
   {
     date: "13/3/2024 - 14/3/2024",
@@ -60,6 +66,13 @@ const events = [
     link: "https://bas-carbone.com/",
   },
   {
+    date: "3/4/2024 - 4/4/2024",
+    location: "Paris",
+    audience: "Salon professionnel",
+    description: "Le Grand Défi Écologique 2024 (organisé par l'ADEME)",
+    link: "https://legranddefiecologique.ademe.fr/content/accueil-pro",
+  },
+  {
     date: "10/4/2024 - 11/4/2024",
     location: "Lyon",
     audience: "Salon professionnel",
@@ -93,6 +106,13 @@ const events = [
     audience: "Salon professionnel",
     description: "Drive to zero",
     link: "https://www.drivetozero.fr/",
+  },
+  {
+    date: "9/10/2024",
+    location: "Bordeaux",
+    audience: "Festival",
+    description: "Conférences, des tables rondes, des concerts, des expositions, des cercles de réflexion et des équipes de travail.",
+    link: ""
   },
   {
     date: "9/10/2024",
