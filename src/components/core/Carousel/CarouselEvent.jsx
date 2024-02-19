@@ -10,6 +10,13 @@ SwiperCore.use([Navigation]);
 
 const events = [
   {
+    date: "22/2/2024 - 23/2/2024",
+    location: "Monaco & Online",
+    audience: "International",
+    description: "Polar Symposium : From the Arctic to the Antarctic",
+    link: "https://www.thepolarinitiative.org/en/symposium-2024-74",
+  },
+  {
     date: "6/3/2024",
     location: "Paris",
     audience: "Grand public",
@@ -59,6 +66,13 @@ const events = [
     link: "https://evenements.optionfinance.fr/time-to-change-2024",
   },
   {
+    date: "28/3/2024 - 30/3/2024",
+    location: "Berkeley, CA",
+    audience: "International",
+    description: "Bioneers 2024",
+    link: "https://conference.bioneers.org/",
+  },
+  {
     date: "3/4/2024 - 4/4/2024",
     location: "Paris",
     audience: "Salon professionnel",
@@ -101,11 +115,39 @@ const events = [
     link: "https://www.theclimategroup.org/us-climate-action-summit-2024"
   },
   {
+    date: "7/5/2024 - 9/5/2024",
+    location: "Atlanta, GA",
+    audience: "International",
+    description: "Living Future Conference 2024",
+    link: "https://www.livingfutureconference.org/event/2473f788-aa25-45ab-8d52-8299cc1bbeb2/summary"
+  },
+  {
     date: "28/5/2024",
     location: "Paris",
     audience: "Salon professionnel",
     description: "Drive to zero",
     link: "https://www.drivetozero.fr/",
+  },
+  {
+    date: "Juin",
+    location: "Paris, Lyon, Bordeaux",
+    audience: "Course",
+    description: "Run for Planet",
+    link: "https://runforplanet.fr/",
+  },
+  {
+    date: "11/6/2024 - 1/12/2024",
+    location: "Paris",
+    audience: "Grand public",
+    description: "BIOMIMEXPO 2024",
+    link: "https://biomimexpo.com/",
+  },
+  {
+    date: "18/6/2024 - 20/6/2024",
+    location: "Torshavn (Îles Faroe)",
+    audience: "Conference",
+    description: "Seagriculture EU",
+    link: "https://seagriculture.eu/conference-program-2024/",
   },
   {
     date: "9/10/2024",
