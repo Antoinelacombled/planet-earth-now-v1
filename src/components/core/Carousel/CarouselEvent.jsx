@@ -10,13 +10,6 @@ SwiperCore.use([Navigation]);
 
 const events = [
   {
-    date: "22/2/2024 - 23/2/2024",
-    location: "Monaco & Online",
-    audience: "International",
-    description: "Polar Symposium : From the Arctic to the Antarctic",
-    link: "https://www.thepolarinitiative.org/en/symposium-2024-74",
-  },
-  {
     date: "6/3/2024",
     location: "Paris",
     audience: "Grand public",
@@ -148,13 +141,6 @@ const events = [
     audience: "Conference",
     description: "Seagriculture EU",
     link: "https://seagriculture.eu/conference-program-2024/",
-  },
-  {
-    date: "9/10/2024",
-    location: "Bordeaux",
-    audience: "Festival",
-    description: "Conférences, des tables rondes, des concerts, des expositions, des cercles de réflexion et des équipes de travail.",
-    link: ""
   },
   {
     date: "9/10/2024",
