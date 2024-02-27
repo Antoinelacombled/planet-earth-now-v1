@@ -136,6 +136,13 @@ const events = [
     link: "https://seagriculture.eu/conference-program-2024/",
   },
   {
+    date: "26/7/2024 - 28/7/2024",
+    location: "Alénya",
+    audience: "Grand Public",
+    description: "Bioviv'art - des arts vivants pour le vivant",
+    link: "https://www.biovivart.fr/",
+  },
+  {
     date: "9/10/2024",
     location: "Paris",
     audience: "Salon professionnel",
