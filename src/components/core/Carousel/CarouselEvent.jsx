@@ -24,25 +24,18 @@ const events = [
     link: "https://www.worldimpactsummit-event.com/2024/fr",
   },
   {
+    date: "8/3/2024 - 17/3/2024",
+    location: "France",
+    audience: "Grand public",
+    description: "Rencontres de l’habitat écologique, en France",
+    link: "https://fr.twiza.org/portail/",
+  },
+  {
     date: "9/3/2024 - 10/3/2024",
     location: "Sainte-Suzanne",
     audience: "Grand public",
     description: "Marche Réunionnaise pour le Climat et la Biodiversité",
     link: "https://ville-saintesuzanne.re/marche-reunionnaise-pour-le-climat-2024/",
-  },
-  {
-    date: "13/3/2024 - 14/3/2024",
-    location: "Londres",
-    audience: "International",
-    description: "Financial Times’ Climate Capital Live 2024",
-    link: "https://climatecapital.live.ft.com/",
-  },
-  {
-    date: "13/3/2024 - 15/3/2024",
-    location: "La Défense",
-    audience: "Grand public",
-    description: "POwR.Earth Summit",
-    link: "https://www.powrsummit.earth/",
   },
   {
     date: "25/3/2024 - 27/3/2024",
