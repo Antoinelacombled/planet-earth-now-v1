@@ -38,6 +38,34 @@ const events = [
     link: "https://ville-saintesuzanne.re/marche-reunionnaise-pour-le-climat-2024/",
   },
   {
+    date: "13/3/2024 - 14/3/2024",
+    location: "Londres",
+    audience: "International",
+    description: "Financial Times’ Climate Capital Live 2024",
+    link: "https://climatecapital.live.ft.com/",
+  },
+  {
+    date: "14/3/2024",
+    location: "Caen",
+    audience: "Grand public",
+    description: "MoHo Talk - Gilles Boeuf No Nature, No Future : comment écrire l’avenir avec le Vivant ?",
+    link: "https://www.eventbrite.fr/e/billets-moho-talk-gilles-boeuf-835631415057?aff=oddtdtcreator",
+  },
+  {
+    date: "18/3/2024 - 19/3/2024",
+    location: "Mons",
+    audience: "Salon professionnel",
+    description: "Le 10e Sommet européen des régions et des villes",
+    link: "https://www.iledefrance-europe.eu/actualites-europeennes/detail-actualites-europeennes/article/dixieme-sommet-europeen-des-regions-et-des-villes/#:~:text=Rendez%2Dvous%20les%2018%20et,des%20r%C3%A9gions%20et%20des%20villes.",
+  },
+  {
+    date: "18/3/2024 - 22/3/2024",
+    location: "Copenhagen",
+    audience: "International",
+    description: "CPH:CONFERENCE",
+    link: "https://cineuropa.org/fr/newsdetail/456864",
+  },
+  {
     date: "25/3/2024 - 27/3/2024",
     location: "Paris",
     audience: "Grand public",
@@ -73,11 +101,32 @@ const events = [
     link: "https://legranddefiecologique.ademe.fr/content/accueil-pro",
   },
   {
+    date: "4/4/2024",
+    location: "Paris",
+    audience: "Salon professionnel",
+    description: "Forum national des éco-entreprises",
+    link: "https://forum.ecoentreprises-france.fr/",
+  },
+  {
+    date: "9/4/2024 - 12/4/2024",
+    location: "Leuven",
+    audience: "International",
+    description: "5th Global Food Security Conference",
+    link: "https://www.globalfoodsecurityconference.com/",
+  },
+  {
     date: "10/4/2024 - 11/4/2024",
     location: "Lyon",
     audience: "Salon professionnel",
     description: "MIX.E salon mix énergétique neutre en carbone",
     link: "https://mix-energy.com/",
+  },
+  {
+    date: "10/4/2024 - 12/4/2024",
+    location: "Barcelona",
+    audience: "International",
+    description: "2024 UN Ocean Decade Conference",
+    link: "https://oceandecade-conference.com/home.php",
   },
   {
     date: "11/4/2024",
@@ -92,6 +141,13 @@ const events = [
     audience: "International",
     description: "European Climate Summit 2024 (IETA)",
     link: "https://www.ieta.org/events/european-climate-summit-ecs-2024/"
+  },
+  {
+    date: "16/4/2024 - 17/4/2024",
+    location: "Montréal",
+    audience: "International",
+    description: "Forum national de l’action climatique 2024",
+    link: "https://rncreq.org/fnac2024/"
   },
   {
     date: "22/4/2024 - 28/4/2024",
@@ -112,6 +168,13 @@ const events = [
     location: "Paris",
     audience: "Salon professionnel",
     description: "Drive to zero",
+    link: "https://www.drivetozero.fr/",
+  },
+  {
+    date: "31/5/2024 - 2/6/2024",
+    location: "Paris",
+    audience: "Salon professionnel",
+    description: "Festival développement durable ",
     link: "https://www.drivetozero.fr/",
   },
   {
@@ -143,6 +206,13 @@ const events = [
     link: "https://www.biovivart.fr/",
   },
   {
+    date: "10/9/2024 - 12/9/2024",
+    location: "Dunkerque",
+    audience: "Grand Public",
+    description: "Assises européennes de la transition énergétique",
+    link: "https://assises-energie.org/",
+  },
+  {
     date: "9/10/2024",
     location: "Paris",
     audience: "Salon professionnel",
@@ -155,6 +225,13 @@ const events = [
     audience: "COP",
     description: "UNFCCC COP 29",
     link: "https://sdg.iisd.org/events/2024-un-climate-change-conference-unfccc-cop-29/",
+  }
+  {
+    date: "8/12/2024",
+    location: "Abbeville",
+    audience: "Grand public",
+    description: "Journée mondiale du climat",
+    link: "https://www.tourisme-en-hautsdefrance.com/offres/journee-mondiale-du-climat-abbeville-fr-4701953/",
   }
 ];
 
