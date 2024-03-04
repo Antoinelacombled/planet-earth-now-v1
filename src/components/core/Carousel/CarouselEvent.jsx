@@ -10,13 +10,6 @@ SwiperCore.use([Navigation]);
 
 const events = [
   {
-    date: "2/3/2024",
-    location: "Paris",
-    audience: "Grand public",
-    description: "Mobilisation paysanne et citoyenne",
-    link: "https://terredeliens.org/ile-de-france/actu/mobilisation-paysanne-et-citoyenne-le-2-mars-%C3%A0-paris-19-02-2024/",
-  },
-  {
     date: "6/3/2024",
     location: "Paris",
     audience: "Grand public",
