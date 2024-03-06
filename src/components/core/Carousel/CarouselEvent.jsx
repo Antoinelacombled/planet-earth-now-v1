@@ -185,7 +185,7 @@ const events = [
     link: "https://runforplanet.fr/",
   },
   {
-    date: "11/6/2024 - 1/12/2024",
+    date: "11/6/2024 - 12/6/2024",
     location: "Paris",
     audience: "Grand public",
     description: "BIOMIMEXPO 2024",
@@ -213,7 +213,7 @@ const events = [
     link: "https://assises-energie.org/",
   },
   {
-    date: "9/10/2024",
+    date: "9/10/2024 - 10/10/2024",
     location: "Paris",
     audience: "Salon professionnel",
     description: "Produrable 2024",
