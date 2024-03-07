@@ -218,7 +218,7 @@ const events = [
     audience: "COP",
     description: "UNFCCC COP 29",
     link: "https://sdg.iisd.org/events/2024-un-climate-change-conference-unfccc-cop-29/",
-  }
+  },
   {
     date: "8/12/2024",
     location: "Abbeville",
