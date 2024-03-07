@@ -26,25 +26,26 @@ import flagStripes from "../../assets/custom-stripes.png";
 import flagCoquelicot from "../../assets/custom-coquelicot.png";
 import flagPikPik from "../../assets/custom-pikpik.png";
 import flagODNF from "../../assets/custom-odnf.png"
+import flagWater from "../../assets/custom-water.png"
 
 import { Link } from "react-router-dom";
 
 SwiperCore.use([Navigation, Autoplay]);
 
 const logos = [
-  { 
+  {
     id: "rewild",
     image: flagRe,
     website: "https://www.rewild.org/",
     alt: "Logo Rewild sur le drapeau EF1",
   },
-  { 
+  {
     id: "recoft",
     image: flagRecoft,
     website: "https://www.recoftc.org/",
     alt: "Logo Recoft sur le drapeau EF1",
   },
-  { 
+  {
     id: "cad",
     image: flagCad,
     alt: "Logo CAD brésil sur le drapeau EF1",
@@ -55,7 +56,7 @@ const logos = [
     website: "https://therocketfoundation.org/",
     alt: "Logo Rocket Foundation sur le drapeau EF1"
   },
-  { 
+  {
     id: "treemium",
     image: flagTreemium,
     website: "https://treemium.com/",
@@ -84,9 +85,9 @@ const logos = [
     website: "https://showyourstripes.info/",
     alt: "Logo climate stripes sur le drapeau EF1"
   },
-  { 
-    id: "paprec", 
-    image: flagPaprec, 
+  {
+    id: "paprec",
+    image: flagPaprec,
     website: "https://www.paprec.com/fr/",
     alt: "logo Paprec sur le drapeau EF1",
   },
@@ -94,22 +95,22 @@ const logos = [
     id: "avenir",
     image: flagAvenir,
     website: "https://avenirclimatique.org/",
-    alt : "logo avenir climatique sur le drapeau EF1"
+    alt: "logo avenir climatique sur le drapeau EF1"
   },
   {
     id: "fnab",
     image: flagFnab,
     website: "https://www.fnab.org/",
-    alt : "logo FNAB sur le drapeau EF1"
+    alt: "logo FNAB sur le drapeau EF1"
   },
   {
     id: "friends",
     image: flagFriend,
     website: "https://www.amisdelaterre.org/",
-    alt : "logo amis de la terre sur le drapeau EF1"
+    alt: "logo amis de la terre sur le drapeau EF1"
   }
   ,
-  { 
+  {
     id: "you",
     image: customYou,
   },
@@ -117,19 +118,25 @@ const logos = [
     id: "coquelicot",
     image: flagCoquelicot,
     website: "https://nousvoulonsdescoquelicots.org/",
-    alt : "logo nous voulons des coquelicots sur le drapeau EF1"
+    alt: "logo nous voulons des coquelicots sur le drapeau EF1"
   },
   {
     id: "pikpik",
     image: flagPikPik,
     website: "https://pikpik.org/",
-    alt : "logo PikPik événement sur le drapeau EF1",
+    alt: "logo PikPik événement sur le drapeau EF1",
   },
   {
     id: "ODNF",
     image: flagODNF,
     website: "https://odnf.fr",
-    alt : "logo ODNF sur le drapeau EF1"
+    alt: "logo ODNF sur le drapeau EF1"
+  }
+  {
+    id: "water",
+    image: flagWater,
+    website: "https://waterfamily.org/",
+    alt: "logo water family sur le drapeau EF1"
   }
 ];
 
@@ -178,7 +185,7 @@ function CustomTheFlag() {
                 </SwiperSlide>
               ))}
             </Swiper>
-         
+
             <div>
               <button className="swiper-button-prev custom-the-flag-prev"></button>
               <button className="swiper-button-next custom-the-flag-next"></button>
