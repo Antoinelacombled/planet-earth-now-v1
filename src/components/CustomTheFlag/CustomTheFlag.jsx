@@ -131,7 +131,7 @@ const logos = [
     image: flagODNF,
     website: "https://odnf.fr",
     alt: "logo ODNF sur le drapeau EF1"
-  }
+  },
   {
     id: "water",
     image: flagWater,
