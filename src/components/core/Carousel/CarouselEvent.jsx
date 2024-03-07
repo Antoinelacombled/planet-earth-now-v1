@@ -10,13 +10,6 @@ SwiperCore.use([Navigation]);
 
 const events = [
   {
-    date: "6/3/2024",
-    location: "Paris",
-    audience: "Grand public",
-    description: "Talents for the planet",
-    link: "https://www.talentsfortheplanet.fr/fr",
-  },
-  {
     date: "7/3/2024 - 8/3/2024",
     location: "Bordeaux",
     audience: "Grand public",
