@@ -59,6 +59,13 @@ const events = [
     link: "https://cineuropa.org/fr/newsdetail/456864",
   },
   {
+    date: "18/3/2024 - 23/3/2024",
+    location: "Monaco",
+    audience: "International",
+    description: "Monaco Ocean Week",
+    link: "https://www.monacooceanweek.org/en/program/",
+  },
+  {
     date: "25/3/2024 - 27/3/2024",
     location: "Paris",
     audience: "Grand public",
