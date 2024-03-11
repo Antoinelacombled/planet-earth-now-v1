@@ -71,7 +71,7 @@ i18n.use(initReactI18next).init({
         GetTheFlagTextCardFive:
           "Download the climate emergency flag file below and print it out to make your own flag or share it with others.",
 
-        GetTheFlagTextCardFiveDownload : "Download the low tech version of the flag",    
+        GetTheFlagTextCardFiveDownload: "Download the low tech version of the flag",
 
         GetTheFlagDownload: "DOWNLOAD THE FLAG",
         GetTheFlagDownloadEco: "DOWNLOAD THE FLAG (low-tech)",
@@ -86,7 +86,7 @@ i18n.use(initReactI18next).init({
         FlagPrinciplesTextFour:
           "It can be customized to suit your projects",
         FlagPrinciplesTextFive: "(see conditions).",
- 
+
         // WHY FLAG SECTION //
         WhyFlagTitle: "WHY THIS FLAG :",
         WhyFlagTextOne:
@@ -209,22 +209,22 @@ i18n.use(initReactI18next).init({
         //Cookies 
 
         CookiesTitle: "Cookie Policy for ef1.org",
-        CookiesSubTitleOne : "1. Introduction",
-        CookiesTextOne : "ef1.org uses cookies to optimize user experience and analyze traffic on our site. This policy outlines our use of these technologies and their purpose.",
+        CookiesSubTitleOne: "1. Introduction",
+        CookiesTextOne: "ef1.org uses cookies to optimize user experience and analyze traffic on our site. This policy outlines our use of these technologies and their purpose.",
 
-        CookiesSubTitleTwo : "2. Definition of Cookies",
-        CookiesTextTwo : "Cookies are small text files stored on your device when you visit our site. They are used to remember your preferences and actions over a set period, thereby facilitating your navigation by saving certain information for subsequent visits.",
+        CookiesSubTitleTwo: "2. Definition of Cookies",
+        CookiesTextTwo: "Cookies are small text files stored on your device when you visit our site. They are used to remember your preferences and actions over a set period, thereby facilitating your navigation by saving certain information for subsequent visits.",
 
-        CookiesSubTitleThree : "3. Use of Cookies",
-        CookiesTextThree : "ef1.org utilizes Google Analytics to collect anonymous data about user interactions with our site. This information is vital for improving our platform by better understanding visitor needs and behaviors.",
+        CookiesSubTitleThree: "3. Use of Cookies",
+        CookiesTextThree: "ef1.org utilizes Google Analytics to collect anonymous data about user interactions with our site. This information is vital for improving our platform by better understanding visitor needs and behaviors.",
 
-        CookiesSubTitleFour : "4. Consent",
+        CookiesSubTitleFour: "4. Consent",
         CookiesTextFour: "By using ef1.org, you consent to the use of cookies as outlined in this policy. If you disagree, you may refuse our cookies, which will not affect your browsing experience on our site.",
-        
-        CookiesSubTitleFive : "5. Policy Revisions",
+
+        CookiesSubTitleFive: "5. Policy Revisions",
         CookiesTextFive: "This cookie policy may be periodically revised. Any changes will be communicated on this page.",
 
-        CookiesSubTitleSix : "6. Contact Us",
+        CookiesSubTitleSix: "6. Contact Us",
         CookiesTextSix: "For any questions regarding our use of cookies, please contact us at the following address: contact@planetearthnow.com.",
 
       },
@@ -296,8 +296,8 @@ i18n.use(initReactI18next).init({
         GetTheFlagTextCardFive:
           "Vous pouvez télécharger ci-dessous le fichier du drapeau de l'urgence climatique afin de l'imprimer pour le fabriquer\u00A0vous-même et le partager autour de vous.",
 
-        GetTheFlagTextCardFiveDownload : "Téléchargez la version low tech du drapeau",  
-        
+        GetTheFlagTextCardFiveDownload: "Téléchargez la version low tech du drapeau",
+
 
         GetTheFlagDownload: "TÉLÉCHARGER LE DRAPEAU",
         GetTheFlagDownloadEco: "TÉLÉCHARGER LE DRAPEAU (low-tech)",
@@ -319,7 +319,7 @@ i18n.use(initReactI18next).init({
         WhyFlagTextOne:
           "Ce drapeau est l’emblème de notre planète, du bleu des océans et du vert de la nature.",
         WhyFlagTextTwo:
-          "Il est le symbole de la lutte contre le dérèglement climatique et pour la sauvegarde de la biodiversité.",
+          "Il symbolise la lutte contre le dérèglement climatique et la sauvegarde de la biodiversité.",
         WhyFlagTextThree:
           "Il soutient les actions individuelles et collectives des défenseurs de l’environnement pour porter leurs messages plus haut et plus fort.",
         WhyFlagTextFour:
@@ -438,27 +438,27 @@ i18n.use(initReactI18next).init({
           "ARTICLE 10 : CETTE POLITIQUE PEUT-ELLE ÊTRE MODIFIÉE ? PLANET EARTH NOW se réserve la possibilité de modifier la présente Politique de confidentialité. Si les modifications sont des modifications de forme, la nouvelle politique s’appliquera  immédiatement. Si les modifications ou mises à jour sont substantielles (par exemple, insertion d’une nouvelle finalité), les modifications seront portées à votre connaissance. Si le recueil du consentement était à nouveau nécessaire, PLANET EARTH NOW procéderait naturellement à un nouveau recueil du consentement. En tout état de cause, vous êtes invité à consulter régulièrement la Présente Politique de confidentialité afin d’être pleinement informé de la manière dont l’Association traite vos Données à caractère personnel.",
         TitlePolicy: "POLITIQUE DE CONFIDENTIALITÉ",
 
-                //Cookies 
+        //Cookies 
 
-                CookiesTitle: "Politique de Cookies pour ef1.org",
-                CookiesSubTitleOne : "1. Introduction",
-                CookiesTextOne : "Le site ef1.org utilise des cookies afin d'optimiser l'expérience utilisateur et d'analyser le trafic de notre site. Cette politique vise à expliquer comment et pourquoi nous utilisons ces technologies.",
-        
-                CookiesSubTitleTwo : "2. Définition des Cookies",
-                CookiesTextTwo : "Les cookies sont de petits fichiers texte stockés sur votre appareil lors de la visite de notre site. Ils permettent de mémoriser vos préférences et actions pour une période déterminée, facilitant ainsi votre navigation en évitant de ressaisir certaines informations lors de visites ultérieures.",
-        
-                CookiesSubTitleThree : "3. Utilisation des Cookies",
-                CookiesTextThree : " ef1.org utilise Google Analytics pour collecter des informations anonymes sur l'interaction des utilisateurs avec notre site. Ces données nous aident à améliorer notre plateforme en comprenant mieux les besoins et comportements des visiteurs.",
-        
-                CookiesSubTitleFour : "4. Consentement",
-                CookiesTextFour: "En utilisant ef1.org, vous consentez à l'utilisation de cookies conformément à cette politique. En cas de désaccord, il vous est possible refuser nos cookies, cela n'affectera pas votre navigation sur le site web.",
-                
-                CookiesSubTitleFive : "5. Révisions de la Politique",
-                CookiesTextFive: "Cette politique de cookies peut être révisée périodiquement. Tout changement sera communiqué sur cette page.",
-        
-                CookiesSubTitleSix : "6. Nous Contacter",
-                CookiesTextSix: "Pour toute question relative à notre utilisation des cookies, n'hésitez pas à nous contacter à l'adresse suivante : contact@planetearthnow.com.",
-        
+        CookiesTitle: "Politique de Cookies pour ef1.org",
+        CookiesSubTitleOne: "1. Introduction",
+        CookiesTextOne: "Le site ef1.org utilise des cookies afin d'optimiser l'expérience utilisateur et d'analyser le trafic de notre site. Cette politique vise à expliquer comment et pourquoi nous utilisons ces technologies.",
+
+        CookiesSubTitleTwo: "2. Définition des Cookies",
+        CookiesTextTwo: "Les cookies sont de petits fichiers texte stockés sur votre appareil lors de la visite de notre site. Ils permettent de mémoriser vos préférences et actions pour une période déterminée, facilitant ainsi votre navigation en évitant de ressaisir certaines informations lors de visites ultérieures.",
+
+        CookiesSubTitleThree: "3. Utilisation des Cookies",
+        CookiesTextThree: " ef1.org utilise Google Analytics pour collecter des informations anonymes sur l'interaction des utilisateurs avec notre site. Ces données nous aident à améliorer notre plateforme en comprenant mieux les besoins et comportements des visiteurs.",
+
+        CookiesSubTitleFour: "4. Consentement",
+        CookiesTextFour: "En utilisant ef1.org, vous consentez à l'utilisation de cookies conformément à cette politique. En cas de désaccord, il vous est possible refuser nos cookies, cela n'affectera pas votre navigation sur le site web.",
+
+        CookiesSubTitleFive: "5. Révisions de la Politique",
+        CookiesTextFive: "Cette politique de cookies peut être révisée périodiquement. Tout changement sera communiqué sur cette page.",
+
+        CookiesSubTitleSix: "6. Nous Contacter",
+        CookiesTextSix: "Pour toute question relative à notre utilisation des cookies, n'hésitez pas à nous contacter à l'adresse suivante : contact@planetearthnow.com.",
+
       },
     },
   },
