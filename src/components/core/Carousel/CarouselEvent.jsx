@@ -9,27 +9,7 @@ import "swiper/css/navigation";
 SwiperCore.use([Navigation]);
 
 const events = [
-  {
-    date: "7/3/2024 - 8/3/2024",
-    location: "Bordeaux",
-    audience: "Grand public",
-    description: "World Impact Summit, Sommet international des solutions à impact positif",
-    link: "https://www.worldimpactsummit-event.com/2024/fr",
-  },
-  {
-    date: "8/3/2024 - 17/3/2024",
-    location: "France",
-    audience: "Grand public",
-    description: "Rencontres de l’habitat écologique, en France",
-    link: "https://fr.twiza.org/portail/",
-  },
-  {
-    date: "9/3/2024 - 10/3/2024",
-    location: "Sainte-Suzanne",
-    audience: "Grand public",
-    description: "Marche Réunionnaise pour le Climat et la Biodiversité",
-    link: "https://ville-saintesuzanne.re/marche-reunionnaise-pour-le-climat-2024/",
-  },
+
   {
     date: "13/3/2024 - 14/3/2024",
     location: "Londres",
