@@ -11,41 +11,6 @@ SwiperCore.use([Navigation]);
 const events = [
 
   {
-    date: "13/3/2024 - 14/3/2024",
-    location: "Londres",
-    audience: "International",
-    description: "Financial Times’ Climate Capital Live 2024",
-    link: "https://climatecapital.live.ft.com/",
-  },
-  {
-    date: "14/3/2024",
-    location: "Caen",
-    audience: "Grand public",
-    description: "MoHo Talk - Gilles Boeuf No Nature, No Future : comment écrire l’avenir avec le Vivant ?",
-    link: "https://www.eventbrite.fr/e/billets-moho-talk-gilles-boeuf-835631415057?aff=oddtdtcreator",
-  },
-  {
-    date: "18/3/2024 - 19/3/2024",
-    location: "Mons",
-    audience: "Salon professionnel",
-    description: "Le 10e Sommet européen des régions et des villes",
-    link: "https://www.iledefrance-europe.eu/actualites-europeennes/detail-actualites-europeennes/article/dixieme-sommet-europeen-des-regions-et-des-villes/#:~:text=Rendez%2Dvous%20les%2018%20et,des%20r%C3%A9gions%20et%20des%20villes.",
-  },
-  {
-    date: "18/3/2024 - 22/3/2024",
-    location: "Copenhagen",
-    audience: "International",
-    description: "CPH:CONFERENCE",
-    link: "https://cineuropa.org/fr/newsdetail/456864",
-  },
-  {
-    date: "18/3/2024 - 23/3/2024",
-    location: "Monaco",
-    audience: "International",
-    description: "Monaco Ocean Week",
-    link: "https://www.monacooceanweek.org/en/program/",
-  },
-  {
     date: "25/3/2024 - 27/3/2024",
     location: "Paris",
     audience: "Grand public",
