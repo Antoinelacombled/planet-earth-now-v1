@@ -11,27 +11,6 @@ SwiperCore.use([Navigation]);
 const events = [
 
   {
-    date: "25/3/2024 - 27/3/2024",
-    location: "Paris",
-    audience: "Grand public",
-    description: "Change Now",
-    link: "https://www.changenow.world/fr/join_changenow_2024/",
-  },
-  {
-    date: "26/3/2024 - 27/3/2024",
-    location: "Deauville",
-    audience: "Salon professionnel",
-    description: "Time to change 2024, forum climat énergie et finance durable",
-    link: "https://evenements.optionfinance.fr/time-to-change-2024",
-  },
-  {
-    date: "28/3/2024 - 30/3/2024",
-    location: "Berkeley, CA",
-    audience: "International",
-    description: "Bioneers 2024",
-    link: "https://conference.bioneers.org/",
-  },
-  {
     date: "3/4/2024 - 4/4/2024",
     location: "Paris",
     audience: "Salon professionnel",
