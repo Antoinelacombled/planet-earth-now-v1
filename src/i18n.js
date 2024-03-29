@@ -461,6 +461,236 @@ i18n.use(initReactI18next).init({
 
       },
     },
+    esp: {
+      translation: {
+        // OUR HOUSE BURNS SECTION //
+        OurHouseBurnsTitle: "NUESTRA CASA ESTÁ EN LLAMAS",
+
+        // BANNER URGENCY SECTION //
+        BannerUrgencyTitle: "EMERGENCIA CLIMÁTICA",
+
+        // HEADER SECTION //
+        GetTheFlagHeader: "CONSEGUIR LA BANDERA",
+        PrinciplesHeader: "PRINCIPIOS",
+        EventsHeader: "EVENTOS Y PROYECTOS",
+        ContactHeader: "CONTACTO",
+        FaqHeader: "PREGUNTAS FRECUENTES",
+
+        // BANNER UNITY SECTION //
+        BannerUnityTitleOne: "NECESITAMOS UN SÍMBOLO",
+        BannerUnityTitleTwo: "FUERTE DE UNIDAD",
+
+        // FLAG SECTION //
+        FlagSectionTitle:
+          "Esta bandera tiene como objetivo recordar los peligros que entraña el cambio climático y apoyar alto y claro los proyectos y las acciones de los defensores y defensoras del medioambiente.",
+
+        // BANNER MOBILIZE //
+        BannerMobilizeTitle: "MOBILÍZATE",
+
+        // MANIFESTO SECTION //
+        ManifestoSectionTitleOne: "« LA ACCIÓN CIVIL ES",
+        ManifestoSectionTitleTwo: "LA ÚNICA ALTERNATIVA",
+        ManifestoSectionTitleThree: "REAL PARA ACTUAR",
+        ManifestoSectionTitleFour: "CONTRA EL CAMBIO CLIMÁTICO »",
+        ManifestoBook: "El clima está cambiando… ¿y tú?",
+
+        // ACTION QUOTE SECTION //
+        ActionQuoteSectionTitle:
+          " «\u00A0SE TRATA DE PONER ENTRE LA ESPADA Y LA PARED A QUIENES TIENEN EL PODER DE CAMBIAR LAS COSAS\u00A0»",
+
+        // GET THE FLAG SECTION //
+        GetTheFlagTitle: "¿CÓMO CONSEGUIR LA BANDERA?",
+
+        GetTheFlagTitleCardOne: "EN LAS MARCHAS CONTRA EL CAMBIO CLIMÁTICO",
+        GetTheFlagTextCardOne:
+          "La bandera se distribuye entre las personas que participan en las marchas ciudadanas para defender el medioambiente.",
+        GetTheFlagEventCardOne: "¡Nos vemos en los próximos eventos!",
+
+        GetTheFlagTitleCardTwo: "PARA",
+        GetTheFlagTitleCardTwoBis: "INSTITUCIONES",
+        GetTheFlagTextCardTwo:
+          "Gracias a las donaciones que recibe la asociación PLANET EARTH NOW, podemos ofrecer banderas a ayuntamientos y colegios.",
+        GetTheFlagContactCardTwo: "Contacta con nosotros.",
+
+        GetTheFlagTitleCardThree: "PARA TUS PROYECTOS",
+        GetTheFlagTextCardThree:
+          "Podemos ofrecerte banderas para tu asociación y para tus proyectos, eventos o conferencias. Contacta con nosotros.",
+        GetTheFlagContactCardThree: "N'hésitez pas à nous contacter.",
+
+        GetTheFlagTitleCardFour: "A TRAVÉS DE UN FABRICANTE",
+        GetTheFlagTextCardFour:
+          "Ponte en contacto con el proveedor que desees para fabricar la bandera descargando el archivo que figura a continuación.",
+        GetTheFlagContactCardFour:
+          "Hemos seleccionado algunos.",
+
+        GetTheFlagTitleCardFive: "FABRICÁNDOLA TÚ MISMO/A",
+        GetTheFlagTextCardFive:
+          "Puedes descargarte el archivo de la bandera de emergencia climática e imprimirlo para crear tu propia bandera o compartirla\u00A0con el mayor número de personas posible.",
+
+        GetTheFlagTextCardFiveDownload: "Téléchargez la version low tech du drapeau",
+
+
+        GetTheFlagDownload: "DESCARGA LA BANDERA",
+        GetTheFlagDownloadEco: "DESCARGA LA BANDERA (low tech)",
+
+        // FLAG PRINCIPLES SECTION //
+        FlagPrinciplesTitle: "PRINCIPIOS QUE DEFIENDE LA BANDERA",
+        FlagPrinciplesTextOne:
+          "Pertenece a todos los ciudadanos y ciudadanas del mundo.",
+        FlagPrinciplesTextTwo:
+          "Es neutral respecto a cualquier agrupación política o religiosa, así como a cualquier grupo de interés o de influencia.",
+        FlagPrinciplesTextThree:
+          "Tiene un diseño ecológico y se produce a nivel local en la medida de lo posible.",
+        FlagPrinciplesTextFour:
+          "Se puede personalizar en función de las necesidades y los proyectos.",
+        FlagPrinciplesTextFive: " (voir conditions).",
+
+        // WHY FLAG SECTION //
+        WhyFlagTitle: "¿POR QUÉ LA BANDERA?",
+        WhyFlagTextOne:
+          "Esta bandera es el emblema de nuestro planeta, del azul de los océanos y del verde de la naturaleza.",
+        WhyFlagTextTwo:
+          "Es el símbolo de la lucha contra el cambio climático y de la defensa de la biodiversidad.",
+        WhyFlagTextThree:
+          "Apoya las acciones individuales y colectivas de los defensores y defensoras del medioambiente para que su mensaje llegue alto y claro.",
+        WhyFlagTextFour:
+          "Se ha diseñado para que se asocie a todos los actos de protección del planeta: manifestaciones, discursos, conferencias y reuniones internacionales.",
+        WhyFlagTextFive:
+          "Su objetivo es movilizar a la sociedad civil. Es su nexo de unión.",
+        WhyFlagTextSix:
+          "Ondear la bandera de emergencia climática es una forma de demostrar que nos comprometemos a salvar nuestro planeta.",
+        WhyFlagTextSeven:
+          "La bandera invita a la acción y despierta conciencias.",
+        WhyFlagTextEight:
+          "Nos recuerda los pasos indispensables que debemos dar cada día.",
+        WhyFlagTextNine: "Es una garantía de la legitimidad de nuestra acción.",
+        WhyFlagTextTen:
+          "Culpabiliza a los responsables del cambio climático.",
+
+        WhyFlagTextEleven:
+          "LOS PAÍSES TIENEN SU BANDERA, AHORA LOS TERRÍCOLAS TAMBIÉN TIENEN LA SUYA.",
+
+        // CUSTOM THE FLAG SECTION //
+
+        CustomTheFlagClick: "¡haz clic en él!",
+
+        CustomTheFlagTitle: "PERSONALIZA LA BANDERA",
+
+        // QUOTATION SECTION //
+        QuotationSectionOne:
+          "«\u00A0EL MUNDO NO SERÁ DESTRUIDO POR LOS QUE HACEN EL MAL, SINO POR AQUELLOS QUE MIRAN SIN HACER NADA PARA IMPEDIRLO\u00A0»",
+        QuotationSectionTwo:
+          "«\u00A0AHORA, SALID A LA CALLE Y OBLIGADME A HACERLO\u00A0»",
+        QuotationSectionThree:
+          "«\u00A0HOY MÁS QUE NUNCA, EL FUTURO DE LA TIERRA, NUESTRO FUTURO, ESTÁ EN NUESTRAS MANOS\u00A0»",
+        QuotationSectionAuthor: "sobre el llamado “Asunto del siglo,",
+        QuotationSectionAuthorBis: "citando a F.D\u00A0Roosevelt",
+
+        //EVENTS
+        EventTitle: "EVENTOS",
+        EventKnowMore: "Más información",
+
+        // FLAG PARTNERS SECTION //
+        FlagPartnerTitle: "COLABORADORES",
+
+        // NATIONALITÉ //
+        Nationality: "- ¿Nacionalidad?",
+        Terrien: "- ¡Terrícola!",
+        You: "- ¿Y tú?",
+
+        // FOOTER //
+        Legal: "AVISO LEGAL",
+        Confident: "POLÍTICA DE PRIVACIDAD",
+        Home: "INICIO",
+
+        // FAQ
+        FaqTitleOne: "¿CUÁNDO SE PUEDE UTILIZAR LA BANDERA?",
+        FaqTitleTwo: "¿CÓMO PUEDO CONSEGUIR LA BANDERA PARA UN EVENTO?",
+        FaqTitleThree: "¿DÓNDE PUEDO COMPRAR LA BANDERA?",
+        FaqTitleFour: "¿DÓNDE SE PUEDE FABRICAR LA BANDERA?",
+        FaqTitleFive:
+          "¿LA BANDERA ESTÁ PROTEGIDA POR DERECHOS DE PROPIEDAD INTELECTUAL?",
+        FaqTitleSix: " ¿PUEDO MODIFICAR LA BANDERA?",
+        FaqTitleSeven: "¿Y TÚ, TIENES ALGUNA PREGUNTA?",
+
+        FaqTextOne:
+          "La bandera está destinada a ondearse en manifestaciones e intervenciones públicas y a difundirse en redes sociales. Nos gustaría verla colgada en las ventanas, fijada en los balcones, izada en los mástiles...",
+
+        FaqTextTwo:
+          "Podemos darte una o varias banderas en función del evento. Contacta con nosotros y te informaremos sobre cómo podemos ayudarte: contact@earthflag1.org",
+        FaqTextThree:
+          "¡Buena pregunta! Aunque te pedimos un poco de paciencia... Aún estamos dando los primeros pasos; la lista de puntos de venta estará disponible en línea próximamente.",
+        FaqTextFour:
+          "En Francia, hemos identificado siete proveedores que utilizan poliéster reciclado (lista no exhaustiva) ",
+        FaqTextFourBis: " son los que utilizamos actualmente. ",
+        FaqTextFive:
+          "La bandera se ha diseñado para que «nos pertenezca a todos», es decir, para que todos los ciudadanos y ciudadanas del mundo puedan ondearla y distribuirla por donde quieran, sin condiciones ni solicitudes de autorización previa. No obstante, cada persona se compromete a respetar la integridad de la bandera y su espíritu de protección medioambiental.",
+        FaqTextSix:
+          "Puedes personalizar la bandera utilizando el interior del círculo central.",
+        FaqTextSeven: "Envíanos tus preguntas ",
+        FaqTextSevenBis:
+          "a través del formulario de contacto y te responderemos lo antes posible.",
+
+        // LEGAL MENTION //
+        LegalTitle: "AVISO LEGAL",
+        Publisher:
+          "PLANET EARTH NOW, asociación declarada en el registro nacional de asociaciones desde el 7 de agosto de 2020 con el número W751257593, con sede en 15 rue Saint-Dominique 75007, París y número SIREN 889954152. Contacto : ",
+
+        // CONTACT //
+        PlaceHolderOne: "Indica tu nombre",
+        PlaceHolderTwo: "Indica tus apellidos",
+        PlaceHolderThree: "Indica tu correo electrónico",
+        PlaceHolderFour:
+          "Comparte tus ideas, sugerencias, preguntas, propuestas de colaboración…",
+        ButtonContact: "ENVIAR",
+
+        // POLITIQUE DE CONFIDENTIALITÉ //
+        FirstTextPolicy:
+          "PRÉAMBULE: PLANET EARTH NOW, Association déclarée au répertoire nationale des associations depuis le 07 août 2020 sous le numéro W751257593, domiciliée 15 rue Saint-Dominique et dont le numéro SIREN est 889954152 s’engage à se conformer à la législation en vigueur en France (Loi nᵒ 78-17 du 6 janvier 1978 « Informatique et Libertés ») et en Europe (Règlement 2016/679 du 27 avril 2016 « RGPD »), à assurer la protection, la confidentialité et la sécurité des données à caractère personnel, ainsi qu’à assurer le respect de la vie privée.Conformément à ses valeurs, PLANET EARTH NOW accorde une grande importance au respect des données à caractère personnel ainsi qu’à la vie privée des internautes et visiteurs de son site web. La présente politique de confidentialité (ci-après « la Politique ») décrit la manière dont PLANET EARTH NOW collecte et traite les données à caractère personnel des personnes naviguant sur son site ou prenant attache avec elle par le biais du formulaire présent sur le site. La Politique précise également les bases légales sur lesquelles PLANET EARTH NOW s’appuie pour traiter les données à caractère personnel et fixer leurs durées de conservation. En tout état de cause, PLANET EARTH NOW s’engage à respecter les principes suivants : Vos données sont utilisées uniquement pour des finalités explicites, légitimes et déterminées en lien avec les différentes fonctionnalités proposées sur le site et notamment le formulaire de contact ; Seules les données à caractère personnel qui sont utiles à ces fins sont collectées et traitées par PLANET EARTH NOW ; Vous êtes informé de manière claire et transparente, sur la finalité d’utilisation des données à caractère personnel collectées vous concernant et sur vos droits en matière de protection des données.",
+        ArticleOne:
+          "ARTICLE 1 : DÉFINITIONS Les termes et expressions mentionnés ci-dessous auront la signification qui leur est donnée au présent article, à savoir : - « Cookies » : Désignent les traceurs qui permettent d’accéder à des informations stockées dans l’équipement terminal de l’Utilisateur ; - « Donnée à caractère personnel » : Désigne toute information se rapportant à une personne physique identifiée ou identifiable directement (par son nom ou prénom par exemple) ou indirectement (notamment par référence à un identifiant, tel qu’un numéro d’identification, des données de localisation ou un identifiant en ligne) ; - « Personne concernée » / « Vous » : Désigne la personne physique identifiée ou identifiable et dont les Données à caractère personnel sont traitées par PLANET EARTH NOW en tant qu’Utilisateur du site web ; - « Responsable de traitement » : Désigne la personne physique ou morale, qui seul ou conjointement, détermine les finalités et les moyens des Traitements de données à caractère personnel. En l’espèce, l’Association PLANET EARTH NOW est responsable des traitements ; - « Sous-traitant » : Désigne la personne physique ou morale qui traite des Données à caractère personnel pour le compte du Responsable de traitement ; - « Traitement » : Désigne toute opération ou tout ensemble d’opérations effectuées ou non à l’aide de procédés automatisés et appliqués à des données ou des ensembles de données à caractère personnel, telles que la collecte, l’enregistrement, l’organisation, la structuration, la conservation, l’adaptation ou la modification, l’extraction, la consultation, l’utilisation, la communication par transmission, la diffusion ou toute autre forme de mise à disposition, le rapprochement ou l’interconnexion, la limitation, l’effacement ou la destruction ; - « Tiers » : Désigne toute personne physique ou morale autorisée, autorité publique, service ou organisme autre que la personne concernée, le responsable du traitement, le sous-traitant et les personnes qui, placées sous l’autorité directe du responsable du traitement ou du sous-traitant, sont autorisées à traiter les Données à caractère personnel ; - « Utilisateur » : Désigne toute personne qui navigue sur le site web édité earthflag1.org édité par l’Association PLANET EARTH NOW ; - « Violation de données à caractère personnel » : Désigne la violation qui entraîne, de manière accidentelle ou illicite, la destruction, la perte, l’altération, la divulgation non autorisée de données à caractère personnel transmises, conservées ou traitées d’une autre manière, ou l’accès non autorisé à de telles données.",
+        ArticleTwo:
+          "ARTICLE 2 : QUAND VOS DONNÉES SONT-ELLES COLLECTÉES ? Vos Données à caractère personnel, en tant qu’Utilisateur du site web, sont susceptibles d’être collectées dans les circonstances listées ci-après : Lors des visites et de la navigation sur le Site ; Lors d’échanges et/ou contact entre vous et PLANET EARTH NOW.",
+        ArticleThree:
+          "ARTICLE 3 : POUR QUELLES FINALITÉS VOS DONNÉES SONT-ELLES TRAITÉES ? Les Traitements de vos Données à caractère personnel sont effectués par PLANET EARTH NOW exclusivement pour les finalités suivantes : Répondre à vos demandes de contact et d’information ; Suivi des statistiques et mesure d’audience sur le site : Amélioration de la navigation sur le site.",
+        ArticleFour:
+          "ARTICLE 4 : SUR QUELLES BASES LÉGALES VOS DONNÉES SONT-ELLES COLLECTÉES ? COMBIEN DE TEMPS SONT-ELLES CONSERVÉES ? - Finalités : Gestion des demandes et prises de contact, Analyse des interactions (Mesure d’audience) - Données collectées : Coordonnées de contact (nom, prénom, adresse courriel électronique), Pages consultées, identifiants et clics - Base légale : Consentement, Intérêt légitime - Durée de conservation : Jusqu’à 3 ans à partir du dernier contact avec la personne concernée 6 mois concernant les durées de conservation, il est entendu que PLANET EARTH NOW ne conserve vos Données à caractère personnel que le temps nécessaire à la réalisation des finalités pour lesquelles elles ont été recueillies.",
+        ArticleFive:
+          "ARTICLE 5 : QUI SONT LES DESTINATAIRES DE VOS DONNÉES ? Les Données à caractère personnel vous concernant peuvent être traitées par les personnes suivantes : Les membres habilités de l’équipe de PLANET EARTH NOW ; Les fournisseurs de systèmes informatiques et de soutien de l’activité de PLANET EARTH NOW (ex : prestataires informatiques, d’hébergement et/ou de maintenance). Vos Données ne seront pas communiquées à d’autres personnes sans votre consentement. Les Tiers avec lesquels PLANET EARTH NOW partage vos Données sont limités (par la loi et par contrat) dans leur capacité à utiliser vos Données à caractère personnel aux fins spécifiques que PLANET EARTH NOW a identifiées. En tout état de cause, PLANET EARTH NOW déploie ses meilleurs efforts pour assurer que les destinataires de vos Données à caractère personnel sont soumis aux obligations de confidentialité et de sécurité conformes à la présente Politique de Confidentialité, aux lois applicables et notamment au RGPD et à la Loi dite Informatique et Libertés dans sa dernière version en vigueur.",
+        ArticleSix:
+          "ARTICLE 6 : VOS DONNÉES SONT-ELLES TRANSFÉRÉES EN DEHORS DE L'UNION EUROPÉENNE ? Si le traitement de vos Données à caractère personnel impliquait un transfert hors de l’Union Européenne, ces transferts seraient effectués en contrepartie de garanties appropriées en matière de sécurité et confidentialité en conformité avec la réglementation applicable (Notamment des clauses contractuelles standards, conformément aux modèles de clauses validées par la Commission Européenne). ",
+        ArticleSeven:
+          "ARTICLE 7 : QUELS SONT VOS DROITS ? En tant que Personne concernée par le Traitement de Données à caractère personnel, vous possédez différents droits. Ces derniers ne sont néanmoins pas absolus et sont soumis à certaines conditions, conformément au RGPD et autres textes en vigueur applicables notamment à la Loi n° 78-17 du 6 janvier 1978 dite « Informatique et Libertés ». - 7.1 Le droit d’accès Vous avez le droit d’obtenir de la part de PLANET EARTH NOW la confirmation que vos Données à caractère personnel sont ou non traitées par l’Association ainsi que des informations sur la manière dont elles sont traitées. Vous avez également le droit d’obtenir une copie des Données à caractère personnel vous concernant traitées par PLANET EARTH NOW. - 7.2 Le droit de rectification Vous pouvez solliciter PLANET EARTH NOW afin que cette dernière prenne des mesures pour corriger vos Données à caractère personnel si elles sont inexactes ou incomplètes. - 7.3 Le droit à l’effacement (« droit à l’oubli ») Vous pouvez demander l’effacement ou la suppression de vos Données à caractère personnel. - 7.4 Le droit de limiter le traitement Vous avez le droit de demander la limitation des Traitements de Données à caractère personnel ou d’empêcher l’utilisation ultérieure de vos Données à caractère personnel. La limitation du traitement n’empêchera pas la conservation de vos Données caractère personnel, mais PLANET EARTH NOW ne pourra pas les utiliser au-delà des limites que vous souhaitez imposer. - 7.5 Le droit à la portabilité des données Vous avez le droit de récupérer et de réutiliser certaines Données à caractère personnel vous concernant si elles sont traitées de manière automatisée par l’Association. - 7.6 Le droit d’opposition Vous avez le droit de vous opposer à certains types de traitements, pour des raisons liées à votre situation particulière, à tout moment, dans la mesure où ce traitement a eu lieu aux fins d’intérêts légitimes poursuivis par PLANET EARTH NOW. - 7.7 Le droit de retirer votre consentement Lorsque PLANET EARTH NOW traite vos Données à caractère personnel sur la base légale de votre consentement, vous avez la possibilité de retirer votre consentement à tout moment. Toutefois, vous êtes informé par la présente que le retrait n’affecte aucunement la licéité du traitement qui a eu lieu avant l’exercice de ce droit de retrait. - 7.8 Le droit de nous fournir des directives sur l’utilisation de vos données personnelles après votre décès Vous avez le droit de fournir à PLANET EARTH NOW des instructions sur la gestion (ex : conservation, effacement et divulgation) de vos Données à caractère personnel après votre décès. Vous pouvez modifier ou révoquer vos instructions à tout moment. - 7.9 Droit de déposer une réclamation auprès de la CNIL Dans l’éventualité où vous ne seriez pas satisfait de la réponse de PLANET EARTH NOW à votre réclamation ou si vous pensez que le Traitement de vos Données à caractère personnel n’est pas conforme à la réglementation applicable sur la protection des données à caractère personnel, vous pouvez déposer une réclamation auprès de l’autorité de contrôle compétente en matière de protection des données. La Commission Informatique et Libertés (CNIL) est l’autorité de protection des données en France.",
+        ArticleEight:
+          "Article 8 : Comment pouvez-vous exercer vos droits ? Si vous souhaitez exercer l’un de vos droits vous pouvez nous contacter à l’adresse courriel suivante : contact@earthflag1.org Pour mieux connaître vos droits, vous pouvez vous rendre sur le site de la CNIL (www.cnil.fr/fr/comprendre-vos-droits). Lors d’une demande d’exercice de droits, un titre d’identité peut être demandé, notamment afin de préserver la sécurité du traitement faisant l’objet de la demande. Une réponse vous sera adressée, suivant la complexité de votre demande dans les délais prescrits par l’article 12.3 du RGPD.",
+        ArticleNine:
+          "ARTICLE 9 : COMMENT SONT PROTÉGÉES VOS DONNÉES À CARACTÈRE PERSONNELLE ? PLANET EARTH NOW s’assure que les Données à caractère personnel sont traitées en toute sécurité et confidentialité. À cet effet, PLANET EARTH NOW met en place les mesures techniques et organisationnelles appropriées pour éviter la perte, la mauvaise utilisation, l’altération et la suppression de vos Données à caractère personnel. Ces mesures sont adaptées selon le niveau de sensibilité des Données à caractère personnel traitées et le niveau de risque que présente le Traitement de ces données ou sa mise en œuvre. Si une atteinte à la sécurité des Données à caractère personnel vous concernant ce produit, PLANET EARTH NOW vous en informera dans les délais et selon les modalités précisées par les dispositions légales et réglementaires en vigueur.",
+        ArticleTen:
+          "ARTICLE 10 : CETTE POLITIQUE PEUT-ELLE ÊTRE MODIFIÉE ? PLANET EARTH NOW se réserve la possibilité de modifier la présente Politique de confidentialité. Si les modifications sont des modifications de forme, la nouvelle politique s’appliquera  immédiatement. Si les modifications ou mises à jour sont substantielles (par exemple, insertion d’une nouvelle finalité), les modifications seront portées à votre connaissance. Si le recueil du consentement était à nouveau nécessaire, PLANET EARTH NOW procéderait naturellement à un nouveau recueil du consentement. En tout état de cause, vous êtes invité à consulter régulièrement la Présente Politique de confidentialité afin d’être pleinement informé de la manière dont l’Association traite vos Données à caractère personnel.",
+        TitlePolicy: "POLITIQUE DE CONFIDENTIALITÉ",
+
+        //Cookies 
+
+        CookiesTitle: "Politique de Cookies pour ef1.org",
+        CookiesSubTitleOne: "1. Introduction",
+        CookiesTextOne: "Le site ef1.org utilise des cookies afin d'optimiser l'expérience utilisateur et d'analyser le trafic de notre site. Cette politique vise à expliquer comment et pourquoi nous utilisons ces technologies.",
+
+        CookiesSubTitleTwo: "2. Définition des Cookies",
+        CookiesTextTwo: "Les cookies sont de petits fichiers texte stockés sur votre appareil lors de la visite de notre site. Ils permettent de mémoriser vos préférences et actions pour une période déterminée, facilitant ainsi votre navigation en évitant de ressaisir certaines informations lors de visites ultérieures.",
+
+        CookiesSubTitleThree: "3. Utilisation des Cookies",
+        CookiesTextThree: " ef1.org utilise Google Analytics pour collecter des informations anonymes sur l'interaction des utilisateurs avec notre site. Ces données nous aident à améliorer notre plateforme en comprenant mieux les besoins et comportements des visiteurs.",
+
+        CookiesSubTitleFour: "4. Consentement",
+        CookiesTextFour: "En utilisant ef1.org, vous consentez à l'utilisation de cookies conformément à cette politique. En cas de désaccord, il vous est possible refuser nos cookies, cela n'affectera pas votre navigation sur le site web.",
+
+        CookiesSubTitleFive: "5. Révisions de la Politique",
+        CookiesTextFive: "Cette politique de cookies peut être révisée périodiquement. Tout changement sera communiqué sur cette page.",
+
+        CookiesSubTitleSix: "6. Nous Contacter",
+        CookiesTextSix: "Pour toute question relative à notre utilisation des cookies, n'hésitez pas à nous contacter à l'adresse suivante : contact@planetearthnow.com.",
+      }
+    },
   },
   lng: "fr",
   fallbackLng: "en",

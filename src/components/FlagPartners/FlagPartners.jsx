@@ -12,7 +12,6 @@ import "swiper/css/navigation";
 
 // import Logos
 import Recoft from "../../assets/logoRecoft.png";
-import Treemium from "../../assets/logoTreemium.png";
 import Eco from "../../assets/logoEco.png";
 import Jiboiana from "../../assets/logoJiboiana.png";
 import Rocket from "../../assets/logoRockett.png";
@@ -43,12 +42,6 @@ const supporters = [
     image: Rocket,
     url: "https://therocketfoundation.org/",
     alt: "logo Rocket Fondation",
-  },
-  {
-    id: "treemium",
-    image: Treemium,
-    url: "https://treemium.com/",
-    alt: "logo Treemium",
   },
 ];
 
@@ -88,7 +81,7 @@ function FlagPartners() {
                 className="logo-partner"
                 src={supporter.image}
                 alt={supporter.alt}
-              /> 
+              />
             </a>
           </SwiperSlide>
         ))}
