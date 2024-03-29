@@ -11,7 +11,6 @@ import "swiper/css/navigation";
 // Importation des images
 import flagRecoft from "../../assets/flag-recoft.png";
 import flagRocket from "../../assets/flag-rocket.jpg";
-import flagTreemium from "../../assets/custom-treemium.jpg";
 import flagCad from "../../assets/cad.png";
 import flagPata from "../../assets/custom-1.png";
 import flagRe from "../../assets/custom-re.png";
@@ -56,12 +55,7 @@ const logos = [
     website: "https://therocketfoundation.org/",
     alt: "Logo Rocket Foundation sur le drapeau EF1"
   },
-  {
-    id: "treemium",
-    image: flagTreemium,
-    website: "https://treemium.com/",
-    alt: "Logo Treemium sur le drapeau EF1"
-  },
+
   {
     id: "pata",
     image: flagPata,
