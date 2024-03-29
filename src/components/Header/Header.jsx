@@ -60,7 +60,7 @@ function Header() {
           onClick={() => changeLanguage("fr")}
         />
         <img src={spanishflag} alt="Spanish flag" className="spanish-flag" />
-        <div className="language-notification">Operativo en febrero</div>
+        <div className="language-notification">Operativo en abril</div>
       </div>
     </header>
   );
