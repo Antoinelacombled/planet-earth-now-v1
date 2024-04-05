@@ -10,27 +10,7 @@ SwiperCore.use([Navigation]);
 
 const events = [
 
-  {
-    date: "3/4/2024 - 4/4/2024",
-    location: "Paris",
-    audience: "Salon professionnel",
-    description: "Solutions Bas Carbone",
-    link: "https://bas-carbone.com/",
-  },
-  {
-    date: "3/4/2024 - 4/4/2024",
-    location: "Le Havre",
-    audience: "Salon professionnel",
-    description: "Le Grand Défi Écologique 2024 (organisé par l'ADEME)",
-    link: "https://legranddefiecologique.ademe.fr/content/accueil-pro",
-  },
-  {
-    date: "4/4/2024",
-    location: "Paris",
-    audience: "Salon professionnel",
-    description: "Forum national des éco-entreprises",
-    link: "https://forum.ecoentreprises-france.fr/",
-  },
+
   {
     date: "9/4/2024 - 12/4/2024",
     location: "Leuven",
