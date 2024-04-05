@@ -26,6 +26,8 @@ import flagCoquelicot from "../../assets/custom-coquelicot.png";
 import flagPikPik from "../../assets/custom-pikpik.png";
 import flagODNF from "../../assets/custom-odnf.png"
 import flagWater from "../../assets/custom-water.png"
+import flagGroupement from "../../assets/custom-groupement.jpg"
+import flagFridays from "../../assets/custom-fridays.png"
 
 import { Link } from "react-router-dom";
 
@@ -131,6 +133,18 @@ const logos = [
     image: flagWater,
     website: "https://waterfamily.org/",
     alt: "logo water family sur le drapeau EF1"
+  },
+  {
+    id: "groupement",
+    image: flagGroupement,
+    website: "https://www.groupementforestier.org/",
+    alt: "logo groupement forestier"
+  },
+  {
+    id: "fridays",
+    image: flagFridays,
+    website: "https://fridaysforfuture.org/",
+    alt: "logo fridays for future"
   }
 ];
 

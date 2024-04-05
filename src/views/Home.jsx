@@ -30,9 +30,9 @@ function Home() {
       <GetTheFlag />
       <PrinciplesSection />
       <WhyFlag />
+      <CarouselEvent />
       <CustomTheFlag />
       <QuotationSection />
-      <CarouselEvent />
       <FlagPartners />
       <ContactSection />
       <EventRequest />
