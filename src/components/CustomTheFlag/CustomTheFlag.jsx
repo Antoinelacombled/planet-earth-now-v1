@@ -28,6 +28,8 @@ import flagODNF from "../../assets/custom-odnf.png"
 import flagWater from "../../assets/custom-water.png"
 import flagGroupement from "../../assets/custom-groupement.jpg"
 import flagFridays from "../../assets/custom-fridays.png"
+import flagUrgency from "../../assets/custom-urgence.png"
+import flagWings from "../../assets/custom-wings.png"
 
 import { Link } from "react-router-dom";
 
@@ -144,6 +146,18 @@ const logos = [
     id: "fridays",
     image: flagFridays,
     website: "https://fridaysforfuture.org/",
+    alt: "logo fridays for future"
+  },
+  {
+    id: "wings",
+    image: flagWings,
+    website: "https://www.wingsoftheocean.com//",
+    alt: "logo fridays for future"
+  },
+  {
+    id: "urgency",
+    image: flagUrgency,
+    website: "https://planete-urgence.org/",
     alt: "logo fridays for future"
   }
 ];
