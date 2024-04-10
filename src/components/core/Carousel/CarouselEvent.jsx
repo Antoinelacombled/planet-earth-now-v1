@@ -12,13 +12,6 @@ const events = [
 
 
   {
-    date: "9/4/2024 - 12/4/2024",
-    location: "Leuven",
-    audience: "International",
-    description: "5th Global Food Security Conference",
-    link: "https://www.globalfoodsecurityconference.com/",
-  },
-  {
     date: "10/4/2024 - 11/4/2024",
     location: "Lyon",
     audience: "Salon professionnel",
@@ -40,6 +33,13 @@ const events = [
     link: "https://www.team2.fr/journee-vision-a-360-pour-une-industrie-decarbonee",
   },
   {
+    date: "11/4/2024",
+    location: "Paris",
+    audience: "Table ronde",
+    description: "Le bio c'est vraiment bon ?",
+    link: "https://www.academieduclimat.paris/evenements/le-bio-cest-vraiment-bon/",
+  },
+  {
     date: "16/4/2024 - 18/4/2024",
     location: "Florence",
     audience: "International",
@@ -54,6 +54,20 @@ const events = [
     link: "https://rncreq.org/fnac2024/"
   },
   {
+    date: "19/4/2024",
+    location: "",
+    audience: "International",
+    description: "Global Climat Strike",
+    link: "https://map.fridaysforfuture.org/map?tools=1&ucpins=0&filter=0&calendar=0&c=+All+countries&d=Future&o=all"
+  },
+  {
+    date: "22/4/2024",
+    location: "",
+    audience: "",
+    description: "Journée de la Terre 2024",
+    link: "https://jourdelaterre.org/fr/"
+  },
+  {
     date: "22/4/2024 - 28/4/2024",
     location: "Washington DC",
     audience: "International",
@@ -66,6 +80,13 @@ const events = [
     audience: "International",
     description: "Living Future Conference 2024",
     link: "https://www.livingfutureconference.org/event/2473f788-aa25-45ab-8d52-8299cc1bbeb2/summary"
+  },
+  {
+    date: "27/5/2024 - 30/5/2024",
+    location: "Antigua and Barbuda",
+    audience: "",
+    description: "4th International Conference on Small Island Developing States",
+    link: "https://sdgs.un.org/conferences/sids2024"
   },
   {
     date: "28/5/2024",
@@ -89,6 +110,13 @@ const events = [
     link: "https://runforplanet.fr/",
   },
   {
+    date: "7/6/2024 - 16/6/2024",
+    location: "France",
+    audience: "Festival",
+    description: "Les nuits des forêts",
+    link: "https://nuitsdesforets.com/"
+  },
+  {
     date: "11/6/2024 - 12/6/2024",
     location: "Paris",
     audience: "Grand public",
@@ -101,6 +129,13 @@ const events = [
     audience: "Conference",
     description: "Seagriculture EU",
     link: "https://seagriculture.eu/conference-program-2024/",
+  },
+  {
+    date: "16/6/2024 - 21/6/2024",
+    location: "Davos",
+    audience: "International",
+    description: "3rd World Biodiversity Forum",
+    link: ""
   },
   {
     date: "26/7/2024 - 28/7/2024",
