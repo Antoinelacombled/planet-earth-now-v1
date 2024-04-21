@@ -64,7 +64,7 @@ function Header() {
           className="spanish-flag"
           onClick={() => changeLanguage("esp")}
         />
-        <div className="language-notification">Operativo en abril</div>
+
       </div>
     </header>
   );
