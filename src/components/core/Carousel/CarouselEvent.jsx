@@ -12,55 +12,6 @@ const events = [
 
 
   {
-    date: "10/4/2024 - 11/4/2024",
-    location: "Lyon",
-    audience: "Salon professionnel",
-    description: "MIX.E salon mix énergétique neutre en carbone",
-    link: "https://mix-energy.com/",
-  },
-  {
-    date: "10/4/2024 - 12/4/2024",
-    location: "Barcelona",
-    audience: "International",
-    description: "2024 UN Ocean Decade Conference",
-    link: "https://oceandecade-conference.com/home.php",
-  },
-  {
-    date: "11/4/2024",
-    location: "Lille",
-    audience: "Salon professionnel",
-    description: "Journée Vision à 360° pour une industrie décarbonée",
-    link: "https://www.team2.fr/journee-vision-a-360-pour-une-industrie-decarbonee",
-  },
-  {
-    date: "11/4/2024",
-    location: "Paris",
-    audience: "Table ronde",
-    description: "Le bio c'est vraiment bon ?",
-    link: "https://www.academieduclimat.paris/evenements/le-bio-cest-vraiment-bon/",
-  },
-  {
-    date: "16/4/2024 - 18/4/2024",
-    location: "Florence",
-    audience: "International",
-    description: "European Climate Summit 2024 (IETA)",
-    link: "https://www.ieta.org/events/european-climate-summit-ecs-2024/"
-  },
-  {
-    date: "16/4/2024 - 17/4/2024",
-    location: "Montréal",
-    audience: "International",
-    description: "Forum national de l’action climatique 2024",
-    link: "https://rncreq.org/fnac2024/"
-  },
-  {
-    date: "19/4/2024",
-    location: "",
-    audience: "International",
-    description: "Global Climat Strike",
-    link: "https://map.fridaysforfuture.org/map?tools=1&ucpins=0&filter=0&calendar=0&c=+All+countries&d=Future&o=all"
-  },
-  {
     date: "22/4/2024",
     location: "",
     audience: "",
