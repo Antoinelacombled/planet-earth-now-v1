@@ -24,12 +24,15 @@ import customYou from "../../assets/custom-your.png";
 import flagStripes from "../../assets/custom-stripes.png";
 import flagCoquelicot from "../../assets/custom-coquelicot.png";
 import flagPikPik from "../../assets/custom-pikpik.png";
-import flagODNF from "../../assets/custom-odnf.png"
-import flagWater from "../../assets/custom-water.png"
-import flagGroupement from "../../assets/custom-groupement.jpg"
-import flagFridays from "../../assets/custom-fridays.png"
-import flagUrgency from "../../assets/custom-urgence.png"
-import flagWings from "../../assets/custom-wings.png"
+import flagODNF from "../../assets/custom-odnf.png";
+import flagWater from "../../assets/custom-water.png";
+import flagGroupement from "../../assets/custom-groupement.jpg";
+import flagFridays from "../../assets/custom-fridays.png";
+import flagUrgency from "../../assets/custom-urgence.png";
+import flagWings from "../../assets/custom-wings.png";
+import flagMego from "../../assets/custom-mego.png";
+import flagZero from "../../assets/custom-zero.png";
+import flagUni from "../../assets/custom-uni.png";
 
 import { Link } from "react-router-dom";
 
@@ -57,31 +60,50 @@ const logos = [
     id: "rocket",
     image: flagRocket,
     website: "https://therocketfoundation.org/",
-    alt: "Logo Rocket Foundation sur le drapeau EF1"
+    alt: "Logo Rocket Foundation sur le drapeau EF1",
   },
 
   {
     id: "pata",
     image: flagPata,
     website: "https://www.onepercentfortheplanet.org/join",
-    alt: "Logo 1% for the planet sur le drapeau EF1"
+    alt: "Logo 1% for the planet sur le drapeau EF1",
+  },
+  {
+    id: "zero",
+    image: flagZero,
+    website: "",
+    alt: "Logo 1% for the planet sur le drapeau EF1",
+  },
+  {
+    id: "mego",
+    image: flagMego,
+    website: "https://trash-spotter.green/megothon-2024/",
+    alt: "Logo 1% for the planet sur le drapeau EF1",
+  },
+  {
+    id: "uni",
+    image: flagUni,
+    website: "https://linktr.ee/agrialimsante",
+    alt: "Logo 1% for the planet sur le drapeau EF1",
   },
   {
     id: "plastic",
     image: flagPlastic,
     website: "https://www.preciousplastic.com/",
-    alt: "Logo precious plastic sur le drapeau EF1"
+    alt: "Logo precious plastic sur le drapeau EF1",
   },
   {
-    id: "trees", image: flagTrees,
+    id: "trees",
+    image: flagTrees,
     website: "https://trees.org/",
-    alt: "Logo trees sur le drapeau EF1"
+    alt: "Logo trees sur le drapeau EF1",
   },
   {
     id: "stripes",
     image: flagStripes,
     website: "https://showyourstripes.info/",
-    alt: "Logo climate stripes sur le drapeau EF1"
+    alt: "Logo climate stripes sur le drapeau EF1",
   },
   {
     id: "paprec",
@@ -93,21 +115,20 @@ const logos = [
     id: "avenir",
     image: flagAvenir,
     website: "https://avenirclimatique.org/",
-    alt: "logo avenir climatique sur le drapeau EF1"
+    alt: "logo avenir climatique sur le drapeau EF1",
   },
   {
     id: "fnab",
     image: flagFnab,
     website: "https://www.fnab.org/",
-    alt: "logo FNAB sur le drapeau EF1"
+    alt: "logo FNAB sur le drapeau EF1",
   },
   {
     id: "friends",
     image: flagFriend,
     website: "https://www.amisdelaterre.org/",
-    alt: "logo amis de la terre sur le drapeau EF1"
-  }
-  ,
+    alt: "logo amis de la terre sur le drapeau EF1",
+  },
   {
     id: "you",
     image: customYou,
@@ -116,7 +137,7 @@ const logos = [
     id: "coquelicot",
     image: flagCoquelicot,
     website: "https://nousvoulonsdescoquelicots.org/",
-    alt: "logo nous voulons des coquelicots sur le drapeau EF1"
+    alt: "logo nous voulons des coquelicots sur le drapeau EF1",
   },
   {
     id: "pikpik",
@@ -128,38 +149,38 @@ const logos = [
     id: "ODNF",
     image: flagODNF,
     website: "https://odnf.fr",
-    alt: "logo ODNF sur le drapeau EF1"
+    alt: "logo ODNF sur le drapeau EF1",
   },
   {
     id: "water",
     image: flagWater,
     website: "https://waterfamily.org/",
-    alt: "logo water family sur le drapeau EF1"
+    alt: "logo water family sur le drapeau EF1",
   },
   {
     id: "groupement",
     image: flagGroupement,
     website: "https://www.groupementforestier.org/",
-    alt: "logo groupement forestier"
+    alt: "logo groupement forestier",
   },
   {
     id: "fridays",
     image: flagFridays,
     website: "https://fridaysforfuture.org/",
-    alt: "logo fridays for future"
+    alt: "logo fridays for future",
   },
   {
     id: "wings",
     image: flagWings,
     website: "https://www.wingsoftheocean.com//",
-    alt: "logo fridays for future"
+    alt: "logo fridays for future",
   },
   {
     id: "urgency",
     image: flagUrgency,
     website: "https://planete-urgence.org/",
-    alt: "logo fridays for future"
-  }
+    alt: "logo fridays for future",
+  },
 ];
 
 function CustomTheFlag() {
@@ -168,7 +189,11 @@ function CustomTheFlag() {
   return (
     <section className="custom-the-flag">
       <div className="super-container-custom-the-flag">
-        <div className="title-custom-the-flag"><Link to={"/conditions"} className="link-flag">{t("CustomTheFlagTitle")}</Link></div>
+        <div className="title-custom-the-flag">
+          <Link to={"/conditions"} className="link-flag">
+            {t("CustomTheFlagTitle")}
+          </Link>
+        </div>
         <div className="container-carousel-custom-the-flag">
           <div className="container-flags-custom-the-flag">
             <Swiper

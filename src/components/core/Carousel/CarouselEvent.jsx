@@ -9,35 +9,13 @@ import "swiper/css/navigation";
 SwiperCore.use([Navigation]);
 
 const events = [
-
-
-  {
-    date: "22/4/2024",
-    location: "",
-    audience: "",
-    description: "Journée de la Terre 2024",
-    link: "https://jourdelaterre.org/fr/"
-  },
-  {
-    date: "22/4/2024 - 28/4/2024",
-    location: "Washington DC",
-    audience: "International",
-    description: "US Climate Action Summit 2024",
-    link: "https://www.theclimategroup.org/us-climate-action-summit-2024"
-  },
-  {
-    date: "7/5/2024 - 9/5/2024",
-    location: "Atlanta, GA",
-    audience: "International",
-    description: "Living Future Conference 2024",
-    link: "https://www.livingfutureconference.org/event/2473f788-aa25-45ab-8d52-8299cc1bbeb2/summary"
-  },
   {
     date: "27/5/2024 - 30/5/2024",
     location: "Antigua and Barbuda",
     audience: "",
-    description: "4th International Conference on Small Island Developing States",
-    link: "https://sdgs.un.org/conferences/sids2024"
+    description:
+      "4th International Conference on Small Island Developing States",
+    link: "https://sdgs.un.org/conferences/sids2024",
   },
   {
     date: "28/5/2024",
@@ -65,7 +43,7 @@ const events = [
     location: "France",
     audience: "Festival",
     description: "Les nuits des forêts",
-    link: "https://nuitsdesforets.com/"
+    link: "https://nuitsdesforets.com/",
   },
   {
     date: "11/6/2024 - 12/6/2024",
@@ -86,7 +64,7 @@ const events = [
     location: "Davos",
     audience: "International",
     description: "3rd World Biodiversity Forum",
-    link: ""
+    link: "",
   },
   {
     date: "26/7/2024 - 28/7/2024",
@@ -107,7 +85,7 @@ const events = [
     location: "Paris",
     audience: "Salon professionnel",
     description: "Produrable 2024",
-    link: "https://www.produrable.com/"
+    link: "https://www.produrable.com/",
   },
   {
     date: "11/11/2024 - 22/11/2024",
@@ -122,7 +100,7 @@ const events = [
     audience: "Grand public",
     description: "Journée mondiale du climat",
     link: "https://www.tourisme-en-hautsdefrance.com/offres/journee-mondiale-du-climat-abbeville-fr-4701953/",
-  }
+  },
 ];
 
 function CarouselEvent() {
