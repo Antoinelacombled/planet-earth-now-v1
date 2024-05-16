@@ -21,7 +21,7 @@ import flagAvenir from "../../assets/custom-avenir.png";
 import flagFnab from "../../assets/custom-fnab.png";
 import flagFriend from "../../assets/flagfriends.png";
 import customYou from "../../assets/custom-your.png";
-import flagStripes from "../../assets/custom-stripes.png";
+import flagStripes from "../../assets/flag-warmingStripe.png";
 import flagCoquelicot from "../../assets/custom-coquelicot.png";
 import flagPikPik from "../../assets/custom-pikpik.png";
 import flagODNF from "../../assets/custom-odnf.png";
