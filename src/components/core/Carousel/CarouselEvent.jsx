@@ -10,6 +10,22 @@ SwiperCore.use([Navigation]);
 
 const events = [
   {
+    date: "21/6/2024",
+    location: "International",
+    audience: "",
+    description:
+      "Show Your Stripes Day",
+    link: "https://www.reading.ac.uk/planet/events/show-your-stripes-day  ",
+  },
+  {
+    date: "25 mai 2024",
+    location: "France",
+    audience: "",
+    description:
+      "Journée contre l'agrochimie et vers un autre modèle agro-alimentaire",
+    link: "https://linktr.ee/journee.contre.l.agrochimie",
+  },
+  {
     date: "27/5/2024 - 30/5/2024",
     location: "Antigua and Barbuda",
     audience: "",

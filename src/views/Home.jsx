@@ -19,19 +19,20 @@ import CarouselEvent from "../components/core/Carousel/CarouselEvent";
 function Home() {
   return (
     <>
-      <ClimateUrgencyBanner />
-      <BannerUrgency />
+      <ClimateUrgencyBanner /> 
+      <BannerUrgency /> 
       <OurHouseBurns />
       <BannerUnity />
       <FlagSection />
       <BannerMobilize />
       <ManifestoSection />
       <ActionQuoteSection />
+      <CustomTheFlag />
       <GetTheFlag />
       <PrinciplesSection />
       <WhyFlag />
       <CarouselEvent />
-      <CustomTheFlag />
+      
       <QuotationSection />
       <FlagPartners />
       <ContactSection />

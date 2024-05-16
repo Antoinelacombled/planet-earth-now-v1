@@ -33,12 +33,26 @@ import flagWings from "../../assets/custom-wings.png";
 import flagMego from "../../assets/custom-mego.png";
 import flagZero from "../../assets/custom-zero.png";
 import flagUni from "../../assets/custom-uni.png";
+import flagBaran from "../../assets/flag-baran2.png";
+import flagAgrochimie from "../../assets/flag-agrochimie.png";
 
 import { Link } from "react-router-dom";
 
 SwiperCore.use([Navigation, Autoplay]);
 
 const logos = [
+  {
+    id: "againstAgrochimie",
+    image: flagAgrochimie,
+    website: "https://linktr.ee/journee.contre.l.agrochimie",
+    alt: "Logo Marche contre l'agrochimie sur le drapeau EF1",
+  },
+  {
+    id: "baran",
+    image: flagBaran,
+    website: "https://therocketfoundation.org/news-updates/fund-a-pond-campaign/",
+    alt: "Personnalisation de re-forest Baran sur le drapeau EF1",
+  },
   {
     id: "rewild",
     image: flagRe,
