@@ -35,12 +35,19 @@ import flagZero from "../../assets/custom-zero.png";
 import flagUni from "../../assets/custom-uni.png";
 import flagBaran from "../../assets/flag-baran2.png";
 import flagAgrochimie from "../../assets/flag-agrochimie.png";
+import flagOrange from "../../assets/efo-flag-orange.png";
 
 import { Link } from "react-router-dom";
 
 SwiperCore.use([Navigation, Autoplay]);
 
 const logos = [
+  {
+    id: "flagOrange",
+    image: flagOrange,
+    website: "https://nga-orange.org/indexe68f.html",
+    alt: "Personnalisation contre l'agent Orange",
+  },
   {
     id: "againstAgrochimie",
     image: flagAgrochimie,
