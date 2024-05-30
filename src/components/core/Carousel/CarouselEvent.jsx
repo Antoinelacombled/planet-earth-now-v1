@@ -10,44 +10,7 @@ SwiperCore.use([Navigation]);
 
 const events = [
 
-  {
-    date: "25 mai 2024",
-    location: "France",
-    audience: "",
-    description:
-      "Journée contre l'agrochimie et vers un autre modèle agro-alimentaire",
-    link: "https://linktr.ee/journee.contre.l.agrochimie",
-  },
-  {
-    date: "21/6/2024",
-    location: "International",
-    audience: "",
-    description:
-      "Show Your Stripes Day",
-    link: "https://www.reading.ac.uk/planet/events/show-your-stripes-day  ",
-  },
-  {
-    date: "27/5/2024 - 30/5/2024",
-    location: "Antigua and Barbuda",
-    audience: "",
-    description:
-      "4th International Conference on Small Island Developing States",
-    link: "https://sdgs.un.org/conferences/sids2024",
-  },
-  {
-    date: "28/5/2024",
-    location: "Paris",
-    audience: "Salon professionnel",
-    description: "Drive to zero",
-    link: "https://www.drivetozero.fr/",
-  },
-  {
-    date: "31/5/2024 - 2/6/2024",
-    location: "Paris",
-    audience: "Salon professionnel",
-    description: "Festival développement durable ",
-    link: "https://www.drivetozero.fr/",
-  },
+
   {
     date: "Juin",
     location: "Paris, Lyon, Bordeaux",
@@ -84,12 +47,21 @@ const events = [
     link: "",
   },
   {
+    date: "21/6/2024",
+    location: "International",
+    audience: "",
+    description:
+      "Show Your Stripes Day",
+    link: "https://www.reading.ac.uk/planet/events/show-your-stripes-day  ",
+  },
+  {
     date: "26/7/2024 - 28/7/2024",
     location: "Alénya",
     audience: "Grand Public",
     description: "Bioviv'art - des arts vivants pour le vivant",
     link: "https://www.biovivart.fr/",
   },
+  
   {
     date: "10/9/2024 - 12/9/2024",
     location: "Dunkerque",
