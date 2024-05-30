@@ -36,12 +36,19 @@ import flagUni from "../../assets/custom-uni.png";
 import flagBaran from "../../assets/flag-baran2.png";
 import flagAgrochimie from "../../assets/flag-agrochimie.png";
 import flagOrange from "../../assets/efo-flag-orange.png";
+import flagGloo from "../../assets/base-personnalisation-drapeau.jpg";
 
 import { Link } from "react-router-dom";
 
 SwiperCore.use([Navigation, Autoplay]);
 
 const logos = [
+  {
+    id: "flagGloo",
+    image: flagGloo,
+    website: "https://glooconcept.fr/",
+    alt: "Personnalisation du drapeau Gloo Concept",
+  },
   {
     id: "flagOrange",
     image: flagOrange,
