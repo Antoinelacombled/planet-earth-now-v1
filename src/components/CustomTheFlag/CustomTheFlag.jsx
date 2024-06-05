@@ -37,12 +37,19 @@ import flagBaran from "../../assets/flag-baran2.png";
 import flagAgrochimie from "../../assets/flag-agrochimie.png";
 import flagOrange from "../../assets/efo-flag-orange.png";
 import flagGloo from "../../assets/base-personnalisation-drapeau.jpg";
+import flagTchao from "../../assets/efo-flag-tchao.jpg";
 
 import { Link } from "react-router-dom";
 
 SwiperCore.use([Navigation, Autoplay]);
 
 const logos = [
+  {
+    id: "flagTchao",
+    image: flagTchao,
+    website: "https://tchaomegot.com/",
+    alt: "Personnalisation du drapeau Tchao Megot",
+  },
   {
     id: "flagGloo",
     image: flagGloo,
