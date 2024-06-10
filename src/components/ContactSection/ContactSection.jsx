@@ -18,14 +18,18 @@ function ContactSection() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    console.log(e.target)
     console.log("Form submitted");
 
     emailjs
       .sendForm(
-        "service_dbxm148",
-        "template_nlgu5fx",
+        //"service_dbxm148",
+        "service_v8i96us",
+        //"template_nlgu5fx",
+        "template_vgd7erq",
         e.target,
-        "Adnpa7DzIFyCr5BMp"
+        //"Adnpa7DzIFyCr5BMp"
+        "ibZuKZOL_takFGWTk"
       )
       .then(
         (result) => {
