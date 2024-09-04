@@ -31,7 +31,7 @@ function Faq() {
         et{" "}
         <a className="link-faq" href="https://www.macapflag.com/">
           MACAP.
-        </a>{" "}
+        </a>{" "}pour le polyester recyclé et <a className="link-faq" href="https://gl-imprimerie-paris.fr">G.L. Associés</a> pour le papier certifié PEFC. 
         <h2>{t("FaqTitleFive")}</h2>
         {t("FaqTextFive")}
         <h2>{t("FaqTitleSix")}</h2>

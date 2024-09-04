@@ -17,7 +17,7 @@ function EventRequest() {
     });
   }, []);
 
-  if (!eventDetails.date) return "Chargement...";
+  if (!eventDetails.date) return /* "Chargement..." */;
 
 
 }

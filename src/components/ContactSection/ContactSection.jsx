@@ -51,7 +51,7 @@ function ContactSection() {
           <p>{t("Nationality")}</p>
           <p className="terrien">{t("Terrien")}</p>
           <p>{t("You")}</p>
-          <p className="emojis">- 🤨😔😏🤔🫤🥴...</p>
+          {/* <p className="emojis">- 🤨😔😏🤔🫤🥴...</p> */}
         </div>
         <form className="contact-form" onSubmit={handleSubmit}>
           <div className="form-group">

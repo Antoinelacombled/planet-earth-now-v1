@@ -3,6 +3,7 @@ import "./Footer.css";
 import { Link, useLocation } from "react-router-dom";
 
 import linkedin from "../../assets/linkedin-logo.png";
+import ccLogo from "../../assets/cc.svg";
 
 function Footer() {
   const { t } = useTranslation();
@@ -39,6 +40,11 @@ function Footer() {
             {t("FaqHeader")}
           </Link>
         )}
+        <div>
+          <a href="https://creativecommons.org/" target="_blank">
+            <img className="linkedin" src={ccLogo} />
+          </a>
+        </div>
       </section>
     </footer>
   );

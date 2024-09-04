@@ -152,6 +152,18 @@
 
 }
 
+.personnalisation-card .window-gtf-text{
+  font-size: 1em;
+  text-align: center;
+  color: var(--blue-color);
+  min-height: unset;
+}
+
+.personnalisation-card .download-the-flag{
+  margin-top: 0.5em;
+  text-transform: uppercase;
+}
+
 @media (max-width: 1397px) {
   .banner-mobilized {
     font-size: 2em;
