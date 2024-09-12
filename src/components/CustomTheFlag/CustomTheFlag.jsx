@@ -218,10 +218,26 @@ const logos = [
   },
 ];
 
+const PersonnalisationCard = () => {
+  return(
+    <div className="personnalisation-card">
+      <p className="window-gtf-text">Pour adapter votre image ou slogan aux couleurs de la terre.</p>
+      <div className="button-mega-container">
+        <div className="button-container">
+            <a className="download-the-flag" href="https://planetearthnow.org/single-action?id=1" target="_blank" alt="Aller sur la page de personnalisation du drapeau">CLIQUEZ ICI</a>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+
 function CustomTheFlag() {
   const { t } = useTranslation();
 
   return (
+    <>
+    <p className="banner-mobilized caps">Vous pouvez personnaliser le drapeau :</p>
     <section className="custom-the-flag">
       <div className="super-container-custom-the-flag">
         <div className="title-custom-the-flag">
@@ -275,11 +291,14 @@ function CustomTheFlag() {
           </div>
         </div>
         <div className="text-container">
-          <div className="click-on-it">{t("CustomTheFlagClick")}</div>
+          {/* <div className="click-on-it">{t("CustomTheFlagClick")}</div> */}
           {/* <div className="conditions-flag"><Link to={"/conditions"} className="link-flag">Cliquez ici pour consulter les conditions de personnalisation du drapeau</Link></div> */}
         </div>
       </div>
+      <PersonnalisationCard/>
+
     </section>
+    </>
   );
 }
 

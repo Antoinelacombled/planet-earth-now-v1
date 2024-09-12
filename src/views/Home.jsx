@@ -19,24 +19,37 @@ import CarouselEvent from "../components/core/Carousel/CarouselEvent";
 function Home() {
   return (
     <>
+      {/* header jusqu'à house burn */}
       <ClimateUrgencyBanner /> 
       <BannerUrgency /> 
       <OurHouseBurns />
       <BannerUnity />
       <FlagSection />
-      <BannerMobilize />
-      <ManifestoSection />
       <ActionQuoteSection />
-      <CustomTheFlag />
-      <GetTheFlag />
       <PrinciplesSection />
       <WhyFlag />
+      <GetTheFlag />
+      <CustomTheFlag />
       <CarouselEvent />
-      
       <QuotationSection />
-      <FlagPartners />
       <ContactSection />
-      <EventRequest />
+{/* image pantheon >> principes >> pourquoi >> comment obtenir >>
+ bouton télécharger + nouveau label >> caroussel personnalisez >> 
+ events ajouter lien vers agenda >> enlever partenariats */}
+      {/* <BannerMobilize />
+      <ManifestoSection />
+      
+      
+
+      
+      
+      
+      
+      
+
+      <FlagPartners />
+      
+      <EventRequest /> */}
     </>
   );
 }

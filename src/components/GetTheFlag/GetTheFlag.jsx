@@ -9,18 +9,7 @@ import windowFour from "../../assets/windowgtf---.jpg";
 import windowFive from "../../assets/windowgtf--.jpg";
 
 import { Link } from "react-router-dom";
-const PersonnalisationCard = () => {
-  return(
-    <div className="personnalisation-card">
-      <p className="window-gtf-text">Si vous voulez télécharger votre logo sur notre drapeau suivez ce lien.</p>
-      <div className="button-mega-container">
-        <div className="button-container">
-            <a className="download-the-flag" href="https://planetearthnow.org/single-action?id=1" target="_blank" alt="Aller sur la page de personnalisation du drapeau">Personnaliser le drapeau</a>
-        </div>
-      </div>
-    </div>
-  )
-}
+
 function GetTheFlag() {
   const { t } = useTranslation();
   const flagDownloadUrl = "/efo-flag.png";
@@ -128,7 +117,6 @@ function GetTheFlag() {
           </a>
         </div> */}
       </div>
-      <PersonnalisationCard/>
     </>
   );
 }

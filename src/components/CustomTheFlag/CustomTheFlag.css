@@ -109,6 +109,7 @@
   text-decoration: underline;
   text-underline-offset: 8px;
   text-decoration-color: rgb(95, 139, 221);
+  text-transform: uppercase;
 }
 
 .link-flag:hover{

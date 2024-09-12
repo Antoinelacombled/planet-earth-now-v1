@@ -299,8 +299,8 @@ i18n.use(initReactI18next).init({
         GetTheFlagTextCardFiveDownload: "Téléchargez la version low tech du drapeau",
 
 
-        GetTheFlagDownload: "TÉLÉCHARGER LE DRAPEAU",
-        GetTheFlagDownloadEco: "TÉLÉCHARGER LE DRAPEAU (low-tech)",
+        GetTheFlagDownload: "TÉLÉCHARGEZ LE DRAPEAU",
+        GetTheFlagDownloadEco: "TÉLÉCHARGEZ LE DRAPEAU (low-tech)",
 
         // FLAG PRINCIPLES SECTION //
         FlagPrinciplesTitle: "LES PRINCIPES DU DRAPEAU",
@@ -343,7 +343,7 @@ i18n.use(initReactI18next).init({
 
         CustomTheFlagClick: "Cliquez-les",
 
-        CustomTheFlagTitle: "PERSONNALISEZ LE DRAPEAU",
+        CustomTheFlagTitle: "EXEMPLES DE DRAPEAUX PERSONNALISés",
 
         // QUOTATION SECTION //
         QuotationSectionOne:

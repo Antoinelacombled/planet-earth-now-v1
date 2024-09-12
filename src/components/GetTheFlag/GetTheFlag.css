@@ -151,12 +151,23 @@
   display: flex;
 
 }
-
+.custom-title {
+  color: var(--blue-color);
+  font-size: 2em !important;
+}
+.caps {
+  text-transform: uppercase;
+}
+.blue-button{
+  background-color: var(--blue-color);
+}
 .personnalisation-card .window-gtf-text{
   font-size: 1em;
   text-align: center;
-  color: var(--blue-color);
+  color: #fff;
   min-height: unset;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .personnalisation-card .download-the-flag{

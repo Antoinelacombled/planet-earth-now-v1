@@ -7,7 +7,18 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 SwiperCore.use([Navigation]);
-
+const PersonnalisationCard = () => {
+  return(
+    <div className="personnalisation-card">
+      <p className="window-gtf-text">Pour trouver quelques événements en faveur de la défense de l'environnement.</p>
+      <div className="button-mega-container">
+        <div className="button-container">
+            <a className="download-the-flag blue-button" href="https://planetearthnow.org/evenements" target="_blank" alt="Aller sur la page de personnalisation du drapeau">CLIQUEZ ICI</a>
+        </div>
+      </div>
+    </div>
+  )
+}
 const events = [
 
 
@@ -98,7 +109,7 @@ function CarouselEvent() {
     <section className="carousel" id="event">
       <section className="set-the-event" id="event">
         <div className="title-set-the-event">{t("EventTitle")}</div>
-        <div className="container-box">
+        {/* <div className="container-box">
           <div className="small-container super-container-set-the-event">
             <Swiper
               className="sample-slider"
@@ -138,7 +149,8 @@ function CarouselEvent() {
             <button className="swiper-button-prev"></button>
             <button className="swiper-button-next"></button>
           </div>
-        </div>
+        </div> */}
+        <PersonnalisationCard/>
       </section>
     </section>
   );
