@@ -386,14 +386,14 @@ i18n.use(initReactI18next).init({
           "Le drapeau a vocation à être brandi lors des manifestations, des interventions publiques et relayé sur les réseaux sociaux. Nous souhaitons le voir accroché aux fenêtres, fixé à des balcons, hissé aux mâts …",
 
         FaqTextTwo:
-          "Nous pouvons vous donner un ou plusieurs drapeaux en fonction de votre événement. Contactez-nous pour en savoir plus sur la manière dont nous pouvons vous accompagner : contact@earthflag1.org",
+          "Nous pouvons vous donner un ou plusieurs drapeaux en fonction de votre événement. Contactez-nous pour en savoir plus sur la manière dont nous pouvons vous accompagner : contact@planetearthnow.org",
         FaqTextThree:
           "Bonne question ! Mais en fait, embarrassante !!! Nous sommes dans les startings blocks ; la liste des points de vente sera prochainement en ligne.",
         FaqTextFour:
           "Ceux que nous utilisons actuellement sont ",
         FaqTextFourBis: " sont ceux que nous utilisons actuellement.",
         FaqTextFive:
-          "Le drapeau a été pensé pour « appartenir à tous », c’est-à-dire à être largement diffusé et brandi par l’ensemble des citoyen-nes du monde, sans conditions ou demandes d’autorisations préalables. Toutefois, chaque personne s’engage à respecter le drapeau dans son intégrité et dans l’esprit de la défense de l’environnement.",
+          "Le drapeau a été pensé pour « appartenir à tous », c’est-à-dire à être largement diffusé et brandi par l’ensemble des citoyen-nes du monde, sans conditions ou demandes d’autorisations préalables. Toutefois, chaque personne s’engage à respecter le drapeau dans l’esprit de la défense de l’environnement.",
         FaqTextSix:
           "Vous pouvez personnaliser le drapeau en utilisant l’intérieur du cercle central.",
         FaqTextSeven: "Envoyez-nous vos questions ",
