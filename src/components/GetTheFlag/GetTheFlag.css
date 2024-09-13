@@ -160,6 +160,10 @@
   margin: 1em;
   width: fit-content;
   text-align: center;
+  color: #fff;
+}
+.personnalisation-card .window-gtf-text{
+  font-size: 1.5em !important;
 }
 #event{
   margin-top: 1em;

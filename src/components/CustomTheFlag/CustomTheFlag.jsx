@@ -221,7 +221,7 @@ const logos = [
 const PersonnalisationCard = () => {
   return(
     <div className="personnalisation-card">
-      <p className="window-gtf-text">Pour adapter votre image ou slogan aux couleurs de la terre.</p>
+      <p className="window-gtf-text">Pour adapter votre image ou slogan aux couleurs de la terre :</p>
       <div className="button-mega-container">
         <div className="button-container">
             <a className="download-the-flag" href="https://planetearthnow.org/single-action?id=1" target="_blank" alt="Aller sur la page de personnalisation du drapeau">CLIQUEZ ICI</a>
@@ -237,9 +237,10 @@ function CustomTheFlag() {
 
   return (
     <>
-    <p className="banner-mobilized caps">Vous pouvez personnaliser le drapeau :</p>
+    
     <section className="custom-the-flag">
       <div className="super-container-custom-the-flag">
+      <p className="banner-mobilized caps">Vous pouvez personnaliser le drapeau :</p>
         <div className="title-custom-the-flag">
           <Link to={"/conditions"} className="link-flag">
             {t("CustomTheFlagTitle")}
