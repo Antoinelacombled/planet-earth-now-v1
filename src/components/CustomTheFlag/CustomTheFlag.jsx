@@ -180,12 +180,12 @@ const logos = [
     website: "https://pikpik.org/",
     alt: "logo PikPik événement sur le drapeau EF1",
   },
-  {
+  /* {
     id: "ODNF",
     image: flagODNF,
     website: "https://odnf.fr",
     alt: "logo ODNF sur le drapeau EF1",
-  },
+  }, */
   {
     id: "water",
     image: flagWater,

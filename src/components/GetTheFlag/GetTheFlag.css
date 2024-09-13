@@ -157,6 +157,12 @@
 }
 .caps {
   text-transform: uppercase;
+  margin: 1em;
+  width: fit-content;
+  text-align: center;
+}
+#event{
+  margin-top: 1em;
 }
 .blue-button{
   background-color: var(--blue-color);
