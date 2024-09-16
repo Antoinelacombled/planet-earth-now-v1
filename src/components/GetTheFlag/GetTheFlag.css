@@ -155,15 +155,16 @@
   color: var(--blue-color);
   font-size: 2em !important;
 }
-.caps {
+p.banner-mobilized.caps {
   text-transform: uppercase;
   margin: 1em;
   width: fit-content;
   text-align: center;
   color: #fff;
+  font-size: 1.5em ;
 }
 .personnalisation-card .window-gtf-text{
-  font-size: 1.5em !important;
+  font-size: 1.2em !important;
 }
 #event{
   margin-top: 1em;
@@ -240,7 +241,12 @@
     font-size: 8px;
   }
 }
+@media (min-width: 1007px) {
+  p.banner-mobilized.caps{
+    font-size: 2em;
+  }
 
+}
 @media (max-width: 1007px) {
   .banner-mobilized {
     font-size: 2em;

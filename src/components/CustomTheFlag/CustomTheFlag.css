@@ -106,10 +106,13 @@
 .link-flag{
   color: white;
   cursor: pointer;
-  text-decoration: underline;
+  text-align: center;
+  text-decoration: none;
+  /* text-decoration: underline;
   text-underline-offset: 8px;
-  text-decoration-color: rgb(95, 139, 221);
+  text-decoration-color: rgb(95, 139, 221); */
   text-transform: uppercase;
+  display: block;
 }
 
 .link-flag:hover{
@@ -159,7 +162,7 @@
   }
 }
 
-@media (max-width: 778px) {
+@media screen and (max-width: 778px) {
   .custom-the-flag {
     width: 100%;
     padding: 0;
@@ -172,6 +175,9 @@
     width: 100px;
     height: auto;
   }
+  div p.banner-mobilized.caps{
+    font-size: 2em;
+  }
   .title-custom-the-flag {
     font-size: 1.5em;
   }
@@ -179,7 +185,11 @@
     padding: 1em;
   }
 }
-
+@media (min-width: 1007px) {
+  section div p.banner-mobilized.caps {
+      font-size: 2.5em;
+  }
+}
 @media (max-width: 640px) {
   .custom-the-flag {
     width: 100%;
@@ -289,5 +299,11 @@
   .custom-the-flag .swiper-button-next {
     right: 0;
     padding-right:0;
+  }
+}
+
+@media screen and (max-width:320px){
+  section div p.banner-mobilized.caps{
+    font-size: 1.5em;
   }
 }

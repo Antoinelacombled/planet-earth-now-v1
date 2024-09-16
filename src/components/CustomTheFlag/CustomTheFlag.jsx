@@ -38,6 +38,10 @@ import flagAgrochimie from "../../assets/flag-agrochimie.png";
 import flagOrange from "../../assets/efo-flag-orange.png";
 import flagGloo from "../../assets/base-personnalisation-drapeau.jpg";
 import flagTchao from "../../assets/efo-flag-tchao.jpg";
+import convergence from "../../assets/convergence.png";
+import sailcoop from "../../assets/sailcoop.png";
+import saveClimate from "../../assets/save-our-climate.png";
+import changeNow from "../../assets/changeNow.png";
 
 import { Link } from "react-router-dom";
 
@@ -215,6 +219,30 @@ const logos = [
     image: flagUrgency,
     website: "https://planete-urgence.org/",
     alt: "logo fridays for future",
+  },
+  {
+    id: "convergence",
+    image: convergence,
+    website: "https://www.convergences.org/forum-mondial/",
+    alt: "logo de convergence",
+  },
+  {
+    id: "sailcoop",
+    image: sailcoop,
+    website: "https://www.sailcoop.fr/",
+    alt: "logo sailcoop",
+  },
+  {
+    id: "saveClimate",
+    image: saveClimate,
+    website: "",
+    alt: "logo save our climate",
+  },
+  {
+    id: "changeNow",
+    image: changeNow,
+    website: "",
+    alt: "logo change now",
   },
 ];
 
