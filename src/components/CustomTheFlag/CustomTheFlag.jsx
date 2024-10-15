@@ -44,6 +44,8 @@ import convergence from "../../assets/convergence.png";
 import sailcoop from "../../assets/sailcoop.png";
 import saveClimate from "../../assets/save-our-climate.png";
 import changeNow from "../../assets/changeNow.png";
+import customCop from "../../assets/custom-cop.png";
+import customOdd from "../../assets/custom-odd.png";
 
 import { Link } from "react-router-dom";
 
@@ -61,6 +63,18 @@ const logos = [
     image: flagGloo,
     website: "https://glooconcept.fr/",
     alt: "Personnalisation du drapeau Gloo Concept",
+  },
+  {
+    id: "customCop",
+    image: customCop,
+    website: "https://www.cbd.int/conferences/2024",
+    alt: "Personnalisation du drapeau de la COP 16",
+  },
+  {
+    id: "customOdd",
+    image: customOdd,
+    website: "https://sdgs.un.org/goals",
+    alt: "Personnalisation du drapeau avec les 17 ODD",
   },
   {
     id: "flagOrange",
@@ -261,12 +275,13 @@ const logos = [
 ];
 
 const PersonnalisationCard = () => {
+  const { t } = useTranslation();
   return(
     <div className="personnalisation-card">
-      <p className="window-gtf-text">Pour adapter votre image ou slogan aux couleurs de la terre :</p>
+      <p className="window-gtf-text">{t("CustomTheFlagSubTitle")}</p>
       <div className="button-mega-container">
         <div className="button-container">
-            <a className="download-the-flag" href="https://planetearthnow.org/single-action?id=1" target="_blank" alt="Aller sur la page de personnalisation du drapeau">CLIQUEZ ICI</a>
+            <a className="download-the-flag" href="https://planetearthnow.org/single-action?id=1" target="_blank" alt="Aller sur la page de personnalisation du drapeau">{t("TextButtonClick")}</a>
         </div>
       </div>
     </div>
@@ -282,7 +297,7 @@ function CustomTheFlag() {
     
     <section className="custom-the-flag">
       <div className="super-container-custom-the-flag">
-      <p className="banner-mobilized caps">PERSONNALISEZ LE DRAPEAU : </p>
+      <p className="banner-mobilized caps">{t("CustomTheFlagSurTitle")}</p>
         <div className="title-custom-the-flag">
           <Link to={"/conditions"} className="link-flag">
             {t("CustomTheFlagTitle")}

@@ -112,7 +112,13 @@ i18n.use(initReactI18next).init({
         // CUSTOM THE FLAG SECTION //
         CustomTheFlagClick: "Click on it!",
 
-        CustomTheFlagTitle: "CUSTOMISE THE FLAG",
+        CustomTheFlagTitle: "examples of custom flags",
+        CustomTheFlagSurTitle : "CUSTOMISE THE FLAG :",
+        CustomTheFlagSubTitle : "To adapt your image or slogan to the colors of the earth:",
+
+        TextButtonClick : "Click Here",
+        TextEvent : "Pour trouver quelques événements en faveur de la défense de l'environnement.",
+
 
         // QUOTATION SECTION //
         QuotationSectionOne:
@@ -343,7 +349,13 @@ i18n.use(initReactI18next).init({
 
         CustomTheFlagClick: "Cliquez-les",
 
-        CustomTheFlagTitle: "EXEMPLES DE DRAPEAUX PERSONNALISés",
+        CustomTheFlagTitle: "Exemple de drapeaux personnalisés",
+        CustomTheFlagSurTitle : "PERSONNALISEZ LE DRAPEAU :",
+        CustomTheFlagSubTitle : "Pour adapter votre image ou slogan aux couleurs de la terre :",
+
+        TextButtonClick : "Cliquez ici",
+        TextEvent : "Pour trouver quelques événements en faveur de la défense de l'environnement.",
+
 
         // QUOTATION SECTION //
         QuotationSectionOne:
@@ -458,6 +470,7 @@ i18n.use(initReactI18next).init({
 
         CookiesSubTitleSix: "6. Nous Contacter",
         CookiesTextSix: "Pour toute question relative à notre utilisation des cookies, n'hésitez pas à nous contacter à l'adresse suivante : contact@planetearthnow.com.",
+
 
       },
     },
@@ -574,7 +587,12 @@ i18n.use(initReactI18next).init({
 
         CustomTheFlagClick: "¡haz clic en él!",
 
-        CustomTheFlagTitle: "PERSONALIZA LA BANDERA",
+        CustomTheFlagTitle: "ejemplos de banderas personalizadas",
+        CustomTheFlagSurTitle : "personalizar la bandera :",
+        CustomTheFlagSubTitle : "Adapte su imagen o eslogan a los colores de la tierra:",
+
+        TextButtonClick : "Pulse aquí",
+        TextEvent : "Pour trouver quelques événements en faveur de la défense de l'environnement.",
 
         // QUOTATION SECTION //
         QuotationSectionOne:
