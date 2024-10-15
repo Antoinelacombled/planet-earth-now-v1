@@ -70,6 +70,7 @@ const logos = [
     website: "https://www.cbd.int/conferences/2024",
     alt: "Personnalisation du drapeau de la COP 16",
   },
+
   {
     id: "customOdd",
     image: customOdd,

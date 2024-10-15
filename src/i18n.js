@@ -114,10 +114,10 @@ i18n.use(initReactI18next).init({
 
         CustomTheFlagTitle: "examples of custom flags",
         CustomTheFlagSurTitle : "CUSTOMISE THE FLAG :",
-        CustomTheFlagSubTitle : "To adapt your image or slogan to the colors of the earth:",
+        CustomTheFlagSubTitle : "Adapt your logo or slogan to the colours of the earth",
 
         TextButtonClick : "Click Here",
-        TextEvent : "Pour trouver quelques événements en faveur de la défense de l'environnement.",
+        TextEvent : "Check out some events organised to help protect the environment.",
 
 
         // QUOTATION SECTION //
@@ -127,8 +127,8 @@ i18n.use(initReactI18next).init({
           "«\u00A0YOU’VE CONVINCED ME. NOW GO OUT AND MAKE ME DO IT!\u00A0»",
         QuotationSectionThree:
           "«\u00A0TODAY MORE THAN EVER, THE FUTURE OF THE EARTH, OUR FUTURE, IS IN OUR OWN HANDS\u00A0»",
-        QuotationSectionAuthor: "concernant l'Affaire du siècle,",
-        QuotationSectionAuthorBis: "en référence à F.D\u00A0Roosevelt",
+        QuotationSectionAuthor: "concerning the climate change mobilization L’Affaire du sècle (The scandal of the century)",
+        QuotationSectionAuthorBis: "in reference to F.D Roosevelt",
 
         //EVENTS //
         EventTitle: "EVENTS",
@@ -350,7 +350,7 @@ i18n.use(initReactI18next).init({
         CustomTheFlagClick: "Cliquez-les",
 
         CustomTheFlagTitle: "Exemple de drapeaux personnalisés",
-        CustomTheFlagSurTitle : "PERSONNALISEZ LE DRAPEAU :",
+        CustomTheFlagSurTitle : "Vous pouvez personnaliser le drapeau :",
         CustomTheFlagSubTitle : "Pour adapter votre image ou slogan aux couleurs de la terre :",
 
         TextButtonClick : "Cliquez ici",
@@ -588,11 +588,11 @@ i18n.use(initReactI18next).init({
         CustomTheFlagClick: "¡haz clic en él!",
 
         CustomTheFlagTitle: "ejemplos de banderas personalizadas",
-        CustomTheFlagSurTitle : "personalizar la bandera :",
-        CustomTheFlagSubTitle : "Adapte su imagen o eslogan a los colores de la tierra:",
+        CustomTheFlagSurTitle : "PERSONALIZA LA BANDERA",
+        CustomTheFlagSubTitle : "Adapte su logo o eslogan a los colores de la tierra:",
 
         TextButtonClick : "Pulse aquí",
-        TextEvent : "Pour trouver quelques événements en faveur de la défense de l'environnement.",
+        TextEvent : "Infórmese sobre una serie de eventos para ayudar a defender el medio ambiente.",
 
         // QUOTATION SECTION //
         QuotationSectionOne:
@@ -601,8 +601,8 @@ i18n.use(initReactI18next).init({
           "«\u00A0AHORA, SALID A LA CALLE Y OBLIGADME A HACERLO\u00A0»",
         QuotationSectionThree:
           "«\u00A0HOY MÁS QUE NUNCA, EL FUTURO DE LA TIERRA, NUESTRO FUTURO, ESTÁ EN NUESTRAS MANOS\u00A0»",
-        QuotationSectionAuthor: "sobre el llamado “Asunto del siglo,",
-        QuotationSectionAuthorBis: "citando a F.D\u00A0Roosevelt",
+        QuotationSectionAuthor: "sobre el llamado “Asunto del siglo”,",
+        QuotationSectionAuthorBis: "citando a F.D Roosevelt",
 
         //EVENTS
         EventTitle: "EVENTOS",
