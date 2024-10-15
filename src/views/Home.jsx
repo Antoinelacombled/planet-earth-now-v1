@@ -20,11 +20,13 @@ function Home() {
   return (
     <>
       {/* header jusqu'à house burn */}
+      
       <ClimateUrgencyBanner /> 
       <BannerUrgency /> 
       <OurHouseBurns />
       <BannerUnity />
       <FlagSection />
+      <ManifestoSection />
       <ActionQuoteSection />
       <PrinciplesSection />
       <WhyFlag />
@@ -37,7 +39,7 @@ function Home() {
  bouton télécharger + nouveau label >> caroussel personnalisez >> 
  events ajouter lien vers agenda >> enlever partenariats */}
       {/* <BannerMobilize />
-      <ManifestoSection />
+      
       
       
 

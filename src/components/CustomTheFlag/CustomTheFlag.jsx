@@ -33,7 +33,9 @@ import flagWings from "../../assets/custom-wings.png";
 import flagMego from "../../assets/custom-mego.png";
 import flagZero from "../../assets/custom-zero.png";
 import flagUni from "../../assets/custom-uni.png";
-import flagBaran from "../../assets/flag-baran2.png";
+//import flagBaran from "../../assets/flag-baran2.png";
+import flagJoboiana from "../../assets/custom-jiboiana.png";
+import terreCite from "../../assets/custom-terre-cite.png";
 import flagAgrochimie from "../../assets/flag-agrochimie.png";
 import flagOrange from "../../assets/efo-flag-orange.png";
 import flagGloo from "../../assets/base-personnalisation-drapeau.jpg";
@@ -73,11 +75,23 @@ const logos = [
     alt: "Logo Marche contre l'agrochimie sur le drapeau EF1",
   },
   {
+    id: "flagJoboiana",
+    image: flagJoboiana,
+    website: "https://association-jiboiana.com/",
+    alt: "Logo de Jiboiana sur le drapeau EF1",
+  },
+  {
+    id: "terreCite",
+    image: terreCite,
+    website: "https://terreetcite.org/",
+    alt: "Logo de Terre & Cité sur le drapeau EF1",
+  },
+  /* {
     id: "baran",
     image: flagBaran,
     website: "https://therocketfoundation.org/news-updates/fund-a-pond-campaign/",
     alt: "Personnalisation de re-forest Baran sur le drapeau EF1",
-  },
+  }, */
   {
     id: "rewild",
     image: flagRe,
@@ -268,7 +282,7 @@ function CustomTheFlag() {
     
     <section className="custom-the-flag">
       <div className="super-container-custom-the-flag">
-      <p className="banner-mobilized caps">Vous pouvez personnaliser le drapeau :</p>
+      <p className="banner-mobilized caps">PERSONNALISEZ LE DRAPEAU : </p>
         <div className="title-custom-the-flag">
           <Link to={"/conditions"} className="link-flag">
             {t("CustomTheFlagTitle")}

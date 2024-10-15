@@ -185,6 +185,10 @@
     padding: 1em;
   }
 }
+section div p.banner-mobilized.caps
+{
+  margin-bottom: 0;
+}
 @media (min-width: 1007px) {
   section div p.banner-mobilized.caps {
       font-size: 2.5em;

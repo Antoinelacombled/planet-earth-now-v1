@@ -7,11 +7,6 @@ function ActionQuoteSection() {
   const { t } = useTranslation();
   return (
     <section className="action-quote-section">
-      <div className="action-quote">
-        <p className="action-quote-text">{t("ActionQuoteSectionTitle")}</p>
-
-        <p className="author action-quote-author">Nadia Maizi</p>
-      </div>
       <div className="action-quote-image-container">
         <div className="action-quote-image">
           <img
@@ -21,6 +16,12 @@ function ActionQuoteSection() {
           />
         </div>
       </div>
+      <div className="action-quote">
+        <p className="action-quote-text">{t("ActionQuoteSectionTitle")}</p>
+
+        <p className="author action-quote-author">Nadia Maizi</p>
+      </div>
+      
     </section>
   );
 }
