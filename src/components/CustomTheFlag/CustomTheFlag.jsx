@@ -46,6 +46,7 @@ import saveClimate from "../../assets/save-our-climate.png";
 import changeNow from "../../assets/changeNow.png";
 import customCop from "../../assets/custom-cop.png";
 import customOdd from "../../assets/custom-odd.png";
+import customCopSols from "../../assets/custom-cop-sols.png";
 
 import { Link } from "react-router-dom";
 
@@ -70,7 +71,12 @@ const logos = [
     website: "https://www.cbd.int/conferences/2024",
     alt: "Personnalisation du drapeau de la COP 16",
   },
-
+  {
+    id: "customCopSols",
+    image: customCopSols,
+    website: "https://www.unccd.int/cop16",
+    alt: "Personnalisation du drapeau de la COP 16 sols",
+  },
   {
     id: "customOdd",
     image: customOdd,
