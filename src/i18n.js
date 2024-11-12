@@ -84,8 +84,8 @@ i18n.use(initReactI18next).init({
         FlagPrinciplesTextThree:
           "It is eco-designed and whenever possible produced locally.",
         FlagPrinciplesTextFour:
-          "It can be customized to suit your projects",
-        FlagPrinciplesTextFive: "(see conditions).",
+          "It can be customized to suit your projects (see method below)",
+        FlagPrinciplesTextFive: "",
 
         // WHY FLAG SECTION //
         WhyFlagTitle: "WHY THIS FLAG :",
@@ -317,8 +317,8 @@ i18n.use(initReactI18next).init({
         FlagPrinciplesTextThree:
           "Il est écoconçu et autant que possible produit localement.",
         FlagPrinciplesTextFour:
-          "Il peut être personnalisé selon vos projets",
-        FlagPrinciplesTextFive: " (voir conditions).",
+          "Il peut être personnalisé selon vos projets (voir la méthode plus bas).",
+        FlagPrinciplesTextFive: "",
 
         // WHY FLAG SECTION //
         WhyFlagTitle: "POURQUOI CE DRAPEAU :",
@@ -555,8 +555,8 @@ i18n.use(initReactI18next).init({
         FlagPrinciplesTextThree:
           "Tiene un diseño ecológico y se produce a nivel local en la medida de lo posible.",
         FlagPrinciplesTextFour:
-          "Se puede personalizar en función de las necesidades y los proyectos.",
-        FlagPrinciplesTextFive: " (voir conditions).",
+          "Se puede personalizar en función de las necesidades y los proyectos. (ver método más abajo)",
+        FlagPrinciplesTextFive: "",
 
         // WHY FLAG SECTION //
         WhyFlagTitle: "¿POR QUÉ LA BANDERA?",
