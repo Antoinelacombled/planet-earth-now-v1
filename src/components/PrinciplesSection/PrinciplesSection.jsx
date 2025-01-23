@@ -17,12 +17,12 @@ function PrinciplesSection() {
           <div className="principle-number">2</div>
           <div className="principle-text">{t("FlagPrinciplesTextTwo")}</div>
         </div>
-        <div className="principle-item">
+        {/* <div className="principle-item">
           <div className="principle-number">3</div>
           <div className="principle-text">{t("FlagPrinciplesTextThree")}</div>
-        </div>
+        </div> */}
         <div className="principle-item">
-          <div className="principle-number">4</div>
+          <div className="principle-number">3</div>
           <div className="principle-text">{t("FlagPrinciplesTextFour")} <Link className="hypertext-flag" to="/conditions" >{t("FlagPrinciplesTextFive")}</Link></div>
         </div>
       </div>

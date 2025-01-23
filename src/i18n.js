@@ -139,7 +139,7 @@ i18n.use(initReactI18next).init({
 
         // NATIONALITÉ //
         Nationality: "- Your nationality?",
-        Terrien: "- Earthling!",
+        Terrien: "- Earthling, what about you?",
         You: "- What about you?",
 
         // FOOTER //
@@ -376,7 +376,7 @@ i18n.use(initReactI18next).init({
 
         // NATIONALITÉ //
         Nationality: "- Nationalité ?",
-        Terrien: "- Terrien !",
+        Terrien: "- Terrien, et vous ?",
         You: "- Et vous ?",
 
         // FOOTER //
@@ -613,7 +613,7 @@ i18n.use(initReactI18next).init({
 
         // NATIONALITÉ //
         Nationality: "- ¿Nacionalidad?",
-        Terrien: "- ¡Terrícola!",
+        Terrien: "- ¿Terrícola, Y tú?",
         You: "- ¿Y tú?",
 
         // FOOTER //
