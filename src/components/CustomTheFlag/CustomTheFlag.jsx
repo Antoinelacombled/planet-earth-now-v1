@@ -288,7 +288,7 @@ const PersonnalisationCard = () => {
       <p className="window-gtf-text">{t("CustomTheFlagSubTitle")}</p>
       <div className="button-mega-container">
         <div className="button-container">
-            <a className="download-the-flag" href="https://planetearthnow.org/single-action?id=1" target="_blank" alt="Aller sur la page de personnalisation du drapeau">{t("TextButtonClick")}</a>
+            <a className="download-the-flag" href="https://planetearthnow.org/custom-flag?id=1" target="_blank" alt="Aller sur la page de personnalisation du drapeau">{t("TextButtonClick")}</a>
         </div>
       </div>
     </div>
