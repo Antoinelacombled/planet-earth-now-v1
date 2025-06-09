@@ -22,8 +22,8 @@ function Faq() {
       <div className="faq-text">
         <h2>{t("FaqTitleOne")}</h2> {t("FaqTextOne")}
         <h2>{t("FaqTitleTwo")}</h2> {t("FaqTextTwo")}
-        <h2>{t("FaqTitleThree")}</h2>
-        {t("FaqTextThree")}
+        {/* <h2>{t("FaqTitleThree")}</h2>
+        {t("FaqTextThree")} */}
         <h2>{t("FaqTitleFour")}</h2> {t("FaqTextFour")}{" "}
         <a className="link-faq" href="https://atelier-lemee.com/entreprise/">
           LE MÉE{" "}

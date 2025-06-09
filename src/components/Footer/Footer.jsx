@@ -12,11 +12,11 @@ function Footer() {
   return (
     <footer>
       <section className="footer-section">
-        <div>
+        {/* <div>
           <a href="https://www.linkedin.com/in/earthflagone/" target="_blank">
             <img className="linkedin" src={linkedin} />
           </a>
-        </div>
+        </div> */}
         {location.pathname !== "/" && (
           <div>
             <Link to={"/"}>{t("Home")}</Link>
